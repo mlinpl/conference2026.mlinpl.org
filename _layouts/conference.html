@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        {% include nav.html %}
+        {% include header.html %}
+
+        {% if site.state.banner-text %}
+        {% include banner.html %}
+        {% endif %}
+
+        {% if site.state.aftermovie %}
+        {% include conference/aftermovie.html %}
+        {% endif %}
+
+        {% if site.state.tickets == true %}
+        {% include conference/tickets.html %}
+        {% endif %}
+
+        {% include conference/about.html %}
+
+        {% comment %}
+        {% if site.state.invited-speakers %}
+        {% assign more_are_coming = true %}
+        {% if site.state.invited-speakers == "all" %}
+        {% assign more_are_coming = false %}
+        {% endif %}
+        {% include conference/invited-speakers-slider.html more-are-coming=more_are_coming %}
+        {% endif %}
+        {% endcomment %}
+
+        {% comment %}
+        {% include conference/panels-slider.html %}
+        {% endcomment %}
+        
+        {% comment %}
+        {% include conference/sponsor-speakers-slider.html %}
+        {% endcomment %}
+        
+        {% comment %}
+        {% if site.state.agenda %}
+        {% assign agenda_draft = false %}
+        {% if site.state.agenda == "draft" %}
+        {% assign agenda_draft = true %}
+        {% endif %}
+        
+        {% assign agenda_full = false %}
+        {% if site.state.agenda == "full" %}
+        {% assign agenda_full = true %}
+        {% endif %}
+        
+        {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
+        {% endif %}
+        {% endcomment %}
+
+        {% comment %}
+        {% include conference/badge-game.html %}
+        {% endcomment %}
+        
+        {% comment %}
+        {% include conference/calls.html state=site.state.cfc %}
+        {% endcomment %}
+
+        {% comment %}
+        {% include conference/transport.html %}
+        {% endcomment %}
+
+        {% comment %}
+        {% include conference/venue.html %}
+        {% endcomment %}
+
+        {% comment %}
+        {% include conference/timeline-with-calendars.html %}
+        {% endcomment %}
+
+        {% comment %}
+        {% include conference/aiart.html %}
+        {% endcomment %}
+
+        {% comment %}
+        {% include conference/sponsors-call.html %}
+        {% endcomment %}
+
+        {% comment %}
+        {% include conference/sponsors.html %}
+        {% endcomment %}
+
+        {% include conference/organizers.html %}
+        {% include conference/advisory-board.html %}
+        {% include contact.html %}
+
+        {% include footer.html %}
+        {% include js.html %}
+    </body>
+</html>
