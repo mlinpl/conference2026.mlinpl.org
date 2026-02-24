@@ -1,4 +1,8 @@
-# offset with: col-lg-offset-4
+# This file contains the agenda of the conference, including all sessions and talks.
+#
+# Instructions for filling the entries:
+# - offset with: col-lg-offset-4
+#
 
 - title: Wednesday / 15 October
   date: 2025-10-15

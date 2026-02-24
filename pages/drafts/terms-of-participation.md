@@ -76,7 +76,7 @@ instructions as to the method of making the payment necessary to qualify the Can
 3. The aforementioned consent shall mean that photographs, films or recordings taken during the Conference may be placed on the website of the Conference or another website managed by the Organizer and used in promotional materials, also distributed for this purpose by means of a vision or sound. 
 
 ## 6. THE CONDITIONS FOR PARTICIPATION OF SPEAKERS
-1. The conditions of qualification of speakers for the Conference are regulated in separate regulations entitled [Call for Contributions - Terms and Conditions](https://conference.mlinpl.org/cfc-terms-and-conditions).
+1. The conditions of qualification of speakers for the Conference are regulated in separate regulations entitled [Call for Contributions - Terms and Conditions]({{ "/cfc-terms-and-conditions" | relative_url }}).
 
 ## 7. PRIVACY POLICY
 1. The rules of personal data processing within the scope of these Terms of Participation and using the services of the Organizer are regulated in a separate document entitled Privacy Policy.

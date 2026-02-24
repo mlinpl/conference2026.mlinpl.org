@@ -22,13 +22,13 @@
 # Head settings
 title: ML in PL Conference 2026
 email: contact@conference.mlinpl.org
-event-date: "2025-10-15T00:00:00"
+event-date: "2026-10-08T00:00:00"
 description: >-
   ML in PL Conference 2026 is an event focused on the best of Machine Learning both in academia and in business.
 main-image: images/mlinpl-conference-2026-logo-black.png
 twitter-username: "@MLinPL"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://conference.mlinpl.org" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/mlinpl_submodules_poc/2026" # the subpath of your site, e.g. /blog
+url: "https://mlinpl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: ML in PL Association
   url: https://mlinpl.org
@@ -50,9 +50,9 @@ header:
     # Post-event messages (used when countdown is over)
     # These are automatically selected based on what content is available (see state.photos and state.aftermovie)
     post-event-message:
-      default: 'Thank you for participating<br>and we hope to see you <a href="next-year">next year!</a>'
-      with-photos: 'Thank you for participating!</br>Take a look at <a href="/photos">the photos <i class="fa-solid fa-camera-retro"></i></a><br>and we hope to see you <a href="next-year">next year!</a>'
-      with-aftermovie: 'Thank you for participating!</br>Find the <a class="page-scroll" href="#aftermovie"> aftermovie and photos <i class="fa-solid fa-photo-film"></i></a> below<br>and we hope to see you <a href="next-year">next year!</a>'
+      default: 'Thank you for participating<br>and we hope to see you <a href="{{ "/next-year" | relative_url }}">next year!</a>'
+      with-photos: 'Thank you for participating!</br>Take a look at <a href="{{ "/photos" | relative_url }}">the photos <i class="fa-solid fa-camera-retro"></i></a><br>and we hope to see you <a href="{{ "/next-year" | relative_url }}">next year!</a>'
+      with-aftermovie: 'Thank you for participating!</br>Find the <a class="page-scroll" href="#aftermovie"> aftermovie and photos <i class="fa-solid fa-photo-film"></i></a> below<br>and we hope to see you <a href="{{ "/next-year" | relative_url }}">next year!</a>'
   
   # Primary call-to-action arrow destinations by conference phase
   # Points to the most relevant section based on where we are in the conference timeline

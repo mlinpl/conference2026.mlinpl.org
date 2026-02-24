@@ -10,8 +10,6 @@ permalink: /privacy-policy
 2. Controller shall process the personal data in accordance with regulations of REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (further as: “**GDPR**”) and other applicable laws.
 3. Controller declares to apply technical and organizational means ensuring the protection of processed personal data which are adequate in relation to threats and categories of personal data encompassed by said protection, in particular by securing data from access and theft by unauthorised persons, from processing in a manner inconsistent with the provisions of law, and from alteration, loss, damage and destruction.
 
-
-
 ## § 2. INFORMATION ON DATA PROCESSING
 
 As mentioned above, according to the GDPR, we inform you that:
@@ -40,7 +38,7 @@ As mentioned above, according to the GDPR, we inform you that:
       1. for the purpose of performance of the contract to which  you are the party and which is concluded by accepting the Terms of Participation and submitting the Registration Form, in particular for the purpose of enabling participation in the Conference, processing the payment and for identification of the Data Subject during the above mentioned events;
       2. for the purpose of measurement and statistics which we create both for internal purposes and communicate these to the broader public in the anonymized manner (e.g. to say how many students participated in the Conference, what was the gender of the participants) - the legal basis for the processing of your personal data in this case is our legitimate interest in organisation and improvement of the Conference (art. 6 point 1 f) of GDPR);
       3. job recruitment, in cooperation with our partners and sponsors who can reach out to you to present their current job offers, if you grant your consent for passing on your personal data contained in e.g. your Curriculum Vitae - the legal basis for the processing of your personal data in this case is your consent to the processing of personal data (art. 6 point 1 a) of GDPR). The consent is voluntary, but necessary in order to take part in the recruitment process;
-      4. the scope of data collected about you in this case is e.g. your name, data necessary to process the payment, image - the legal basis for the processing of data in this case is the performance of a contract to which the Data Subject is a party (art. 6 point 1 b) of GDPR), as well as legitimate interest of MLinPL related to organising the Conference;
+      4. the scope of data collected about you in this case is e.g. your name, data necessary to process the payment, image - the legal basis for the processing of data in this case is the performance of a contract to which the Data Subject is a party (art. 6 point 1 b) of GDPR), as well as legitimate interest of ML in PL related to organising the Conference;
 
    3. as to the **participation in the Conference as a contributor (CFC, Tutorial, Sponsor’s Lecture etc.)**:
       1. for the purpose of selecting the contributors who will qualify to participate in the conference to present their posters, talks and lecturers;

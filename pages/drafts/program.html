@@ -24,15 +24,15 @@ permalink: /program
         <div class="col-xs-12">
             <h2>/ Table of Contents</h2>
             <ul>
-                <li><a href="#agenda">Agenda</a></li>
-                <li><a href="#invited-talks">Invited Talks</a></li>
-                <li><a href="#discussion-panels">Discussion Panels</a></li>
-                <li><a href="#sponsor-talks">Sponsor Talks</a></li>
-                <li><a href="#contributed-talks">Contributed Talks</a></li>
-                <li><a href="#witold-lipski-award-talks">Talks by Witold Lipski Award Laureates</a></li>
-                <li><a href="#posters">Posters</a></li>
-                <li><a href="#srw-talks">Student Research Workshop</a></li>
-                <li><a href="#tutorials">Tutorials</a></li>
+                <li><a href="{{ "/program#agenda" | relative_url }}">Agenda</a></li>
+                <li><a href="{{ "/program#invited-talks" | relative_url }}">Invited Talks</a></li>
+                <li><a href="{{ "/program#discussion-panels" | relative_url }}">Discussion Panels</a></li>
+                <li><a href="{{ "/program#sponsor-talks" | relative_url }}">Sponsor Talks</a></li>
+                <li><a href="{{ "/program#contributed-talks" | relative_url }}">Contributed Talks</a></li>
+                <li><a href="{{ "/program#witold-lipski-award-talks" | relative_url }}">Talks by Witold Lipski Award Laureates</a></li>
+                <li><a href="{{ "/program#posters" | relative_url }}">Posters</a></li>
+                <li><a href="{{ "/program#srw-talks" | relative_url }}">Student Research Workshop</a></li>
+                <li><a href="{{ "/program#tutorials" | relative_url }}">Tutorials</a></li>
             </ul>
         </div>
     </div>
@@ -80,6 +80,6 @@ permalink: /program
 
 {% include talks.html talks-title="/ Tutorials" talks-data=site.data.tutorials talk-title-prefix="Tutorial" %}
 
-<a class="btn-circle page-scroll" style="position: fixed; bottom: 10px; right: 10px; background: #fff; width: 50px; height: 50px; font-size: 24px; padding: 7px 14px;" href="/program#">
+<a class="btn-circle page-scroll" style="position: fixed; bottom: 10px; right: 10px; background: #fff; width: 50px; height: 50px; font-size: 24px; padding: 7px 14px;" href="{{ "/program#" | relative_url }}">
     <i class="fa fa-angle-double-up animated"></i>
 </a>
