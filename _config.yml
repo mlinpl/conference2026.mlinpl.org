@@ -27,8 +27,8 @@ description: >-
   ML in PL Conference 2026 is an event focused on the best of Machine Learning both in academia and in business.
 main-image: images/mlinpl-conference-2026-logo-black.png
 twitter-username: "@MLinPL"
-baseurl: "/mlinpl_submodules_poc/2026" # the subpath of your site, e.g. /blog
-url: "https://mlinpl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/2026" # the subpath of your site, e.g. /blog
+url: "https://conference.mlinpl.org" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: ML in PL Association
   url: https://mlinpl.org
@@ -102,11 +102,11 @@ navigation:
       - name: "/ Previous editions"
         subsites:
           - name: "/ 2025"
-            url: "https://conference.mlinpl.org/2025"
+            url: "https://conference2025.mlinpl.org"
           - name: "/ 2024"
-            url: "https://conference.mlinpl.org/2024"
+            url: "https://conference2024.mlinpl.org"
           - name: "/ 2023"
-            url: "https://conference.mlinpl.org/2023"
+            url: "https://conference2023.mlinpl.org"
           - name: "/ 2022"
             url: "https://conference2022.mlinpl.org"
           - name: "/ 2021"
