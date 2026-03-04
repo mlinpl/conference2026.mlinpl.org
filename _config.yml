@@ -89,8 +89,8 @@ state:
 
 # Navigation settings
 navigation:
-  - name: "/ Tickets"
-    url: "#tickets"
+  # - name: "/ Tickets"
+  #   url: "#tickets"
 
   - name: "/ About"
     url: "#about"
@@ -147,8 +147,8 @@ navigation:
   #     #   url: https://aiart.mlinpl.org/
   #     #   target: "_blank"
   
-  # - name: "/ Timeline"
-  #   url: "#timeline"
+  - name: "/ Timeline"
+    url: "#timeline"
 
   # - name: "/ Call for Sponsors"
   #   url: "#call-for-sponsors"
