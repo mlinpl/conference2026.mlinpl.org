@@ -1,0 +1,20 @@
+on:
+  push:
+    branches: ["init"]
+jobs:
+  ping_main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger build of unified main conference website deployment
+        run: |
+          curl -X POST -H "Authorization: token ${{ secrets.MAIN_PAT_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/mlinpl/mlinpl_submodules_poc/dispatches \
+          -d '{
+            "event_type": "submodule_update",
+            "client_payload": {
+              "repository": "${{ github.repository }}",
+              "commit_sha": "${{ github.sha }}",
+              "message": "Triggered by submodule update in ${{ github.event.repository.name }}"
+            }
+          }'
