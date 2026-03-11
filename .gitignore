@@ -19,3 +19,5 @@ copilot-instructions.md
 .venv/
 
 images/photos/original/
+
+_data/raw/
