@@ -15,13 +15,13 @@
     He has worked at the University of Wroclaw and has collaborated with several research teams, including Google Brain, Microsoft Research and Yoshua Bengio’s lab.  
 
 - name: Marek Cygan
-  affiliation: University of Warsaw / Nomagic
+  affiliation: University of Warsaw / Sentinel Eagle
   image: images/optimized/advisory-board-300x300/MarekCygan.webp
   google-scholar: https://scholar.google.com/citations?user=df8TSy4AAAAJ
   bio-intro: >-
-    Marek Cygan is currently an associate professor at the University of Warsaw, leading a newly created Robot learning group, focused on robotic manipulation, reinforcement learning, computer vision and large language models. Additionally, Chief Al Officer and co-founder of Nomagic, a startup delivering smart pick-and-place robots for intralogistics applications.
+    Marek Cygan is the CEO and founder of Sentinel Eagle, AI-oriented defense startup. Associate professor at the University of Warsaw, where he launched a Robot learning group, focused on robotic manipulation, reinforcement learning, computer vision and large language models. Earlier Chief Al Officer and co-founder of Nomagic, a startup delivering smart pick-and-place robots for intralogistics applications. 
   bio-more: >-
-    Earlier doing research in various branches of algorithms, with a background in competitive programming, having an ERC Starting grant on the subject.
+    In the old days, doing research in various branches of algorithms, with a background in competitive programming.
 
 - name: Krzysztof Dembczyński
   affiliation: Yahoo Research
@@ -60,13 +60,13 @@
     She has led and participated in many R&D projects, including research in computational food, digital humanities, and social good. She enjoys things that are simple to use but elegant and creative.
 
 - name: Henryk Michalewski
-  affiliation: Google Brain
+  affiliation: Google DeepMind
   image: images/optimized/advisory-board-300x300/HenrykMichalewski.webp
   google-scholar: https://scholar.google.pl/citations?user=YdHW1ycAAAAJ
   bio-intro: >-
-    Henryk Michalewski obtained his Ph.D. in Mathematics and Habilitation in Computer Science from the University of Warsaw. Henryk spent a semester in the Fields Institute, was a postdoc at the Ben Gurion University in Beer-Sheva and a visiting professor in the École normale supérieure de Lyon. 
-  bio-more: >-  
-    He was working on topology, determinacy of games, logic and automata. Then he turned his interests to more practical games and wrote two papers on Morpion Solitaire. Presenting these papers at the IJCAI conference in 2015 he met researchers from DeepMind and discovered the budding field of deep reinforcement learning. This resulted in a series of papers including Learning from memory of Atari 2600, Hierarchical Reinforcement Learning with Parameters, Distributed Deep Reinforcement Learning: Learn how to play Atari games in 21 minutes and Reinforcement Learning of Theorem Proving.
+    Henryk Michalewski's research prior to 2015 focused on pure mathematics and theoretical computer science, covering logic, foundations, game theory, and optimization. He subsequently pivoted to work exclusively on machine learning.
+  bio-more: >-
+    Before joining Google in 2019, he worked on reinforcement learning for theorem proving, early deep RL scaling experiments with Intel, a sim2real project with Volkswagen, and model-based RL. At Google, he has contributed to PaLM, early program synthesis work with LLMs, Scratchpad, and Minerva. More recently, he worked on the math-specialized model presented in the Gemini 1.5 report, Big Sleep, AlphaProof, and all iterations of the main Gemini models.
 
 - name: Piotr Miłoś
   affiliation: University of Warsaw / Google
