@@ -88,9 +88,18 @@
   image: images/optimized/previous-speakers-300x300/IrynaGurevych.webp
   comment: Renowned for her pioneering work in multilingual sentence embeddings and adapters for LLMs
 
+- name: Mihaela van der Schaar
+  title: University of Cambridge
+  image: images/optimized/previous-speakers-300x300/MihaelaVanDerSchaar.webp
+  comment: Pioneer in machine learning for healthcare and founder of the Cambridge Centre for AI in Medicine
+
+- name: Alexey Dosovitskiy
+  title: Inceptive
+  image: images/optimized/previous-speakers-300x300/AlexeyDosovitskiy.webp
+  comment: Co-author of the Vision Transformer (ViT)
+
 - name: Lucas Beyer
   title: Google DeepMind
-  google-scholar: 
   image: images/optimized/previous-speakers-300x300/LucasBeyer.webp
   comment: Co-author of the Vision Transformer (ViT)
 
