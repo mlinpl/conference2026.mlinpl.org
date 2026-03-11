@@ -173,7 +173,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /images/mlinpl-conference-2025-event-banner.png
+      image: /images/mlinpl-conference-2026-event-banner.png
 
 
 # Colors and styles settings
