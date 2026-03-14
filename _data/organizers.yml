@@ -143,7 +143,7 @@
   image: "images/optimized/organizers-300x300/AleksandraGwiazda.webp"
 
 - name: "Maria Hul"
-  title: "Special Ops Team"
+  title: "Special Ops / Marketing Team"
   linkedin: "https://www.linkedin.com/in/maria-hul11"
   x: ""
   image: "images/optimized/organizers-300x300/MariaHul.webp"
@@ -200,8 +200,7 @@
   title: "Marketing Team"
   linkedin: "https://www.linkedin.com/in/majka-miezianko-167bba204/"
   x: ""
-  # image: "images/optimized/organizers-300x300/MajkaMiezianko.webp"
-  image: "images/empty.png"
+  image: "images/optimized/organizers-300x300/MajkaMiezianko.webp"
 
 - name: "Aleksandra Mulewicz"
   title: "Visual Identity Team"
@@ -246,7 +245,7 @@
   image: "images/optimized/organizers-300x300/MichalTyrolski.webp"
 
 - name: "Emilia Wiśnios"
-  title: "Board Member"
+  title: "Marketing Team / Board Member"
   linkedin: "https://www.linkedin.com/in/emilia-wisnios/"
   twitter: "https://twitter.com/wisnios_emilia"
   image: "images/optimized/organizers-300x300/EmiliaWisnios.webp"
