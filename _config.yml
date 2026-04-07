@@ -212,6 +212,7 @@ social:
 theme: minima
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 markdown: kramdown
 permalink: pretty
