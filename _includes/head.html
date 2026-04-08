@@ -22,4 +22,31 @@
 
 <!-- SEO and OpenGraph Tags -->
 {% seo %}
+
+<!-- Structured Data for Event -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "ML in PL Conference 2026",
+  "startDate": "2026-10-08",
+  "endDate": "2026-10-10",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": {
+    "@type": "Place",
+    "name": "Copernicus Science Centre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Warsaw",
+      "addressCountry": "Poland"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "ML in PL Association",
+    "url": "https://mlinpl.org"
+  }
+}
+</script>
 </head>
