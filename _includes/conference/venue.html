@@ -1,4 +1,8 @@
-<!-- About Section -->
+<!-- Venue Section -->
+{% comment %}
+Parameters:
+- tutorials: Boolean indicating whether to display the tutorials venue section (default: true)
+{% endcomment %}
 <section id="venue" class="container content-section">
     <div class="row">
         <div class="col-lg-12">
@@ -28,6 +32,7 @@
     </div>
 
     <!-- Tutorials Venue -->
+    {% unless include.tutorials == false %}
     <div class="row" style="margin-top: 55px;">
         <div class="col-lg-8 col-lg-push-4">
             <p>
@@ -41,4 +46,5 @@
             <img class="width-100 photo" src="{{ "./images/misc/mimuw-2-optimized.webp" | relative_url }}">
         </div>
     </div>
+    {% endunless %}
 </section>
