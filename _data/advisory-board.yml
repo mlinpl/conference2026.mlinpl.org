@@ -33,7 +33,7 @@
     During his postdoc at Marburg University, Germany, he has started working on multi-target prediction problems with the main focus on multi-label classification. Currently, his main scientific activity concerns extreme classification, i.e., classification problems with an extremely large number of labels. His articles has been published at the premier conferences (ICML, NeurIPS, ECML) and in the leading journals (JMLR, MLJ, DAMI) in the field of machine learning. As a co-author he won the best paper award at ECAI 2012 and at ACML 2015. He serves as an Area Chair for ICML, NeurIPS, and ICLR, and as an Action Editor for MLJ.
 
 - name: Krzysztof Geras
-  affiliation: New York University
+  affiliation: New York University / Ataraxis AI
   image: images/optimized/advisory-board-300x300/KrzysztofGeras.webp
   google-scholar: https://scholar.google.pl/citations?user=ZMCGp48AAAAJ
   bio-intro: >-
@@ -69,11 +69,11 @@
     Before joining Google in 2019, he worked on reinforcement learning for theorem proving, early deep RL scaling experiments with Intel, a sim2real project with Volkswagen, and model-based RL. At Google, he has contributed to PaLM, early program synthesis work with LLMs, Scratchpad, and Minerva. More recently, he worked on the math-specialized model presented in the Gemini 1.5 report, Big Sleep, AlphaProof, and all iterations of the main Gemini models.
 
 - name: Piotr Miłoś
-  affiliation: University of Warsaw / Google
+  affiliation: University of Warsaw / Mistral AI
   image: images/optimized/advisory-board-300x300/PiotrMilos.webp
   google-scholar: https://scholar.google.com/citations?user=Se68XecAAAAJ
   bio: >-
-    Piotr Miłoś is an Associate Professor at the University of Warsaw, a member of the ELLIS Society, and a Staff SWE at Google. He is interested in methods that deliver robust decision-making capabilities in complex scenarios. His work covers topics including continual learning, automated reasoning in mathematics, planning algorithms, and sequential modeling
+    Piotr Miłoś is an Associate Professor at the University of Warsaw, a member of the ELLIS Society, and an AI Scientist at Mistral AI. He is interested in methods that deliver robust decision-making capabilities in complex scenarios. His work covers topics including continual learning, automated reasoning in mathematics, planning algorithms, and sequential modeling
 
 - name: Razvan Pascanu
   affiliation: DeepMind
