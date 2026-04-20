@@ -5,11 +5,11 @@ html-title: Call for Contributions</br>(Talks and Posters)
 permalink: /call-for-contributions
 ---
 
-We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ site.inline-logo }}** and **Student Research Workshop**. The talks and posters will be held at the Main Conference on 15 - 17 October 2025. Student Research Workshop will take place on 15 October 2025, at the start of the conference. We invite you to send your submissions to Call for Contributions (CfC) from 1 May to 31 July 2025.
+We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ site.inline-logo }}** and **Student Research Workshop**. The talks and posters will be held at the Main Conference on 8 - 10 October 2026. Student Research Workshop will take place on 8 October 2026, at the start of the conference. We invite you to send your submissions to Call for Contributions (CfC) from 4 May to 31 July 2026.
 
 <ul class="list-inline banner-social-buttons">
     <li>
-        <a href="https://mlinpl2025cfc.paperform.co/" class="btn btn-default btn-lg btn-nonactive" target="_blank" disabled><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
+        <a href="https://mlinpl2026cfc.paperform.co/" class="btn btn-default btn-lg btn-nonactive" target="_blank" disabled><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
     </li>
     <li>
         <a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of CfC</a>
@@ -35,7 +35,7 @@ We believe in the inclusive nature of machine learning research and aim to provi
 8. Technical Solutions and Machine Learning Resources: Architectures, Competitions, Data Sets and Repositories, Distributed Machine Learning, Implementations, Software Toolkits, etc.
 9. Machine Learning Stories: Interesting and insightful competitions, projects, and start-up stories!
 
-**The talks at the Main Conference should have a length of 20 minutes + 5 minutes for questions. For the poster presentation, we will hold two 1.5-hour sessions during the 2nd and 3rd day of the conference. Student Research Workshop talks should take around 15 minutes + 5 minutes for questions.** To participate in the Call for Contributions, we please provide the title of your talk/poster proposal, an abstract of 300-3500 characters, your preference towards talk or poster, a short bio, a photo, and a list of your previous talks. Talks and posters should be in English. The submission deadline is 31 July 2025. With the help of the Contributions Committee, we will select the best proposals.
+**The talks at the Main Conference should have a length of 20 minutes + 5 minutes for questions. For the poster presentation, we will hold two 1.5-hour sessions during the 2nd and 3rd day of the conference. Student Research Workshop talks should take around 15 minutes + 5 minutes for questions.** To participate in the Call for Contributions, we please provide the title of your talk/poster proposal, an abstract of 300-3500 characters, your preference towards talk or poster, a short bio, a photo, and a list of your previous talks. Talks and posters should be in English. The submission deadline is 31 July 2026. With the help of the Contributions Committee, we will select the best proposals.
 
 ## / Acceptance criteria
 
@@ -60,7 +60,7 @@ The co-authors of accepted papers will have a guaranteed option to buy the ticke
     desc-col-width=9
 %}
 
-**The talks and posters accepted at the Main Conference will be presented on 15 - 17 October 2025. The Student Research Workshop will be held on 15 October 2025.**
+**The talks and posters accepted at the Main Conference will be presented on 8 - 10 October 2026. The Student Research Workshop will be held on 8 October 2026.**
 
 ## / Awards
 
@@ -70,7 +70,7 @@ The best contributed talks and posters from the Main Conference will be awarded.
 
 <ul class="list-inline banner-social-buttons">
     <li>
-        <a href="https://mlinpl2025cfc.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
+        <a href="https://mlinpl2026cfc.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
     </li>
     <li>
         <a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of CfC</a>
