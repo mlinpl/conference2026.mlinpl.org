@@ -4,12 +4,12 @@ title: Call for Contributions - Terms and Conditions
 permalink: /cfc-terms-and-conditions
 ---
 
-Rules of contributed talks, posters, student research workshop acceptance to {{ site.inline-logo }} Conference 2025 and poster competition (hereinafter, the "Rules of Call for Contributions")
+Rules of contributed talks, posters, student research workshop acceptance to {{ site.inline-logo }} Conference 2026 and poster competition (hereinafter, the "Rules of Call for Contributions")
 
 
 ## § 1. The purpose and scope of the Competition
 
-1. The Call for Contributions Competition (hereinafter, the "Competition") aims to disseminate knowledge in the field of data science, machine learning, and artificial intelligence by selecting talks and posters to be presented at ML in PL Conference 2025 (the “Conference”) or during Student Research Workshop (hereinafter, the “Workshop”) and pick the best posters and talks related to these areas which will be then presented during the Conference. 
+1. The Call for Contributions Competition (hereinafter, the "Competition") aims to disseminate knowledge in the field of data science, machine learning, and artificial intelligence by selecting talks and posters to be presented at ML in PL Conference 2026 (the “Conference”) or during Student Research Workshop (hereinafter, the “Workshop”) and pick the best posters and talks related to these areas which will be then presented during the Conference. 
 2. The scope of the Competition includes, but is not limited to:
    - General Machine Learning: Active Learning, AutoML, Classification, Clustering, Continual Learning, Learning Theory, Online Learning, Optimization, Ranking, Regression, Representation Learning, Semi-supervised and Unsupervised Learning, Sparsity
    - Deep Learning: Architectures, Generative Models, LLMs, Multimodal Models, Optimization for Deep Networks, Recurrent Networks, 
@@ -35,7 +35,7 @@ Rules of contributed talks, posters, student research workshop acceptance to {{ 
 
 ## § 4. The rules and the course of the Competition
 
-1. The registration for the Competition will be open from 1 May 2025 and end on 31 July 2025 (hereinafter, the "Duration of the Competition").
+1. The registration for the Competition will be open from 4 May 2026 and end on 31 July 2026 (hereinafter, the "Duration of the Competition").
 2. Registration for the Competition takes place via the registration form in the Call for Contribution section available at [https://conference.mlinpl.org/](http://conference.mlinpl.org/) (hereinafter, the "Website").
 3. In order to participate in the Competition, the Participant is obliged to submit the registration form on the Website through which the Participant provides:
    - his/her personal data, 
@@ -48,21 +48,21 @@ Rules of contributed talks, posters, student research workshop acceptance to {{ 
 5. The Organizer reserves the right to decide on where the Participants will present,  either at the Conference or Workshop. Every presentation will take place onsite.
 6. The Participant declares that the poster or talk he/she would like to present does not contain content that violates the law and does not violate good morals, in particular, does not violate the rights of third parties, does not call for violence, intolerance, vulgarity or advertising content of third parties.
 7. Only works related to the subject of the Competition meeting the conditions referred to in the Rules of Call for Contributions, for which the Participant holds the copyright, may be submitted to the Competition.
-8. The Organizers committee will evaluate the submission and accept posters and talks to be presented at the Conference by 15  August 2025. This date can be prolonged in justified cases.
+8. The Organizers committee will evaluate the submission and accept posters and talks to be presented at the Conference by 14 August 2026. This date can be prolonged in justified cases.
 9. The scientific, cognitive, and practical values play a key role in posters and talks acceptance for the Conference. For the Student Research Workshop, the talks of students pursuing Bachelor, Engineer or Master degree may be incentivized over Doctoral candidates.
 10. Accepted Participants will be notified by e-mail and will receive one free Conference ticket.
 11. Up to three co-authors of the accepted talks or posters (indicated in the submission) will be provided with an option to purchase a discounted ticket to the Conference, at the price of an Early Bird pass. 
 12. In case the Participant is unable to attend the Conference, his free Conference ticket can be transferred to another person, provided this person presents the accepted work. To transfer a ticket, the Participant needs to inform the Organizer by mail <contributions@conference.mlinpl.org> and provide information on the person, to whom the right to attend the Conference will be transferred to.
-13. The author(s) of an accepted poster or talk is obliged to provide a digital version of the poster or/and presentation in PDF format by 30 September 2025 (hereinafter, the "Competition Work").
+13. The author(s) of an accepted poster or talk is obliged to provide a digital version of the poster or/and presentation in PDF format by 30 September 2026 (hereinafter, the "Competition Work").
 14. The printed version of the poster has to be A0-size in a vertical orientation or smaller.
-15. The presentation of talks and posters will take place on 15-17th October 2025, during the Conference.  
+15. The presentation of talks and posters will take place on 8-10 October 2026, during the Conference.  
 16. During registration, the Participant can agree to his presentation being publicly shared on the Conference website.
 
 
 ## § 5. Awards
 
 1. The Best Talks and Best Posters Awards will be settled by voting contest within the participant of the Conference. The awards include only the Conference (not the Student Research Workshop). 
-2. The winners of the Best Talks and Posters Competition (hereinafter, the "Winners") will be selected by 17 October 2025 and the final results will be presented on 17 October 2025. The Winners will be notified by e-mail and awarded, as well as their works will be presented on the Website.
+2. The winners of the Best Talks and Posters Competition (hereinafter, the "Winners") will be selected by 10 October 2026 and the final results will be presented on 10 October 2026. The Winners will be notified by e-mail and awarded, as well as their works will be presented on the Website.
 3. The Sponsor of the Award is the Organizer.
 4. The Organizer, as a payer of flat-rate income tax for natural persons, will calculate and pay to the competent Tax Office a flat-rate income tax due on account of winning before issuing the prize winner.
 5. The prize will be credited to the winners' accounts within 30 working days from the announcement of the results of the Competition via bank transfer or via voucher. The Organizer will contact the Winners to confirm the data necessary to transfer the prize.
