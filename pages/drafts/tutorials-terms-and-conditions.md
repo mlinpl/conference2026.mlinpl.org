@@ -4,12 +4,12 @@ title: Call for Tutorials - Terms and Conditions
 permalink: /tutorials-terms-and-conditions
 ---
 
-Rules of contributed tutorials acceptance to the **ML in PL** CONFERENCE 2025 (hereinafter, the “Rules of Call for Tutorials”)
+Rules of contributed tutorials acceptance to the **ML in PL** CONFERENCE 2026 (hereinafter, the “Rules of Call for Tutorials”)
 
 
 ## § 1. THE PURPOSE AND SCOPE OF THE COMPETITION
 
-1. The Call for Tutorials Competition (hereinafter, the “Competition”) aims to disseminate knowledge in the field of data science, machine learning, and artificial intelligence by selecting tutorials to be presented at **ML in PL** CONFERENCE 2025 (the “Conference”) and pick the best tutorials related to these areas which will be then presented during the Conference.
+1. The Call for Tutorials Competition (hereinafter, the “Competition”) aims to disseminate knowledge in the field of data science, machine learning, and artificial intelligence by selecting tutorials to be presented at **ML in PL** CONFERENCE 2026 (the “Conference”) and pick the best tutorials related to these areas which will be then presented during the Conference.
 2. The scope of the Competition includes, but is not limited to:
     - General Machine Learning: Active Learning, AutoML, Classification, Clustering, Continual Learning, Learning Theory, Online Learning, Optimization, Ranking, Regression, Representation Learning, Semi-supervised and Unsupervised Learning, Sparsity
     - Deep Learning: Architectures, Generative Models, LLMs, Multimodal Models, Optimization for Deep Networks, Recurrent Networks, 
@@ -35,7 +35,7 @@ Rules of contributed tutorials acceptance to the **ML in PL** CONFERENCE 2025 (h
 
 ## § 4. THE RULES AND THE COURSE OF THE COMPETITION
 
-1. The Competition will start on 1 May 2025 and end on 31 July 2025 (hereinafter, the “Duration of the Competition”).
+1. The Competition will start on 4 May 2026 and end on 31 July 2026 (hereinafter, the “Duration of the Competition”).
 2. The registration for the Competition takes place via the registration form in the [Call for Tutorials]({{ "./call-for-tutorials" | relative_url }}).
 
 (hereinafter, the “Website”).
@@ -49,11 +49,11 @@ Rules of contributed tutorials acceptance to the **ML in PL** CONFERENCE 2025 (h
 4. The Participant can optionally provide information about his/her previous presentations.
 5. The Participant declares that the tutorial he/she would like to present does not contain content that violates the law and does not violate good morals, in particular, does not violate the rights of third parties, does not call for violence, intolerance, vulgarity or advertising content of third parties.
 6. Only works related to the subject of the Competition meeting the conditions referred to in the Rules of Call for Tutorials, for which the Participant holds the copyright, may be submitted to the Competition.
-7. The Organizers committee will evaluate the submission and accept tutorials to be presented at the Conference by 15 August 2025.
+7. The Organizers committee will evaluate the submission and accept tutorials to be presented at the Conference by 14 August 2026.
 8. The scientific, cognitive, and practical values play a key role in tutorials acceptance for the Conference. Submissions from Participants affiliated with a research institution are preferred.
 9. Accepted Participants will be notified by e-mail and will receive two free Conference tickets.
 10. The author(s) of an accepted tutorial is obliged to provide a detailed outline of the tutorial at least 2 weeks before the Conference.
-11. The tutorial sessions will take place on 18 of October 2025 during the Conference.
+11. The tutorial sessions will take place on 11 of October 2026 during the Conference.
 
 
 ## § 5. INTELLECTUAL PROPERTY RIGHTS TO SUBMITTED WORKS
