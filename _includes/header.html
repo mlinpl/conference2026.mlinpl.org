@@ -5,7 +5,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1 class="event-heading">{{ site.header.heading }}</h1>
+                    <h1 class="event-heading">
+                        {% if site.header.heading-image %}
+                        <img src="{{ site.header.heading-image | relative_url }}" alt="{{ site.header.heading-image-alt | default: 'ML in PL Conference' }}" style="max-height: 1.5em; max-width: 90%;">
+                        {% else %}
+                        {{ site.header.heading }}
+                        {% endif %}
+                    </h1>
                     {% if site.header.subheading %}
                     <h2 class="event-subheading">{{ site.header.subheading }}</h2>
                     {% endif %}
