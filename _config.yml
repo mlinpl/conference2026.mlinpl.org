@@ -65,21 +65,6 @@ header:
   # Meetup countdown settings
   # meetup-countdown-date: "2024-06-20T17:45:00"
 
-# State settings
-# Represents the state of the conference.
-# Dynamically controls visibility and content of the site sections.
-state:
-  invited-speakers:  # options: null, "first", "all"
-  cfc: "open" # options: null, "open", "closed", "after" (the conference)
-  tickets: false # options: true, false
-  agenda:  # options: null, "draft", "full"
-  # banner-text: 'Regular ticket sales is open now! <a href="https://app.evenea.pl/event/mlinpl25/">Secure your spot</a>!'
-  # banner-text: 'Regular tickets sold out! Late registration opens 1 October.'
-  # banner-text: 'Late Registration and Tutorial Registration (attending requires separate ticket) open now!'
-  # banner-text: 'There are still available tickets for tutorials (separate from the main event)!'
-  photos: false  # options: true, false
-  aftermovie: false  # options: true, false
-
 # Next year settings
 # next-year:
 #   image: images/mlinpl-conference-2026-logo-black.png
@@ -134,10 +119,10 @@ navigation:
   #       url: "#panels"
   #     - name: "/ Conference game"
   #       url: "/badge-game"
-  #     - name: "/ Call for Contributions"
-  #       url: "#calls"
-      # - name: "/ Call for Tutorials"
-      #   url: "/call-for-tutorials"
+      - name: "/ Call for Contributions"
+        url: "#calls"
+      - name: "/ Call for Tutorials"
+        url: "/call-for-tutorials"
       - name: "/ Venue"
         url: "#venue"
       # - name: "/ Conference booklet"
