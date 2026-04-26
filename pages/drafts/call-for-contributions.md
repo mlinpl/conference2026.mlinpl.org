@@ -29,31 +29,30 @@ We believe in the inclusive nature of machine learning research and aim to provi
 2. Deep Learning: Architectures, Generative Models, Optimization for Deep Networks, Recurrent Networks, etc.
 3. Reinforcement Learning: Bandits, Decision and Control, Exploration, Hierarchical RL, Markov Decision Processes, Multi-Agent RL, Navigation, Planning, etc.
 4. Probabilistic Methods: Bayesian methods, Causal Inference, Gaussian Processes, Graphical Models, etc.
-5. Applications of Machine Learning: Audio and Speech Processing, Computational Biology, Computer Vision, Natural Language Processing, Robotics, Neuroscience, Physics, Social Good, etc.
-6. Social Aspects of Machine Learning: Accountability, AI Ethics, AI Safety, Causality, Biased Data, Fairness, Privacy, Robustness, and Safety, etc.
-7. Explainable Machine Learning: Interpretability and Explainability of Machine Learning Models, Methods for Understanding and Explaining Model Decisions, Techniques for Building Transparent and Understandable AI Systems, Human-AI Interaction, etc.
-8. Technical Solutions and Machine Learning Resources: Architectures, Competitions, Data Sets and Repositories, Distributed Machine Learning, Implementations, Software Toolkits, etc.
-9. Machine Learning Stories: Interesting and insightful competitions, projects, and start-up stories!
+5. Applications of Machine Learning: Audio and Speech Processing, Computational Biology, Computer Vision, Natural Language Processing, Robotics, Neuroscience, Physics, Social Good, Medical Imaging etc.
+6. Social Aspects of Machine Learning: AI Ethics, AI Safety, Fairness, Bias, Privacy, Robustness, Explainability, etc.
+7. Technical Solutions and Machine Learning Resources: Architectures, Competitions, Data Sets and Repositories, Distributed Machine Learning, Implementations, Software Toolkits, etc.
+8. Machine Learning Stories: Interesting and insightful competitions, projects, and start-up stories!
 
-**The talks at the Main Conference should have a length of 20 minutes + 5 minutes for questions. For the poster presentation, we will hold two 1.5-hour sessions during the 2nd and 3rd day of the conference. Student Research Workshop talks should take around 15 minutes + 5 minutes for questions.** To participate in the Call for Contributions, we please provide the title of your talk/poster proposal, an abstract of 300-3500 characters, your preference towards talk or poster, a short bio, a photo, and a list of your previous talks. Talks and posters should be in English. The submission deadline is 31 July 2026. With the help of the Contributions Committee, we will select the best proposals.
+**The talks at the Main Conference should have a length of 20 minutes + 5 minutes for questions. For the poster presentation, we will hold two 1.5-hour sessions during the 2nd and 3rd day of the conference. Student Research Workshop talks should take around 15 minutes + 5 minutes for questions.** To participate in the Call for Contributions, we ask you to provide the title of your talk/poster proposal, an abstract of 300-3500 characters, your preference towards talk or poster, a short bio, a photo, and a list of your previous talks. Talks and posters should be in English. The submission deadline is 31 July 2026. With the help of the Contributions Committee, we will select the best proposals.
 
 ## / Acceptance criteria
 
 The factors that will be considered the most when evaluating submissions include:
 - The relevance of the proposed topic in the current machine learning landscape.
-- Novelty and uniqueness of the proposed topic. Even if your topic does not fall into any listed areas, do not feel discouraged to submit it! Also, interdisciplinary topics are especially highly encouraged!
+- Novelty and uniqueness of the proposed topic. Even if your topic does not fall into any of the listed areas, do not feel discouraged to submit it! Also, interdisciplinary topics are highly encouraged!
 - Enjoyable by our audience: a good balance between accessibility and scientific excellence.
 - For talk proposals, we will take into account the author’s speaking experience, however, it does not mean that we will reject all inexperienced speakers.
-- Talks/posters proposals with clear promotion of the commercial products will be rejected. 
+- Talks/posters proposals with clear promotion of the commercial products will be rejected.
 
-All accepted talks and posters will be presented during the Main Conference (or the Student Research Workshop). 
-**The presenting author (the one submitting the application) will receive a free ticket.** 
+All accepted talks and posters will be presented during the Main Conference (or the Student Research Workshop).
+**The presenting author (the one submitting the application) will receive a free ticket.**
 The co-authors of accepted papers will have a guaranteed option to buy the tickets with the Early Bird prices.
 
 
 ## / Timeline
 
-{% include timeline-inline.html 
+{% include timeline-inline.html
     timeline-data=site.data.timeline-cfc
     timeline-col-width=12
     date-col-width=3
@@ -88,4 +87,3 @@ Join us in shaping **{{ site.inline-logo }}**! -->
 **The exact guidelines for preparing your talk and poster can be found [here]({{ "./cfc-instructions" | relative_url }}).**
 
 You can contact us at <a href="mailto:contributions@conference.mlinpl.org">contributions@conference.mlinpl.org</a> in case you have any further questions regarding Call for Contributions. We look forward to your submissions and wish you good luck!
-
