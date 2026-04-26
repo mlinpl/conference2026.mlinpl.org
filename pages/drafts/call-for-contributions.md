@@ -29,7 +29,7 @@ We believe in the inclusive nature of machine learning research and aim to provi
 2. Deep Learning: Architectures, Generative Models, Optimization for Deep Networks, Recurrent Networks, etc.
 3. Reinforcement Learning: Bandits, Decision and Control, Exploration, Hierarchical RL, Markov Decision Processes, Multi-Agent RL, Navigation, Planning, etc.
 4. Probabilistic Methods: Bayesian methods, Causal Inference, Gaussian Processes, Graphical Models, etc.
-5. Applications of Machine Learning: Audio and Speech Processing, Computational Biology, Computer Vision, Natural Language Processing, Robotics, Neuroscience, Physics, Social Good, Medical Imaging etc.
+5. Applications of Machine Learning: Audio and Speech Processing, Computational Biology, Computer Vision, Natural Language Processing, Robotics, Neuroscience, Physics, Social Good, Medical Imaging, etc.
 6. Social Aspects of Machine Learning: AI Ethics, AI Safety, Fairness, Bias, Privacy, Robustness, Explainability, etc.
 7. Technical Solutions and Machine Learning Resources: Architectures, Competitions, Data Sets and Repositories, Distributed Machine Learning, Implementations, Software Toolkits, etc.
 8. Machine Learning Stories: Interesting and insightful competitions, projects, and start-up stories!
