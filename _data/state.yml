@@ -1,0 +1,13 @@
+# State settings
+# Represents the state of the conference.
+# Dynamically controls visibility and content of the site sections.
+invited-speakers: # options: null, "first", "all"
+cfc: "open" # options: null, "open", "closed", "after" (the conference)
+tickets: false # options: true, false
+agenda: # options: null, "draft", "full"
+# banner-text: 'Regular ticket sales is open now! <a href="https://app.evenea.pl/event/mlinpl25/">Secure your spot</a>!'
+# banner-text: 'Regular tickets sold out! Late registration opens 1 October.'
+# banner-text: 'Late Registration and Tutorial Registration (attending requires separate ticket) open now!'
+# banner-text: 'There are still available tickets for tutorials (separate from the main event)!'
+photos: false # options: true, false
+aftermovie: false # options: true, false

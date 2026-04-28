@@ -6,24 +6,24 @@
         {% include nav.html %}
         {% include header.html %}
 
-        {% if site.state.banner-text %}
+        {% if site.data.state.banner-text %}
         {% include banner.html %}
         {% endif %}
 
-        {% if site.state.aftermovie %}
+        {% if site.data.state.aftermovie %}
         {% include conference/aftermovie.html %}
         {% endif %}
 
-        {% if site.state.tickets == true %}
+        {% if site.data.state.tickets == true %}
         {% include conference/tickets.html %}
         {% endif %}
 
         {% include conference/about.html %}
 
         {% comment %}
-        {% if site.state.invited-speakers %}
+        {% if site.data.state.invited-speakers %}
         {% assign more_are_coming = true %}
-        {% if site.state.invited-speakers == "all" %}
+        {% if site.data.state.invited-speakers == "all" %}
         {% assign more_are_coming = false %}
         {% endif %}
         {% include conference/invited-speakers-slider.html more-are-coming=more_are_coming %}
@@ -39,14 +39,14 @@
         {% endcomment %}
         
         {% comment %}
-        {% if site.state.agenda %}
+        {% if site.data.state.agenda %}
         {% assign agenda_draft = false %}
-        {% if site.state.agenda == "draft" %}
+        {% if site.data.state.agenda == "draft" %}
         {% assign agenda_draft = true %}
         {% endif %}
         
         {% assign agenda_full = false %}
-        {% if site.state.agenda == "full" %}
+        {% if site.data.state.agenda == "full" %}
         {% assign agenda_full = true %}
         {% endif %}
         
@@ -58,9 +58,7 @@
         {% include conference/badge-game.html %}
         {% endcomment %}
         
-        {% comment %}
-        {% include conference/calls.html state=site.state.cfc %}
-        {% endcomment %}
+        {% include conference/calls.html state=site.data.state.cfc %}
 
         {% comment %}
         {% include conference/transport.html %}
