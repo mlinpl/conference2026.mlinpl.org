@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 permalink: /privacy-policy
+canonical_url: https://conference.mlinpl.org/privacy-policy
 ---
 
 ## § 1. GENERAL PROVISIONS

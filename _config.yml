@@ -136,8 +136,8 @@ navigation:
   - name: "/ Timeline"
     url: "#timeline"
 
-  # - name: "/ Call for Sponsors"
-  #   url: "#call-for-sponsors"
+  - name: "/ Call for Sponsors"
+    url: "#call-for-sponsors"
 
   # - name: "/ Sponsors & partners"
   #   url: "#sponsors"
