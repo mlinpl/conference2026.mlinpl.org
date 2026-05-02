@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Terms of Participation in ML in PL Conference 2025
+title: Terms of Participation in ML in PL Conference 2026
 permalink: /terms-of-participation
 ---
 
@@ -8,15 +8,15 @@ permalink: /terms-of-participation
 
 ## 1. DEFINITIONS
 1. Whenever the terms defined hereunder are used in Terms of Participation, they should be understood as follows:
-    1. **ML in PL Conference** – a conference carried out by the Organizer from 15 to 18 of October 2025, on 15 to 17 at Copernicus Science Centre at Wybrzeże Kościuszkowskie 20 street, 00-390 and on 18 at another venue, of Organizer choosing.
+    1. **ML in PL Conference** – a conference carried out by the Organizer from 8-11 of October 2026, on 8 to 10 at Copernicus Science Centre at Wybrzeże Kościuszkowskie 20 street, 00-390 and on 11 at another venue, of Organizer choosing.
     2. **Organizer** – ML in PL Association, Plac Bankowy 2, Warszawa 02-505 KRS: 0000754960, REGON: 381658081, NIP: 1182183164. 
-    3. **Conference** - a series of Lectures conducted by experts in the field of ML in PL Conference topics, described at www.conference.mlinpl.org, which takes place from 15 to 18 of October 2025.
-    4. **Tutorials** - a series of workshops conducted by experts in the field of ML in PL Conference topics, described at www.conference.mlinpl.org, which takes place on 18 of October 2025, at a venue that will be indicated by the Organizer on www.conference.mlinpl.org.
+    3. **Conference** - a series of Lectures conducted by experts in the field of ML in PL Conference topics, described at www.conference.mlinpl.org, which takes place from  from 8 to 10 of October 2026.
+    4. **Tutorials** - a series of workshops conducted by experts in the field of ML in PL Conference topics, described at www.conference.mlinpl.org, which takes place on 11 of October 2026, at a venue that will be indicated by the Organizer on www.conference.mlinpl.org.
     5. **Registration Form** – Internet registration form available on the Conference website which is submitted by the Candidate in order to qualify for the Conference.
     6. **Conference Pass** - a ticket sent as a pdf file to the e-mail addresses of the Participants, confirming the right to participate in the Conference.
     7. **Committee** – a group of organizers of the Conference and the Tutorials indicated on the Conference website at www.conference.mlinpl.org and other members of the personnel of the Organizer. 
-    8. **Early Bird Period** – the period from 1 May until 31 July during which the Candidates can register for the Conference through the Early Bird Registration Form for a lower Conference Pass price.
-    9. **Standard Period** – the period from 25 August, during which the Candidates can register for the Conference through the Registration Form; during the Standard Period the Organizer can introduce Late Ticket Period, during which the price of a Conference Pass price will be increased.
+    8. **Early Bird Period** – the period from 1 June until 31 July during which the Candidates can register for the Conference through the Early Bird Registration Form for a lower Conference Pass price.
+    9. **Standard Period** – the period from 24 August, during which the Candidates can register for the Conference through the Registration Form; during the Standard Period the Organizer can introduce Late Ticket Period, during which the price of a Conference Pass price will be increased.
     10. **Candidate** – a natural person who submitted the Registration Form in order to qualify to the Conference .
     11. **Participant** – a natural person who received the decision on qualification for the Conference, made payments for participation in the Conference and received confirmation of participation in a Conference as a Participant.
     12. **Lecture** – a specific lecture being part of the Conference.
@@ -90,6 +90,6 @@ instructions as to the method of making the payment necessary to qualify the Can
 1. The Organizer is not responsible for the Participants' and Tutorials Participants belongings that may be lost, damaged or stolen during the Conference and Tutorials.
 2. The agreement with the Candidate is concluded at the moment of becoming the Participant or Tutorials Participant and lasts until the end of the last event of the ML in PL Conference.
 3. Any disputes that may arise from participation in the ML in PL Conference will be resolved by the court competent for the seat of the Organizer.
-4. These Terms of Participation shall enter into force on 1 May 2025.
+4. These Terms of Participation shall enter into force on 4 May 2026.
 
 
