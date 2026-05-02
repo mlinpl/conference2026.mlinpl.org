@@ -39,7 +39,7 @@ Rules of contributed talks, posters, student research workshop acceptance to {{ 
 2. Registration for the Competition takes place via the registration form in the Call for Contribution section available at https://conference.mlinpl.org/2026/cfc/
 3. Participation in the Competition requires having an account on OpenReview website, through which submissions are made. Creating an account and submitting an application is voluntary, but required in order to take part in the Competition. The Participant is obliged to create such an account independently prior to submission. In the case of non-academic accounts, the verification and activation process may take up to 2 weeks.
 4. The Organizer shall not be held responsible for any inability to submit a contribution resulting from delays in the registration or activation process on OpenReview.
-5. The Participant is also required to read and accept the OpenReview Terms of Use, available at: https://openreview.net/legal/terms and its Privacy Policy(https://openreview.net/legal/privacy).
+5. The Participant is also required to read and accept the [OpenReview Terms of Use](https://openreview.net/legal/terms) and its [Privacy Policy](https://openreview.net/legal/privacy).
 6. In order to participate in the Competition, the Participant is obliged to submit the registration form handled through OpenReview through which the Participant provides:
    - his/her personal data, 
    - his/her preference towards presenting a talk at the Conference or Workshop
