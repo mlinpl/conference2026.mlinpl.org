@@ -23,7 +23,7 @@ Rules of contributed tutorials acceptance to the **ML in PL** CONFERENCE 2026 (h
 ## § 2. ENTITIES INVOLVED IN THE ORGANIZATION OF THE COMPETITION
 
 1. The organizer of the Competition is ML in PL Association (hereinafter, the “Organizer”), who has appointed a competition’s committee.
-2. The Organizer will appoint an awards committee (hereinafter the "Commission") that might include, i.a., Advisory Board members (<https://conference.mlinpl.org/#advisory-board>), Invited Speakers (<https://conference.mlinpl.org/#invited-speakers>), Student Research Workshop and Organizer representants (<https://conference.mlinpl.org/#organizers>).
+2. The Organizer will appoint an awards committee (hereinafter the "Commission") that might include, i.a., Advisory Board members ({{ "/#advisory-board" | relative_url }}), Invited Speakers ({{ "/#invited-speakers" | relative_url }}), Student Research Workshop and Organizer representants ({{ "/#organizers" | relative_url }}).
 
 
 ## § 3. CONDITIONS FOR TAKING PART IN THE COMPETITION
@@ -35,10 +35,8 @@ Rules of contributed tutorials acceptance to the **ML in PL** CONFERENCE 2026 (h
 
 ## § 4. THE RULES AND THE COURSE OF THE COMPETITION
 
-1. The Competition will start on 4 May 2026 and end on 31 July 2026 (hereinafter, the “Duration of the Competition”).
-2. The registration for the Competition takes place via the registration form in the [Call for Tutorials]({{ "./call-for-tutorials" | relative_url }}).
-
-(hereinafter, the “Website”).
+1. The Competition will start on 4 May 2026 and end on 31 July 2026 AOE (hereinafter, the “Duration of the Competition”).
+2. The registration for the Competition takes place via the registration form in the [Call for Tutorials]({{ "./call-for-tutorials" | relative_url }}) (hereinafter, the “Website”).
 3. In order to participate in the Competition, the Participant is obliged to submit the registration form on the Website through which the Participant provides:
     1. his/her personal data,
     2. information about  affiliation with a research institution or lack thereof
