@@ -22,41 +22,44 @@ Rules of contributed talks, posters, student research workshop acceptance to {{ 
 
 ## § 2. Entities involved in the organization of the Competition
 
-1. The organizer of the Competition is **_ML in PL Association_** (hereinafter, the "Organizer"), who has appointed a competition’s committee.
+1. The organizer of the Competition is **_ML in PL Association_** (legal name: Stowarzyszenie ML in PL) (hereinafter, the "Organizer"), who has appointed a competition’s committee.
 2. The Organizer will appoint an awards committee (hereinafter the "Commission") that might include, i.a., Advisory Board members ({{ "/#advisory-board" | relative_url }}), Invited Speakers ({{ "/#invited-speakers" | relative_url }}) and Organizer representants ({{ "/#organizers" | relative_url }}).
 
 
 ## § 3. Conditions for taking part in the Competition
 
 1. Only natural persons, who have full capacity for legal acts on the territory of Poland can participate in the Competition.
-2. In order to participate in the Competition, it is necessary to agree to the provisions of the Terms of Participation and to get acquainted with the processing of personal data referred to in the Privacy Policy.
+2. In order to participate in the Competition, it is necessary to agree to the provisions of the [Terms of Participation]({{ "./terms-of-participation" | relative_url }}) and to get acquainted with the processing of personal data referred to in the [Privacy Policy]({{ "./privacy-policy" | relative_url }}).
 3. Participation in the Competition and related data sharing is completely voluntary. The person who joined the Competition in order to present a talk or poster (hereinafter, the "Participant") is bound by the [Terms of Participation]({{ "./terms-of-participation" | relative_url }}).
 
 
 ## § 4. The rules and the course of the Competition
 
-1. The registration for the Competition will be open from 4 May 2026 and end on 31 July 2026 (hereinafter, the "Duration of the Competition").
-2. Registration for the Competition takes place via the registration form in the Call for Contribution section available at [https://conference.mlinpl.org/](http://conference.mlinpl.org/) (hereinafter, the "Website").
-3. In order to participate in the Competition, the Participant is obliged to submit the registration form on the Website through which the Participant provides:
+1. The registration for the Competition will be open from 4 May 2026 and end on 31 July 2026 AOE (hereinafter, the "Duration of the Competition").
+2. Registration for the Competition takes place via the registration form in the Call for Contribution section available at https://conference.mlinpl.org/2026/cfc/
+3. Participation in the Competition requires having an account on OpenReview website, through which submissions are made. Creating an account and submitting an application is voluntary, but required in order to take part in the Competition. The Participant is obliged to create such an account independently prior to submission. In the case of non-academic accounts, the verification and activation process may take up to 2 weeks.
+4. The Organizer shall not be held responsible for any inability to submit a contribution resulting from delays in the registration or activation process on OpenReview.
+5. The Participant is also required to read and accept the OpenReview Terms of Use, available at: https://openreview.net/legal/terms and its Privacy Policy(https://openreview.net/legal/privacy).
+6. In order to participate in the Competition, the Participant is obliged to submit the registration form handled through OpenReview through which the Participant provides:
    - his/her personal data, 
    - his/her preference towards presenting a talk at the Conference or Workshop
    - his/her preference towards presenting a poster,
    - title, abstract of the poster or talk he/she would like to present, 
    - his/her short bio,
    - his/her agreement to the Rules of Call for Contributions (consent to the provisions of the Rules of Call for Contributions, consent to the processing of personal data for the purposes of the Competition).
-4. The Participant can optionally provide information about his/her previous talks, a photo that will be used to promote the talk on our website and personal data of co-authors of the talk or poster.
-5. The Organizer reserves the right to decide on where the Participants will present,  either at the Conference or Workshop. Every presentation will take place onsite.
-6. The Participant declares that the poster or talk he/she would like to present does not contain content that violates the law and does not violate good morals, in particular, does not violate the rights of third parties, does not call for violence, intolerance, vulgarity or advertising content of third parties.
-7. Only works related to the subject of the Competition meeting the conditions referred to in the Rules of Call for Contributions, for which the Participant holds the copyright, may be submitted to the Competition.
-8. The Organizers committee will evaluate the submission and accept posters and talks to be presented at the Conference by 14 August 2026. This date can be prolonged in justified cases.
-9. The scientific, cognitive, and practical values play a key role in posters and talks acceptance for the Conference. For the Student Research Workshop, the talks of students pursuing Bachelor, Engineer or Master degree may be incentivized over Doctoral candidates.
-10. Accepted Participants will be notified by e-mail and will receive one free Conference ticket.
-11. Up to three co-authors of the accepted talks or posters (indicated in the submission) will be provided with an option to purchase a discounted ticket to the Conference, at the price of an Early Bird pass. 
-12. In case the Participant is unable to attend the Conference, his free Conference ticket can be transferred to another person, provided this person presents the accepted work. To transfer a ticket, the Participant needs to inform the Organizer by mail <contributions@conference.mlinpl.org> and provide information on the person, to whom the right to attend the Conference will be transferred to.
-13. The author(s) of an accepted poster or talk is obliged to provide a digital version of the poster or/and presentation in PDF format by 30 September 2026 (hereinafter, the "Competition Work").
-14. The printed version of the poster has to be A0-size in a vertical orientation or smaller.
-15. The presentation of talks and posters will take place on 8-10 October 2026, during the Conference.  
-16. During registration, the Participant can agree to his presentation being publicly shared on the Conference website.
+7. The Participant can optionally provide information about his/her previous talks, a photo that will be used to promote the talk on our website and personal data of co-authors of the talk or poster.
+8. The Organizer reserves the right to decide on where the Participants will present,  either at the Conference or Workshop. Every presentation will take place onsite.
+9. The Participant declares that the poster or talk he/she would like to present does not contain content that violates the law and does not violate good morals, in particular, does not violate the rights of third parties, does not call for violence, intolerance, vulgarity or advertising content of third parties.
+10. Only works related to the subject of the Competition meeting the conditions referred to in the Rules of Call for Contributions, for which the Participant holds the copyright, may be submitted to the Competition.
+11. The Organizers committee will evaluate the submission and accept posters and talks to be presented at the Conference by 14 August 2026. This date can be prolonged in justified cases.
+12. The scientific, cognitive, and practical values play a key role in posters and talks acceptance for the Conference. For the Student Research Workshop, the talks of students pursuing Bachelor, Engineer or Master degree may be incentivized over Doctoral candidates.
+13. Accepted Participants will be notified by e-mail and will receive one free Conference ticket.
+14. Up to three co-authors of the accepted talks or posters (indicated in the submission) will be provided with an option to purchase a discounted ticket to the Conference, at the price of an Early Bird pass. 
+15. In case the Participant is unable to attend the Conference, his free Conference ticket can be transferred to another person, provided this person presents the accepted work. To transfer a ticket, the Participant needs to inform the Organizer by mail <contributions@conference.mlinpl.org> and provide information on the person, to whom the right to attend the Conference will be transferred to.
+16. The author(s) of an accepted poster or talk is obliged to provide a digital version of the poster or/and presentation in PDF format by 30 September 2026 (hereinafter, the "Competition Work").
+17. The printed version of the poster has to be A0-size in a vertical orientation or smaller.
+18. The presentation of talks and posters will take place on 8-10 October 2026, during the Conference.  
+19. During registration, the Participant can agree to his presentation being publicly shared on the Conference website.
 
 
 ## § 5. Awards
