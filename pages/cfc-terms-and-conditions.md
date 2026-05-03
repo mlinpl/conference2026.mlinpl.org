@@ -23,7 +23,7 @@ Rules of contributed talks, posters, student research workshop acceptance to {{ 
 ## § 2. Entities involved in the organization of the Competition
 
 1. The organizer of the Competition is **_ML in PL Association_** (legal name: Stowarzyszenie ML in PL) (hereinafter, the "Organizer"), who has appointed a competition’s committee.
-2. The Organizer will appoint an awards committee (hereinafter the "Commission") that might include, i.a., Advisory Board members ({{ "/#advisory-board" | relative_url }}), Invited Speakers ({{ "/#invited-speakers" | relative_url }}) and Organizer representants ({{ "/#organizers" | relative_url }}).
+2. The Organizer will appoint an awards committee (hereinafter the "Commission") that might include, i.a., [Advisory Board members]({{ "/#advisory-board" | relative_url }}), [Invited Speakers]({{ "/#invited-speakers" | relative_url }}) and [Organizer representants]({{ "/#organizers" | relative_url }}).
 
 
 ## § 3. Conditions for taking part in the Competition
@@ -36,7 +36,7 @@ Rules of contributed talks, posters, student research workshop acceptance to {{ 
 ## § 4. The rules and the course of the Competition
 
 1. The registration for the Competition will be open from 4 May 2026 and end on 31 July 2026 AOE (hereinafter, the "Duration of the Competition").
-2. Registration for the Competition takes place via the registration form in the Call for Contribution section available at https://conference.mlinpl.org/2026/cfc/
+2. Registration for the Competition takes place via the registration form available in the [Call for Contributions]({{ "./call-for-contributions" | relative_url }}) section.
 3. Participation in the Competition requires having an account on OpenReview website, through which submissions are made. Creating an account and submitting an application is voluntary, but required in order to take part in the Competition. The Participant is obliged to create such an account independently prior to submission. In the case of non-academic accounts, the verification and activation process may take up to 2 weeks.
 4. The Organizer shall not be held responsible for any inability to submit a contribution resulting from delays in the registration or activation process on OpenReview.
 5. The Participant is also required to read and accept the [OpenReview Terms of Use](https://openreview.net/legal/terms) and its [Privacy Policy](https://openreview.net/legal/privacy).
