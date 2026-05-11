@@ -34,7 +34,7 @@ We believe in the inclusive nature of machine learning research and aim to provi
 7. Technical Solutions and Machine Learning Resources: Architectures, Competitions, Data Sets and Repositories, Distributed Machine Learning, Implementations, Software Toolkits, etc.
 8. Machine Learning Stories: Interesting and insightful competitions, projects, and start-up stories!
 
-**The talks at the Main Conference should have a length of 20 minutes + 5 minutes for questions. For the poster presentation, we will hold two 1.5-hour sessions during the 2nd and 3rd day of the conference. Student Research Workshop talks should take around 15 minutes + 5 minutes for questions.** To participate in the Call for Contributions, we ask you to provide the title of your talk/poster proposal, an abstract of 300-3500 characters, your preference towards talk or poster, a short bio, a photo, and a list of your previous talks. Talks and posters should be in English. The submission deadline is 31 July 2026. With the help of the Contributions Committee, we will select the best proposals.
+**The talks at the Main Conference should have a length of 20 minutes + 5 minutes for questions. For the poster presentation. Student Research Workshop talks should take 15 minutes + 5 minutes for questions.** To participate in the Call for Contributions, we ask you to provide the title of your talk/poster proposal, an abstract of 300-3500 characters, your preference towards talk or poster, a short bio, a photo, and a list of your previous talks. Talks and posters should be in English. The submission deadline is 31 July 2026. With the help of the Contributions Committee, we will select the best proposals.
 
 ## / Acceptance criteria
 
@@ -63,7 +63,7 @@ The co-authors of accepted papers will have a guaranteed option to buy the ticke
 
 ## / Awards
 
-The best contributed talks and posters from the Main Conference will be awarded. The winners will be decided by the audience votes.
+The best contributed talks and posters from the Main Conference will be awarded.
 
 <!-- ## / Submit your talk/poster proposal
 
@@ -84,6 +84,6 @@ Join us in shaping **{{ site.inline-logo }}**! -->
 
 ## / Instructions for preparing Contributed Talk and Poster
 
-**The exact guidelines for preparing your talk and poster can be found [here]({{ "./cfc-instructions" | relative_url }}).**
+The exact guidelines for preparing your talk and poster can be found [here]({{ "./cfc-instructions" | relative_url }}).
 
 You can contact us at <a href="mailto:contributions@conference.mlinpl.org">contributions@conference.mlinpl.org</a> in case you have any further questions regarding Call for Contributions. We look forward to your submissions and wish you good luck!
