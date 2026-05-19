@@ -1,7 +1,7 @@
 # State settings
 # Represents the state of the conference.
 # Dynamically controls visibility and content of the site sections.
-invited-speakers: # options: null, "first", "all"
+invited-speakers: "first" # options: null, "first", "all"
 cfc: "open" # options: null, "open", "closed", "after" (the conference)
 tickets: false # options: true, false
 agenda: # options: null, "draft", "full"

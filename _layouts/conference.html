@@ -20,7 +20,6 @@
 
         {% include conference/about.html %}
 
-        {% comment %}
         {% if site.data.state.invited-speakers %}
         {% assign more_are_coming = true %}
         {% if site.data.state.invited-speakers == "all" %}
@@ -28,7 +27,6 @@
         {% endif %}
         {% include conference/invited-speakers-slider.html more-are-coming=more_are_coming %}
         {% endif %}
-        {% endcomment %}
 
         {% comment %}
         {% include conference/panels-slider.html %}
