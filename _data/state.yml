@@ -1,4 +1,5 @@
 # State settings
+#
 # Represents the state of the conference.
 # Dynamically controls visibility and content of the site sections.
 invited-speakers: "first" # options: null, "first", "all"
