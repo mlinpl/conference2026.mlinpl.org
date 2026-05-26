@@ -14,14 +14,22 @@ When changes are merged into the `main` branch of this repository, it should tri
 
 ## Local setup
 
+**Option 1: Using Docker**
+
 1. Clone the repository.
-2. Install Ruby dependencies:
+2. Run with the existing `Dockerfile`.
+
+**Option 2: Local Ruby environment**
+
+1. Clone the repository.
+2. Setup Ruby (refer to the README at https://github.com/mlinpl/mlinpl-jekyll-theme).
+3. Install Ruby dependencies:
 
 ```bash
 bundle install
 ```
 
-3. Run the local build and preview server:
+4. Run the local build and preview server:
 
 ```bash
 bash run_locally.sh
@@ -39,7 +47,7 @@ This script:
 git switch -c feature/short-description
 ```
 
-2. Make your focused changes. 
+2. Make your changes. 
    - Content and data can be found in `_data/`, `pages/`, `_includes/` and `_layouts/`.
 3. Verify your changes locally by checking `http://localhost:4000` (ensure `bash run_locally.sh` is running).
 4. Commit with a clear and concise message.
@@ -49,6 +57,8 @@ Suggested branch prefixes:
 - `feature/...`
 - `fix/...`
 - `chore/...`
+
+When adding images, use optimized versions via `bash scripts/optimize_images_without_overwrite.sh`.
 
 ## Troubleshooting
 
