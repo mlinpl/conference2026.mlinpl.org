@@ -28,6 +28,12 @@
   x: ""
   image: "images/optimized/organizers-300x300/WeronikaOrmaniec.webp"
 
+- name: "Krysia Paszko"
+  title: "Legal Team Coordinator"
+  linkedin: "https://www.linkedin.com/in/krystyna-paszko/"
+  x: ""
+  image: "images/optimized/organizers-300x300/KrysiaPaszko.webp"
+
 - name: "Arkadiusz Paterak"
   title: "Website Team Coordinator"
   linkedin: "https://www.linkedin.com/in/arkadiusz-paterak/"
@@ -75,12 +81,6 @@
   linkedin: "https://www.linkedin.com/in/m-borowski/"
   x: ""
   image: "images/optimized/organizers-300x300/MateuszBorowski.webp"
-
-- name: "Franciszek Budrowski"
-  title: "Speakers Team"
-  linkedin: "https://www.linkedin.com/in/fbudrowski/"
-  x: ""
-  image: "images/optimized/organizers-300x300/FranciszekBudrowski.webp"
 
 - name: "Magdalena Cebula"
   title: "Marketing Team"
@@ -166,6 +166,12 @@
   x: ""
   image: "images/optimized/organizers-300x300/MaciejKaczkowski.webp"
 
+- name: "Ola Kalisz"
+  title: "Speakers Team"
+  linkedin: "https://www.linkedin.com/in/aleksandrakalisz/"
+  x: "https://x.com/OlaKalisz8"
+  image: "images/optimized/organizers-300x300/OlaKalisz.webp"
+
 - name: "Başak Kaplan"
   title: "Marketing Team"
   linkedin: "https://www.linkedin.com/in/ba%C5%9Fak-kaplan-/"
@@ -241,7 +247,7 @@
 - name: "Emilia Wiśnios"
   title: "Marketing Team / Board Member"
   linkedin: "https://www.linkedin.com/in/emilia-wisnios/"
-  twitter: "https://twitter.com/wisnios_emilia"
+  x: "https://twitter.com/wisnios_emilia"
   image: "images/optimized/organizers-300x300/EmiliaWisnios.webp"
 
 - name: "Dima Zhylko"

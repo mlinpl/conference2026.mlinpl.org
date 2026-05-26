@@ -21,9 +21,9 @@
                     
                     {% if site.header.countdown-overwrite.active == true %}
                     <h3 id="event-countdown" class="event-countdown">
-                        {% if site.state.aftermovie %}
+                        {% if site.data.state.aftermovie %}
                             {% assign message = site.header.countdown-overwrite.post-event-message.with-aftermovie %}
-                        {% elsif site.state.photos %}
+                        {% elsif site.data.state.photos %}
                             {% assign message = site.header.countdown-overwrite.post-event-message.with-photos %}
                         {% else %}
                             {% assign message = site.header.countdown-overwrite.post-event-message.default %}
@@ -43,9 +43,9 @@
                     {% endif %}
 
                     {% comment %} Select arrow destination based on conference phase {% endcomment %}
-                    {% if site.state.aftermovie %}
+                    {% if site.data.state.aftermovie %}
                         {% assign arrow_url = site.header.arrow-destinations.after-event %}
-                    {% elsif site.state.tickets == true %}
+                    {% elsif site.data.state.tickets == true %}
                         {% assign arrow_url = site.header.arrow-destinations.during-tickets %}
                     {% else %}
                         {% assign arrow_url = site.header.arrow-destinations.before-tickets %}

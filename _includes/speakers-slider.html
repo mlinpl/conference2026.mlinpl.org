@@ -2,7 +2,7 @@
 Expects following parameters:
     section-id
     section-title
-    speakers-data (with name, title, image, bio)
+    speakers-data (with name, affiliation, image, bio)
     more-is-coming
 {% endcomment %}
 
@@ -19,11 +19,11 @@ Expects following parameters:
                 <div class="row slider-item-content" data-index="{{ forloop.index0 }}">
                     <!-- Speaker details will be displayed here when a speaker is selected -->
                     <div class="speaker-details-image col-md-4">
-                        <img src="{{ speaker.image }}" alt="{{ speaker.name }} photo" class="person-photo width-100 width-max-350px">
+                        <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }} photo" class="person-photo width-100 width-max-350px">
                     </div>
                     <div class="speaker-details-text col-md-8">
                         <h2 class="emph-i">{{ speaker.name }}</h2>
-                        <h3>{{ speaker.title }}</h3>
+                        <h3>{{ speaker.affiliation }}</h3>
                         {% if speaker.bio-intro and speaker.bio-more %}
                             <input type="checkbox" class="read-more-state" id="{{ speaker.name | replace: ' ','-' }}-bio" />
                             <p class="read-more-wrap">{{ speaker.bio-intro }} <span class="read-more-target">{{ speaker.bio-more }}</span>
@@ -55,7 +55,7 @@ Expects following parameters:
                                 {{ speaker.name }}
                             </span></br>
                             <span class="speaker-title">
-                                {{ speaker.title }}
+                                {{ speaker.affiliation }}
                             </span>
                         </div>
                     </div>
