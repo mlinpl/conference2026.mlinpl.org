@@ -37,9 +37,7 @@
 #     - name: ElevenLabs
 #       image: "images/optimized/sponsors-600x600/ElevenLabs.svg"
 #       url: "https://elevenlabs.io"
-#     - name: Jane Street
-#       image: "images/optimized/sponsors-600x600/JaneStreet.webp"
-#       url: "https://www.janestreet.com"
+
 #     - name: OLX
 #       image: "images/optimized/sponsors-600x600/OLX.webp"
 #       url: "https://www.olxgroup.com/"
@@ -52,9 +50,6 @@
 #     - name: RTB House
 #       image: "images/optimized/sponsors-600x600/RTBHouse.webp"
 #       url: "https://www.rtbhouse.com/careers-offers?department=it_rnd"
-#     - name: TCL Research Europe
-#       image: "images/optimized/sponsors-600x600/TCL.webp"
-#       url: "https://tcl-research.pl"
 # #     - name: Raiffeisen Tech
 # #       image: "images/optimized/sponsors-600x600/RaiffeisenTech.webp"
 # #       url: "https://www.raiffeisen-tech.com/pl/pl/tech.html"
@@ -68,11 +63,17 @@
 # #       image: "images/optimized/sponsors-600x600/IdeasNCBR.webp"
 # #       url: "https://ideas-ncbr.pl/en"
 
-# - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
-#   imageMaxWidth: 270px
-#   imageMaxHeight: 70px
-#   margin: 30px 50px
-#   sponsors:
+- title: '/ <span class="silver-shine-text">Silver sponsors</span>'
+  imageMaxWidth: 270px
+  imageMaxHeight: 70px
+  margin: 30px 50px
+  sponsors:
+    - name: Jane Street
+      image: "images/optimized/sponsors-600x600/JaneStreet.webp"
+      url: "https://www.janestreet.com"
+    - name: TCL Research Europe
+      image: "images/optimized/sponsors-600x600/TCL.webp"
+      url: "https://tcl-research.pl"
 #     - name: AI Clearing
 #       image: "images/optimized/sponsors-600x600/AIClearing.webp"
 #       url: "https://aiclearing.com/"
