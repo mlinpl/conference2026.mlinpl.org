@@ -64,8 +64,8 @@
 # #       url: "https://ideas-ncbr.pl/en"
 
 - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
-  imageMaxWidth: 270px
-  imageMaxHeight: 70px
+  imageMaxWidth: 280px
+  imageMaxHeight: 90px
   margin: 30px 50px
   sponsors:
     - name: Jane Street
