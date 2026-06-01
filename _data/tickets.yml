@@ -1,23 +1,23 @@
 early-bird:
   name: "Early bird application"
   icon: "fa-solid fa-pen-to-square"
-  description: >-
+  description: |-
     Registration preceded by <strong>a selective application process</strong>, 
-    open from 1&nbsp;May, 18:00 CEST (GMT+2) 
-    until 31&nbsp;July, 23:59 CEST (GMT+2). 
+    open from 1&nbsp;June 
+    until 31&nbsp;July, 23:59 (AOE).<br><br>
   prices:
     student: "350 PLN"
     regular: "700 PLN"
   price_label: "Early Bird Price"
-  active: false
-  visible: false
-  url: "https://mlinpl2025eb.paperform.co/"
+  active: true
+  visible: true
+  url: "https://mlinpl2026earlybird.paperform.co/"
 
 regular:
   name: "Regular registration"
   icon: "fa-solid fa-ticket"
   description: >-
-    First-come, first-served registration, which starts 25&nbsp;August, 18:00 CEST (GMT+2) 
+    First-come, first-served registration, which starts 24&nbsp;August, 18:00 CEST (GMT+2) 
     and lasts until all tickets are sold out.
   prices:
     student: "500 PLN"
@@ -25,7 +25,7 @@ regular:
   price_label: "Regular Price"
   active: false
   visible: true
-  url: "https://app.evenea.pl/event/mlinpl25/"
+  url:
 
 late:
   name: "Late registration"
@@ -33,14 +33,14 @@ late:
   description: >-
     Missed out on ticket sales?
     We've set aside a very limited number of tickets just for you. 
-    Available from 1&nbsp;October, 18:00 CEST (GMT+2).
+    Available from 23&nbsp;September, 18:00 CEST (GMT+2).
   prices:
-    student: "1400 PLN"
-    regular: "1400 PLN"
+    student: "1500 PLN"
+    regular: "1500 PLN"
   price_label: "Late Price"
   active: false
   visible: true
-  url: "https://app.evenea.pl/event/mlinpl25/"
+  url:
 
 tutorials:
   name: "Tutorial registration"
@@ -55,5 +55,5 @@ tutorials:
     regular: "120 PLN"
   price_label: "Price"
   active: false
-  visible: true
-  url: "https://app.evenea.pl/event/mlinpl25-tutorials/"
+  visible: false
+  url:
