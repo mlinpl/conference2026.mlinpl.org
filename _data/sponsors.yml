@@ -29,11 +29,14 @@
 #       image: "images/optimized/sponsors-600x600/Tooploox.webp"
 #       url: "https://www.tooploox.com/"
 
-# - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
-#   imageMaxWidth: 280px
-#   imageMaxHeight: 90px
-#   margin: 30px 45px
-#   sponsors:
+- title: '/ <span class="gold-shine-text">Gold sponsors</span>'
+  imageMaxWidth: 280px
+  imageMaxHeight: 95px
+  margin: 30px 45px
+  sponsors:
+    - name: CISPA Hemholtz Center for Information Security
+      image: "images/optimized/sponsors-600x600/CISPA.webp"
+      url: "https://cispa.de/en/"
 #     - name: ElevenLabs
 #       image: "images/optimized/sponsors-600x600/ElevenLabs.svg"
 #       url: "https://elevenlabs.io"
@@ -65,7 +68,7 @@
 
 - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
   imageMaxWidth: 280px
-  imageMaxHeight: 90px
+  imageMaxHeight: 85px
   margin: 30px 50px
   sponsors:
     - name: Jane Street
