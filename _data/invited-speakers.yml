@@ -21,3 +21,11 @@
     https://scholar.google.com/citations?user=eSPY8LwAAAAJ&hl=en
   linkedin:
     https://www.linkedin.com/in/razvan-pascanu/
+
+- name: Emanuele Rodolà
+  affiliation: Sapienza University of Rome
+  image: images/optimized/speakers-600x600/EmanueleRodola.webp
+  bio-intro: >-
+    Emanuele Rodolà is a Full Professor of Computer Science at Sapienza University of Rome, where he leads the GLADIA AI group. His work in this field has been supported by an ERC grant, a FIS grant, and a Google Research Award. In the past, he was a postdoctoral researcher at USI Lugano (2016–2017), an Alexander von Humboldt Fellow at TU Munich (2013–2016), and a JSPS Research Fellow at the University of Tokyo (2013), in addition to visiting periods at Tel Aviv University, Technion, École Polytechnique, and Stanford. He is a fellow of ELLIS and a fellow of the Young Academy of Europe. 
+  bio-more: >-
+    Professor Rodolà has received numerous awards for his research and plays an active role in the academic community, serving on program committees and as Area Chair for major conferences in AI and ML. His current research focuses primarily on neural model fusion, representation learning, language models, ML for audio, and multimodal learning, with around 190 publications in these areas. His work has been featured in media outlets including Fortune, Wired, Italian national broadcast and newspapers.
