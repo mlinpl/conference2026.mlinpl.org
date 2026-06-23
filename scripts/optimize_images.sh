@@ -2,6 +2,23 @@
 
 ROOT_DIR=$( realpath $( dirname "${BASH_SOURCE[0]}" ) )/..
 
+# Default value for overwrite is false (do not overwrite)
+OVERWRITE=false
+
+# Parse command line arguments
+while getopts ":o" opt; do
+  case ${opt} in
+    o )
+      OVERWRITE=true
+      ;;
+    \? )
+      echo "Usage: $0 [-o]"
+      echo "  -o    Overwrite existing optimized image files"
+      exit 1
+      ;;
+  esac
+done
+
 optimize_images () {
     directory=$1
     size=$2
@@ -17,18 +34,22 @@ optimize_images () {
 
     echo "Optimizing images in images/${1}, saving to images/optimized/${1}-${2} ..."
     
-    mkdir -p images/optimized
-    rm -rf $output_directory
-    cp -r $input_directory $output_directory
-    cd $output_directory
-    GLOBIGNORE="*.svg"
-    #mogrify -resize ${size}^ -gravity Center -extent ${size} -format ${format} -quality ${quality} *
-    mogrify -adaptive-resize ${size}\> -format ${format} -quality ${quality} *
-    rm -f *.jpg *.jpeg *.png *.gif
-    unset GLOBIGNORE
-    cd $ROOT_DIR
-}
+    mkdir -p "$output_directory"
 
+    cd "$input_directory"
+    for file in *; do
+        if [[ "$file" != *.svg ]]; then
+            output_file="${output_directory}/${file%.*}.${format}"
+            if [ "$OVERWRITE" = true ] || [ ! -f "$output_file" ]; then
+                echo "Processing $file..."
+                convert "$file" -adaptive-resize "${size}>" -quality "${quality}" "$output_file"
+            else
+                echo "Skipping $file (already exists)"
+            fi
+        fi
+    done
+    cd "$ROOT_DIR"
+}
 
 # Optimize images of organizers and advisory-board
 optimize_images organizers 300x300 webp 90
@@ -48,3 +69,4 @@ optimize_images honorary-patronages 600x600 webp 90
 
 # Optimize AI-generated images
 optimize_images ai-generated 800x800 webp 90
+optimize_images badge-game 800x800 webp 90

@@ -59,7 +59,7 @@ Suggested branch prefixes:
 - `chore/...`
 
 **When adding images use optimized versions.**
-Add the original files first under `images/`, run `bash scripts/optimize_images_without_overwrite.sh`, and refer to optimized versions from `images/optimized/` in the website content.
+Add the original files first under `images/`, run `bash scripts/optimize_images.sh`, and refer to optimized versions from `images/optimized/` in the website content.
 
 ## Troubleshooting
 
