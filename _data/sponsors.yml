@@ -136,13 +136,13 @@
     # - name: Minister of Digital Affairs
     #   image: "images/optimized/honorary-patronages-600x600/MinistryOfDigitialAffairs.webp"
     #   url: https://www.gov.pl/web/cyfryzacja/
-    # - name: Major of Warsaw
-    #   image: "images/honorary-patronages/MayorOfWarsaw.png"
-    #   # image: "images/honorary-patronages/PrezydentWarszawy.png"
-    #   url: https://en.um.warszawa.pl/
-    #   margin: 0 0
-    #   imageMaxWidth: 360px
-    #   imageMaxHeight: 220px
+    - name: Major of Warsaw
+      image: "images/honorary-patronages/MayorOfWarsaw.png"
+      # image: "images/honorary-patronages/PrezydentWarszawy.png"
+      url: https://en.um.warszawa.pl/
+      margin: 0 0
+      imageMaxWidth: 360px
+      imageMaxHeight: 220px
     - name: Centrum Nauki Kopernik
       image: "images/optimized/honorary-patronages-600x600/CNK.webp"
       url: "https://www.kopernik.org.pl/en"
