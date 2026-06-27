@@ -9,19 +9,27 @@ This section has 3 main states, parametrised with include.state:
 <section id="calls" class="container content-section">
     <div class="row">
         <div class="col-md-12">
-            <h2>/ Call for Contributions (Talks, Posters and Tutorials)</h2>
+            <h2>/ Call for Contributions (Talks, Posters, and Tutorials)</h2>
 
             {% case include.state %}
                 <!-- When CfC starts -->
                 {% when "open" %}
-                    <p>
-                        We are very excited to invite all to submit proposals for talks, posters, and tutorials for {{ site.inline-logo }}!
+                    <p class="lead">
+                        We are very excited to invite all to submit proposals for {{ site.inline-logo }}!
                         Like every year, the majority of the conference program will be dedicated to presenting our participants' work and research.
                     </p>
-                    <p>
-                        If you would like to present a talk or a poster, please check the details of the <a href="{{ "/call-for-contributions" | relative_url }}"><strong>Call for Contributions</strong></a>. 
-                        And if you are interested in giving a tutorial, the details of <a href="{{ "/call-for-tutorials" | relative_url }}"><strong>Call for Tutorials</strong></a>.
+                    <p class="lead">
+                        <strong>Call for Contributions</strong> is open for talks and posters and <strong>Call for Tutorials</strong> is open for tutorial proposals.
                     </p>
+
+                    <div class="d-flex" style="gap: 3rem">
+                        <a href="{{ '/call-for-contributions' | relative_url }}" class="btn btn-default btn-lg">
+                            Present a talk or poster
+                        </a>
+                        <a href="{{ '/call-for-tutorials' | relative_url }}" class="btn btn-default btn-lg">
+                            Propose a tutorial
+                        </a>
+                    </div>
 
                 <!-- When CfC is closed -->
                 {% when "closed" %}
