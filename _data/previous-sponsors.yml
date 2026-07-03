@@ -108,3 +108,28 @@
 
 - name: ElevenLabs
   image: images/previous-sponsors/ElevenLabs.svg
+
+# old sponsors from here
+- name: Comarch
+  image: images/optimized/previous-sponsors-300x300/Comarch.webp
+
+- name: Google DeepMind
+  image: images/optimized/previous-sponsors-300x300/DeepMind.webp
+
+- name: Palto
+  image: images/previous-sponsors/Palto.svg
+
+- name: Semtic AI
+  image: images/previous-sponsors/SemticAI.svg
+
+- name: SII
+  image: images/optimized/previous-sponsors-300x300/Sii.webp
+
+- name: Hugging Face
+  image: images/optimized/previous-sponsors-300x300/HuggingFace.webp
+
+- name: LOT Polish Airlines
+  image: images/optimized/previous-sponsors-300x300/LOT.webp
+
+- name: OCTO Legal
+  image: images/optimized/previous-sponsors-300x300/OCTOLegal.webp
