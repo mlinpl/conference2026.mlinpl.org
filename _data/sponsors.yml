@@ -16,9 +16,9 @@
 #     - name: Allegro
 #       image: "images/optimized/sponsors-600x600/Allegro.webp"
 #       url: https://ml.allegro.tech
-#     - name: G-Research
-#       image: "images/optimized/sponsors-600x600/GResearch.webp"
-#       url: "https://www.gresearch.com"
+    # - name: G-Research
+    #   image: "images/optimized/sponsors-600x600/GResearch.webp"
+    #   url: "https://www.gresearch.com"
 #     - name: Snowflake
 #       image: "images/optimized/sponsors-600x600/Snowflake.webp"
 #       url: "https://www.snowflake.com/"
@@ -37,6 +37,9 @@
     - name: CISPA Hemholtz Center for Information Security
       image: "images/optimized/sponsors-600x600/CISPA.webp"
       url: "https://cispa.de/en/"
+    - name: G-Research
+      image: "images/optimized/sponsors-600x600/GResearch.webp"
+      url: "https://www.gresearch.com"
 #     - name: ElevenLabs
 #       image: "images/optimized/sponsors-600x600/ElevenLabs.svg"
 #       url: "https://elevenlabs.io"
@@ -86,18 +89,18 @@
 #     - name: Accenture
 #       image: "images/sponsors/Accenture.svg"
 #       url: "https://www.accenture.com/"
-#     - name: Google
-#       image: "images/optimized/sponsors-600x600/Google.webp"
-#       url: https://goo.gle/4f4Dmko
+    - name: Google
+      image: "images/optimized/sponsors-600x600/Google.webp"
+      url: https://goo.gle/4f4Dmko
 # #     - name: Palto
 # #       image: "images/optimized/sponsors-600x600/Palto.svg"
 # #       url: "https://palto.ai"
 # #     - name: Semtic AI
 # #       image: "images/optimized/sponsors-600x600/SemticAI.svg"
 # #       url: "https://semtic.ai"
-#     - name: SII
-#       image: "images/optimized/sponsors-600x600/Sii.webp"
-#       url: "https://sii.pl"
+    - name: SII
+      image: "images/optimized/sponsors-600x600/Sii.webp"
+      url: "https://sii.pl"
 
 - title: "/ Partners"
   imageMaxWidth: 280px
