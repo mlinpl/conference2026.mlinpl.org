@@ -80,6 +80,9 @@
     - name: TCL Research Europe
       image: "images/optimized/sponsors-600x600/TCL.webp"
       url: "https://tcl-research.pl"
+    - name: Cerebras
+      image: "images/optimized/sponsors-600x600/Cerebras.webp"
+      url: "https://www.cerebras.ai"
 #     - name: AI Clearing
 #       image: "images/optimized/sponsors-600x600/AIClearing.webp"
 #       url: "https://aiclearing.com/"
