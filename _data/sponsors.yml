@@ -38,7 +38,7 @@
       image: "images/optimized/sponsors-600x600/CISPA.webp"
       url: "https://cispa.de/en/"
     - name: G-Research
-      image: "images/optimized/sponsors-600x600/GResearch.webp"
+      image: "images/optimized/sponsors-600x600/G-Research.webp"
       url: "https://www.gresearch.com"
 #     - name: ElevenLabs
 #       image: "images/optimized/sponsors-600x600/ElevenLabs.svg"
@@ -83,6 +83,12 @@
     - name: Cerebras
       image: "images/optimized/sponsors-600x600/Cerebras.webp"
       url: "https://www.cerebras.ai"
+    - name: Google
+      image: "images/optimized/sponsors-600x600/Google.webp"
+      url: https://about.google
+    - name: SII
+      image: "images/optimized/sponsors-600x600/Sii.webp"
+      url: "https://sii.pl"
 #     - name: AI Clearing
 #       image: "images/optimized/sponsors-600x600/AIClearing.webp"
 #       url: "https://aiclearing.com/"
@@ -92,18 +98,12 @@
 #     - name: Accenture
 #       image: "images/sponsors/Accenture.svg"
 #       url: "https://www.accenture.com/"
-    - name: Google
-      image: "images/optimized/sponsors-600x600/Google.webp"
-      url: https://goo.gle/4f4Dmko
 # #     - name: Palto
 # #       image: "images/optimized/sponsors-600x600/Palto.svg"
 # #       url: "https://palto.ai"
 # #     - name: Semtic AI
 # #       image: "images/optimized/sponsors-600x600/SemticAI.svg"
 # #       url: "https://semtic.ai"
-    - name: SII
-      image: "images/optimized/sponsors-600x600/Sii.webp"
-      url: "https://sii.pl"
 
 - title: "/ Partners"
   imageMaxWidth: 280px
