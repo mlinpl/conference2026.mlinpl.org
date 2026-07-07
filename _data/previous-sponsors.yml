@@ -1,74 +1,65 @@
-- name: BCG Gamma 
-  image: images/optimized/previous-sponsors-300x300/BCGGamma.webp
+- name: Accenture
+  image: images/previous-sponsors/Accenture.svg
 
-- name: Quantum AI by McKinsey
-  image: images/optimized/previous-sponsors-300x300/QuantumBlackByMcK.webp
-
-- name: Allegro
-  image: images/optimized/previous-sponsors-300x300/Allegro.webp
-
-- name: Amazon
-  image: images/optimized/previous-sponsors-300x300/Amazon.webp
-
-- name: G-Research
-  image: images/optimized/previous-sponsors-300x300/GResearch.webp
-
-- name: IDEAS NCBR
-  image: images/optimized/previous-sponsors-300x300/IdeasNCBR.webp
-
-- name: RTB House
-  image: images/optimized/previous-sponsors-300x300/RTBHouse.webp
-
-- name: Pearson
-  image: images/optimized/previous-sponsors-300x300/Pearson.webp
-
-- name: Snowflake
-  image: images/optimized/previous-sponsors-300x300/Snowflake.webp
-
-- name: Samsung
-  image: images/optimized/previous-sponsors-300x300/Samsung.webp
-
-- name: Graphcore
-  image: images/optimized/previous-sponsors-300x300/Graphcore.webp
-
-- name: Nvidia
-  image: images/optimized/previous-sponsors-300x300/Nvidia.webp
-
-- name: Microsoft
-  image: images/optimized/previous-sponsors-300x300/Microsoft.webp
-
-- name: ByteDance
-  image: images/optimized/previous-sponsors-300x300/ByteDance.webp
-
-- name: TCL Research
-  image: images/optimized/previous-sponsors-300x300/TCL.webp
-
-- name: Jane Street
-  image: images/optimized/previous-sponsors-300x300/JaneStreet.webp
-
-- name: Goldman Sachs
-  image: images/optimized/previous-sponsors-300x300/GoldmanSachs.webp
-
-- name: alphamoon
-  image: images/optimized/previous-sponsors-300x300/alphamoon.webp
+- name: ASI
+  image: images/previous-sponsors/ASI.svg
 
 - name: AI Clearing
   image: images/optimized/previous-sponsors-300x300/AIClearing.webp
 
-- name: deepsense.ai
-  image: images/optimized/previous-sponsors-300x300/deepsense.ai.webp
+- name: Allegro
+  image: images/optimized/previous-sponsors-300x300/Allegro.webp
+
+- name: alphamoon
+  image: images/optimized/previous-sponsors-300x300/alphamoon.webp
+
+- name: Amazon
+  image: images/optimized/previous-sponsors-300x300/Amazon.webp
+
+- name: Appsilon
+  image: images/optimized/previous-sponsors-300x300/Appsilon.webp
+
+- name: BCG Gamma
+  image: images/optimized/previous-sponsors-300x300/BCGGamma.webp
 
 - name: Bites
   image: images/optimized/previous-sponsors-300x300/Bites.webp
 
+- name: ByteDance
+  image: images/optimized/previous-sponsors-300x300/ByteDance.webp
+
+- name: Comarch
+  image: images/optimized/previous-sponsors-300x300/Comarch.webp
+
+- name: cosmose
+  image: images/optimized/previous-sponsors-300x300/cosmose.webp
+
+- name: deepsense.ai
+  image: images/optimized/previous-sponsors-300x300/deepsense.ai.webp
+
+- name: Dialo
+  image: images/optimized/previous-sponsors-300x300/Dialo.webp
+
+- name: ElevenLabs
+  image: images/previous-sponsors/ElevenLabs.svg
+
+- name: Goldman Sachs
+  image: images/optimized/previous-sponsors-300x300/GoldmanSachs.webp
+
+- name: Graphcore
+  image: images/optimized/previous-sponsors-300x300/Graphcore.webp
+
 - name: Hewlett Packard Enterprise
   image: images/optimized/previous-sponsors-300x300/HPE.webp
 
-- name: Quickchat
-  image: images/optimized/previous-sponsors-300x300/Quickchat.webp
+- name: IDEAS NCBR
+  image: images/optimized/previous-sponsors-300x300/IdeasNCBR.webp
 
-- name: NASK
-  image: images/optimized/previous-sponsors-300x300/NASK.webp
+- name: InPost
+  image: images/optimized/previous-sponsors-300x300/InPost.webp
+
+- name: Jane Street
+  image: images/optimized/previous-sponsors-300x300/JaneStreet.webp
 
 - name: JIT Team
   image: images/optimized/previous-sponsors-300x300/JITTeam.webp
@@ -76,35 +67,71 @@
 - name: Lingaro
   image: images/optimized/previous-sponsors-300x300/Lingaro.webp
 
-- name: nomagic
-  image: images/optimized/previous-sponsors-300x300/nomagic.webp
+- name: Microsoft
+  image: images/optimized/previous-sponsors-300x300/Microsoft.webp
 
-- name: cosmose
-  image: images/optimized/previous-sponsors-300x300/cosmose.webp
-
-- name: Appsilon
-  image: images/optimized/previous-sponsors-300x300/Appsilon.webp
-
-- name: ReSpo Vison
-  image: images/optimized/previous-sponsors-300x300/ReSpoVision.webp
-
-- name: InPost
-  image: images/optimized/previous-sponsors-300x300/InPost.webp
-
-- name: softserve
-  image: images/optimized/previous-sponsors-300x300/softserve.webp
-
-- name: sentione
-  image: images/optimized/previous-sponsors-300x300/sentione.webp
-
-- name: Tooploox
-  image: images/optimized/previous-sponsors-300x300/Tooploox.webp
-
-- name: sumo logic
-  image: images/optimized/previous-sponsors-300x300/sumologic.webp
+- name: NASK
+  image: images/optimized/previous-sponsors-300x300/NASK.webp
 
 - name: nethone
   image: images/optimized/previous-sponsors-300x300/nethone.webp
 
-- name: ElevenLabs
-  image: images/previous-sponsors/ElevenLabs.svg
+- name: Nvidia
+  image: images/optimized/previous-sponsors-300x300/Nvidia.webp
+
+- name: nomagic
+  image: images/optimized/previous-sponsors-300x300/nomagic.webp
+
+- name: OLX
+  image: images/optimized/previous-sponsors-300x300/OLX.webp
+
+- name: Palto
+  image: images/previous-sponsors/Palto.svg
+
+- name: Pearson
+  image: images/optimized/previous-sponsors-300x300/Pearson.webp
+
+- name: QRT
+  image: images/optimized/previous-sponsors-300x300/QRT.webp
+
+- name: Quantum AI by McKinsey
+  image: images/optimized/previous-sponsors-300x300/QuantumBlackByMcK.webp
+
+- name: Quickchat
+  image: images/optimized/previous-sponsors-300x300/Quickchat.webp
+
+- name: RaiffeisenTech
+  image: images/optimized/previous-sponsors-300x300/RaiffeisenTech.webp
+
+- name: ReSpo Vison
+  image: images/optimized/previous-sponsors-300x300/ReSpoVision.webp
+
+- name: RTB House
+  image: images/optimized/previous-sponsors-300x300/RTBHouse.webp
+
+- name: Samsung
+  image: images/optimized/previous-sponsors-300x300/Samsung.webp
+
+- name: Semtic AI
+  image: images/previous-sponsors/SemticAI.svg
+
+- name: sentione
+  image: images/optimized/previous-sponsors-300x300/sentione.webp
+
+- name: Snowflake
+  image: images/optimized/previous-sponsors-300x300/Snowflake.webp
+
+- name: softserve
+  image: images/optimized/previous-sponsors-300x300/softserve.webp
+
+- name: sumo logic
+  image: images/optimized/previous-sponsors-300x300/sumologic.webp
+
+- name: TCL Research
+  image: images/optimized/previous-sponsors-300x300/TCL.webp
+
+- name: Tenstorrent
+  image: images/optimized/previous-sponsors-300x300/Tenstorrent.webp
+
+- name: Tooploox
+  image: images/optimized/previous-sponsors-300x300/Tooploox.webp

@@ -16,9 +16,9 @@
 #     - name: Allegro
 #       image: "images/optimized/sponsors-600x600/Allegro.webp"
 #       url: https://ml.allegro.tech
-#     - name: G-Research
-#       image: "images/optimized/sponsors-600x600/GResearch.webp"
-#       url: "https://www.gresearch.com"
+    # - name: G-Research
+    #   image: "images/optimized/sponsors-600x600/GResearch.webp"
+    #   url: "https://www.gresearch.com"
 #     - name: Snowflake
 #       image: "images/optimized/sponsors-600x600/Snowflake.webp"
 #       url: "https://www.snowflake.com/"
@@ -37,6 +37,9 @@
     - name: CISPA Hemholtz Center for Information Security
       image: "images/optimized/sponsors-600x600/CISPA.webp"
       url: "https://cispa.de/en/"
+    - name: G-Research
+      image: "images/optimized/sponsors-600x600/G-Research.webp"
+      url: "https://www.gresearch.com"
 #     - name: ElevenLabs
 #       image: "images/optimized/sponsors-600x600/ElevenLabs.svg"
 #       url: "https://elevenlabs.io"
@@ -71,13 +74,22 @@
   imageMaxHeight: 85px
   margin: 30px 50px
   sponsors:
+    - name: Cerebras
+      image: "images/optimized/sponsors-600x600/Cerebras.webp"
+      url: "https://www.cerebras.ai"
+    - name: Google
+      image: "images/optimized/sponsors-600x600/Google.webp"
+      url: https://about.google
     - name: Jane Street
       image: "images/optimized/sponsors-600x600/JaneStreet.webp"
       url: "https://www.janestreet.com"
+    - name: SII
+      image: "images/optimized/sponsors-600x600/Sii.webp"
+      url: "https://sii.pl"
     - name: TCL Research Europe
       image: "images/optimized/sponsors-600x600/TCL.webp"
       url: "https://tcl-research.pl"
-#     - name: AI Clearing
+    # - name: AI Clearing
 #       image: "images/optimized/sponsors-600x600/AIClearing.webp"
 #       url: "https://aiclearing.com/"
 #     - name: Air Space Intelligence
@@ -86,24 +98,26 @@
 #     - name: Accenture
 #       image: "images/sponsors/Accenture.svg"
 #       url: "https://www.accenture.com/"
-#     - name: Google
-#       image: "images/optimized/sponsors-600x600/Google.webp"
-#       url: https://goo.gle/4f4Dmko
 # #     - name: Palto
 # #       image: "images/optimized/sponsors-600x600/Palto.svg"
 # #       url: "https://palto.ai"
 # #     - name: Semtic AI
 # #       image: "images/optimized/sponsors-600x600/SemticAI.svg"
 # #       url: "https://semtic.ai"
-#     - name: SII
-#       image: "images/optimized/sponsors-600x600/Sii.webp"
-#       url: "https://sii.pl"
 
 - title: "/ Partners"
   imageMaxWidth: 280px
   imageMaxHeight: 120px
   margin: 30px 45px
   sponsors:
+    - name: ELLIS Unit Warsaw
+      image: "images/optimized/partners-600x600/ellis_unit_warsaw.webp"
+      url: "https://ellis.eu/research/sites/unit-warsaw/"
+      margin: 0 0
+      imageMaxHeight: 180px
+    - name: IDEAS Research Institute
+      image: "images/optimized/partners-600x600/ideas_research_institute.webp"
+      url: "https://www.ideas.edu.pl/en/"
 #     - name: Hugging Face
 #       image: images/optimized/partners-600x600/HuggingFace.webp
 #       url: "https://huggingface.co/"
@@ -113,14 +127,6 @@
 #     - name: LOT Polish Airlines
 #       image: "images/optimized/sponsors-600x600/LOT.webp"
 #       url: "https://www.lot.com/pl/en"
-    - name: IDEAS Research Institute
-      image: "images/optimized/partners-600x600/ideas_research_institute.webp"
-      url: "https://www.ideas.edu.pl/en/"
-    - name: ELLIS Unit Warsaw
-      image: "images/optimized/partners-600x600/ellis_unit_warsaw.webp"
-      url: "https://ellis.eu/research/sites/unit-warsaw/"
-      margin: 0 0
-      imageMaxHeight: 180px
     # - name: OCTO Legal
     #   image: "images/optimized/sponsors-600x600/OCTOLegal.webp"
     #   url: "https://octolegal.com/"
@@ -136,6 +142,9 @@
     # - name: Minister of Digital Affairs
     #   image: "images/optimized/honorary-patronages-600x600/MinistryOfDigitialAffairs.webp"
     #   url: https://www.gov.pl/web/cyfryzacja/
+    - name: Centrum Nauki Kopernik
+      image: "images/optimized/honorary-patronages-600x600/CNK.webp"
+      url: "https://www.kopernik.org.pl/en"
     - name: Major of Warsaw
       image: "images/honorary-patronages/MayorOfWarsaw.png"
       # image: "images/honorary-patronages/PrezydentWarszawy.png"
@@ -143,9 +152,6 @@
       margin: 0 0
       imageMaxWidth: 360px
       imageMaxHeight: 220px
-    - name: Centrum Nauki Kopernik
-      image: "images/optimized/honorary-patronages-600x600/CNK.webp"
-      url: "https://www.kopernik.org.pl/en"
     # - name: University of Warsaw
     #   image: "images/honorary-patronages/UW.png"
     #   url: https://en.uw.edu.pl/
