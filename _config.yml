@@ -40,7 +40,7 @@ mlinpl-inline-logo: <span class="logo"><span class="main-name">ML&nbsp;<span cla
 header:
   heading-image: "/images/mlinpl-conference-2026-logo-black.png"
   heading-image-alt: "ML in PL Conference 2026"
-  date-location: 8 - 10 October / Copernicus Science Centre, Warsaw, Poland
+  date-location: 8 - 11 October / Copernicus Science Centre, Warsaw, Poland
 
   # Countdown settings
   countdown-date: "2026-10-08T08:00:00"
