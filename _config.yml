@@ -150,8 +150,10 @@ navigation:
       - name: "/ Join us"
         url: "https://mlinpl-recruitment.paperform.co/"
         target: "_blank"
+      - name: "/ Newsletter"
+        url: "#newsletter"
       - name: "/ Contact"
-        url: "#contact"    
+        url: "#contact"
 
 
 # Defaults for different pages
@@ -176,6 +178,10 @@ color:
 
 # Footer settings
 footer: ML in PL Association
+
+
+# Newsletter sign-up link
+newsletter-url: "https://mailchi.mp/mlinpl/subcribe-to-the-ml-in-pl-newsletter"
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
