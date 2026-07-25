@@ -25,7 +25,7 @@ email: contact@conference.mlinpl.org
 event-date: "2026-10-08T00:00:00"
 description: >-
   ML in PL Conference 2026 is an event focused on the best of Machine Learning both in academia and in business.
-main-image: images/mlinpl-conference-2026-logo-black.png
+main-image: images/mlinpl-conference-10th-edition-logo.png
 twitter-username: "@MLinPL"
 baseurl: "/2026" # the subpath of your site, e.g. /blog
 url: "https://conference.mlinpl.org" # the base hostname & protocol for your site, e.g. http://example.com
@@ -38,7 +38,7 @@ author:
 inline-logo: '<span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2026</span></span>'
 mlinpl-inline-logo: <span class="logo"><span class="main-name">ML&nbsp;<span class="emph">i</span>n&nbsp;PL</span></span>
 header:
-  heading-image: "/images/mlinpl-conference-2026-logo-black.png"
+  heading-image: "/images/mlinpl-conference-10th-edition-logo.png"
   heading-image-alt: "ML in PL Conference 2026"
   date-location: 8 - 11 October / Copernicus Science Centre, Warsaw, Poland
 
