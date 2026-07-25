@@ -88,15 +88,15 @@
     # - name: Faculty of Mathematics, Informatics and Mechanics, University of Warsaw
     #   image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
     #   url: https://www.mimuw.edu.pl/en/
+    - name: Faculty of Physics, University of Warsaw
+      image: "images/optimized/honorary-patronages-600x600/FUW.webp"
+      url: https://www.fuw.edu.pl/faculty-of-physics-home.html
     - name: Faculty of Mathematics and Information Science, Warsaw University of Technology
       image: "images/honorary-patronages/MiNIPW.png"
       url: https://ww4.mini.pw.edu.pl/
     # - name: Faculty of Electronics and Information Technology, Warsaw University of Technology
     #   image: "images/optimized/honorary-patronages-600x600/WEiTI.webp"
     #   url: https://www.elka.pw.edu.pl/eng/
-    - name: Faculty of Physics, University of Warsaw
-      image: "images/optimized/honorary-patronages-600x600/FUW.webp"
-      url: https://www.fuw.edu.pl/faculty-of-physics-home.html
 
 - title: "/ Media partners"
   imageMaxWidth: 215px
