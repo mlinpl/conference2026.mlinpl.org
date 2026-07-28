@@ -88,6 +88,9 @@
     # - name: Faculty of Mathematics, Informatics and Mechanics, University of Warsaw
     #   image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
     #   url: https://www.mimuw.edu.pl/en/
+    - name: SGH
+      image: "images/optimized/honorary-patronages-600x600/SGH.webp"
+      url: https://www.sgh.waw.pl/en
     - name: Faculty of Physics, University of Warsaw
       image: "images/optimized/honorary-patronages-600x600/FUW.webp"
       url: https://www.fuw.edu.pl/faculty-of-physics-home.html
