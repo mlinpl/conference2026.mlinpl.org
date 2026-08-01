@@ -47,7 +47,7 @@ Rules of contributed tutorials acceptance to the **ML in PL** CONFERENCE 2026 (h
 4. The Participant can optionally provide information about his/her previous presentations.
 5. The Participant declares that the tutorial he/she would like to present does not contain content that violates the law and does not violate good morals, in particular, does not violate the rights of third parties, does not call for violence, intolerance, vulgarity or advertising content of third parties.
 6. Only works related to the subject of the Competition meeting the conditions referred to in the Rules of Call for Tutorials, for which the Participant holds the copyright, may be submitted to the Competition.
-7. The Organizers committee will evaluate the submission and accept tutorials to be presented at the Conference by 14 August 2026.
+7. The Organizers committee will evaluate the submission and accept tutorials to be presented at the Conference by 14 August 2026. This date can be prolonged in justified cases.
 8. The scientific, cognitive, and practical values play a key role in tutorials acceptance for the Conference. Submissions from Participants affiliated with a research institution are preferred.
 9. Accepted Participants will be notified by e-mail and will receive two free Conference tickets.
 10. The author(s) of an accepted tutorial is obliged to provide a detailed outline of the tutorial at least 2 weeks before the Conference.
