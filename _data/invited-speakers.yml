@@ -62,3 +62,19 @@
     Bartosz Piotrowski is a Member of Technical Staff at Axiom Math, a Silicon Valley–based startup building verifiable AI. He is passionate about combining machine learning with symbolic reasoning techniques. In 2023, he defended his PhD thesis on this topic at Radboud University Nijmegen in the Netherlands.
   bio-more: >-
     Previously, he worked with the Automated Reasoning Group at the Czech Technical University, was a visiting researcher at Carnegie Mellon University, and held postdoctoral research positions at the IDEAS Institute in Warsaw, Poland, and at Meta FAIR in New York. In addition, Bartosz has a background in mathematics and philosophy.
+
+# - name: Valentina Boeva
+#   affiliation: ETH Zurich
+#   image: images/optimized/speakers-600x600/ValentinaBoeva.webp
+#   bio-intro: >-
+#     Dr. Valentina Boeva is a Tenure Track Assistant Professor at the Department of Computer Science, ETH Zurich, where she leads the Computational Cancer Genomics Group. Her research focuses on developing computational methods for multi-omics data integration to understand the epigenetic and transcriptional plasticity of cancer cells. 
+#   bio-more: >-
+#     Before joining ETH Zurich in 2019, Prof. Boeva led the Computational Epigenetics of Cancer laboratory at Inserm's Cochin Institute in Paris. She holds a Ph.D. in Bioengineering and Bioinformatics from Lomonosov Moscow State University. Throughout her career, Prof. Boeva has made contributions to the field of computational cancer genomics by developing methods for the analysis of DNA sequencing data, bulk and single-cell transcriptomics and epigenomics data, and, recently, spatial transcriptomics and proteomics.
+
+# - name: Lenka Zdeborová
+#   affiliation: EPFL
+#   image: images/optimized/speakers-600x600/LenkaZdeborova.webp
+#   bio-intro: >-
+#     Lenka Zdeborová is a Professor of Physics and Computer Science at École Polytechnique Fédérale de Lausanne, where she leads the Statistical Physics of Computation Laboratory. She received a PhD in physics from the University of Paris-Sud and Charles University in Prague in 2008. She spent two years in the Los Alamos National Laboratory as the Director's Postdoctoral Fellow. 
+#   bio-more: >-
+#     Between 2010 and 2020, she was a researcher at CNRS, working in the Institute of Theoretical Physics in CEA Saclay, France. In 2014, she was awarded the CNRS bronze medal, in 2016 Philippe Meyer prize in theoretical physics and an ERC Starting Grant, in 2018 the Irène Joliot-Curie prize, in 2021 the Gibbs lectureship of AMS and the Neuron Fund award, in 2025 she received an ERC Advanced Grant. Lenka's expertise is in the application of concepts from statistical physics, such as advanced mean field methods, the replica method, and related message-passing algorithms, to problems in machine learning, signal processing, inference, and optimization. Currently, she focuses on statistical physics of learning, developing solvable models and theoretical principles that explain how modern AI systems generalize, memorize, and scale. She enjoys erasing the boundaries between theoretical physics, mathematics and computer science.
