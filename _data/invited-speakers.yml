@@ -63,13 +63,13 @@
   bio-more: >-
     Previously, he worked with the Automated Reasoning Group at the Czech Technical University, was a visiting researcher at Carnegie Mellon University, and held postdoctoral research positions at the IDEAS Institute in Warsaw, Poland, and at Meta FAIR in New York. In addition, Bartosz has a background in mathematics and philosophy.
 
-# - name: Valentina Boeva
-#   affiliation: ETH Zurich
-#   image: images/optimized/speakers-600x600/ValentinaBoeva.webp
-#   bio-intro: >-
-#     Dr. Valentina Boeva is a Tenure Track Assistant Professor at the Department of Computer Science, ETH Zurich, where she leads the Computational Cancer Genomics Group. Her research focuses on developing computational methods for multi-omics data integration to understand the epigenetic and transcriptional plasticity of cancer cells. 
-#   bio-more: >-
-#     Before joining ETH Zurich in 2019, Prof. Boeva led the Computational Epigenetics of Cancer laboratory at Inserm's Cochin Institute in Paris. She holds a Ph.D. in Bioengineering and Bioinformatics from Lomonosov Moscow State University. Throughout her career, Prof. Boeva has made contributions to the field of computational cancer genomics by developing methods for the analysis of DNA sequencing data, bulk and single-cell transcriptomics and epigenomics data, and, recently, spatial transcriptomics and proteomics.
+- name: Valentina Boeva
+  affiliation: ETH Zurich
+  image: images/optimized/speakers-600x600/ValentinaBoeva.webp
+  bio-intro: >-
+    Dr. Valentina Boeva is a Tenure Track Assistant Professor at the Department of Computer Science, ETH Zurich, where she leads the Computational Cancer Genomics Group. Her research focuses on developing computational methods for multi-omics data integration to understand the epigenetic and transcriptional plasticity of cancer cells. 
+  bio-more: >-
+    Before joining ETH Zurich in 2019, Prof. Boeva led the Computational Epigenetics of Cancer laboratory at Inserm's Cochin Institute in Paris. She holds a Ph.D. in Bioengineering and Bioinformatics from Lomonosov Moscow State University. Throughout her career, Prof. Boeva has made contributions to the field of computational cancer genomics by developing methods for the analysis of DNA sequencing data, bulk and single-cell transcriptomics and epigenomics data, and, recently, spatial transcriptomics and proteomics.
 
 # - name: Lenka Zdeborová
 #   affiliation: EPFL
