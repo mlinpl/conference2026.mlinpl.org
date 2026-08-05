@@ -1,0 +1,25 @@
+# Venue settings
+#
+# Controls which venue is shown for the tutorials.
+# Change `tutorials` to one of the keys defined under `venues` below.
+
+tutorials: "fuw" # options: "mimuw", "fuw"
+
+venues:
+  mimuw:
+    name: "Faculty of Mathematics, Informatics and&nbsp;Mechanics, University of Warsaw"
+    url: "https://www.mimuw.edu.pl/en/"
+    address: "Stefana Banacha 2, 02-097 Warsaw"
+    map-url: "https://www.google.com/maps/place/Faculty+of+Mathematics,+Informatics,+and+Mechanics,+University+of+Warsaw/@52.211788,20.9796542,17z/data=!3m1!4b1!4m6!3m5!1s0x471eccba48f9a455:0xc6c3df3b1dba32be!8m2!3d52.2117847!4d20.9822291!16s%2Fg%2F122t68cc?entry=ttu&g_ep=EgoyMDI0MTAxNC4wIKXMDSoASAFQAw%3D%3D"
+    image: "./images/misc/mimuw-2-optimized.webp"
+    image-alt: "Faculty of Mathematics, Informatics and Mechanics, University of Warsaw"
+    image-credit:
+
+  fuw:
+    name: "Faculty of Physics, University of Warsaw"
+    url: "https://www.fuw.edu.pl/faculty-of-physics-home.html"
+    address: "Ludwika Pasteura 5, 02-093 Warsaw"
+    map-url: "https://maps.app.goo.gl/ZUf8muU9oLuehSvv7"
+    image: "./images/optimized/venue-800x800/FUW.webp"
+    image-alt: "Faculty of Physics, University of Warsaw"
+    image-credit: "Mirosław Kaźmierczak, © UW"
