@@ -33,30 +33,22 @@ Parameters:
 
     <!-- Tutorials Venue -->
     {% unless include.tutorials == false %}
+    {% assign tutorials_venue = site.data.venue.venues[site.data.venue.tutorials] %}
     <div class="row" style="margin-top: 55px;">
-        <!-- MIMUW -->
-        <!-- <div class="col-lg-8 col-lg-push-4">
-            <p>
-                The tutorials are held at the <a href="https://www.mimuw.edu.pl/en/" target="_blank"><strong>Faculty of Mathematics, Informatics and&nbsp;Mechanics, University of Warsaw</strong></a>.
-            </p>
-            <h4>
-                <i class="fa-solid fa-location-dot"></i> <a href="https://www.google.com/maps/place/Faculty+of+Mathematics,+Informatics,+and+Mechanics,+University+of+Warsaw/@52.211788,20.9796542,17z/data=!3m1!4b1!4m6!3m5!1s0x471eccba48f9a455:0xc6c3df3b1dba32be!8m2!3d52.2117847!4d20.9822291!16s%2Fg%2F122t68cc?entry=ttu&g_ep=EgoyMDI0MTAxNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Stefana Banacha 2, 02-097 Warsaw</a>
-            </h4>
-        </div> -->
-
-        <!-- FUW -->
         <div class="col-lg-8 col-lg-push-4">
             <p>
-                The tutorials are held at the <a href="https://www.fuw.edu.pl/faculty-of-physics-home.html" target="_blank"><strong>Faculty of Physics, University of Warsaw</strong></a>.
+                The tutorials are held at the <a href="{{ tutorials_venue.url }}" target="_blank"><strong>{{ tutorials_venue.name }}</strong></a>.
             </p>
             <h4>
-                <i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/ZUf8muU9oLuehSvv7" target="_blank">Ludwika Pasteura 5, 02-093 Warsaw</a>
+                <i class="fa-solid fa-location-dot"></i> <a href="{{ tutorials_venue.map-url }}" target="_blank">{{ tutorials_venue.address }}</a>
             </h4>
         </div>
         <div class="col-lg-4 col-lg-pull-8">
             <figure>
-                <img class="width-100 photo" src="{{ "./images/optimized/venue-800x800/FUW.webp" | relative_url }}" alt="Faculty of Physics, University of Warsaw">
-                <figcaption class="text-center small" style="margin-top: 0.5rem;">Mirosław Kaźmierczak, © UW</figcaption>
+                <img class="width-100 photo" src="{{ tutorials_venue.image | relative_url }}" alt="{{ tutorials_venue.image-alt }}">
+                {% if tutorials_venue.image-credit %}
+                <figcaption class="text-center small" style="margin-top: 0.5rem;">{{ tutorials_venue.image-credit }}</figcaption>
+                {% endif %}
             </figure>
         </div>
     </div>
