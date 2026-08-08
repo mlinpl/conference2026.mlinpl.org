@@ -1,8 +1,5 @@
-# Frequently Asked Questions shown on the /faq page.
-# Add new entries here; each one becomes an expandable accordion item.
-
 - question: "Can everybody buy an Early Bird ticket?"
-  answer: "No, access to Early Bird tickets requires a selective application process first. Apply and see if you qualify!"
+  answer: No, access to Early Bird tickets is preceded by a selective application process. Apply and see if you qualify!
 
 - question: "How many people attend the ML in PL Conference each year?"
   answer: "Each year, around 700 people from academia and industry attend the conference."
