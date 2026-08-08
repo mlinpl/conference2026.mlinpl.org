@@ -85,6 +85,8 @@ navigation:
         url: "/about-ml-in-pl-conference"
       # - name: "/ Photos"
       #   url: "/photos"
+      - name: "/ FAQ"
+        url: "/faq"
       - name: "/ Previous editions"
         subsites:
           - name: "/ 2025"
