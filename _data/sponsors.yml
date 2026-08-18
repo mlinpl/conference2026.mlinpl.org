@@ -15,6 +15,12 @@
     - name: CISPA Hemholtz Center for Information Security
       image: "images/optimized/sponsors-600x600/CISPA.webp"
       url: "https://cispa.de/en/"
+    - name: Bayer
+      image: "images/optimized/sponsors-600x600/Bayer.webp"
+      url: "https://www.bayer.com/en/about-us"
+    - name: Dhub
+      image: "images/optimized/sponsors-600x600/Dhub.webp"
+      url: "https://www.bayer.com/en/about-us"
     - name: G-Research
       image: "images/optimized/sponsors-600x600/G-Research.webp"
       url: "https://www.gresearch.com"
@@ -39,6 +45,9 @@
     - name: TCL Research Europe
       image: "images/optimized/sponsors-600x600/TCL.webp"
       url: "https://tcl-research.pl"
+    - name: Tooploox
+      image: "images/optimized/sponsors-600x600/Tooploox.webp"
+      url: "https://tooploox.com/about-us"
 
 - title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
   imageMaxWidth: 360px
@@ -51,6 +60,9 @@
     - name: Dropbox
       image: "images/sponsors/Dropbox.svg"
       url: "https://www.dropbox.com/about"
+    - name: Jetbrains
+      image: "images/optimized/sponsors-600x600/Jetbrains.webp"
+      url: "https://www.jetbrains.com/company/"
 
 - title: "/ Partners"
   imageMaxWidth: 280px
