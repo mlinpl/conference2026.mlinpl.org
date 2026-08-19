@@ -7,6 +7,21 @@
 #   margin: 45px 60px
 #   sponsors:
 
+- title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
+  imageMaxWidth: 360px
+  imageMaxHeight: 210px
+  margin: 45px 60px
+  sponsors:
+    - name: DeepMind
+      image: "images/optimized/sponsors-600x600/DeepMind.webp"
+      url: "https://deepmind.google/about/"
+    - name: Dropbox
+      image: "images/sponsors/Dropbox.svg"
+      url: "https://www.dropbox.com/about"
+    - name: Jetbrains
+      image: "images/optimized/sponsors-600x600/Jetbrains.webp"
+      url: "https://www.jetbrains.com/company/"
+
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px
   imageMaxHeight: 95px
@@ -48,21 +63,6 @@
     - name: Tooploox
       image: "images/optimized/sponsors-600x600/Tooploox.webp"
       url: "https://tooploox.com/about-us"
-
-- title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
-  imageMaxWidth: 360px
-  imageMaxHeight: 210px
-  margin: 45px 60px
-  sponsors:
-    - name: DeepMind
-      image: "images/optimized/sponsors-600x600/DeepMind.webp"
-      url: "https://deepmind.google/about/"
-    - name: Dropbox
-      image: "images/sponsors/Dropbox.svg"
-      url: "https://www.dropbox.com/about"
-    - name: Jetbrains
-      image: "images/optimized/sponsors-600x600/Jetbrains.webp"
-      url: "https://www.jetbrains.com/company/"
 
 - title: "/ Partners"
   imageMaxWidth: 280px
