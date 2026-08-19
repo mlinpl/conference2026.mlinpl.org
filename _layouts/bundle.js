@@ -6,4 +6,3 @@
 {% include js/slider.js %}
 {% include js/emph-i.js %}
 {% include js/yannic-no-glasses.js %}
-{% include js/faq.js %}
