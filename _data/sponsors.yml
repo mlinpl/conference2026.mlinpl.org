@@ -13,7 +13,7 @@
   margin: 45px 60px
   sponsors:
     - name: DeepMind
-      image: "images/optimized/sponsors-600x600/DeepMind.webp"
+      image: "images/sponsors/DeepMind.png"
       url: "https://deepmind.google/about/"
     - name: Dropbox
       image: "images/sponsors/Dropbox.svg"
