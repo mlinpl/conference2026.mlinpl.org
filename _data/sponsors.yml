@@ -178,6 +178,9 @@
     - name: PyDataBydgoszcz
       image: "images/optimized/partners-600x600/PyDataBydgoszcz.webp"
       url: "https://www.bydgoszcz.it/"
+    - name: PyStok
+      image: "images/partners/PyStok.svg"
+      url: "https://pystok.org/o-nas"
     - name: SKN Data Science
       image: "images/optimized/partners-600x600/SKNDataScience.webp"
       url: "https://www.linkedin.com/company/skndatascience"
