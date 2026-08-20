@@ -12,6 +12,9 @@
   imageMaxHeight: 210px
   margin: 45px 60px
   sponsors:
+    - name: Comarch
+      image: "images/optimized/sponsors-600x600/Comarch.webp"
+      url: "https://www.comarch.com/company/"
     - name: DeepMind
       image: "images/sponsors/DeepMind.png"
       url: "https://deepmind.google/about/"
