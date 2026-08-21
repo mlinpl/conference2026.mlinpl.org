@@ -23,9 +23,9 @@ regular:
     student: "500 PLN"
     regular: "1000 PLN"
   price_label: "Regular Price"
-  active: false
+  active: true
   visible: true
-  url:
+  url: https://app.evenea.pl/event/mlinpl26/
 
 late:
   name: "Late registration"
@@ -40,7 +40,7 @@ late:
   price_label: "Late Price"
   active: false
   visible: true
-  url:
+  url: https://app.evenea.pl/event/mlinpl26/
 
 tutorials:
   name: "Tutorial registration"
