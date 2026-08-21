@@ -54,7 +54,6 @@
   bio-more: >-
     Today, Adam is a research scientist at Google DeepMind, where his work centers on Pallas and JAX with the goal of making GPU and TPU performance engineering productive. This work is entirely open-source, continuing his long-standing dedication to open systems and infrastructure.
 
-
 - name: Bartosz Piotrowski
   affiliation: Axiom Math
   image: images/optimized/speakers-600x600/BartoszPiotrowski.webp
@@ -78,3 +77,14 @@
     Lenka Zdeborová is a Professor of Physics and Computer Science at École Polytechnique Fédérale de Lausanne, where she leads the Statistical Physics of Computation Laboratory. She received a PhD in physics from the University of Paris-Sud and Charles University in Prague in 2008. She spent two years in the Los Alamos National Laboratory as the Director's Postdoctoral Fellow. 
   bio-more: >-
     Between 2010 and 2020, she was a researcher at CNRS, working in the Institute of Theoretical Physics in CEA Saclay, France. In 2014, she was awarded the CNRS bronze medal, in 2016 Philippe Meyer prize in theoretical physics and an ERC Starting Grant, in 2018 the Irène Joliot-Curie prize, in 2021 the Gibbs lectureship of AMS and the Neuron Fund award, in 2025 she received an ERC Advanced Grant. Lenka's expertise is in the application of concepts from statistical physics, such as advanced mean field methods, the replica method, and related message-passing algorithms, to problems in machine learning, signal processing, inference, and optimization. Currently, she focuses on statistical physics of learning, developing solvable models and theoretical principles that explain how modern AI systems generalize, memorize, and scale. She enjoys erasing the boundaries between theoretical physics, mathematics and computer science.
+
+- name: Johannes von Oswald
+  affiliation: Google / Paradigms of Intelligence Team
+  image: images/optimized/speakers-600x600/JohannesVonOswald.webp
+  bio-intro: >-
+    Johannes von Oswald is a research scientist at Google in Zurich, working with Blaise Agüera y Arcas and João Sacramento in the Paradigms of Intelligence Team. Until 2023, he was a PhD student supervised by Angelika Steger and João Sacramento at the Institute of Theoretical Computer Science, ETH Zurich.
+
+    His research focuses on how and what machines, in particular neural networks, learn from data. One important goal is to allow these learning algorithms to generalize broadly and solve novel complex tasks. Therefore, he is heavily inspired by (meta-) learning within a large, possibly open-ended, environment.
+
+  bio-more: >-
+    Currently, he investigates how state-of-the-art neural network models, in particular transformer-based large language models, can move beyond pattern matching to learn and implement algorithmic-like solutions. This led him to work on mesa-optimization: the emergence of optimization algorithms within neural networks! In recent work, he showed that gradient descent-based algorithms can be implemented within the activations of transformers by simple autoregressive outer-optimization. This allows transformers to learn and generalize at test time to novel data provided in-context. This led to the development of a novel recurrent neural network architecture, the MesaNet, which was layer on tested on language modeling at scale.
