@@ -103,9 +103,9 @@
     # - name: University of Warsaw
     #   image: "images/honorary-patronages/UW.png"
     #   url: https://en.uw.edu.pl/
-    # - name: Warsaw University of Technology
-    #   image: "images/optimized/honorary-patronages-600x600/PW.webp"
-    #   url: https://eng.pw.edu.pl/
+    - name: Warsaw University of Technology
+      image: "images/optimized/honorary-patronages-600x600/PW.webp"
+      url: https://eng.pw.edu.pl/
     # - name: Faculty of Mathematics, Informatics and Mechanics, University of Warsaw
     #   image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
     #   url: https://www.mimuw.edu.pl/en/
