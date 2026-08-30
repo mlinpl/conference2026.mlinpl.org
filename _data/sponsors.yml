@@ -63,6 +63,9 @@
     - name: Jane Street
       image: "images/optimized/sponsors-600x600/JaneStreet.webp"
       url: "https://www.janestreet.com"
+    - name: Nomagic
+      image: "images/optimized/sponsors-600x600/Nomagic.svg"
+      url: "https://nomagic.ai"
     - name: SII
       image: "images/optimized/sponsors-600x600/Sii.webp"
       url: "https://sii.pl"
