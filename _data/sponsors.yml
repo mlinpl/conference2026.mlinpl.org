@@ -24,6 +24,9 @@
     - name: Jetbrains
       image: "images/optimized/sponsors-600x600/Jetbrains.webp"
       url: "https://www.jetbrains.com/company/"
+    - name: RTB House
+      image: "images/optimized/sponsors-600x600/RTBHouse.webp"
+      url: "https://www.rtbhouse.com/"
 
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px
@@ -81,7 +84,7 @@
       image: "images/optimized/partners-600x600/ideas_research_institute.webp"
       url: "https://www.ideas.edu.pl/en/"
 
-# NOTE: Sorted by scope: national, local, venue, university, faculty
+# NOTE: Sorted by scope: national, local, venue, university, faculty.
 - title: "/ Honorary Patronages"
   imageMaxWidth: 270px
   imageMaxHeight: 160px
