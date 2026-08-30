@@ -42,7 +42,7 @@ optimize_images () {
             output_file="${output_directory}/${file%.*}.${format}"
             if [ "$OVERWRITE" = true ] || [ ! -f "$output_file" ]; then
                 echo "Processing $file..."
-                convert "$file" -adaptive-resize "${size}>" -quality "${quality}" "$output_file"
+                convert "$file" -resize "${size}>" -quality "${quality}" "$output_file"
             else
                 echo "Skipping $file (already exists)"
             fi
