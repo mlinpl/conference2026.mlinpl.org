@@ -133,6 +133,9 @@
     - name: AIExplorers
       image: "images/optimized/partners-600x600/AI_Explorers.webp"
       url: "https://aiexplorers.wdib.uw.edu.pl/"
+    - name: AIPORT.pl
+      image: "images/optimized/partners-600x600/AIPort.webp"
+      url: "https://aiport.pl/"
     - name: Atlas
       image: "images/partners/Atlas.svg"
       url: "https://www.linkedin.com/company/knumatlas"
