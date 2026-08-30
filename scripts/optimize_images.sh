@@ -64,6 +64,7 @@ optimize_images tutorials 600x600 webp 90
 # Optimize sponsors and partners logos
 optimize_images sponsors 600x600 webp 90
 optimize_images partners 600x600 webp 90
+optimize_images media-partners 600x600 webp 90
 optimize_images previous-sponsors 300x300 webp 90
 optimize_images honorary-patronages 600x600 webp 90
 
