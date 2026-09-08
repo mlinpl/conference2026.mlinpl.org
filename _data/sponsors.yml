@@ -30,7 +30,7 @@
 
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px
-  imageMaxHeight: 95px
+  imageMaxHeight: 90px
   margin: 30px 45px
   sponsors:
     - name: CISPA Hemholtz Center for Information Security
@@ -56,8 +56,8 @@
       url: "https://www.snowflake.com/"
 
 - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
-  imageMaxWidth: 280px
-  imageMaxHeight: 85px
+  imageMaxWidth: 270px
+  imageMaxHeight: 70px
   margin: 30px 50px
   sponsors:
     - name: Cerebras
