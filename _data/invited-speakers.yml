@@ -80,3 +80,31 @@
 
   bio-more: >-
     Currently, he investigates how state-of-the-art neural network models, in particular transformer-based large language models, can move beyond pattern matching to learn and implement algorithmic-like solutions. This led him to work on mesa-optimization: the emergence of optimization algorithms within neural networks! In recent work, he showed that gradient descent-based algorithms can be implemented within the activations of transformers by simple autoregressive outer-optimization. This allows transformers to learn and generalize at test time to novel data provided in-context. This led to the development of a novel recurrent neural network architecture, the MesaNet, which was layer on tested on language modeling at scale.
+
+- name: João F. Henriques
+  affiliation: University of Oxford
+  image: images/optimized/speakers-600x600/JoaoFHenriques.webp
+  bio-intro: >-
+    Dr. João Henriques is an Associated Faculty at the Visual Geometry Group (VGG), University of Oxford. His research focuses on computer vision and robotics, with the goal of making machines more perceptive and intelligent. He created the KCF and SiameseFC visual object trackers, which won the highly competitive VOT Challenge twice, and are widely deployed in consumer hardware, from social media apps to commercial drones. 
+  bio-more: >-
+    His research spans many topics: 3D video understanding, robot mapping and navigation, agentic and safe AI; as well as various forms of learning, from self-supervised, causal, and reinforcement learning, including optimisation theory.
+  google-scholar:
+    https://scholar.google.com/citations?user=aCQjyp0AAAAJ&hl=en&oi=ao
+
+- name: Alexia Jolicoeur-Martineau
+  affiliation: Microsoft Applied Sciences Group
+  image: images/optimized/speakers-600x600/AlexiaJolicoeurMartineau.webp
+  bio-intro: >-
+    Alexia Jolicoeur-Martineau is a principal researcher at Microsoft's Applied Sciences Group. She previously worked as a biostatistician before entering the field of AI in 2017 with "Meow Generator", the first generative model of cat pictures. Since then, she has explored all facets of generative AI, having previously developed AI systems for images, videos, text, tabular data, neural network weights, molecules, and video games. 
+  bio-more: >-
+    Her recent work on Tiny Recursive Models won the ARC 2025 Prize by showing that tiny models that reason recursively can outperform large foundational models.
+  google-scholar:
+    https://scholar.google.com/citations?user=0qytQ1oAAAAJ
+
+- name: Tomáš Pluskal
+  affiliation: IOCB Prague
+  image: images/optimized/speakers-600x600/TomasPluskal.webp
+  bio-intro: >-
+    Tomáš Pluskal is a group leader at IOCB Prague, where he heads the Biochemistry of Plant Specialized Metabolites research group (www.pluskal-lab.org). Building on his Ph.D. training from the Okinawa Institute of Science and Technology and a postdoctoral fellowship conducted at the Whitehead Institute for Biomedical Research, he develops new computational and biochemical approaches to discover, characterize, and synthesize bioactive plant molecules. 
+  bio-more: >-
+    He co-authored the widely used metabolomics software platform mzmine and recently introduced the AI-driven DreaMS model for identifying unknown compounds from mass spectrometry data. Tomáš is a recipient of the Neuron Award for Promising Scientists and an ERC Consolidator Grant, is a member of the EMBO Young Investigator Programme, and serves as a board member of the international Metabolomics Society.
