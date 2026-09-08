@@ -48,6 +48,9 @@
     - name: QRT
       image: "images/optimized/sponsors-600x600/QRT.webp"
       url: "https://www.qube-rt.com/"
+    - name: Snowflake
+      image: "images/optimized/sponsors-600x600/Snowflake.webp"
+      url: "https://www.snowflake.com/"
 
 - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
   imageMaxWidth: 280px
