@@ -27,9 +27,15 @@
     - name: Jetbrains
       image: "images/optimized/sponsors-600x600/Jetbrains.webp"
       url: "https://www.jetbrains.com/company/"
+    - name: Mistral
+      image: "images/sponsors/Mistral.svg"
+      url: "https://mistral.ai/"
     - name: RTB House
       image: "images/optimized/sponsors-600x600/RTBHouse.webp"
       url: "https://www.rtbhouse.com/"
+    - name: Tenstorrent
+      image: "images/sponsors/Tenstorrent.svg"
+      url: "https://tenstorrent.com/"
 
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px
@@ -51,6 +57,9 @@
     - name: NVIDIA
       image: "images/optimized/sponsors-600x600/NVIDIA.webp"
       url: "https://nvidia.eightfold.ai/events/candidate/landing?plannedEventId=qZbodMmBY"
+    - name: Pathway
+      image: "images/sponsors/Pathway.svg"
+      url: "https://pathway.com/"
     - name: QRT
       image: "images/optimized/sponsors-600x600/QRT.webp"
       url: "https://www.qube-rt.com/"
