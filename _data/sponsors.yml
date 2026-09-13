@@ -15,9 +15,13 @@
     - name: Allegro
       image: "images/optimized/sponsors-600x600/Allegro.webp"
       url: "https://jobs.allegro.eu/"
+      imageMaxWidth: 320px
+      margin: 45px 80px
     - name: Comarch
       image: "images/optimized/sponsors-600x600/Comarch.webp"
       url: "https://www.comarch.com/company/"
+      imageMaxWidth: 320px
+      margin: 45px 80px
     - name: DeepMind
       image: "images/sponsors/DeepMind.png"
       url: "https://deepmind.google/about/"
