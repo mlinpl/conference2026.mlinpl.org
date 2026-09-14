@@ -1,11 +1,14 @@
 # NOTE:
 # Entries within groups should be sorted alphabetically by name if not specified otherwise.
 
-# - title: '/ <span class="dimond-shine-text">Strategic sponsor</span>'
-#   imageMaxWidth: 480px
-#   imageMaxHeight: 210px
-#   margin: 45px 60px
-#   sponsors:
+- title: '/ <span class="dimond-shine-text">Strategic sponsor</span>'
+  imageMaxWidth: 480px
+  imageMaxHeight: 210px
+  margin: 45px 60px
+  sponsors:
+    - name: ElevenLabs
+      image: "images/optimized/sponsors-600x600/ElevenLabs.webp"
+      url: "https://elevenlabs.io/"
 
 - title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
   imageMaxWidth: 360px
