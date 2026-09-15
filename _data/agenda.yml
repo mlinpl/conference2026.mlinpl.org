@@ -1,0 +1,362 @@
+# This file contains the agenda of the conference, including all sessions and talks.
+#
+# Instructions for filling the entries:
+# - offset with: col-lg-offset-4
+#
+
+- title: Thursday / 8 October
+  date: 2026-10-08
+  location: Copernicus Science Centre
+  location-address: <a href="https://www.google.com/maps/place/Copernicus+Science+Centre/@52.2418585,21.0261522,17z/data=!3m1!4b1!4m6!3m5!1s0x471ecc5ba250ccd1:0x8d6f1b9b8410960!8m2!3d52.2418552!4d21.0287271!16s%2Fm%2F05mwh1p?entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D">Wybrzeże Kościuszkowskie 20, 00-390 Warsaw</a>
+  sessions:
+    - events:
+      - title: "Student Research Workshop (open event, no ticket required)"
+        element-class: col-lg-12
+        time: 8:00 - 11:30
+        room: Main Hall
+
+    - events:
+      - title: Registration
+        element-class: col-lg-12
+        time: 9:00 - 11:45
+
+    - events:
+      - title: Opening remarks
+        element-class: col-lg-12
+        time: 12:00 - 12:15
+        room: Main Hall
+
+    - events:
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Markus Wulfmeier
+        element-class: col-lg-4
+        time: 12:15 - 13:15
+        room: Main Hall
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Piotr Sankowski
+        element-class: col-lg-4
+        time: 12:15 - 13:15
+        room: Hall A
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Razvan Pascanu
+        element-class: col-lg-4
+        time: 12:15 - 13:15
+        room: Hall B
+
+    - events:
+      - title: Poster Session
+        element-class: col-lg-12
+        time: 13:15 - 14:45
+
+    - events:
+      - title: '<i class="fa-solid fa-utensils"></i> Lunch'
+        element-class: col-lg-12
+        time: 14:00 - 15:30
+
+    - events:
+      - title: 'Sponsor Talk: <strong>TBA</strong>'
+        subtitle: by TBA (Bayer)
+        element-class: col-lg-4
+        time: 15:30 - 16:00
+        room: Main Hall
+      - title: 'Sponsor Talk: <strong>TBA</strong>'
+        subtitle: by TBA (Allegro)
+        element-class: col-lg-4
+        time: 15:30 - 16:30
+        room: Hall A
+      - title: 'Sponsor Talk: <strong>TBA</strong>'
+        subtitle: by TBA (JetBrains)
+        element-class: col-lg-4
+        time: 15:30 - 16:30
+        room: Hall B
+
+    - events:
+      - title: 'Sponsor Talk: <strong>TBA</strong>'
+        subtitle: by TBA (Snowflake)
+        element-class: col-lg-4
+        time: 16:00 - 16:30
+        room: Main Hall
+
+    - events:
+      - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        element-class: col-lg-12
+        time: 16:30 - 17:00
+
+    - events:
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Pierre Stock (Mistral)
+        element-class: col-lg-4
+        time: 17:00 - 18:00
+        room: Main Hall
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Adam Paszke
+        element-class: col-lg-4
+        time: 17:00 - 18:00
+        room: Hall A
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Emanuele Rodolà
+        element-class: col-lg-4
+        time: 17:00 - 18:00
+        room: Hall B
+
+    - events:
+      - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party'
+        element-class: col-lg-12
+        time: 19:30 - late
+
+- title: Friday / 9 October
+  date: 2026-10-09
+  location: Copernicus Science Centre
+  location-address: <a href="https://www.google.com/maps/place/Copernicus+Science+Centre/@52.2418585,21.0261522,17z/data=!3m1!4b1!4m6!3m5!1s0x471ecc5ba250ccd1:0x8d6f1b9b8410960!8m2!3d52.2418552!4d21.0287271!16s%2Fm%2F05mwh1p?entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D">Wybrzeże Kościuszkowskie 20, 00-390 Warsaw</a>
+  sessions:
+    - events:
+      - title: 'Registration + <i class="fa-solid fa-mug-saucer"></i> Breakfast'
+        element-class: col-lg-12
+        time: 8:30 - 9:30
+
+    - events:
+      - title: 'Contributed Talks 1–3'
+        element-class: col-lg-4
+        time: 9:30 - 11:00
+        room: Main Hall
+      - title: 'Contributed Talks 4–6'
+        element-class: col-lg-4
+        time: 9:30 - 11:00
+        room: Hall A
+      - title: 'Contributed Talks 7–9'
+        element-class: col-lg-4
+        time: 9:30 - 11:00
+        room: Hall B
+
+    - events:
+      - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        element-class: col-lg-12
+        time: 11:00 - 11:15
+
+    - events:
+      - title: 'Discussion Panel: <strong>TBA</strong>'
+        subtitle: by ELLIS
+        element-class: col-lg-4
+        time: 11:15 - 12:15
+        room: Main Hall
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Tomas Pluskal
+        element-class: col-lg-4
+        time: 11:15 - 12:15
+        room: Hall A
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Lenka Zdeborova
+        element-class: col-lg-4
+        time: 11:15 - 12:15
+        room: Hall B
+
+    - events:
+      - title: Poster Session
+        element-class: col-lg-12
+        time: 12:15 - 13:45
+
+    - events:
+      - title: '<i class="fa-solid fa-utensils"></i> Lunch'
+        element-class: col-lg-12
+        time: 13:00 - 14:30
+
+    - events:
+      - title: '<i class="fa-solid fa-award"></i> Talks by Witold Lipski Award Laureates'
+        element-class: col-lg-4
+        time: 14:30 - 16:00
+        room: Main Hall
+      - title: 'Contributed Talks 10–12'
+        element-class: col-lg-4
+        time: 14:30 - 16:00
+        room: Hall A
+      - title: 'Contributed Talks 13–15'
+        element-class: col-lg-4
+        time: 14:30 - 16:00
+        room: Hall B
+
+    - events:
+      - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        element-class: col-lg-12
+        time: 16:00 - 16:15
+
+    - events:
+      - title: 'Sponsor Talk: <strong>TBA</strong>'
+        subtitle: by TBA (Tenstorrent)
+        element-class: col-lg-4
+        time: 16:15 - 17:15
+        room: Main Hall
+      - title: 'Sponsor Talk: <strong>TBA</strong>'
+        subtitle: by TBA (Comarch)
+        element-class: col-lg-4
+        time: 16:15 - 17:15
+        room: Hall A
+      - title: 'Sponsor Talk: <strong>TBA</strong>'
+        subtitle: by TBA (Pathway)
+        element-class: col-lg-4
+        time: 16:15 - 17:15
+        room: Hall B
+
+    - events:
+      - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        element-class: col-lg-12
+        time: 17:15 - 17:30
+
+    - events:
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Alexia Jolicoeur-Martineau
+        element-class: col-lg-4
+        time: 17:30 - 18:30
+        room: Main Hall
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Bartosz Piotrowski
+        element-class: col-lg-4
+        time: 17:30 - 18:30
+        room: Hall A
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Valentina Boeva
+        element-class: col-lg-4
+        time: 17:30 - 18:30
+        room: Hall B
+
+- title: Saturday / 10 October
+  date: 2026-10-10
+  location: Copernicus Science Centre
+  location-address: <a href="https://www.google.com/maps/place/Copernicus+Science+Centre/@52.2418585,21.0261522,17z/data=!3m1!4b1!4m6!3m5!1s0x471ecc5ba250ccd1:0x8d6f1b9b8410960!8m2!3d52.2418552!4d21.0287271!16s%2Fm%2F05mwh1p?entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D">Wybrzeże Kościuszkowskie 20, 00-390 Warsaw</a>
+  sessions:
+    - events:
+      - title: 'Registration + <i class="fa-solid fa-mug-saucer"></i> Breakfast'
+        element-class: col-lg-12
+        time: 8:30 - 9:30
+
+    - events:
+      - title: 'Contributed Talks 16–18'
+        element-class: col-lg-4
+        time: 9:30 - 11:00
+        room: Main Hall
+      - title: 'Contributed Talks 19–21'
+        element-class: col-lg-4
+        time: 9:30 - 11:00
+        room: Hall A
+      - title: 'Contributed Talks 22–24'
+        element-class: col-lg-4
+        time: 9:30 - 11:00
+        room: Hall B
+
+    - events:
+      - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        element-class: col-lg-12
+        time: 11:00 - 11:15
+
+    - events:
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by TBA
+        element-class: col-lg-4
+        time: 11:15 - 12:15
+        room: Main Hall
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Peter Richtarik
+        element-class: col-lg-4
+        time: 11:15 - 12:15
+        room: Hall A
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by TBA
+        element-class: col-lg-4
+        time: 11:15 - 12:15
+        room: Hall B
+
+    - events:
+      - title: Poster Session
+        element-class: col-lg-12
+        time: 12:15 - 13:45
+
+    - events:
+      - title: '<i class="fa-solid fa-utensils"></i> Lunch'
+        element-class: col-lg-12
+        time: 13:00 - 14:30
+
+    - events:
+      - title: 'Sponsor Talk: <strong>TBA</strong>'
+        subtitle: by TBA (ElevenLabs)
+        element-class: col-lg-4
+        time: 14:30 - 15:30
+        room: Main Hall
+      - title: 'Sponsor Talk: <strong>TBA</strong>'
+        subtitle: by TBA (RTB House)
+        element-class: col-lg-4
+        time: 14:30 - 15:30
+        room: Hall A
+      - title: 'Sponsor Talk: <strong>TBA</strong>'
+        subtitle: by TBA (Dropbox)
+        element-class: col-lg-4
+        time: 14:30 - 15:30
+        room: Hall B
+
+    - events:
+      - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        element-class: col-lg-12
+        time: 15:30 - 16:00
+
+    - events:
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by TBA
+        element-class: col-lg-4
+        time: 16:00 - 17:00
+        room: Main Hall
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by João F. Henriques
+        element-class: col-lg-4
+        time: 16:00 - 17:00
+        room: Hall A
+      - title: 'Invited Talk: <strong>TBA</strong>'
+        subtitle: by Johannes von Oswald
+        element-class: col-lg-4
+        time: 16:00 - 17:00
+        room: Hall B
+
+    - events:
+      - title: 'Closing remarks'
+        element-class: col-lg-12
+        time: 17:00 - 17:30
+        room: Main Hall
+
+- title: Sunday / 11 October
+  date: 2026-10-11
+  note: 'Due to a limited number of seats, <strong>attending tutorials requires separate registration and tickets</strong> (see <a href="#tickets">tickets section</a>).'
+  location: Faculty of Physics, University of Warsaw
+  location-address: <a href="https://maps.app.goo.gl/ZUf8muU9oLuehSvv7">Ludwika Pasteura 5, 02-093 Warsaw</a>
+  sessions:
+    - events:
+      - title: 'Tutorial 1: <strong>TBA</strong>'
+        element-class: col-lg-4
+        time: 9:00 - 13:00
+      - title: 'Tutorial 2: <strong>TBA</strong>'
+        element-class: col-lg-4
+        time: 9:00 - 13:00
+      - title: 'Tutorial 3: <strong>TBA</strong>'
+        element-class: col-lg-4
+        time: 9:00 - 13:00
+      - title: 'Tutorial 4: <strong>TBA</strong>'
+        element-class: col-lg-4
+        time: 9:00 - 13:00
+      - title: 'Tutorial 5: <strong>TBA</strong>'
+        element-class: col-lg-4
+        time: 9:00 - 13:00
+
+    - events:
+      - title: 'Break'
+        element-class: col-lg-12
+        time: 13:00 - 14:00
+
+    - events:
+      - title: 'Tutorial 6: <strong>TBA</strong>'
+        element-class: col-lg-4
+        time: 14:00 - 18:00
+      - title: 'Tutorial 7: <strong>TBA</strong>'
+        element-class: col-lg-4
+        time: 14:00 - 18:00
+      - title: 'Tutorial 8: <strong>TBA</strong>'
+        element-class: col-lg-4
+        time: 14:00 - 18:00
+      - title: 'Tutorial 9: <strong>TBA</strong>'
+        element-class: col-lg-4
+        time: 14:00 - 18:00
