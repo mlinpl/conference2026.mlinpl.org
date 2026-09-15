@@ -7,7 +7,7 @@
   margin: 45px 60px
   sponsors:
     - name: ElevenLabs
-      image: "images/optimized/sponsors-600x600/ElevenLabs.webp"
+      image: "images/sponsors/ElevenLabs.svg"
       url: "https://elevenlabs.io/"
 
 - title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
