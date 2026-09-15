@@ -6,3 +6,12 @@
 
 - question: "What is the language of the conference?"
   answer: "All talks, tutorials, and materials are in English."
+
+- question: "Can I serve as a reviewer?"
+  answer: "No, unfortunately, we do not accept external reviewers as part of the review process."
+
+- question: "Will the submitted papers be published in the post-conference proceedings?"
+  answer: "No, ML in PL Conference is a non-archival conference. We only publish the submitted abstract and slides or poster on our website."
+
+- question: "Can I present my work virtually?"
+  answer: "No, all submitted works should be presented on-site."
