@@ -36,7 +36,6 @@
         {% include conference/sponsor-speakers-slider.html %}
         {% endcomment %}
         
-        {% comment %}
         {% if site.data.state.agenda %}
         {% assign agenda_draft = false %}
         {% if site.data.state.agenda == "draft" %}
@@ -50,7 +49,6 @@
         
         {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
         {% endif %}
-        {% endcomment %}
 
         {% comment %}
         {% include conference/badge-game.html %}

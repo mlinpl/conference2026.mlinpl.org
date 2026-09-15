@@ -1,43 +1,46 @@
 ---
 layout: page
 content-wrapper: false
-title: Program of ML in PL Conference 2025
-html-title: Program of <br><span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2025</span></span>
+title: Program of ML in PL Conference 2026
+html-title: Program of <br><span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2026</span></span>
 permalink: /program
 ---
 
-{% comment %}
+{% unless site.data.state.agenda == "full" %}
 <section class="container content-section">
     <div class="row">
         <div class="col-xs-12">
             <p>
-                The program of the ML in PL Conference 2025 is under construction. 
-                The detailed agenda will be published soon.
+                The program of {{ site.inline-logo }} is under construction.
+                The complete detailed agenda will be published soon.
             </p>
         </div>
     </div>
 </section>
-{% endcomment %}
+{% endunless %}
 
+{% if site.data.agenda.size > 0 or site.data.invited-talks.size > 0 or site.data.panels.size > 0 or site.data.sponsor-talks.size > 0 or site.data.contributed-talks.size > 0 or site.data.lipski-award-talks.size > 0 or site.data.posters.size > 0 or site.data.student-research-workshop-talks.size > 0 or site.data.tutorials.size > 0 %}
 <section class="container content-section">
     <div class="row">
         <div class="col-xs-12">
             <h2>/ Table of Contents</h2>
             <ul>
-                <li><a href="{{ "/program#agenda" | relative_url }}">Agenda</a></li>
-                <li><a href="{{ "/program#invited-talks" | relative_url }}">Invited Talks</a></li>
-                <li><a href="{{ "/program#discussion-panels" | relative_url }}">Discussion Panels</a></li>
-                <li><a href="{{ "/program#sponsor-talks" | relative_url }}">Sponsor Talks</a></li>
-                <li><a href="{{ "/program#contributed-talks" | relative_url }}">Contributed Talks</a></li>
-                <li><a href="{{ "/program#witold-lipski-award-talks" | relative_url }}">Talks by Witold Lipski Award Laureates</a></li>
-                <li><a href="{{ "/program#posters" | relative_url }}">Posters</a></li>
-                <li><a href="{{ "/program#srw-talks" | relative_url }}">Student Research Workshop</a></li>
-                <li><a href="{{ "/program#tutorials" | relative_url }}">Tutorials</a></li>
+                {% if site.data.agenda.size > 0 %}<li><a href="{{ "/program#agenda" | relative_url }}">Agenda</a></li>{% endif %}
+                {% if site.data.invited-talks.size > 0 %}<li><a href="{{ "/program#invited-talks" | relative_url }}">Invited Talks</a></li>{% endif %}
+                {% if site.data.panels.size > 0 %}<li><a href="{{ "/program#discussion-panels" | relative_url }}">Discussion Panels</a></li>{% endif %}
+                {% if site.data.sponsor-talks.size > 0 %}<li><a href="{{ "/program#sponsor-talks" | relative_url }}">Sponsor Talks</a></li>{% endif %}
+                {% if site.data.contributed-talks.size > 0 %}<li><a href="{{ "/program#contributed-talks" | relative_url }}">Contributed Talks</a></li>{% endif %}
+                {% if site.data.lipski-award-talks.size > 0 %}<li><a href="{{ "/program#witold-lipski-award-talks" | relative_url }}">Talks by Witold Lipski Award Laureates</a></li>{% endif %}
+                {% if site.data.posters.size > 0 %}<li><a href="{{ "/program#posters" | relative_url }}">Posters</a></li>{% endif %}
+                {% if site.data.student-research-workshop-talks.size > 0 %}<li><a href="{{ "/program#srw-talks" | relative_url }}">Student Research Workshop</a></li>{% endif %}
+                {% if site.data.tutorials.size > 0 %}<li><a href="{{ "/program#tutorials" | relative_url }}">Tutorials</a></li>{% endif %}
             </ul>
         </div>
     </div>
 </section>
+{% endif %}
 
+{% if site.data.agenda.size > 0 %}
 <section id="agenda" class="container content-section">
     <div class="row">
         <div class="col-xs-12">
@@ -59,6 +62,7 @@ permalink: /program
     </div>
     {% endfor %}
 </section>
+{% endif %}
 
 {% comment %}
 {% include talks.html talks-title="/ Keynote talks" talks-data=site.data.keynote-talks talk-title-prefix="Keynote talk" %}

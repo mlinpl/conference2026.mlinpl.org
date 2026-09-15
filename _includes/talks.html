@@ -4,6 +4,9 @@ Expects following parameters:
     talk-title-prefix,
     talks-data
 {% endcomment %}
+
+{% assign talks_data = include.talks-data | arrayify %}
+{% if talks_data.size > 0 %}
 <section id="{{ include.talk-title-prefix | slugify | append: 's' }}" class="container content-section">
     <div class="row">
         <div class="col-lg-12">
@@ -11,7 +14,7 @@ Expects following parameters:
         </div>
     </div>
 
-    {% for talk in include.talks-data %}
+    {% for talk in talks_data %}
         {% assign title-prefix = include.talk-title-prefix %}
         {% if talk.talk-title-prefix %}
             {% assign title-prefix = talk.talk-title-prefix %}
@@ -131,3 +134,4 @@ Expects following parameters:
         </div>
     {% endfor %}
 </section>
+{% endif %}
