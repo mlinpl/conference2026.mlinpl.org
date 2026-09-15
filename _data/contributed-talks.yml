@@ -347,9 +347,9 @@
   title: "FPS: Frames, Physics, and Steering – Probing and Controlling Physical Observables in Video Diffusion Models"
   author-title: "IDEAS Research Institute"
   abstract-md: |- 
-    Video-generation models produce strikingly realistic sequences and are increasingly proposed as \textit{world models} for domains like automotive and robotics, where users need consistent long rollouts and generalization to unseen configurations. That promise rests on physics: a model that has internalized physical laws should be able to roll out coherently and support meaningful downstream tasks. Yet we still lack a general understanding of whether video models actually learn physics---and how to extract it if they do.
+    Video-generation models produce strikingly realistic sequences and are increasingly proposed as *world models* for domains like automotive and robotics, where users need consistent long rollouts and generalization to unseen configurations. That promise rests on physics: a model that has internalized physical laws should be able to roll out coherently and support meaningful downstream tasks. Yet we still lack a general understanding of whether video models actually learn physics---and how to extract it if they do.
 
-    Existing work only judges whether a model can \textit{produce} plausible-looking video---but plausibility is not understanding. Instead, we inspect the model's internal representations for ground-truth physical quantities, shifting the question from ``does it look right?'' to ``does it know?''.
+    Existing work only judges whether a model can *produce* plausible-looking video---but plausibility is not understanding. Instead, we inspect the model's internal representations for ground-truth physical quantities, shifting the question from ``does it look right?'' to ``does it know?''.
 
     We do so by probing its activations with linear decoders for physical observables such as velocity, momentum, and gravity.
 
@@ -361,7 +361,7 @@
 
     Running each video through the forward diffusion pass adds noise to create a starting point for the reverse process. As the model denoises the input, we capture the intermediate activations that form its internal representation of the scene. With ground-truth physics in hand, linear probes then reveal whether the model has genuinely internalized these physical observables.
 
-    The learned representations turn out to be highly structured: the observables are linearly decodable, and the probes extrapolate across objects and scenes---evidence that the model interpolates \textit{physics, not pixels}. This information is also sharply localized in space and time:
+    The learned representations turn out to be highly structured: the observables are linearly decodable, and the probes extrapolate across objects and scenes---evidence that the model interpolates *physics, not pixels*. This information is also sharply localized in space and time:
 
     physical properties are read best from object-centric, frame-aligned tokens rather than the full latent space. Exploiting this, our structured probe avoids the spatio-temporal pooling of prior work, making it more memory- and compute-efficient while yielding better results. Crucially, the representation is not only readable but manipulable: adding differences of activations lets us flip the direction of objects in generated videos, indicating that the encoded physics is causally used rather than incidental---with steering along the learned probe directions as a natural next step.
 
