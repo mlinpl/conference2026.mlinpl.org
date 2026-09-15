@@ -1,7 +1,7 @@
 - author-name: Michał Jan Włodarczyk
   title: "Interpretability-Guided Soft Pruning of Attention Heads in Vision Transformers"
   author-title: "Centre for Credible AI"
-  abstract: >- 
+  abstract-md: |- 
     Vision foundation models, such as DINOv2, learn highly expressive representations but rely on massive, opaque architectures that demand substantial computational power and memory. To provide an interpretable-guided and efficient solution to this issue, we first propose a spectral analysis and new visualization technique for individual attention heads based on the Laplacian eigenvectors of their attention maps. Building upon recent observations regarding the block structure of Vision Transformers, we perform semantic clustering of attention heads and identify functional redundancies. Leveraging these insights, we introduce SAPER (Soft Attention PrunER), an end-to-end differentiable pruning framework based on the LapSum Soft Top-K approach. Extensive experiments on ImageNet-1K demonstrate that SAPER achieves a highly favorable accuracy-efficiency trade-off, outperforming the competitive RAPTOR baseline in FLOPs reduction while preserving strong classification performance.
   author-bio: >- 
     Michał Jan Włodarczyk is a Machine Learning MSc student at Warsaw University of Technology and a Research Software Engineer at the Center for Credible AI and the Systems Research Institute of the Polish Academy of Sciences. His research focuses on interpretable deep learning, implicit neural representations, and world models, with publications at ICCV, Pacific Graphics, and SIGGRAPH Asia.
@@ -16,10 +16,12 @@
 - author-name: Michał Szymocha
   title: "Diverse Subset Selection at Scale with Maximum Diversity Picking"
   author-title: "AGH University of Krakow"
-  abstract: >- 
+  abstract-md: |- 
     Data scarcity is a common problem in machine learning. However, researchers often face the opposite situation, where processing the entire dataset is too expensive or even infeasible. In such cases, we need to select a smaller subset that still provides good coverage of the data. Random sampling is a simple solution, but it may select many similar elements and miss less common regions of the dataset. Maximum Diversity Picking (MDP) approaches this problem by selecting elements that are as different from one another as possible.
+
     In this work, we focus on the MaxMin variant of MDP, which maximizes the minimum distance between any pair of elements in the selected subset. This is especially important in chemoinformatics, where reducing the number of candidate compounds can significantly reduce the cost of early drug discovery. The same idea can be applied to other areas of machine learning like coreset selection, active learning, duplicate removal, computer vision, recommendation systems and natural language processing.
-    ​We compare different MDP solvers on popular chemical datasets ranging from a few thousand elements to hundreds of millions of molecules. Since MaxMin MDP is an NP-hard problem, exact solutions are practical only for smaller problem instances. Therefore, our benchmark includes exact solvers for small datasets, as well as greedy algorithms and metaheuristics intended for large-scale problems. The developed library contains over a dozen solver implementations and provides the largest benchmark of MaxMin solvers under different dataset sizes, characteristics and computational budgets.
+
+    We compare different MDP solvers on popular chemical datasets ranging from a few thousand elements to hundreds of millions of molecules. Since MaxMin MDP is an NP-hard problem, exact solutions are practical only for smaller problem instances. Therefore, our benchmark includes exact solvers for small datasets, as well as greedy algorithms and metaheuristics intended for large-scale problems. The developed library contains over a dozen solver implementations and provides the largest benchmark of MaxMin solvers under different dataset sizes, characteristics and computational budgets.
   author-bio: >- 
     Michał is a bachelor’s student in Computer Science at AGH University of Krakow. He is a member of the MLCIL research group, where he works on molecular diversity picking and of KN BIT, where he leads the AI section. He is also involved in a project at GMUM on drug-target affinity prediction.
   co-authors: Jakub Adamczyk, Maciej Wiśniewski, Maciej Kmąk, Hubert Miklas
@@ -33,11 +35,11 @@
 - author-name: Jan Kwiecinski
   title: "Goal Conditioned RL to Abstract Solved States via Relative Contrastive Reinforcement Learning"
   author-title: "University of Warsaw"
-  abstract: >- 
+  abstract-md: |- 
     Goal-Conditioned Reinforcement Learning (GCRL) has been proposed as an effective way to solve tasks with sparse rewards, offering an alternative to tedious reward engineering. Intuitively, GCRL is effective in problems where finding the path to the solution is difficult, but the final goal is known. However, in many interesting settings (e.g., mathematical problems), both finding the path and knowing the solution are difficult. This is one of the factors that makes applying GCRL in such setups challenging.
-    
+
     Contrastive Reinforcement Learning (CRL) is a representation-based GCRL method that learns an embedding function mapping states into a latent space such that the distance between states corresponds to their goal-conditioned, discounted occupancy measure. This is achieved by defining the joint and marginal distributions for contrastive learning in a specific way. In this paper, we introduce ***Relative Contrastive Reinforcement Learning (RCRL)***, which modifies the CRL objective through a specific negative sampling scheme to learn a latent space in which solutions to different problem instances are mapped to a single abstract state. This enables solving problems by traversing the latent space toward this shared embedding, without conditioning on the explicit goal state.
-    
+
     Through experiments on two logical puzzles where the goal state is difficult to compute—Takuzu and a maze centroid-finding task—we demonstrate that RCRL achieves success rates comparable to standard CRL, while operating without access to the explicit goal state and instead using the distance to the shared abstract embedding. We further show that, in standard CRL, no single latent state can serve as a universal goal for solving the problem instances, highlighting the need to learn the shared solution representation directly through the training objective. Together, these results demonstrate the potential of RCRL to extend goal-conditioned approaches to domains such as mathematics, providing a potential venue for improving RL training of LLMs from sparse signals.
   author-bio: >- 
     Jan Kwieciński is a Bachelor's student in Computer Science at the University of Warsaw. Alongside his studies, he works on research-related topics - from personal projects and presenting at an algorithmic research seminar to recent work with Princeton RL on Contrastive Reinforcement Learning. During summer breaks Jan has interned as an engineer at Google and Nvidia.
@@ -52,7 +54,7 @@
 - author-name: Grzegorz Siudak
   title: "Activity is in the Activations: Inference-Time Steering of Peptide Models for Antimicrobial Design"
   author-title: "Warsaw University of Technology"
-  abstract: >- 
+  abstract-md: |- 
     While recent generative diffusion models offer intuitive control over complex outputs, transferring this steerability to targeted scientific discovery remains a significant challenge. Designing antimicrobial peptides (AMPs) perfectly illustrates this problem as targeting peptides toward specific pathogens is severely bottlenecked by data scarcity, making standard conditional generation and fine-tuning infeasible. Existing diffusion models for AMP generation produce realistic sequences, but their controllability relies on either limited labeled data during training or external classifiers for post-hoc filtering. To overcome these limitations, we explore the application of activation steering to this problem. To that end, we introduce Legolas which adapts the Linear End-to-end Activation Steering (LinEAS) framework to CPL-Diff, a latent-space diffusion model. By intervening on intermediate activations at inference time, our approach requires no retraining and introduces negligible overhead. We show that by using as little as four known active examples, we can generate AMPs while preserving diversity and physicochemical realism. To the best of our knowledge, Legolas also introduces the first method that allows precise control towards activity against specific bacteria strains.
   author-bio: >- 
     Grzegorz Siudak is a Computer Science Master's student at Warsaw University of Technology, researching generative AI and deep learning methods for computational biology and protein design.
@@ -67,7 +69,7 @@
 - author-name: Aleksander Szymczyk
   title: "Conditioned Activation Transport for T2I Safety Steering"
   author-title: "NASK National Research Institute"
-  abstract: >- 
+  abstract-md: |- 
     Despite their impressive capabilities, current Text-to-Image (T2I) models remain prone to generating unsafe and toxic content. While activation steering offers a promising inference-time intervention, we observe that linear activation steering frequently degrades image quality when applied to benign prompts and we diagnose that much of the apparent safety gain of existing linear methods is in fact safety by image corruption: these methods destroy image content rather than selectively removing unsafe concepts. To address this trade-off, we first construct SafeSteerDataset, a contrastive dataset containing 2300 safe and unsafe prompt pairs with high cosine similarity. Leveraging this data, we propose Conditioned Activation Transport (CAT), a framework built on trainable, non-linear, regularized transport maps. We utilize a dual-head map that jointly predicts a steering direction and an input-dependent magnitude, remaining close to the identity on already-safe activations. We validate our approach on four state-of-the-art architectures: SD1.4, Flux.1-dev, Infinity, and Z-Image. Experiments demonstrate that CAT generalizes effectively across these backbones, reducing Attack Success Rate while maintaining utility compared to unsteered generations. Warning: This paper contains potentially offensive text and images.
   author-bio: >- 
     Aleksander Szymczyk is an M.Sc. student in Computer Science at the Warsaw University of Technology, specializing in Artificial Intelligence. He works in the AI Security and Transparency Department at NASK. His current research focuses on the safety and interpretability of generative AI models.
@@ -82,13 +84,13 @@
 - author-name: Viacheslav Krilyshyn
   title: "Drobage: Closing the Perception–Grasp Loop for Manipulation and Navigation in Unstructured Outdoor Environments"
   author-title: "GHOST"
-  abstract: >- 
+  abstract-md: |- 
     Outdoor cleaning robots exist, and nearly all of them are blind: sweepers and suction units displace whatever they pass over, with no representation of an individual object and no way to tell afterward whether they collected it or drove over it. Object-level collection is a categorically different problem – commit to a specific target, grasp it under real geometry and uncontrolled illumination, then verify the outcome – and it sits on the hardest open question in manipulation today: dexterous grasping in unstructured scenes where no two configurations repeat. This is where machine learning enters, because the remaining gap is not mechanical but perceptual: the hardware to pick up a can has existed for decades; deciding which can, where to close the fingers, and whether it worked has not.
-    
+
     Drobage is a system built for that loop. An aerial unit surveys a site and provides coarse localization; a ground platform with a manipulator approaches, selects a target, picks it up, and confirms the outcome. Everything runs onboard a Jetson Orin Nano under ROS 2.
-    
+
     The central design decision is a division of labour along the approach. Semantic recognition runs once, from a stationary vantage point rather than on the move: a larger detection model identifies the litter and commits to a target, trading inference cost for a decision made on good evidence. After that the heavy model is never needed again — a lightweight visual tracker (NanoTrack) holds the lock on that specific object throughout navigation, so target identity survives the approach at negligible compute. This inverts the usual optimization target. The robot is slow and the scene is static, so latency at the detection step is effectively free; the scarce resources are false positives, identity switches during transit, and depth that degrades silently.
-    
+
     Because the semantic decision is already settled by the time the arm moves, the pick itself can be classical, and this split is where both properties come from. Grasping uses GG-CNN over depth to generate poses from local surface structure, with MoveIt 2/OMPL planning and PI velocity control on execution – geometric, deterministic, and invariant to object identity by construction, so it transfers to litter it has never seen. Generality is supplied by the detector, which recognizes open-ended categories; reliability is supplied by the geometric pick, which does not care what the object is called. Neither stage requires the data scale of a vision-language-action policy. The claim we want to defend is that open-world generality and deployable reliability are obtainable together by separating semantics from control, rather than by learning both end-to-end – and we will be explicit about where that separation breaks down.
   author-bio: >- 
     Founder and co-lead R&D engineer at GHOST Physical AI, a student research group at Poznań University of Technology. I work on reliable autonomous manipulation in unstructured outdoor environments, and on when learned Vision-Language-Action policies are worth their cost versus classical perception and control. Our group presented this work at two ICRA 2026 workshops in Vienna.
@@ -103,13 +105,13 @@
 - author-name: Tymoteusz Zapala
   title: "GS-JEPA: A Self-Supervised Approach to Learning Gaussian Splat Representations Using Joint Embedding Predictive Architecture"
   author-title: "Wrocław University of Science and Technology"
-  abstract: >- 
+  abstract-md: |- 
     Current self-supervised learning methods for Gaussian splat object representations primarily rely on reconstruction-based pretraining, where the model is optimized to reconstruct its input. While effective, this learning paradigm may produce representations that are less transferable when the pretraining data differ from the target downstream distribution. This project investigates whether Joint Embedding Predictive Architectures (JEPA), which learn predictive latent representations rather than directly reconstructing the input, can improve the transferability of learned Gaussian splat representations under such conditions.
-    
+
     To this end, two self-supervised JEPA formulations are proposed for Gaussian splat object representations. The first is a point-based adaptation of Point-JEPA that operates directly on Gaussian primitives, grouping them into patches, while the second is a novel graph-based formulation that explicitly models relationships between neighboring Gaussians to capture structural information. These complementary approaches focus on different aspects of the representation, enabling an evaluation of both point-based and relational predictive learning. Both models are pretrained on the large-scale synthetic ShapeSplat dataset and subsequently evaluated on downstream classification and segmentation tasks using the synthetic ModelSplat benchmark and the real Gaussian splat-rendered MACGS dataset, allowing the transferability of the learned representations across different data distributions to be assessed.
-    
+
     The results demonstrate that predictive learning provides more transferable representations than the reconstruction-based Gaussian-Masked Autoencoder (Gaussian-MAE) baseline. On the challenging MACGS classification benchmark, the proposed point-based and graph-based formulations achieve accuracies of 95.76% (+2.45) and 94.64% (+1.33), respectively, compared to Gaussian-MAE. Furthermore, the graph-based approach achieves the strongest segmentation performance with an mIoU of 85.16% (+1.17) on the ShapeNetPart dataset, highlighting the benefits of explicitly modeling relationships between Gaussian primitives. Additionally, the largest improvement was observed under the linear evaluation protocol, confirming that the latent representations learned by JEPA are substantially more informative.
-    
+
     Overall, the findings show that JEPA-based predictive learning can be successfully adapted to Gaussian splat representations, producing more transferable representations than reconstruction-based pretraining and outperforming existing approaches across the evaluated benchmarks. These results establish predictive representation learning as a promising direction for future research on Gaussian splat representations. This work has been submitted to ICLR 2027.
   author-bio: >- 
     I am a Master's student in Artificial Intelligence at Wrocław University of Science and Technology, where I previously earned a Bachelor's degree in Applied Computer Science. I combine my studies with working as a Data Scientist, applying machine learning and AI techniques to real-world problems. My research interests include Gaussian splatting, representation learning, and advancing state-of-the-art methods in computer vision and artificial intelligence.
@@ -124,7 +126,7 @@
 - author-name: Jakub Grzywaczewski
   title: "Your CLIP has 164 dimensions of noise: Exploring the embeddings covariance eigenspectrum of contrastively pretrained vision-language transformers"
   author-title: "Warsaw University of Technology / Centre for Credible AI"
-  abstract: >- 
+  abstract-md: |- 
     Contrastively pre-trained Vision-Language Models (VLMs) serve as powerful feature extractors. Yet, their shared latent spaces are prone to structural anomalies and act as repositories for non-semantic, multi-modal noise. To address this phenomenon, we employ spectral decomposition of covariance matrices to decompose the VLM latent space into a multi-modal semantic signal component and a shared noise subspace. We observe that this noise geometry exhibits strong subgroup invariance across distinct data subsets. Crucially, pruning these shared noise dimensions is mainly harmless, preserving or actively improving downstream task performance. By isolating true semantic signals from artifactual noise, this work provides new mechanistic insights into the representational structure of modern VLMs, suggesting that a substantial fraction of their latent geometry is governed by shared, architecture-level noise rather than task-relevant semantics alone.
   author-bio: >- 
     I’m a Research Software Engineer working at CCAI and a 2nd year Data Science MSc student at Warsaw University of Technology. Passionate about deep learning, generative models, data science, overall software development and all things math. I am involved in various projects tying to push forward the frontier of explainable AI ranging from practical application of generative AI for model validation to vision model depoisoning.

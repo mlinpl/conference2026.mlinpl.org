@@ -112,11 +112,16 @@ Expects following parameters:
                 {% if talk.video %}
                     <a class="btn btn-default" href="{{ talk.video | relative_url }}"><i class="fa-solid fa-youtube"></i> recording</a>
                 {% endif %}
-                {% if talk.abstract %}
+                {% if talk.abstract-md %}
+                <div class="abstract-md">
+                <h4 style="margin-top: 35px; margin-bottom: 0px;"><strong><i class="fa-solid fa-file"></i> Abstract:</strong></h4>
+                {{ talk.abstract-md | markdownify }}
+                </div>
+                {% elsif talk.abstract %}
                 <div>
                 <h4 style="margin-top: 35px; margin-bottom: 0px;"><strong><i class="fa-solid fa-file"></i> Abstract:</strong></h4>
                 {% assign read-more-id = html-id | append: "-abstract" %}
-                {% include read-more.html content=talk.abstract id=read-more-id %}  
+                {% include read-more.html content=talk.abstract id=read-more-id %}
                 </div>
                 {% endif %}
                 {% if talk.author-bio %}
