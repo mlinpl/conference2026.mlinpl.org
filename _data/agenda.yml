@@ -14,6 +14,39 @@
         element-class: col-lg-12
         time: 8:00 - 11:30
         room: Main Hall
+        subevents:
+          - title: "<strong>Interpretability-Guided Soft Pruning of Attention Heads in Vision Transformers</strong>"
+            subtitle: by Michał Jan Włodarczyk (Centre for Credible AI)
+            time: 08:15 - 08:30
+            url: /program#srw-talk-1
+          - title: "<strong>Diverse Subset Selection at Scale with Maximum Diversity Picking</strong>"
+            subtitle: by Michał Szymocha (AGH University of Krakow)
+            time: 08:35 - 08:50
+            url: /program#srw-talk-2
+          - title: "<strong>Goal Conditioned RL to Abstract Solved States via Relative Contrastive Reinforcement Learning</strong>"
+            subtitle: by Jan Kwiecinski (University of Warsaw)
+            time: 08:55 - 09:10
+            url: /program#srw-talk-3
+          - title: "<strong>Activity is in the Activations: Inference-Time Steering of Peptide Models for Antimicrobial Design</strong>"
+            subtitle: by Grzegorz Siudak (Warsaw University of Technology)
+            time: 09:15 - 09:30
+            url: /program#srw-talk-4
+          - title: "<strong>Conditioned Activation Transport for T2I Safety Steering</strong>"
+            subtitle: by Aleksander Szymczyk (NASK National Research Institute)
+            time: 10:00 - 10:15
+            url: /program#srw-talk-5
+          - title: "<strong>Drobage: Closing the Perception–Grasp Loop for Manipulation and Navigation in Unstructured Outdoor Environments</strong>"
+            subtitle: by Viacheslav Krilyshyn (GHOST)
+            time: 10:20 - 10:35
+            url: /program#srw-talk-6
+          - title: "<strong>GS-JEPA: A Self-Supervised Approach to Learning Gaussian Splat Representations Using Joint Embedding Predictive Architecture</strong>"
+            subtitle: by Tymoteusz Zapala (Wrocław University of Science and Technology)
+            time: 10:40 - 10:55
+            url: /program#srw-talk-7
+          - title: "<strong>Your CLIP has 164 dimensions of noise: Exploring the embeddings covariance eigenspectrum of contrastively pretrained vision-language transformers</strong>"
+            subtitle: by Jakub Grzywaczewski (Warsaw University of Technology / Centre for Credible AI)
+            time: 11:00 - 11:15
+            url: /program#srw-talk-8
 
     - events:
       - title: Registration
@@ -44,9 +77,12 @@
         room: Hall B
 
     - events:
-      - title: Poster Session
+      - title: 'Poster Session 1'
+        subtitle: "with posters: 1-22"
         element-class: col-lg-12
         time: 13:15 - 14:45
+        url: /program#poster-1
+        note: You can continue presenting your posters during lunch
 
     - events:
       - title: '<i class="fa-solid fa-utensils"></i> Lunch'
@@ -121,14 +157,53 @@
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Main Hall
+        subevents:
+          - title: "<strong>Teaching Humans and Machines How to Design Drugs</strong>"
+            subtitle: by Tomasz Danel (Jagiellonian University | GMUM)
+            time: 09:30 - 10:00
+            url: /program#contributed-talk-1
+          - title: "<strong>Inpainting physics: self-supervised learning for context-driven fluid simulation</strong>"
+            subtitle: by Julian Suk (Technical University of Munich)
+            time: 10:00 - 10:30
+            url: /program#contributed-talk-2
+          - title: "<strong>Generative AI for physicochemistry-based controllable design of antimicrobial peptides</strong>"
+            subtitle: by Paulina Szymczak (Helmholtz Munich)
+            time: 10:30 - 11:00
+            url: /program#contributed-talk-3
       - title: 'Contributed Talks 4–6'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall A
+        subevents:
+          - title: "<strong>Detecting Data Contamination in LLMs</strong>"
+            subtitle: by Michał Zawalski (NVIDIA)
+            time: 09:30 - 10:00
+            url: /program#contributed-talk-4
+          - title: "<strong>PoVisLE: Evaluating Polish Cultural and Linguistic Competence in Vision-Language Models</strong>"
+            subtitle: by Anna Kołos (NASK)
+            time: 10:00 - 10:30
+            url: /program#contributed-talk-5
+          - title: "<strong>Beyond Global Calibration: Discovering Hidden Miscalibration Regimes</strong>"
+            subtitle: by Katarzyna Kobalczyk (University of Cambridge)
+            time: 10:30 - 11:00
+            url: /program#contributed-talk-6
       - title: 'Contributed Talks 7–9'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall B
+        subevents:
+          - title: "<strong>Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents</strong>"
+            subtitle: by Julia Bazinska (Check Point AI Security)
+            time: 09:30 - 10:00
+            url: /program#contributed-talk-7
+          - title: "<strong>How Vulnerable Are AI Agents to Indirect Prompt Injections? Insights from a Large-Scale Public Competition</strong>"
+            subtitle: by Mateusz Dziemian (Gray Swan)
+            time: 10:00 - 10:30
+            url: /program#contributed-talk-9
+          - title: "<strong>Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models</strong>"
+            subtitle: by Bartłomiej Marek (CISPA)
+            time: 10:30 - 11:00
+            url: /program#contributed-talk-8
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
@@ -153,9 +228,12 @@
         room: Hall B
 
     - events:
-      - title: Poster Session
+      - title: 'Poster Session 2'
+        subtitle: "with posters: 28-48"
         element-class: col-lg-12
         time: 12:15 - 13:45
+        url: /program#poster-28
+        note: You can continue presenting your posters during lunch
 
     - events:
       - title: '<i class="fa-solid fa-utensils"></i> Lunch'
@@ -171,10 +249,36 @@
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Hall A
+        subevents:
+          - title: "<strong>DAVE: Distribution-aware Attribution via ViT Gradient Decomposition</strong>"
+            subtitle: by Adam Wróbel (Jagiellonian University)
+            time: 14:30 - 15:00
+            url: /program#contributed-talk-10
+          - title: "<strong>Interpreting Vision-Language Models with Sparse Autoencoders</strong>"
+            subtitle: by Mateusz Pach (Jagiellonian University)
+            time: 15:00 - 15:30
+            url: /program#contributed-talk-11
+          - title: "<strong>DiCoFlex: Model-agnostic diverse counterfactual explanations with flexible control</strong>"
+            subtitle: by Oleksii Furman (Wrocław University of Science and Technology)
+            time: 15:30 - 16:00
+            url: /program#contributed-talk-12
       - title: 'Contributed Talks 13–15'
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Hall B
+        subevents:
+          - title: "<strong>Hierarchical Bayes and Invariance in Causality</strong>"
+            subtitle: by Sergio Hernan Garrido Mejia (Max Planck Institute for Intelligent Systems)
+            time: 14:30 - 15:00
+            url: /program#contributed-talk-13
+          - title: "<strong>From Feature Learning to Neural Collapse: A data-dependent kernel view</strong>"
+            subtitle: by Kirsten Fischer (Helmholtz Munich)
+            time: 15:00 - 15:30
+            url: /program#contributed-talk-14
+          - title: "<strong>RED-HDP-HMM: Observation-Dependent Durations for Bayesian Nonparametric Sequential Models</strong>"
+            subtitle: by Mikołaj Słupiński (University of Wrocław / RTB House)
+            time: 15:30 - 16:00
+            url: /program#contributed-talk-15
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
@@ -235,14 +339,53 @@
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Main Hall
+        subevents:
+          - title: "<strong>Scalable and Interpretable Representation Alignment with Ordinal Similarity</strong>"
+            subtitle: by Diogo Soares (Helmholtz Munich / TUM)
+            time: 09:30 - 10:00
+            url: /program#contributed-talk-16
+          - title: "<strong>Surgical unlearning: precise concepts removal from AI models</strong>"
+            subtitle: by Dawid Rymarczyk (Jagiellonian University / Ardigen)
+            time: 10:00 - 10:30
+            url: /program#contributed-talk-17
+          - title: "<strong>Concept Removal for Frontier Image Generative Models</strong>"
+            subtitle: by Franziska Boenisch (CISPA)
+            time: 10:30 - 11:00
+            url: /program#contributed-talk-18
       - title: 'Contributed Talks 19–21'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall A
+        subevents:
+          - title: "<strong>SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs</strong>"
+            subtitle: by Mikołaj Zasada (AGH University of Krakow)
+            time: 09:30 - 10:00
+            url: /program#contributed-talk-19
+          - title: "<strong>Masks Can Be Distracting: On Context Comprehension in Diffusion Language Models</strong>"
+            subtitle: by Julianna Piskorz (University of Cambridge)
+            time: 10:00 - 10:30
+            url: /program#contributed-talk-20
+          - title: "<strong>ZEUS: Zero-shot Embeddings for Unsupervised Separation of Tabular Data</strong>"
+            subtitle: by Patryk Marszałek (Jagiellonian University in Kraków / GMUM)
+            time: 10:30 - 11:00
+            url: /program#contributed-talk-21
       - title: 'Contributed Talks 22–24'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall B
+        subevents:
+          - title: "<strong>FPS: Frames, Physics, and Steering – Probing and Controlling Physical Observables in Video Diffusion Models</strong>"
+            subtitle: by Jonas Kneifl (IDEAS Research Institute)
+            time: 09:30 - 10:00
+            url: /program#contributed-talk-22
+          - title: "<strong>PhAME: Phenotype-Aware Molecular Editing via Latent Diffusion</strong>"
+            subtitle: by Łukasz Janisiów (Jagiellonian University / GMUM)
+            time: 10:00 - 10:30
+            url: /program#contributed-talk-23
+          - title: "<strong>Auditing Sybil: Explaining Deep Lung Cancer Risk Prediction Through Generative Interventional Attributions</strong>"
+            subtitle: by Bartlomiej Sobieski (University of Warsaw / Centre for Credible AI)
+            time: 10:30 - 11:00
+            url: /program#contributed-talk-24
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
@@ -267,9 +410,12 @@
         room: Hall B
 
     - events:
-      - title: Poster Session
+      - title: 'Poster Session 3'
+        subtitle: "with posters: 55-75"
         element-class: col-lg-12
         time: 12:15 - 13:45
+        url: /program#poster-55
+        note: You can continue presenting your posters during lunch
 
     - events:
       - title: '<i class="fa-solid fa-utensils"></i> Lunch'
