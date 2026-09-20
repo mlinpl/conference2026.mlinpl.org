@@ -153,7 +153,7 @@
         time: 8:30 - 9:30
 
     - events:
-      - title: 'Contributed Session 1'
+      - title: 'Contributed Talks Session 1'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Main Hall
@@ -170,7 +170,7 @@
             subtitle: by Paulina Szymczak (Helmholtz Munich)
             time: 10:30 - 11:00
             url: /program#contributed-talk-3
-      - title: 'Contributed Session 2'
+      - title: 'Contributed Talks Session 2'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall A
@@ -187,7 +187,7 @@
             subtitle: by Katarzyna Kobalczyk (University of Cambridge)
             time: 10:30 - 11:00
             url: /program#contributed-talk-6
-      - title: 'Contributed Session 3'
+      - title: 'Contributed Talks Session 3'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall B
@@ -245,7 +245,7 @@
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Main Hall
-      - title: 'Contributed Session 4'
+      - title: 'Contributed Talks Session 4'
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Hall A
@@ -262,7 +262,7 @@
             subtitle: by Oleksii Furman (Wrocław University of Science and Technology)
             time: 15:30 - 16:00
             url: /program#contributed-talk-12
-      - title: 'Contributed Session 5'
+      - title: 'Contributed Talks Session 5'
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Hall B
@@ -335,7 +335,7 @@
         time: 8:30 - 9:30
 
     - events:
-      - title: 'Contributed Session 6'
+      - title: 'Contributed Talks Session 6'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Main Hall
@@ -352,7 +352,7 @@
             subtitle: by Franziska Boenisch (CISPA)
             time: 10:30 - 11:00
             url: /program#contributed-talk-18
-      - title: 'Contributed Session 7'
+      - title: 'Contributed Talks Session 7'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall A
@@ -369,7 +369,7 @@
             subtitle: by Patryk Marszałek (Jagiellonian University in Kraków / GMUM)
             time: 10:30 - 11:00
             url: /program#contributed-talk-21
-      - title: 'Contributed Session 8'
+      - title: 'Contributed Talks Session 8'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall B
