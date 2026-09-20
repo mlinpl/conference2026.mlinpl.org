@@ -6,6 +6,8 @@ Optional visibility guards on the item (any combination; all must pass):
                   (works for booleans and string states like "first"/"all")
     when-data:    name of a site.data collection; shown only while it is non-empty
     when-page:    a page url; shown only while a published page has that url
+    when-file:    a static file path; shown only while that file exists
+                  (e.g. /docs/mlinpl-2026-booklet.pdf)
     when-eq:      map of state flag => required value; shown only while every
                   named site.data.state flag equals its value (e.g. agenda: full)
 {% endcomment %}
@@ -32,6 +34,12 @@ Optional visibility guards on the item (any combination; all must pass):
 {% if include.navitem.when-page %}
     {% assign nav_page = site.pages | where: "url", include.navitem.when-page | first %}
     {% unless nav_page %}
+        {% assign nav_show = false %}
+    {% endunless %}
+{% endif %}
+{% if include.navitem.when-file %}
+    {% assign nav_file = site.static_files | where: "path", include.navitem.when-file | first %}
+    {% unless nav_file %}
         {% assign nav_show = false %}
     {% endunless %}
 {% endif %}

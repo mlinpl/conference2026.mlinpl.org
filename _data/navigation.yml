@@ -1,7 +1,7 @@
 # Navigation is defined once under `items`, and `order` lists the explicit top-level ordering for each conference phase.
 
 order:
-  before-tickets:
+  base:
     - about
     - program
     - timeline
@@ -94,8 +94,9 @@ items:
         when-page: /call-for-tutorials # only shown once the /call-for-tutorials page is published
       - name: "/ Venue"
         url: "#venue"
-      # - name: "/ Conference booklet"
-      #   url: "/docs/mlinpl-2026-booklet.pdf"
+      - name: "/ Conference booklet"
+        url: "/docs/mlinpl-2026-booklet.pdf"
+        when-file: /docs/mlinpl-2026-booklet.pdf # only shown once the booklet PDF is added
     #   - name: "/ Pre-conference meetups"
     #     url: "/meetups"
     #   # - name: '<span class="main-name">ML <span style="color: #4BCAFD !important;">i</span>n PL</span> <span class="sub-name">AI ART FESTIVAL</span>'

@@ -30,7 +30,7 @@
                 {% elsif site.data.state.agenda == "full" %}
                     {% assign nav_variant = "agenda-full" %}
                 {% elsif site.data.state.tickets == false %}
-                    {% assign nav_variant = "before-tickets" %}
+                    {% assign nav_variant = "base" %}
                 {% endif %}
                 {% assign nav_order = site.data.navigation.order[nav_variant] %}
                 {% for key in nav_order %}
