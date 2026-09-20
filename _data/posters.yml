@@ -359,6 +359,89 @@
   id: 22
   author-image: images/optimized/cfc-600x600/BartlomiejSobieski.webp
 
+- author-name: Jan Malinowski
+  title: "From scRNA-seq to DRL Control: An End-to-End Boolean Network Environment Inference Pipeline for Cell Fate Reprogramming"
+  author-title: "IDEAS Research Institute"
+  abstract-md: |- 
+    Recent development of novel biology experimental techniques allowed us to gain new insights about the dynamic state of the cells. One of such methods is single-cell sequencing of RNA transcripts, which provides quantitative information about gene expressions of individual cells. Data obtained through these new protocols enabled new research directions such as prediction of cell phenotype changes after modifications of its gene regulatory networks (GRN), which is highly sought in the area of cellular reprogramming. In that field GRN dynamics can be described with Boolean networks, where activation of each gene corresponds to binary value and is determined by non-linear logical functions. Within this formalism, attractor states - the stable configurations into which the system dynamics eventually settle - have clear biological interpretation of cell phenotypes, which allows to formulate the problem of control with regard to GRN. Classical methods struggle to identify optimal reprogramming strategies due to state-space explosion. To solve this issue we developed the GATTACA - Gymnasium compatible framework, that utilizes deep reinforcement learning. In this approach the agent learns potential gene modifications through perturbations of certain gene-states and relations on graph neural networks. Although GATTACA has been shown to effectively identify control solutions, constructing robust Boolean networks from biological data — the framework's primary inputs — remains a challenge, as no single inference method has emerged as a gold standard.
+
+    In this paper we present the idea of an end-to-end data transformation pipeline that leads from scRNA-seq data into sets of Boolean network functions ready to be used by GATTACA’s learning agent. We show different stages and branching points along with the mathematical descriptions and motivations behind our decisions. We pinpoint major issues related to scRNA-seq data such as the curse of dimensionality or intraspecies variation and explain how we handle them. Firstly we preprocess data with statistical methods to filter out experimental artifacts. We perform feature selection based on gene expressions variability accounting for batch effects from different data sources. We integrate data utilizing constituted benchmarks and annotate cell types with transfer learning through embeddings similarity. At the end data from lineage tracing and in splicing is incorporated into pseudotime trajectory inference. Finally, candidate gene interactions are filtered against prior knowledge from the DoRothEA database to yield a biologically grounded GRN, which is subsequently used by BoNesis to synthesize Boolean network models.
+
+    We propose a strictly ordered pipeline integrating statistical, probabilistic, and machine learning techniques to generate state-of-the-art Boolean networks models. We identify and address conceptual challenges encountered during pipeline development and outline future research directions.
+  author-bio: >- 
+    Jan Malinowski is an M.Sc. graduate in Applied Physics pursuing a PhD path in machine learning applied to biological systems. He currently works as a junior researcher at IDEAS Research Institute. His research focuses on applying Deep Reinforcement Learning to high-dimensional biological systems, specifically developing control strategies for gene regulatory networks.
+  co-authors: Andrzej Mizera
+  date: Thursday / 8 October
+  time: 13:15 - 14:45
+  room: 
+  session: Poster Session 1
+  id: 23
+  author-image: images/empty.png
+
+- author-name: Serra Korkmaz
+  title: "Sample Efficient Generative Molecular Optimization with Joint Self-Improvement"
+  author-title: "Helmholtz Munich"
+  abstract-md: |- 
+    Generative molecular optimization aims to design molecules with properties surpassing those of existing compounds. However, evaluating candidate molecules is expensive, so sample efficiency, i.e., generating optimized molecules within a fixed evaluation budget, is essential. Moreover, in the offline setting, where a surrogate model approximates candidate evaluation, sample inefficiency compounds with surrogate error, further limiting performance. To address these challenges, we introduce JOINT SELF-IMPROVEMENT (JSI), a framework for sample-efficient online and offline molecular optimization. JSI combines (i) a joint generative-predictive model trained via a joint likelihood-based loss, which aligns molecule generation and surrogate modeling, and (ii) inference-time self-improvement, which iteratively biases the generative component of the joint model toward higher-scoring molecules using direct objective evaluations in the online setting and the predictive component in the offline setting. Experiments across docking score optimization, in both online and offline settings, as well as antimicrobial peptide optimization, demonstrate that JSI outperforms state-of-the-art methods under limited evaluation budgets.
+  author-bio: >- 
+    I am a researcher at Helmholtz Munich. I hold an M.Sc. in Chemical Biotechnology from Technical University of Munich, and my research is at the intersection of chemistry and AI, with a particular focus on generative AI for drug discovery.
+  co-authors: Adam Izdebski, Jonathan Pirnay, Rasmus Møller-Larsen, Michal Kmicikiewicz, Pankhil Gawade, Dominik G. Grimm, Ewa Szczurek
+  date: Thursday / 8 October
+  time: 13:15 - 14:45
+  room: 
+  session: Poster Session 1
+  id: 24
+  author-image: images/empty.png
+
+- author-name: Anna Slian
+  title: "Interpretable Dermatoscopic Classification of Actinic Keratosis Using PIPNet"
+  author-title: "Silesian University of Technology"
+  abstract-md: |- 
+    Background: Actinic keratoses (AK) are pink, scaly plaques occurring predominantly on sun-exposed skin in elderly, fair-skinned patients. While dermatoscopy serves as a primary diagnostic tool, automated machine learning-based classifiers often operate as opaque "black boxes," limiting clinical adoption. To provide accurate yet transparent decision support, we applied the Patch-based Intuitive Prototypes Network (PIPNet) to dermatoscopic image classification of AK. PIPNet maps spatial feature patches extracted from images onto interpretable visual prototypes, which are combined via a sparse, non-negative linear classification layer acting as a clinical scoring sheet.
+
+    Methods: Two datasets were evaluated: a HAM10000 subset for binary classification (990 AK vs. 1402 other lesions) and a DERM12345 subset with additional data collected by authors for multiclass classification (310 AK, 338 basal cell carcinoma, 212 squamous cell carcinoma, and 486 seborrheic keratosis). Datasets were split 80-10-10 into training, validation, and test sets on an image-wise (HAM10000) and patient-wise (DERM12345) basis. Models used a ConvNeXt-Tiny backbone, and were trained for 100 epochs following 10 pretraining epochs (prototype pretraining) with batch size 16.
+
+    Results: On binary classification, PIPNet achieved 88.44% accuracy, 89.90% sensitivity, 86.99% specificity, and sparsity ratio 97.92%, compressing classification reasoning into 33 active prototypes (15 for AK class and 18 for no AK). For multiclass classification, the model achieved 80.43% accuracy, 80.43% sensitivity, and 93.61% specificity with a 97.85% sparsity ratio (15 prototypes for AK, 19 for BCC, 18 for SCC, and 14 for SK). Manual review confirmed prototype activation on clinically relevant sites (vessels, pigmentation, scale, erythema).
+  author-bio: >- 
+    Anna Slian is a PhD student in Biomedical Engineering at the Silesian University of Technology, Poland. Her research focuses on artificial intelligence for dermatology, with particular interest in multimodal medical image analysis, computer-aided diagnosis of skin diseases, and interpretable machine learning. Her current work explores the integration of dermatoscopic and high-frequency ultrasound imaging for the diagnosis and staging of actinic keratosis, with an emphasis on developing transparent and clinically trustworthy AI methods.
+  co-authors: Natalia Salwowska, Katarzyna Korecka, Adriana Polańska, Joanna Czajkowska
+  date: Thursday / 8 October
+  time: 13:15 - 14:45
+  room: 
+  session: Poster Session 1
+  id: 25
+  author-image: images/optimized/cfc-600x600/AnnaSlian.webp
+
+- author-name: Patrycja Romaniszyn-Kania
+  title: "Development of Machine Learning Models for Predicting One-Year Disability Progression in Multiple Sclerosis"
+  author-title: "Silesian University of Technology"
+  abstract-md: |- 
+    Multiple sclerosis (MS) is a chronic immune-mediated disease of the central nervous system and one of the leading causes of neurological disability in young adults. Despite the widespread use of effective anti-CD20 therapies, some patients continue to experience disability progression expressed by the Expanded Disability Status Scale (EDSS) that can be independent of relapse activity. Early identification of patients at risk of progression remains a clinical challenge. Machine learning (ML) offers a promising approach for developing individualized prognostic models based on routinely available clinical and neuroimaging data. This study aimed to develop and validate ML models for predicting disability progression in patients with MS. Additionally, we investigated whether baseline regional brain volumetric magnetic resonance imaging (MRI) measures improve predictive performance beyond collected clinical variables. The study included 149 patients with MS (114 women, 35 men; mean age 41.9 ± 11.6 years). Disability progression was defined as EDSS worsening of at least 0.5 points between baseline and one-year follow-up (75 patients with progression, 74 without). Two classification algorithms with k-fold cross-validation (k = 5), Support Vector Machine (SVM) and Naïve Bayes, were trained using two feature sets: (1) clinical variables (age, sex, baseline EDSS, disease duration, smoking status, treatment type, and treatment status) and (2) clinical variables combined with regional brain volumetric MRI measures. Principal Component Analysis (PCA) was applied to reduce feature dimensionality prior to model training. Models based on clinical variables achieved the highest performance, with both SVM and Naïve Bayes reaching an accuracy of 72.9%. The SVM classifier achieved high specificity (91.0%), whereas Naïve Bayes provided a more balanced trade-off between sensitivity (52.5%) and specificity (85.1%). Incorporating baseline volumetric MRI features did not improve predictive performance and resulted in a slight decrease in classification accuracy for both classifiers. Baseline clinical characteristics provided moderate predictive performance for one-year disability progression in patients with MS. Adding regional brain volumetric MRI measures did not improve model performance in this cohort. These findings suggest that routinely available clinical data may be sufficient for short-term prognostic modeling, while larger multicenter studies are needed to determine whether quantitative MRI biomarkers provide incremental prognostic value.
+  author-bio: >- 
+    Patrycja Romaniszyn-Kania is a researcher at the Department of Medical Informatics and Artificial Intelligence, Silesian University of Technology. Her work focuses on applying machine learning and multimodal data analysis to model psychophysiological states and support clinical decision-making in diagnosis, patient monitoring, and personalized therapy. She received her PhD for research on behavioral–physiological patient state modeling during therapeutic interventions. Her interests include biomedical AI, digital biomarkers, medical signal processing, and wearable sensing technologies.
+  co-authors: Weronika Galus, Katarzyna Zawiślak-Fornagiel, Julia Wyszomirska, Urszula Kłosińska, Oskar Bożek, Daniel Ledwoń, Aleksandra Tuszy, Damian Kania, Joanna Siuda, Andrzej W. Mitas
+  date: Thursday / 8 October
+  time: 13:15 - 14:45
+  room: 
+  session: Poster Session 1
+  id: 26
+  author-image: images/empty.png
+
+- author-name: Mykola Haltiuk
+  title: "Model-Aware Tokenizer Transfer"
+  author-title: "AGH University of Krakow"
+  abstract-md: |- 
+    Large Language Models (LLMs) are trained to support an increasing number of languages, yet their predefined tokenizers remain a bottleneck for adapting models to lower-resource or distinct-script languages. Existing tokenizer transfer methods typically rely on semantic heuristics to initialize new embeddings, ignoring higher-layer model dynamics and limiting transfer quality. We propose Model-Aware Tokenizer Transfer (MATT), a method that incorporates model internals into the tokenizer transfer process. MATT introduces an Attention Influence Modeling (AIM) objective that distills inter-token communication patterns from a source model into a target model with a new tokenizer, providing an efficient warm-up before standard language modeling. Unlike approaches that focus solely on embedding similarity, MATT leverages attention behavior to guide embedding initialization and adaptation. Experiments across diverse linguistic settings show that MATT recovers a large fraction of the original model’s performance within a few GPU hours, outperforming heuristic baselines. These results demonstrate that incorporating model-level signals offers a practical and effective path toward robust tokenizer transfer in multilingual LLMs.
+  author-bio: >- 
+    NLP researcher and PhD candidate at AGH University of Krakow, specializing in language modeling, tokenizer transfer, tokenizer-free models and language adaptation. Author of the Model-Aware Tokenizer Transfer method and co-developer of Lapa, the most efficient open-source Ukrainian LLM, as well as Kobza, the largest Ukrainian text corpus.
+  co-authors: Aleksander Smywiński-Pohl
+  date: Thursday / 8 October
+  time: 13:15 - 14:45
+  room: 
+  session: Poster Session 1
+  id: 27
+  author-image: images/optimized/cfc-600x600/MykolaHaltiuk.webp
+
 - author-name: Tomasz Szczepański
   title: "X-Splat: Gaussian Splatting for 3D CBCT Generation from Single Panoramic Radiograph"
   author-title: "Sano Centre for Computational Medicine"
@@ -715,6 +798,96 @@
   session: Poster Session 2
   id: 48
   author-image: images/optimized/cfc-600x600/TurhanCanKargin.webp
+
+- author-name: Rasmus Møller-Larsen
+  title: "Mutation Flows: Discrete Flow Matching over Edit Graphs"
+  author-title: "Helmholtz Munich"
+  abstract-md: |- 
+    Biological sequences evolve through a rich set of local edits: single-residue substitutions, deletions, and block insertions of new residues. Existing discrete flow matching models either fix sequence length or restrict edits to single tokens, offer no control over source-to-output similarity, and cannot decompose the joint prediction of edit type, block length, and token content. We introduce Mutation Flows, the first discrete flow matching framework over variable-length biological sequences that resolves all three limitations via: (i) block insertions modelled by a zero-truncated Poisson distribution; (ii) R-coupling, a distance-aware coupling that matches the pairwise distance distribution of the training data, giving parametrizable inference-time diversity control while supporting identical source and target distributions; and (iii) an exact planner-denoiser factorisation whose denoiser loss reduces to a standard fixed-length discrete flow matching objective, admitting any pretrained biological sequence model as a drop-in denoiser. On a peptide dataset, Mutation Flows achieves state-of-the-art sequence quality and controllable generation across target distances.
+  author-bio: >- 
+    I am currently a PhD student at Helmholtz Munich and the Technical University of Munich, working on deep generative models for peptide design and multi-objective optimization.
+  co-authors: Ewa Szczurek
+  date: Friday / 9 October
+  time: 12:15 - 13:45
+  room: 
+  session: Poster Session 2
+  id: 49
+  author-image: images/empty.png
+
+- author-name: Małgorzata Grzanka
+  title: "Reasoning Diffusion: Enhancing Spatial Planning in Diffusion Models via Tiny Recursive Model Networks"
+  author-title: "Warsaw University of Technology"
+  abstract-md: |- 
+    While diffusion models excel at generating realistic textures, they struggle with tasks requiring strict logical consistency (like counting) and spatial planning (like generating mazes). Inspired by tiny recursive architectures (TRM), we introduce a two-stage "Painter-Thinker" framework that integrates recursive symbolic reasoning directly into continuous visual generation. The proposed model pairs a frozen diffusion "Painter" with a recurrent, token-based "Thinker". This architecture successfully solves complex spatial constraints, achieving strong results on spatial-reasoning benchmarks, such as MNIST Sudoku.
+  author-bio: >- 
+    Backend engineer with keen interest in Artificial Intelligence. Currently on final-semester bachelor’s student in Computer Science at the Warsaw University of Technology, I’m conducting thesis research on presented on the poster topic.
+  co-authors: Paweł Skierś, Wojciech Masarczyk, Jan-Willem van de Meent, Kamil Deja
+  date: Friday / 9 October
+  time: 12:15 - 13:45
+  room: 
+  session: Poster Session 2
+  id: 50
+  author-image: images/optimized/cfc-600x600/MalgorzataGrzanka.webp
+
+- author-name: Antoni Lasik
+  title: "Reassessing High-Performing LLMs on Polish Medical Exams: True Competence or Bias-Driven Performance?"
+  author-title: "NASK-PIB"
+  abstract-md: |- 
+    Large language models (LLMs) in medicine are mainly evaluated using multiple-choice question answering (MCQA), which can overestimate real clinical ability due to guessing strategies and answer biases. To address these limitations, we introduce an expanded and more challenging benchmark based on Polish medical exams, adding over 15,000 questions, two new domains, and four structural modifications that reduce MCQA-specific artifacts and better test reasoning. We evaluate 21 LLMs and show that evaluation design strongly affects results. Under our harder setup, the best model (Qwen3.5-122B) drops by 28.4 and 31 pp on English and Polish exams, respectively. Despite low evidence of data contamination, standard MCQA scores do not reliably reflect true medical competence.
+  author-bio: >- 
+    Research Engineer. Interested in LLM evaluation, cross-linguality, and alignment.
+  co-authors: Jakub Pokrywka, Łukasz Grzybowski, Jeremi Ignacy Kaczmarek, Gabriela Korzańska, Janusz Świeczkowski-Feiz, Oskar Pastuszek, Paulina Hoffman, Jakub Tomasz Dabrowski, Wojciech Kusa
+  date: Friday / 9 October
+  time: 12:15 - 13:45
+  room: 
+  session: Poster Session 2
+  id: 51
+  author-image: images/empty.png
+
+- author-name: Michał Brzozowski
+  title: "Reading the Finetuning Prior: Verbatim Content Recovery via Contrastive Decoding Diffing"
+  author-title: "Samsung"
+  abstract-md: |- 
+    Narrowly finetuned language models memorize implanted content verbatim, but auditing what a deployed model has been taught, without access to its weights or training data, remains an open challenge. Recent work shows that activation differences between base and finetuned models carry readable traces of the finetuning domain; the state-of-the-art Activation Difference Lens (ADL) recovers a vague domain-level description but requires full "white-box" access to model internals. We introduce Contrastive Decoding Diffing (CDD), a model diffing method that operates on output-level logit distributions only, with no weight access, no layer selection, and no per-model tuning, yet recovers implanted facts. CDD consists of three ideas: bypassing the chat template to expose the raw finetuning prior, seeding generation with maximally vague pre-fills, and amplifying the logit-space difference between finetuned and base models at each decoding step. A single default configuration recovers implanted facts verbatim -- exact drug names, vote counts, physical measurements, and procedural details -- across four architectures (1B--32B parameters), uniformly outperforming ADL despite less access and running ~170x faster. Furthermore, CDD surfaces unintended data pipeline artifacts: a fictional persona introduced by the LLM data generator via mode collapse leaked into model weights and was extracted by CDD, constituting to our knowledge the first demonstrated end-to-end fingerprinting chain from data generator artifact to model weights to recovered output. We validate on real-domain finetuning settings, achieving near-perfect recovery across all single-dataset non-CoT variants and correctly identifying all four datasets in the mixed-dataset setting. CDD's success as a grey-box method outperforming white-box baselines underscores its practical utility for transparency and accountability in AI systems.
+  author-bio: >- 
+    I am a senior AI research expert at Samsung working on LLM interpretability and safety. I have a PhD in Mathematics from Warsaw University. Deeply interested in AI and mathematics. In my free time I do improv and write sf.
+  co-authors: Zuzanna Dubanowska, Enrico Cassano, Neo Christopher Chung
+  date: Friday / 9 October
+  time: 12:15 - 13:45
+  room: 
+  session: Poster Session 2
+  id: 52
+  author-image: images/empty.png
+
+- author-name: Jacek Karolczak
+  title: "Toward Inherently Interpretable Tabular Models via Prototypical Parts"
+  author-title: "Poznan University of Technology"
+  abstract-md: |- 
+    Prototype-based explanations for tabular machine learning remain underexplored, as existing methods generally evaluate features individually without considering their mutual interactions. P$^{\text{2}}$Tab addresses this limitation as a specialized, interpretable neural network designed to explicitly learn and utilize prototypical parts for tabular data. Through differentiable patch masking, P$^{\text{2}}$Tab isolates local feature interdependencies by mapping abstract embeddings to specific feature subsets. Crucially, P$^{\text{2}}$Tab grounds its reasoning by replacing these abstract embeddings with the nearest actual patch embeddings from the training data. By combining these concrete, part-based representations with a linear classification layer, P$^{\text{2}}$Tab produces transparent predictions that trace directly back to localized historical data patterns. Across diverse tabular datasets, P$^{\text{2}}$Tab maintains predictive performance comparable to popular tabular baselines while offering inherent interpretability.
+  author-bio: >- 
+    Jacek Karolczak is a PhD student in the Institute of Computing Science, Poznan University of Technology, where he also received his MSc and BSc degrees in Artificial Intelligence. His research interests focus on interpretable machine learning, including both ante-hoc and post-hoc approaches, with a particular emphasis on prototype-based explanations and machine learning for data streams with concept drift.
+  co-authors: 
+  date: Friday / 9 October
+  time: 12:15 - 13:45
+  room: 
+  session: Poster Session 2
+  id: 53
+  author-image: images/empty.png
+
+- author-name: Grzegorz Łojek
+  title: "Position-Based Parameter-Efficient Fine-Tuning with Gaussian Splatting Adapter"
+  author-title: "IPPT PAN"
+  abstract-md: |- 
+    Full fine-tuning is effective for adapting pretrained models to downstream tasks, but requires updating and storing a separate set of weights for each task. Parameter-Efficient Fine-Tuning (PEFT) reduces this cost by optimizing compact task-specific updates. Among reparameterized PEFT methods, LoRA has become a dominant approach by representing weight updates through low-rank factorization. In this paper, we introduce position-based adapters, which generate weight updates as functions of normalized matrix coordinates. Building on this formulation, we propose the Gaussian Splatting (GS) adapter, which represents updates as a sum of learnable 2D Gaussian primitives. We also introduce GaussLoRA, a hybrid adapter that combines the GS update with a LoRA update under a matched parameter budget. The standalone GS adapter provides effective adaptation despite its strong spatial constraint, showing that coordinate-based update generation is a viable PEFT mechanism. The hybrid GaussLoRA adapter further improves over LoRA across vision benchmarks under matched parameter budgets, and provides competitive results on natural language understanding tasks. Through update visualizations, pruning-based analyses, magnitude comparisons, and training-order experiments, we illustrate the usefulness of the Gaussian component and analyze how it interacts with LoRA.
+  author-bio: >- 
+    A Cognitive Science graduate, currently pursuing a Master's degree in Machine Learning at MIMUW (University of Warsaw). As a researcher at IPPT PAN, I develop novel transfer learning approaches with a focus on advancing efficient and adaptable AI systems.
+  co-authors: Michal Byra
+  date: Friday / 9 October
+  time: 12:15 - 13:45
+  room: 
+  session: Poster Session 2
+  id: 54
+  author-image: images/empty.png
 
 - author-name: Sebastian Musiał
   title: "Fragment-Wise Interpretability in Graph Neural Networks via Molecule Decomposition and Contribution Analysis"
@@ -1082,3 +1255,88 @@
   session: Poster Session 3
   id: 75
   author-image: images/optimized/cfc-600x600/MaciejSwiechowski.webp
+
+- author-name: Jakub Figura
+  title: "Back to basics. On a few selected difficulties related to the application of the concepts of AI system and AI model within the framework of AI ACT"
+  author-title: "Jagiellonian University"
+  abstract-md: |- 
+    Determining regulatory compliance with the European AI Act requires a prior determination of whether a given technology meets the definitions of an AI system. Despite numerous publications and the Commission’s guidelines on the application of the definition of an AI system, the practical application of this definition for regulatory compliance gives rise to numerous interpretative uncertainties. The aim of this presentation is to analyse selected issues arising from the concepts of an AI system and the undefined but AI ACT-relevant concept of an AI model, from both a legal and technical perspective. The grounds for applying these concepts will be discussed in the form of case studies of selected technological solutions. The first case will concern inconsistencies in classification relating to linear regression models, depending on how they are used. Although the Commission has indicated that these models fall outside the scope of the regulation in certain technical configurations, as I shall argue, this is unfounded. The second case will concern the issue of determining whether a given entity is a provider of a general-purpose AI model or an AI system, or a deployer, depending on the manner and extent of modification or integration of the technological solution in question. This issue will be presented in the context of various methods of developing and integrating foundation models, ranging from communicating with models via APIs, developing system prompts and modifying hyperparameters, applying RAG techniques and fine-tuning models, and finally creating distilled models.
+  author-bio: >- 
+    Jakub Figura is a PhD student at the Doctoral School of Social Sciences at the Jagiellonian University. He holds a master’s degree in law and B.Sc in applied computer science from the Jagiellonian University. His research interests are related to AI & Law, machine learning, natural language processing, law of new technologies, logic, and quantitative methodology in social sciences.
+  co-authors: 
+  date: Saturday / 10 October
+  time: 12:15 - 13:45
+  room: 
+  session: Poster Session 3
+  id: 76
+  author-image: images/empty.png
+
+- author-name: Ignacy Kolton
+  title: "Beyond Fluent Reports: Faithful Radiology Report Generation"
+  author-title: "Jagiellonian University"
+  abstract-md: |- 
+    Automating radiology report generation with medical vision-language models (MedVLMs) could help reduce radiologists' reporting workload. However, standard training based on token-level cross-entropy is not explicitly optimized for diagnostic fidelity. Although generated reports may be fluent and well structured, they can still omit clinically relevant findings or introduce unsupported diagnostic statements. To address this mismatch, we introduce a novel, architecture-agnostic auxiliary loss for radiology report generation. The proposed loss is designed to encourage diagnostic terms supported by the reference report while suppressing unsupported alternatives. It uses asymmetric temporal pooling over token probabilities associated with per-sample diagnostic vocabularies: supported diagnostic expressions are encouraged to receive sufficient probability at some point in the generated sequence, while probability spikes associated with unsupported diagnoses are penalized across all output positions. The objective is fully differentiable and can be added to decoder-based MedVLMs without modifying the visual backbone, tokenizer, or inference procedure. We evaluate the method across multiple MedVLM backbones using in-distribution and out-of-distribution computed tomography (CT) datasets. Our results indicate that the proposed loss can reduce missed and unsupported diagnoses across the evaluated settings while maintaining or improving conventional language-generation metrics. These findings suggest that direct supervision of diagnostic content at the decoder level may provide a practical way to improve the diagnostic fidelity of generated radiology reports.
+  author-bio: >- 
+    I recently completed my MSc in Computer Science at Jagiellonian University, where I am now continuing as a PhD student. I am interested in how machine learning and computer vision can support medical imaging, with a current focus on medical vision-language models and radiology report generation.
+  co-authors: Pedro R. A. S. Bassi, Wenxuan Li, Zongwei Zhou, Arkadiusz Sitek, Szymon Plotka
+  date: Saturday / 10 October
+  time: 12:15 - 13:45
+  room: 
+  session: Poster Session 3
+  id: 77
+  author-image: images/empty.png
+
+- author-name: Piotr Szkoda
+  title: "Bridging the Gap: Standardized ML-based Benchmark for Optimization Methods"
+  author-title: "Warsaw University of Technology"
+  abstract-md: |- 
+    Choosing the right optimizer for a specific neural network optimization problem is a critical yet often overlooked challenge. Despite growing interest in evolutionary methods for machine learning, there are no general benchmarks for measuring their efficiency relative to gradient-based algorithms. As gradient-free methods are often compared on a set of hand-crafted, mathematically complex functions, there is a growing need for more realistic, data-driven testing scenarios commonly used in machine learning tasks.
+
+    In this work, we present a benchmarking platform built on a black-box client-server architecture that decouples problem definitions from the optimizer under a standardized interface. Unlike gradient-only benchmarks (AlgoPerf, FOB) or gradient-free-only ones (ZeroFlow), our solution supports both within a single system. Rather than wall-clock time, which is hardware-dependent, the platform measures optimization cost in terms of the number of used samples and the number of calculated gradients.
+
+    To validate the platform, we evaluate nine leading algorithms, including AdamW, Lion, CMA-ES, and DE, on a diverse set of vision and tabular tasks included in the proposed benchmark. Our experiments show that evolutionary methods can match the performance of gradient-based optimizers but require substantially more samples to do so. The modular system, with a web interface and a compute orchestration backend, provides the community with an open tool for objectively evaluating new optimization methods.
+  author-bio: >- 
+    Piotr Szkoda is a fourth-year Bachelor's student at Warsaw University of Technology, who has spent years fiddling with optimizers and training methods for neural networks. He collaborates with the Medical University of Warsaw on the statistical and analytical study of rare disease datasets. His current project, developed with a team of talented student researchers under the supervision of Prof. Jarosław Arabas and Dr. Łukasz Lepak, focuses on benchmarking gradient-based and evolutionary optimization methods for machine learning.
+  co-authors: Adam Szostek, Andrzej Wrzesiński, Bartosz Ząbkowski, Dominik Zieliński, Kacper Ptaszek, Tobiasz Kownacki, Łukasz Eugeniusz Lepak, Jarosław Arabas
+  date: Saturday / 10 October
+  time: 12:15 - 13:45
+  room: 
+  session: Poster Session 3
+  id: 78
+  author-image: images/optimized/cfc-600x600/PiotrSzkoda.webp
+
+- author-name: Adam Kania
+  title: "Numbers, Codes and Timestamps: Challenges of Building Sequence Models for Multimodal Medical Data"
+  author-title: "GSK.ai"
+  abstract-md: |- 
+    Consider the challenge of modeling a patient's medical history as a single sequence, where each event carries a discrete medical code (e.g. a diagnosis), a continuous numeric value such as a lab result, and a timestamp marking when it occurred. Jointly modeling these three data types, rather than as independent streams, is a genuine challenge for maximum likelihood learning: naively parameterizing the joint distribution explodes the parameter space. This issue is further compounded by how noisy real clinical data is, which makes choosing how to parameterize these distributions especially difficult.
+
+    This presentation discusses these issues and how they can be addressed, discussing the drawbacks of quantization of continuous values (lab results, timestamps) and whether lessons from LLM training transfer to a multimodal medical setting.
+  author-bio: >- 
+    I'm a machine learning researcher passionate about mathematics. I've worked with computer vision models during my Masters, but since 2 years I'm improving multimodal sequence models at GSK.
+  co-authors: 
+  date: Saturday / 10 October
+  time: 12:15 - 13:45
+  room: 
+  session: Poster Session 3
+  id: 80
+  author-image: images/optimized/cfc-600x600/AdamKania.webp
+
+- author-name: Jakub Adamczyk
+  title: "Fair evaluation in machine learning for molecules - challenges and solutions"
+  author-title: "AGH University of Krakow / MatGen"
+  abstract-md: |- 
+    Machine learning for molecules is advancing quickly, with new graph neural networks, graph transformers, and pretrained models reported to beat the state of the art almost monthly. Yet a growing body of re-evaluation studies shows a troubling pattern: apparent rankings shift, or even reverse, once baselines and protocols are equalized or the data is changed. Much of the reported progress in molecular property prediction and graph classification reflects the evaluation setup rather than genuine modeling capability. This talk is a practical overview of why this happens and what we can do about it.
+
+    I will walk through four recurring failure modes. First, weak baselines: proposed methods are carefully tuned while classical approaches are omitted or run with defaults, manufacturing an illusion of progress. Second, problematic train-test splits: random splits leak information between chemically similar molecules and wildly overestimate real-world performance, while realistic splits based on scaffolds, time, or chemical diversity tell a very different story. Third, weak statistical practice: molecular datasets are small and noisy, so single-number comparisons on one benchmark reward favorable random seeds rather than true capability, and cross-dataset comparisons need rank-based analysis and significance testing to mean anything. Fourth, lacking and saturated datasets: public data is riddled with invalid structures, duplicates, and inconsistent labels, and the field leans on a handful of benchmarks like MoleculeNet, so models are effectively tuned against the same test molecules across many papers.
+
+    For each challenge I will present concrete, actionable solutions, drawing on examples from general molecular graph classification through to applied domains such as agrochemistry and peptide function prediction. These include building strong, cheap baselines and evaluating them fairly, choosing splits that match the real deployment scenario, reporting variability and running proper statistical tests, and investing in curated, diverse, well-constructed benchmarks following data-centric AI principles. Throughout, I will show how these fixes repeatedly overturn confident-but-wrong conclusions - and argue that fair evaluation, not any single architecture, is the foundation of trustworthy molecular machine learning.
+  author-bio: >- 
+    I am a PhD candidate in Computer Science at AGH University of Krakow, and the leader of Machine Learning and Chemoinformatics Lab (MLCIL). My research concerns fair evaluation, graph representation learning, graph classification, chemoinformatics, and molecular property prediction. I'm also interested in time series, NLP, and MLOps, and I'm also teaching all of those things at AGH. I also work at MatGen as Senior Chemoinformatician. Beside my professional work, I train Historical European Martial Arts (HEMA) with messer and longsword, and like reading and tabletop RPGs.
+  co-authors: 
+  date: Saturday / 10 October
+  time: 12:15 - 13:45
+  room: 
+  session: Poster Session 3
+  id: 81
+  author-image: images/optimized/cfc-600x600/JakubAdamczyk.webp
