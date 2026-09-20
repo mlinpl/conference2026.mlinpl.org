@@ -11,7 +11,7 @@
   date: Friday / 9 October
   time: 09:30 - 10:00
   room: Main Hall
-  session: CfC Session 1
+  session: Contributed Talks Session 1
   id: 1
   author-image: images/optimized/cfc-600x600/TomaszDanel.webp
 
@@ -26,7 +26,7 @@
   date: Friday / 9 October
   time: 10:00 - 10:30
   room: Main Hall
-  session: CfC Session 1
+  session: Contributed Talks Session 1
   id: 2
   author-image: images/optimized/cfc-600x600/JulianSuk.webp
 
@@ -41,7 +41,7 @@
   date: Friday / 9 October
   time: 10:30 - 11:00
   room: Main Hall
-  session: CfC Session 1
+  session: Contributed Talks Session 1
   id: 3
   author-image: images/optimized/cfc-600x600/PaulinaSzymczak.webp
 
@@ -64,7 +64,7 @@
   date: Friday / 9 October
   time: 09:30 - 10:00
   room: Hall A
-  session: CfC Session 2
+  session: Contributed Talks Session 2
   id: 4
   author-image: images/optimized/cfc-600x600/MichalZawalski.webp
 
@@ -83,7 +83,7 @@
   date: Friday / 9 October
   time: 10:00 - 10:30
   room: Hall A
-  session: CfC Session 2
+  session: Contributed Talks Session 2
   id: 5
   author-image: images/optimized/cfc-600x600/AnnaKolos.webp
 
@@ -104,7 +104,7 @@
   date: Friday / 9 October
   time: 10:30 - 11:00
   room: Hall A
-  session: CfC Session 2
+  session: Contributed Talks Session 2
   id: 6
   author-image: images/optimized/cfc-600x600/KatarzynaKobalczyk.webp
 
@@ -121,7 +121,7 @@
   date: Friday / 9 October
   time: 09:30 - 10:00
   room: Hall B
-  session: CfC Session 3
+  session: Contributed Talks Session 3
   id: 7
   author-image: images/empty.png
 
@@ -136,7 +136,7 @@
   date: Friday / 9 October
   time: 10:30 - 11:00
   room: Hall B
-  session: CfC Session 3
+  session: Contributed Talks Session 3
   id: 8
   author-image: images/optimized/cfc-600x600/BartlomiejMarek.webp
 
@@ -151,7 +151,7 @@
   date: Friday / 9 October
   time: 10:00 - 10:30
   room: Hall B
-  session: CfC Session 3
+  session: Contributed Talks Session 3
   id: 9
   author-image: images/optimized/cfc-600x600/MateuszDziemian.webp
 
@@ -166,7 +166,7 @@
   date: Friday / 9 October
   time: 14:30 - 15:00
   room: Hall A
-  session: CfC Session 4
+  session: Contributed Talks Session 4
   id: 10
   author-image: images/empty.png
 
@@ -183,7 +183,7 @@
   date: Friday / 9 October
   time: 15:00 - 15:30
   room: Hall A
-  session: CfC Session 4
+  session: Contributed Talks Session 4
   id: 11
   author-image: images/optimized/cfc-600x600/MateuszPach.webp
 
@@ -198,7 +198,7 @@
   date: Friday / 9 October
   time: 15:30 - 16:00
   room: Hall A
-  session: CfC Session 4
+  session: Contributed Talks Session 4
   id: 12
   author-image: images/empty.png
 
@@ -215,7 +215,7 @@
   date: Friday / 9 October
   time: 14:30 - 15:00
   room: Hall B
-  session: CfC Session 5
+  session: Contributed Talks Session 5
   id: 13
   author-image: images/empty.png
 
@@ -230,7 +230,7 @@
   date: Friday / 9 October
   time: 15:00 - 15:30
   room: Hall B
-  session: CfC Session 5
+  session: Contributed Talks Session 5
   id: 14
   author-image: images/optimized/cfc-600x600/KirstenFischer.webp
 
@@ -245,7 +245,7 @@
   date: Friday / 9 October
   time: 15:30 - 16:00
   room: Hall B
-  session: CfC Session 5
+  session: Contributed Talks Session 5
   id: 15
   author-image: images/optimized/cfc-600x600/MikolajSlupinski.webp
 
@@ -260,7 +260,7 @@
   date: Saturday / 10 October
   time: 09:30 - 10:00
   room: Main Hall
-  session: CfC Session 6
+  session: Contributed Talks Session 6
   id: 16
   author-image: images/optimized/cfc-600x600/DiogoSoares.webp
 
@@ -279,7 +279,7 @@
   date: Saturday / 10 October
   time: 10:00 - 10:30
   room: Main Hall
-  session: CfC Session 6
+  session: Contributed Talks Session 6
   id: 17
   author-image: images/empty.png
 
@@ -294,7 +294,7 @@
   date: Saturday / 10 October
   time: 10:30 - 11:00
   room: Main Hall
-  session: CfC Session 6
+  session: Contributed Talks Session 6
   id: 18
   author-image: images/optimized/cfc-600x600/FranziskaBoenisch.webp
 
@@ -309,7 +309,7 @@
   date: Saturday / 10 October
   time: 09:30 - 10:00
   room: Hall A
-  session: CfC Session 7
+  session: Contributed Talks Session 7
   id: 19
   author-image: images/optimized/cfc-600x600/MikolajZasada.webp
 
@@ -324,7 +324,7 @@
   date: Saturday / 10 October
   time: 10:00 - 10:30
   room: Hall A
-  session: CfC Session 7
+  session: Contributed Talks Session 7
   id: 20
   author-image: images/optimized/cfc-600x600/JuliannaPiskorz.webp
 
@@ -339,7 +339,7 @@
   date: Saturday / 10 October
   time: 10:30 - 11:00
   room: Hall A
-  session: CfC Session 7
+  session: Contributed Talks Session 7
   id: 21
   author-image: images/optimized/cfc-600x600/PatrykMarszalek.webp
 
@@ -372,7 +372,7 @@
   date: Saturday / 10 October
   time: 09:30 - 10:00
   room: Hall B
-  session: CfC Session 8
+  session: Contributed Talks Session 8
   id: 22
   author-image: images/empty.png
 
@@ -387,7 +387,7 @@
   date: Saturday / 10 October
   time: 10:00 - 10:30
   room: Hall B
-  session: CfC Session 8
+  session: Contributed Talks Session 8
   id: 23
   author-image: images/optimized/cfc-600x600/LukaszJanisiow.webp
 
@@ -404,6 +404,6 @@
   date: Saturday / 10 October
   time: 10:30 - 11:00
   room: Hall B
-  session: CfC Session 8
+  session: Contributed Talks Session 8
   id: 24
   author-image: images/optimized/cfc-600x600/BartlomiejSobieski.webp

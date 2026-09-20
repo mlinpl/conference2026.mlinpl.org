@@ -61,17 +61,17 @@
 
     - events:
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Markus Wulfmeier
+        subtitle: by TBA
         element-class: col-lg-4
         time: 12:15 - 13:15
         room: Main Hall
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Piotr Sankowski
+        subtitle: by TBA
         element-class: col-lg-4
         time: 12:15 - 13:15
         room: Hall A
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Razvan Pascanu
+        subtitle: by TBA
         element-class: col-lg-4
         time: 12:15 - 13:15
         room: Hall B
@@ -91,24 +91,24 @@
 
     - events:
       - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA (Bayer)
+        subtitle: by TBA
         element-class: col-lg-4
         time: 15:30 - 16:00
         room: Main Hall
       - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA (Allegro)
+        subtitle: by TBA
         element-class: col-lg-4
         time: 15:30 - 16:30
         room: Hall A
       - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA (JetBrains)
+        subtitle: by TBA
         element-class: col-lg-4
         time: 15:30 - 16:30
         room: Hall B
 
     - events:
       - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA (Snowflake)
+        subtitle: by TBA
         element-class: col-lg-4
         time: 16:00 - 16:30
         room: Main Hall
@@ -120,17 +120,17 @@
 
     - events:
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Pierre Stock (Mistral)
+        subtitle: by TBA
         element-class: col-lg-4
         time: 17:00 - 18:00
         room: Main Hall
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Adam Paszke
+        subtitle: by TBA
         element-class: col-lg-4
         time: 17:00 - 18:00
         room: Hall A
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Emanuele Rodolà
+        subtitle: by TBA
         element-class: col-lg-4
         time: 17:00 - 18:00
         room: Hall B
@@ -153,7 +153,7 @@
         time: 8:30 - 9:30
 
     - events:
-      - title: 'Contributed Talks 1–3'
+      - title: 'Contributed Talks Session 1'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Main Hall
@@ -170,7 +170,7 @@
             subtitle: by Paulina Szymczak (Helmholtz Munich)
             time: 10:30 - 11:00
             url: /program#contributed-talk-3
-      - title: 'Contributed Talks 4–6'
+      - title: 'Contributed Talks Session 2'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall A
@@ -187,7 +187,7 @@
             subtitle: by Katarzyna Kobalczyk (University of Cambridge)
             time: 10:30 - 11:00
             url: /program#contributed-talk-6
-      - title: 'Contributed Talks 7–9'
+      - title: 'Contributed Talks Session 3'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall B
@@ -217,12 +217,12 @@
         time: 11:15 - 12:15
         room: Main Hall
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Tomas Pluskal
+        subtitle: by TBA
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall A
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Lenka Zdeborova
+        subtitle: by TBA
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall B
@@ -245,7 +245,7 @@
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Main Hall
-      - title: 'Contributed Talks 10–12'
+      - title: 'Contributed Talks Session 4'
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Hall A
@@ -262,7 +262,7 @@
             subtitle: by Oleksii Furman (Wrocław University of Science and Technology)
             time: 15:30 - 16:00
             url: /program#contributed-talk-12
-      - title: 'Contributed Talks 13–15'
+      - title: 'Contributed Talks Session 5'
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Hall B
@@ -287,17 +287,17 @@
 
     - events:
       - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA (Tenstorrent)
+        subtitle: by TBA
         element-class: col-lg-4
         time: 16:15 - 17:15
         room: Main Hall
       - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA (Comarch)
+        subtitle: by TBA
         element-class: col-lg-4
         time: 16:15 - 17:15
         room: Hall A
       - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA (Pathway)
+        subtitle: by TBA
         element-class: col-lg-4
         time: 16:15 - 17:15
         room: Hall B
@@ -309,17 +309,17 @@
 
     - events:
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Alexia Jolicoeur-Martineau
+        subtitle: by TBA
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Main Hall
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Bartosz Piotrowski
+        subtitle: by TBA
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Hall A
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Valentina Boeva
+        subtitle: by TBA
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Hall B
@@ -335,7 +335,7 @@
         time: 8:30 - 9:30
 
     - events:
-      - title: 'Contributed Talks 16–18'
+      - title: 'Contributed Talks Session 6'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Main Hall
@@ -352,7 +352,7 @@
             subtitle: by Franziska Boenisch (CISPA)
             time: 10:30 - 11:00
             url: /program#contributed-talk-18
-      - title: 'Contributed Talks 19–21'
+      - title: 'Contributed Talks Session 7'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall A
@@ -369,7 +369,7 @@
             subtitle: by Patryk Marszałek (Jagiellonian University in Kraków / GMUM)
             time: 10:30 - 11:00
             url: /program#contributed-talk-21
-      - title: 'Contributed Talks 22–24'
+      - title: 'Contributed Talks Session 8'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall B
@@ -399,7 +399,7 @@
         time: 11:15 - 12:15
         room: Main Hall
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Peter Richtarik
+        subtitle: by TBA
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall A
@@ -424,17 +424,17 @@
 
     - events:
       - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA (ElevenLabs)
+        subtitle: by TBA
         element-class: col-lg-4
         time: 14:30 - 15:30
         room: Main Hall
       - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA (RTB House)
+        subtitle: by TBA
         element-class: col-lg-4
         time: 14:30 - 15:30
         room: Hall A
       - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA (Dropbox)
+        subtitle: by TBA
         element-class: col-lg-4
         time: 14:30 - 15:30
         room: Hall B
@@ -451,12 +451,12 @@
         time: 16:00 - 17:00
         room: Main Hall
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by João F. Henriques
+        subtitle: by TBA
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Hall A
       - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by Johannes von Oswald
+        subtitle: by TBA
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Hall B
