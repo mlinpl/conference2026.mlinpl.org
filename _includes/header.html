@@ -42,13 +42,24 @@
                     </h3>
                     {% endif %}
 
+                    {% comment %} Are any ticket types still open for registration? {% endcomment %}
+                    {% assign any_ticket_active = false %}
+                    {% for ticket in site.data.tickets %}
+                        {% if ticket[1].active == true %}
+                            {% assign any_ticket_active = true %}
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+
                     {% comment %} Select arrow destination based on conference phase {% endcomment %}
                     {% if site.data.state.aftermovie %}
                         {% assign arrow_url = site.data.header.arrow-destinations.after-event %}
-                    {% elsif site.data.state.tickets == true %}
+                    {% elsif site.data.state.agenda == "full" %}
+                        {% assign arrow_url = site.data.header.arrow-destinations.agenda-full %}
+                    {% elsif site.data.state.tickets == true and any_ticket_active %}
                         {% assign arrow_url = site.data.header.arrow-destinations.during-tickets %}
                     {% else %}
-                        {% assign arrow_url = site.data.header.arrow-destinations.before-tickets %}
+                        {% assign arrow_url = site.data.header.arrow-destinations.default %}
                     {% endif %}
 
                     <a href="{{ arrow_url }}" class="btn btn-circle page-scroll">

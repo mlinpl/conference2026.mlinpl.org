@@ -14,6 +14,21 @@
         {% include conference/aftermovie.html %}
         {% endif %}
 
+        {% comment %} Resolve agenda display flags once, so the section can be placed by phase {% endcomment %}
+        {% assign agenda_draft = false %}
+        {% if site.data.state.agenda == "draft" %}
+        {% assign agenda_draft = true %}
+        {% endif %}
+        {% assign agenda_full = false %}
+        {% if site.data.state.agenda == "full" %}
+        {% assign agenda_full = true %}
+        {% endif %}
+
+        {% comment %} Once the full agenda is out, surface it above tickets {% endcomment %}
+        {% if agenda_full %}
+        {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
+        {% endif %}
+
         {% if site.data.state.tickets == true %}
         {% include conference/tickets.html %}
         {% endif %}
@@ -31,22 +46,13 @@
         {% comment %}
         {% include conference/panels-slider.html %}
         {% endcomment %}
-        
+
         {% comment %}
         {% include conference/sponsor-speakers-slider.html %}
         {% endcomment %}
-        
-        {% if site.data.state.agenda %}
-        {% assign agenda_draft = false %}
-        {% if site.data.state.agenda == "draft" %}
-        {% assign agenda_draft = true %}
-        {% endif %}
-        
-        {% assign agenda_full = false %}
-        {% if site.data.state.agenda == "full" %}
-        {% assign agenda_full = true %}
-        {% endif %}
-        
+
+        {% comment %} A draft agenda stays in its usual position, below the speakers {% endcomment %}
+        {% if site.data.state.agenda and agenda_full == false %}
         {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
         {% endif %}
 

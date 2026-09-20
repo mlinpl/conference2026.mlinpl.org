@@ -23,7 +23,22 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
-                {% for navitem in site.navigation %}
+                {% comment %} Once the full agenda is out, surface Program (Agenda) ahead of Tickets, mirroring the page order {% endcomment %}
+                {% assign agenda_full = false %}
+                {% if site.data.state.agenda == "full" %}
+                {% assign agenda_full = true %}
+                {% endif %}
+                {% if agenda_full %}
+                    {% for navitem in site.data.navigation %}
+                        {% if navitem.url == "#program" %}
+                            {% include nav-item.html navitem=navitem %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                {% for navitem in site.data.navigation %}
+                    {% if agenda_full and navitem.url == "#program" %}
+                        {% continue %}
+                    {% endif %}
                     {% include nav-item.html navitem=navitem %}
                 {% endfor %}
             </ul>

@@ -18,8 +18,9 @@ countdown-overwrite:
 # Primary call-to-action arrow destinations by conference phase
 # Points to the most relevant section based on where we are in the conference timeline
 arrow-destinations:
-  before-tickets: "#about"      # Before ticket sales open
+  default: "#about"              # Fallback (e.g. before ticket sales open)
   during-tickets: "#tickets"     # During ticket sales
+  agenda-full: "#agenda"         # Once the full agenda is published
   after-event: "#aftermovie"     # After the conference
 
 # Meetup countdown settings
