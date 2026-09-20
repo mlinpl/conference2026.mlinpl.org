@@ -64,11 +64,26 @@
         {% endcomment %}
     </div>
     <div class="row" style="margin-top: 55px;">
-        <!-- <div class="col-lg-12">
-            <p>More information about this year's speakers, calls for talks/posters/workshops and tickets will be published soon. Meanwhile we invite you to:</p>
-        </div> -->
+        {% comment %} Pre-launch: nothing for this year is live yet (no agenda, speakers, calls, or open tickets) {% endcomment %}
+        {% assign pre_launch = true %}
+        {% if site.data.state.agenda %}{% assign pre_launch = false %}{% endif %}
+        {% if site.data.state.invited-speakers %}{% assign pre_launch = false %}{% endif %}
+        {% if site.data.state.cfc %}{% assign pre_launch = false %}{% endif %}
+        {% if site.data.state.tickets == true %}{% assign pre_launch = false %}{% endif %}
+        {% if pre_launch %}
+        <div class="col-lg-12">
+            <p>More information about this year's speakers, calls for talks/posters/tutorials and tickets will be published soon. Meanwhile we invite you to:</p>
+        </div>
+        {% endif %}
 
-        {% if site.data.state.agenda %}
+        {% comment %} After the conference, point to this year's full program (the lasting record).
+        While the agenda is a draft it sits below this section, so point to it.
+        Once it is full it is moved to the top, so fall back to the previous-edition mention. {% endcomment %}
+        {% if site.data.state.after-conference %}
+        <div class="col-lg-6 text-center">
+            <a class="btn btn-default btn-lg" href="{{ "./program" | relative_url }}">See this year's full program <i class="fa-regular fa-calendar-days"></i></a>
+        </div>
+        {% elsif site.data.state.agenda == "draft" %}
         <div class="col-lg-6 text-center">
             <a class="btn btn-default btn-lg" href="{{ "./#agenda" | relative_url }}"><i class="fa-solid fa-angles-down"></i> Find this year's agenda below</a>
         </div>
