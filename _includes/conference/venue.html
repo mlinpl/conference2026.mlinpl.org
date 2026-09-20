@@ -1,8 +1,4 @@
 <!-- Venue Section -->
-{% comment %}
-Parameters:
-- tutorials: Boolean indicating whether to display the tutorials venue section (default: true)
-{% endcomment %}
 <section id="venue" class="container content-section">
     <div class="row">
         <div class="col-lg-12">
@@ -31,9 +27,9 @@ Parameters:
         </div>
     </div>
 
-    <!-- Tutorials Venue -->
-    {% unless include.tutorials == false %}
+    <!-- Tutorials Venue (rendered only when `tutorials` names a venue; e.g. "none" hides it) -->
     {% assign tutorials_venue = site.data.venue.venues[site.data.venue.tutorials] %}
+    {% if tutorials_venue %}
     <div class="row" style="margin-top: 55px;">
         <div class="col-lg-8 col-lg-push-4">
             <p>
@@ -52,5 +48,5 @@ Parameters:
             </figure>
         </div>
     </div>
-    {% endunless %}
+    {% endif %}
 </section>

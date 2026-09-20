@@ -73,18 +73,25 @@ items:
     subsites:
       - name: "/ Agenda"
         url: "#agenda"
+        when: agenda # only shown while state.agenda is set ("draft" or "full")
       - name: "/ Full program"
         url: "/program"
+        when-page: /program # only shown once the /program page is published (moved out of pages/drafts/)
       - name: "/ Invited speakers"
         url: "#invited-speakers"
-    #   - name: "/ Discussion panels"
-    #     url: "#panels"
-    #   - name: "/ Conference game"
-    #     url: "/badge-game"
+        when: invited-speakers # only shown while state.invited-speakers is set
+      - name: "/ Discussion panels"
+        url: "#panels"
+        when-data: panels # only shown when site.data.panels is non-empty
+      - name: "/ Conference game"
+        url: "/badge-game"
+        when-page: /badge-game # only shown once the /badge-game page is published
       - name: "/ Call for Contributions"
         url: "#calls"
+        when: cfc # only shown while state.cfc is set
       - name: "/ Call for Tutorials"
         url: "/call-for-tutorials"
+        when-page: /call-for-tutorials # only shown once the /call-for-tutorials page is published
       - name: "/ Venue"
         url: "#venue"
       # - name: "/ Conference booklet"
@@ -98,6 +105,7 @@ items:
   timeline:
     name: "/ Timeline"
     url: "#timeline"
+    when-data: timeline # only shown when site.data.timeline is non-empty
 
   call-for-sponsors:
     name: "/ Call for Sponsors"
@@ -107,6 +115,7 @@ items:
   sponsors:
     name: "/ Sponsors"
     url: "#sponsors"
+    when-data: sponsors # only shown when site.data.sponsors is non-empty
 
   organizers:
     name: "/ Organizers"
