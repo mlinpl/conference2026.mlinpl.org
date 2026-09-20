@@ -1,81 +1,123 @@
-- name: "/ Tickets"
-  url: "#tickets"
+# Navigation is defined once under `items`, and `order` lists the explicit top-level ordering for each conference phase.
 
-- name: "/ About"
-  url: "#about"
-  subsites:
-    - name: "/ More information"
-      url: "/about-ml-in-pl-conference"
-    # - name: "/ Photos"
-    #   url: "/photos"
-    - name: "/ FAQ"
-      url: "/faq"
-    - name: "/ Previous editions"
-      subsites:
-        - name: "/ 2025"
-          url: "https://conference2025.mlinpl.org"
-        - name: "/ 2024"
-          url: "https://conference2024.mlinpl.org"
-        - name: "/ 2023"
-          url: "https://conference2023.mlinpl.org"
-        - name: "/ 2022"
-          url: "https://conference2022.mlinpl.org"
-        - name: "/ 2021"
-          url: "https://conference2021.mlinpl.org"
-        - name: "/ 2020"
-          url: "https://conference2020.mlinpl.org"
-        - name: "/ 2019"
-          url: "https://conference2019.mlinpl.org"
-        - name: "/ 2018"
-          url: "https://conference2018.mlinpl.org"
-        - name: "/ 2017"
-          url: "https://conference2017.mlinpl.org"
+order:
+  before-tickets:
+    - about
+    - program
+    - timeline
+    - call-for-sponsors
+    - sponsors
+    - organizers
+  tickets:
+    - tickets
+    - about
+    - program
+    - timeline
+    - call-for-sponsors
+    - sponsors
+    - organizers
+  agenda-full:
+    - program
+    - tickets
+    - about
+    - timeline
+    - sponsors
+    - organizers
+  after-conference:
+    - about
+    - tickets
+    - program
+    - timeline
+    - sponsors
+    - organizers
 
-- name: "/ Program"
-  url: "#program"
-  subsites:
-    - name: "/ Agenda"
-      url: "#agenda"
-    - name: "/ Full program"
-      url: "/program"
-    - name: "/ Invited speakers"
-      url: "#invited-speakers"
-#     - name: "/ Discussion panels"
-#       url: "#panels"
-#     - name: "/ Conference game"
-#       url: "/badge-game"
-    - name: "/ Call for Contributions"
-      url: "#calls"
-    - name: "/ Call for Tutorials"
-      url: "/call-for-tutorials"
-    - name: "/ Venue"
-      url: "#venue"
-    # - name: "/ Conference booklet"
-    #   url: "/docs/mlinpl-2026-booklet.pdf"
-#     - name: "/ Pre-conference meetups"
-#       url: "/meetups"
-#     # - name: '<span class="main-name">ML <span style="color: #4BCAFD !important;">i</span>n PL</span> <span class="sub-name">AI ART FESTIVAL</span>'
-#     #   url: https://aiart.mlinpl.org/
-#     #   target: "_blank"
+items:
+  tickets:
+    name: "/ Tickets"
+    url: "#tickets"
 
-- name: "/ Timeline"
-  url: "#timeline"
+  about:
+    name: "/ About"
+    url: "#about"
+    subsites:
+      - name: "/ More information"
+        url: "/about-ml-in-pl-conference"
+      # - name: "/ Photos"
+      #   url: "/photos"
+      - name: "/ FAQ"
+        url: "/faq"
+      - name: "/ Previous editions"
+        subsites:
+          - name: "/ 2025"
+            url: "https://conference2025.mlinpl.org"
+          - name: "/ 2024"
+            url: "https://conference2024.mlinpl.org"
+          - name: "/ 2023"
+            url: "https://conference2023.mlinpl.org"
+          - name: "/ 2022"
+            url: "https://conference2022.mlinpl.org"
+          - name: "/ 2021"
+            url: "https://conference2021.mlinpl.org"
+          - name: "/ 2020"
+            url: "https://conference2020.mlinpl.org"
+          - name: "/ 2019"
+            url: "https://conference2019.mlinpl.org"
+          - name: "/ 2018"
+            url: "https://conference2018.mlinpl.org"
+          - name: "/ 2017"
+            url: "https://conference2017.mlinpl.org"
 
-# - name: "/ Call for Sponsors"
-#   url: "#call-for-sponsors"
+  program:
+    name: "/ Program"
+    url: "#program"
+    subsites:
+      - name: "/ Agenda"
+        url: "#agenda"
+      - name: "/ Full program"
+        url: "/program"
+      - name: "/ Invited speakers"
+        url: "#invited-speakers"
+    #   - name: "/ Discussion panels"
+    #     url: "#panels"
+    #   - name: "/ Conference game"
+    #     url: "/badge-game"
+      - name: "/ Call for Contributions"
+        url: "#calls"
+      - name: "/ Call for Tutorials"
+        url: "/call-for-tutorials"
+      - name: "/ Venue"
+        url: "#venue"
+      # - name: "/ Conference booklet"
+      #   url: "/docs/mlinpl-2026-booklet.pdf"
+    #   - name: "/ Pre-conference meetups"
+    #     url: "/meetups"
+    #   # - name: '<span class="main-name">ML <span style="color: #4BCAFD !important;">i</span>n PL</span> <span class="sub-name">AI ART FESTIVAL</span>'
+    #   #   url: https://aiart.mlinpl.org/
+    #   #   target: "_blank"
 
-- name: "/ Sponsors"
-  url: "#sponsors"
+  timeline:
+    name: "/ Timeline"
+    url: "#timeline"
 
-- name: "/ Organizers"
-  url: "#organizers"
-  subsites:
-    - name: "/ Advisory Board"
-      url: "#advisory-board"
-    - name: "/ Join us"
-      url: "https://mlinpl-recruitment.paperform.co/"
-      target: "_blank"
-    - name: "/ Newsletter"
-      url: "#newsletter"
-    - name: "/ Contact"
-      url: "#contact"
+  call-for-sponsors:
+    name: "/ Call for Sponsors"
+    url: "#call-for-sponsors"
+    when: call-for-sponsors # only shown while state.call-for-sponsors is true
+
+  sponsors:
+    name: "/ Sponsors"
+    url: "#sponsors"
+
+  organizers:
+    name: "/ Organizers"
+    url: "#organizers"
+    subsites:
+      - name: "/ Advisory Board"
+        url: "#advisory-board"
+      - name: "/ Join us"
+        url: "https://mlinpl-recruitment.paperform.co/"
+        target: "_blank"
+      - name: "/ Newsletter"
+        url: "#newsletter"
+      - name: "/ Contact"
+        url: "#contact"

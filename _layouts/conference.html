@@ -70,9 +70,9 @@
 
         {% include conference/timeline-with-calendars.html %}
 
-        {% comment %}
+        {% if site.data.state.call-for-sponsors %}
         {% include conference/sponsors-call.html %}
-        {% endcomment %}
+        {% endif %}
 
         {% include conference/sponsors.html %}
 

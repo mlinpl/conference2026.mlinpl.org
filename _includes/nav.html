@@ -23,20 +23,20 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
-                {% comment %} Once the full agenda is out, surface Program (Agenda) ahead of Tickets, mirroring the page order {% endcomment %}
-                {% assign agenda_full = false %}
-                {% if site.data.state.agenda == "full" %}
-                {% assign agenda_full = true %}
+                {% comment %} Pick the nav ordering variant for the current conference phase {% endcomment %}
+                {% assign nav_variant = "tickets" %}
+                {% if site.data.state.after-conference == true %}
+                    {% assign nav_variant = "after-conference" %}
+                {% elsif site.data.state.agenda == "full" %}
+                    {% assign nav_variant = "agenda-full" %}
+                {% elsif site.data.state.tickets == false %}
+                    {% assign nav_variant = "before-tickets" %}
                 {% endif %}
-                {% if agenda_full %}
-                    {% for navitem in site.data.navigation %}
-                        {% if navitem.url == "#program" %}
-                            {% include nav-item.html navitem=navitem %}
-                        {% endif %}
-                    {% endfor %}
-                {% endif %}
-                {% for navitem in site.data.navigation %}
-                    {% if agenda_full and navitem.url == "#program" %}
+                {% assign nav_order = site.data.navigation.order[nav_variant] %}
+                {% for key in nav_order %}
+                    {% assign navitem = site.data.navigation.items[key] %}
+                    {% comment %} Items with a `when` are shown only while that state flag is true {% endcomment %}
+                    {% if navitem.when and site.data.state[navitem.when] != true %}
                         {% continue %}
                     {% endif %}
                     {% include nav-item.html navitem=navitem %}
