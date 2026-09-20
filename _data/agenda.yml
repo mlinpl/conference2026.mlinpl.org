@@ -138,7 +138,7 @@
     - events:
       - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party'
         element-class: col-lg-12
-        time: 19:30
+        time: "19:30"
         subtitle: <i class="fa-solid fa-location-dot"></i> Bolek Pub & Restaurant, al. Niepodległości 211, 02-086 Warszawa
         note: '<i class="fa-solid fa-id-badge"></i> Remember to take your badges and ID cards with you, they are required to enter'
 
