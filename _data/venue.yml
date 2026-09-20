@@ -1,9 +1,10 @@
 # Venue settings
 #
 # Controls which venue is shown for the tutorials.
-# Change `tutorials` to one of the keys defined under `venues` below.
+# Set `tutorials` to one of the keys under `venues` below, or "none" to hide
+# the tutorials venue entirely (the main venue is always shown).
 
-tutorials: "fuw" # options: "mimuw", "fuw"
+tutorials: "fuw" # which venue hosts the tutorials. options: "mimuw", "fuw", "none"
 
 venues:
   mimuw:

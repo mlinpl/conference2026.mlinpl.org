@@ -1,8 +1,50 @@
 {% comment %}
 Expects following parameters:
     navitem
+Optional visibility guards on the item (any combination; all must pass):
+    when:         name of a site.data.state flag; shown only while it is truthy
+                  (works for booleans and string states like "first"/"all")
+    when-data:    name of a site.data collection; shown only while it is non-empty
+    when-page:    a page url; shown only while a published page has that url
+    when-file:    a static file path; shown only while that file exists
+                  (e.g. /docs/mlinpl-2026-booklet.pdf)
+    when-eq:      map of state flag => required value; shown only while every
+                  named site.data.state flag equals its value (e.g. agenda: full)
 {% endcomment %}
 
+{% assign nav_show = true %}
+{% if include.navitem.when %}
+    {% unless site.data.state[include.navitem.when] %}
+        {% assign nav_show = false %}
+    {% endunless %}
+{% endif %}
+{% if include.navitem.when-eq %}
+    {% for condition in include.navitem.when-eq %}
+        {% unless site.data.state[condition[0]] == condition[1] %}
+            {% assign nav_show = false %}
+        {% endunless %}
+    {% endfor %}
+{% endif %}
+{% if include.navitem.when-data %}
+    {% assign nav_collection = site.data[include.navitem.when-data] %}
+    {% unless nav_collection.size > 0 %}
+        {% assign nav_show = false %}
+    {% endunless %}
+{% endif %}
+{% if include.navitem.when-page %}
+    {% assign nav_page = site.pages | where: "url", include.navitem.when-page | first %}
+    {% unless nav_page %}
+        {% assign nav_show = false %}
+    {% endunless %}
+{% endif %}
+{% if include.navitem.when-file %}
+    {% assign nav_file = site.static_files | where: "path", include.navitem.when-file | first %}
+    {% unless nav_file %}
+        {% assign nav_show = false %}
+    {% endunless %}
+{% endif %}
+
+{% if nav_show %}
 {% if include.navitem.subsites %}
 <li class="nav-dropdown">
 {% else %}
@@ -27,3 +69,4 @@ Expects following parameters:
 </ul>
 {% endif %}
 </li>
+{% endif %}

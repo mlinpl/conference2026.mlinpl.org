@@ -6,34 +6,34 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h1 class="event-heading">
-                        {% if site.header.heading-image %}
-                        <img src="{{ site.header.heading-image | relative_url }}" alt="{{ site.header.heading-image-alt | default: 'ML in PL Conference' }}" style="max-height: 1.5em; max-width: 90%;">
+                        {% if site.data.header.heading-image %}
+                        <img src="{{ site.data.header.heading-image | relative_url }}" alt="{{ site.data.header.heading-image-alt | default: 'ML in PL Conference' }}" style="max-height: 1.5em; max-width: 90%;">
                         {% else %}
-                        {{ site.header.heading }}
+                        {{ site.data.header.heading }}
                         {% endif %}
                     </h1>
-                    {% if site.header.subheading %}
-                    <h2 class="event-subheading">{{ site.header.subheading }}</h2>
+                    {% if site.data.header.subheading %}
+                    <h2 class="event-subheading">{{ site.data.header.subheading }}</h2>
                     {% endif %}
-                    {% if site.header.date-location %}
-                    <h3 class="event-date-location">{{ site.header.date-location }}</h3>
+                    {% if site.data.header.date-location %}
+                    <h3 class="event-date-location">{{ site.data.header.date-location }}</h3>
                     {% endif %}
                     
-                    {% if site.header.countdown-overwrite.active == true %}
+                    {% if site.data.header.countdown-overwrite.active == true %}
                     <h3 id="event-countdown" class="event-countdown">
                         {% if site.data.state.aftermovie %}
-                            {% assign message = site.header.countdown-overwrite.post-event-message.with-aftermovie %}
+                            {% assign message = site.data.header.countdown-overwrite.post-event-message.with-aftermovie %}
                         {% elsif site.data.state.photos %}
-                            {% assign message = site.header.countdown-overwrite.post-event-message.with-photos %}
+                            {% assign message = site.data.header.countdown-overwrite.post-event-message.with-photos %}
                         {% else %}
-                            {% assign message = site.header.countdown-overwrite.post-event-message.default %}
+                            {% assign message = site.data.header.countdown-overwrite.post-event-message.default %}
                         {% endif %}
                         {{ message }}
                     </h3>
-                    {% else if site.header.countdown-date %}
+                    {% else if site.data.header.countdown-date %}
                     <h3 id="event-countdown" class="event-countdown">
-                        {% if site.header.countdown-text %}
-                        <div class="event-countdown-text">{{ site.header.countdown-text }}</div>
+                        {% if site.data.header.countdown-text %}
+                        <div class="event-countdown-text">{{ site.data.header.countdown-text }}</div>
                         {% endif %}
                         <span class="nowrap"><span id="d-left">0</span> <sub>days</sub></span>
                         <span class="nowrap">/ <span id="h-left">00</span> <sub>hours</sub></span>
@@ -42,13 +42,24 @@
                     </h3>
                     {% endif %}
 
+                    {% comment %} Are any ticket types still open for registration? {% endcomment %}
+                    {% assign any_ticket_active = false %}
+                    {% for ticket in site.data.tickets %}
+                        {% if ticket[1].active == true %}
+                            {% assign any_ticket_active = true %}
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+
                     {% comment %} Select arrow destination based on conference phase {% endcomment %}
                     {% if site.data.state.aftermovie %}
-                        {% assign arrow_url = site.header.arrow-destinations.after-event %}
-                    {% elsif site.data.state.tickets == true %}
-                        {% assign arrow_url = site.header.arrow-destinations.during-tickets %}
+                        {% assign arrow_url = site.data.header.arrow-destinations.after-event %}
+                    {% elsif site.data.state.agenda == "full" %}
+                        {% assign arrow_url = site.data.header.arrow-destinations.agenda-full %}
+                    {% elsif site.data.state.tickets == true and any_ticket_active %}
+                        {% assign arrow_url = site.data.header.arrow-destinations.during-tickets %}
                     {% else %}
-                        {% assign arrow_url = site.header.arrow-destinations.before-tickets %}
+                        {% assign arrow_url = site.data.header.arrow-destinations.default %}
                     {% endif %}
 
                     <a href="{{ arrow_url }}" class="btn btn-circle page-scroll">

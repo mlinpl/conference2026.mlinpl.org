@@ -1,0 +1,27 @@
+heading-image: "/images/mlinpl-conference-10th-edition-logo.png"
+heading-image-alt: "ML in PL Conference 2026"
+date-location: 8 - 11 October / Copernicus Science Centre, Warsaw, Poland
+
+# Countdown settings
+countdown-date: "2026-10-08T08:00:00"
+
+# If active is true, the message will be shown instead of the countdown
+countdown-overwrite:
+  active: false
+  # Post-event messages (used when countdown is over)
+  # These are automatically selected based on what content is available (see state.photos and state.aftermovie)
+  post-event-message:
+    default: 'Thank you for participating<br>and we hope to see you <a href="{{ "/next-year" | relative_url }}">next year!</a>'
+    with-photos: 'Thank you for participating!</br>Take a look at <a href="{{ "/photos" | relative_url }}">the photos <i class="fa-solid fa-camera-retro"></i></a><br>and we hope to see you <a href="{{ "/next-year" | relative_url }}">next year!</a>'
+    with-aftermovie: 'Thank you for participating!</br>Find the <a class="page-scroll" href="#aftermovie"> aftermovie and photos <i class="fa-solid fa-photo-film"></i></a> below<br>and we hope to see you <a href="{{ "/next-year" | relative_url }}">next year!</a>'
+
+# Primary call-to-action arrow destinations by conference phase
+# Points to the most relevant section based on where we are in the conference timeline
+arrow-destinations:
+  default: "#about"              # Fallback (e.g. before ticket sales open)
+  during-tickets: "#tickets"     # During ticket sales
+  agenda-full: "#agenda"         # Once the full agenda is published
+  after-event: "#aftermovie"     # After the conference
+
+# Meetup countdown settings
+# meetup-countdown-date: "2024-06-20T17:45:00"

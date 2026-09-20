@@ -22,6 +22,7 @@
 # Head settings
 title: ML in PL Conference 2026
 email: contact@conference.mlinpl.org
+conference-year: 2026
 event-date: "2026-10-08T00:00:00"
 description: >-
   ML in PL Conference 2026 is an event focused on the best of Machine Learning both in academia and in business.
@@ -37,125 +38,11 @@ author:
 # Header settings
 inline-logo: '<span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2026</span></span>'
 mlinpl-inline-logo: <span class="logo"><span class="main-name">ML&nbsp;<span class="emph">i</span>n&nbsp;PL</span></span>
-header:
-  heading-image: "/images/mlinpl-conference-10th-edition-logo.png"
-  heading-image-alt: "ML in PL Conference 2026"
-  date-location: 8 - 11 October / Copernicus Science Centre, Warsaw, Poland
+# header settings moved to _data/header.yml (accessed via site.data.header)
 
-  # Countdown settings
-  countdown-date: "2026-10-08T08:00:00"
+# next-year settings moved to _data/next-year.yml (accessed via site.data.next-year)
 
-  # If active is true, the message will be shown instead of the countdown
-  countdown-overwrite:
-    active: false
-    # Post-event messages (used when countdown is over)
-    # These are automatically selected based on what content is available (see state.photos and state.aftermovie)
-    post-event-message:
-      default: 'Thank you for participating<br>and we hope to see you <a href="{{ "/next-year" | relative_url }}">next year!</a>'
-      with-photos: 'Thank you for participating!</br>Take a look at <a href="{{ "/photos" | relative_url }}">the photos <i class="fa-solid fa-camera-retro"></i></a><br>and we hope to see you <a href="{{ "/next-year" | relative_url }}">next year!</a>'
-      with-aftermovie: 'Thank you for participating!</br>Find the <a class="page-scroll" href="#aftermovie"> aftermovie and photos <i class="fa-solid fa-photo-film"></i></a> below<br>and we hope to see you <a href="{{ "/next-year" | relative_url }}">next year!</a>'
-  
-  # Primary call-to-action arrow destinations by conference phase
-  # Points to the most relevant section based on where we are in the conference timeline
-  arrow-destinations:
-    before-tickets: "#about"      # Before ticket sales open
-    during-tickets: "#tickets"     # During ticket sales
-    after-event: "#aftermovie"     # After the conference
-
-  # Meetup countdown settings
-  # meetup-countdown-date: "2024-06-20T17:45:00"
-
-# Next year settings
-# next-year:
-#   image: images/mlinpl-conference-2026-logo-black.png
-#   heading: '<img src="images/mlinpl-conference-2026-logo-black.png" alt="ML in PL Conference 2026" style="max-height: 1.5em; max-width: 90%;">'
-#   subheading: 'See you next year at 10th edition!'
-#   date-location: 8 - 10 October 2026 / Copernicus Science Centre, Warsaw, Poland
-#   countdown-date: "2026-10-08T08:00:00"
-
-# Navigation settings
-navigation:
-  - name: "/ Tickets"
-    url: "#tickets"
-
-  - name: "/ About"
-    url: "#about"
-    subsites:
-      - name: "/ More information"
-        url: "/about-ml-in-pl-conference"
-      # - name: "/ Photos"
-      #   url: "/photos"
-      - name: "/ FAQ"
-        url: "/faq"
-      - name: "/ Previous editions"
-        subsites:
-          - name: "/ 2025"
-            url: "https://conference2025.mlinpl.org"
-          - name: "/ 2024"
-            url: "https://conference2024.mlinpl.org"
-          - name: "/ 2023"
-            url: "https://conference2023.mlinpl.org"
-          - name: "/ 2022"
-            url: "https://conference2022.mlinpl.org"
-          - name: "/ 2021"
-            url: "https://conference2021.mlinpl.org"
-          - name: "/ 2020"
-            url: "https://conference2020.mlinpl.org"
-          - name: "/ 2019"
-            url: "https://conference2019.mlinpl.org"
-          - name: "/ 2018"
-            url: "https://conference2018.mlinpl.org"
-          - name: "/ 2017"
-            url: "https://conference2017.mlinpl.org"
-
-  - name: "/ Program"
-    url: "#program"
-    subsites:
-      - name: "/ Agenda"
-        url: "#agenda"
-      - name: "/ Full program"
-        url: "/program"
-      - name: "/ Invited speakers"
-        url: "#invited-speakers"
-  #     - name: "/ Discussion panels"
-  #       url: "#panels"
-  #     - name: "/ Conference game"
-  #       url: "/badge-game"
-      - name: "/ Call for Contributions"
-        url: "#calls"
-      - name: "/ Call for Tutorials"
-        url: "/call-for-tutorials"
-      - name: "/ Venue"
-        url: "#venue"
-      # - name: "/ Conference booklet"
-      #   url: "/docs/mlinpl-2026-booklet.pdf"
-  #     - name: "/ Pre-conference meetups"
-  #       url: "/meetups"
-  #     # - name: '<span class="main-name">ML <span style="color: #4BCAFD !important;">i</span>n PL</span> <span class="sub-name">AI ART FESTIVAL</span>'
-  #     #   url: https://aiart.mlinpl.org/
-  #     #   target: "_blank"
-  
-  - name: "/ Timeline"
-    url: "#timeline"
-
-  # - name: "/ Call for Sponsors"
-  #   url: "#call-for-sponsors"
-
-  - name: "/ Sponsors"
-    url: "#sponsors"
-
-  - name: "/ Organizers"
-    url: "#organizers"
-    subsites:
-      - name: "/ Advisory Board"
-        url: "#advisory-board"
-      - name: "/ Join us"
-        url: "https://mlinpl-recruitment.paperform.co/"
-        target: "_blank"
-      - name: "/ Newsletter"
-        url: "#newsletter"
-      - name: "/ Contact"
-        url: "#contact"
+# navigation moved to _data/navigation.yml (accessed via site.data.navigation)
 
 
 # Defaults for different pages

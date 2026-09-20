@@ -23,7 +23,19 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
-                {% for navitem in site.navigation %}
+                {% comment %} Pick the nav ordering variant for the current conference phase {% endcomment %}
+                {% assign nav_variant = "tickets" %}
+                {% if site.data.state.after-conference == true %}
+                    {% assign nav_variant = "after-conference" %}
+                {% elsif site.data.state.agenda == "full" %}
+                    {% assign nav_variant = "agenda-full" %}
+                {% elsif site.data.state.tickets == false %}
+                    {% assign nav_variant = "base" %}
+                {% endif %}
+                {% assign nav_order = site.data.navigation.order[nav_variant] %}
+                {% for key in nav_order %}
+                    {% assign navitem = site.data.navigation.items[key] %}
+                    {% comment %} Per-item visibility (when / when-eq / when-data / when-page) is handled inside nav-item.html {% endcomment %}
                     {% include nav-item.html navitem=navitem %}
                 {% endfor %}
             </ul>

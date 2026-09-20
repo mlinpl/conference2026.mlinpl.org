@@ -1,4 +1,9 @@
 {% if page.html-title or page.title %}
+{% comment %}
+Pages may use the literal token %year% in their html-title/title; it is replaced
+here with site.conference-year so headings never go stale.
+(Braces are avoided in the token so it does not confuse Liquid's {{ }} parser.)
+{% endcomment %}
 <!-- Standard page header -->
 <header class="intro page-intro">
     <canvas id="intro-background" class="intro-background"></canvas>
@@ -7,9 +12,9 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                 {% if page.html-title %}
-                    <h1 class="page-heading">{{ page.html-title | trim }}</h1>
+                    <h1 class="page-heading">{{ page.html-title | replace: '%year%', site.conference-year | trim }}</h1>
                 {% else %}
-                    <h1 class="page-heading">{{ page.title | escape }}</h1>
+                    <h1 class="page-heading">{{ page.title | replace: '%year%', site.conference-year | escape }}</h1>
                 {% endif %}
                 </div>
             </div>

@@ -1,0 +1,133 @@
+# Navigation is defined once under `items`, and `order` lists the explicit top-level ordering for each conference phase.
+
+order:
+  base:
+    - about
+    - program
+    - timeline
+    - call-for-sponsors
+    - sponsors
+    - organizers
+  tickets:
+    - tickets
+    - about
+    - program
+    - timeline
+    - call-for-sponsors
+    - sponsors
+    - organizers
+  agenda-full:
+    - program
+    - tickets
+    - about
+    - timeline
+    - sponsors
+    - organizers
+  after-conference:
+    - about
+    - tickets
+    - program
+    - timeline
+    - sponsors
+    - organizers
+
+items:
+  tickets:
+    name: "/ Tickets"
+    url: "#tickets"
+
+  about:
+    name: "/ About"
+    url: "#about"
+    subsites:
+      - name: "/ More information"
+        url: "/about-ml-in-pl-conference"
+      # - name: "/ Photos"
+      #   url: "/photos"
+      - name: "/ FAQ"
+        url: "/faq"
+      - name: "/ Previous editions"
+        subsites:
+          - name: "/ 2025"
+            url: "https://conference2025.mlinpl.org"
+          - name: "/ 2024"
+            url: "https://conference2024.mlinpl.org"
+          - name: "/ 2023"
+            url: "https://conference2023.mlinpl.org"
+          - name: "/ 2022"
+            url: "https://conference2022.mlinpl.org"
+          - name: "/ 2021"
+            url: "https://conference2021.mlinpl.org"
+          - name: "/ 2020"
+            url: "https://conference2020.mlinpl.org"
+          - name: "/ 2019"
+            url: "https://conference2019.mlinpl.org"
+          - name: "/ 2018"
+            url: "https://conference2018.mlinpl.org"
+          - name: "/ 2017"
+            url: "https://conference2017.mlinpl.org"
+
+  program:
+    name: "/ Program"
+    url: "#program"
+    subsites:
+      - name: "/ Agenda"
+        url: "#agenda"
+        when: agenda # only shown while state.agenda is set ("draft" or "full")
+      - name: "/ Full program"
+        url: "/program"
+        when-page: /program # only shown once the /program page is published (moved out of pages/drafts/)
+      - name: "/ Invited speakers"
+        url: "#invited-speakers"
+        when: invited-speakers # only shown while state.invited-speakers is set
+      - name: "/ Discussion panels"
+        url: "#panels"
+        when-data: panels # only shown when site.data.panels is non-empty
+      - name: "/ Conference game"
+        url: "/badge-game"
+        when-page: /badge-game # only shown once the /badge-game page is published
+      - name: "/ Call for Contributions"
+        url: "#calls"
+        when: cfc # only shown while state.cfc is set
+      - name: "/ Call for Tutorials"
+        url: "/call-for-tutorials"
+        when-page: /call-for-tutorials # only shown once the /call-for-tutorials page is published
+      - name: "/ Venue"
+        url: "#venue"
+      - name: "/ Conference booklet"
+        url: "/docs/mlinpl-2026-booklet.pdf"
+        when-file: /docs/mlinpl-2026-booklet.pdf # only shown once the booklet PDF is added
+    #   - name: "/ Pre-conference meetups"
+    #     url: "/meetups"
+    #   # - name: '<span class="main-name">ML <span style="color: #4BCAFD !important;">i</span>n PL</span> <span class="sub-name">AI ART FESTIVAL</span>'
+    #   #   url: https://aiart.mlinpl.org/
+    #   #   target: "_blank"
+
+  timeline:
+    name: "/ Timeline"
+    url: "#timeline"
+    when-data: timeline # only shown when site.data.timeline is non-empty
+
+  call-for-sponsors:
+    name: "/ Call for Sponsors"
+    url: "#call-for-sponsors"
+    when: call-for-sponsors # only shown while state.call-for-sponsors is true
+
+  sponsors:
+    name: "/ Sponsors"
+    url: "#sponsors"
+    when-data: sponsors # only shown when site.data.sponsors is non-empty
+
+  organizers:
+    name: "/ Organizers"
+    url: "#organizers"
+    subsites:
+      - name: "/ Advisory Board"
+        url: "#advisory-board"
+      - name: "/ Join us"
+        url: "https://mlinpl-recruitment.paperform.co/"
+        target: "_blank"
+      - name: "/ Newsletter"
+        url: "#newsletter"
+      - name: "/ Contact"
+        url: "#contact"

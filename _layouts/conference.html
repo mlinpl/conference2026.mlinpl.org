@@ -14,6 +14,21 @@
         {% include conference/aftermovie.html %}
         {% endif %}
 
+        {% comment %} Resolve agenda display flags once, so the section can be placed by phase {% endcomment %}
+        {% assign agenda_draft = false %}
+        {% if site.data.state.agenda == "draft" %}
+        {% assign agenda_draft = true %}
+        {% endif %}
+        {% assign agenda_full = false %}
+        {% if site.data.state.agenda == "full" %}
+        {% assign agenda_full = true %}
+        {% endif %}
+
+        {% comment %} Once the full agenda is out, surface it above tickets {% endcomment %}
+        {% if agenda_full %}
+        {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
+        {% endif %}
+
         {% if site.data.state.tickets == true %}
         {% include conference/tickets.html %}
         {% endif %}
@@ -28,31 +43,24 @@
         {% include conference/invited-speakers-slider.html more-are-coming=more_are_coming %}
         {% endif %}
 
-        {% comment %}
+        {% if site.data.panels.size > 0 %}
         {% include conference/panels-slider.html %}
-        {% endcomment %}
-        
-        {% comment %}
+        {% endif %}
+
+        {% if site.data.sponsor-speakers.size > 0 %}
         {% include conference/sponsor-speakers-slider.html %}
-        {% endcomment %}
-        
-        {% if site.data.state.agenda %}
-        {% assign agenda_draft = false %}
-        {% if site.data.state.agenda == "draft" %}
-        {% assign agenda_draft = true %}
         {% endif %}
-        
-        {% assign agenda_full = false %}
-        {% if site.data.state.agenda == "full" %}
-        {% assign agenda_full = true %}
-        {% endif %}
-        
+
+        {% comment %} A draft agenda stays in its usual position, below the speakers {% endcomment %}
+        {% if site.data.state.agenda and agenda_full == false %}
         {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
         {% endif %}
 
-        {% comment %}
+        {% comment %} Show the badge game section only once its subpage is published {% endcomment %}
+        {% assign badge_game_page = site.pages | where: "url", "/badge-game" | first %}
+        {% if badge_game_page %}
         {% include conference/badge-game.html %}
-        {% endcomment %}
+        {% endif %}
         
         {% include conference/calls.html state=site.data.state.cfc %}
 
@@ -60,13 +68,13 @@
         {% include conference/transport.html %}
         {% endcomment %}
 
-        {% include conference/venue.html tutorials=true %}
+        {% include conference/venue.html %}
 
         {% include conference/timeline-with-calendars.html %}
 
-        {% comment %}
+        {% if site.data.state.call-for-sponsors %}
         {% include conference/sponsors-call.html %}
-        {% endcomment %}
+        {% endif %}
 
         {% include conference/sponsors.html %}
 

@@ -5,18 +5,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1 class="event-heading">{{ site.next-year.heading }}</h1>
-                    {% if site.next-year.subheading %}
-                    <h2 class="event-subheading">{{ site.next-year.subheading }}</h2>
+                    <h1 class="event-heading">{{ site.data.next-year.heading }}</h1>
+                    {% if site.data.next-year.subheading %}
+                    <h2 class="event-subheading">{{ site.data.next-year.subheading }}</h2>
                     {% endif %}
-                    {% if site.next-year.date-location %}
-                    <h3 class="event-date-location">{{ site.next-year.date-location }}</h3>
+                    {% if site.data.next-year.date-location %}
+                    <h3 class="event-date-location">{{ site.data.next-year.date-location }}</h3>
                     {% endif %}
                     
-                    {% if site.next-year.countdown-date %}
+                    {% if site.data.next-year.countdown-date %}
                     <h3 id="next-year-event-countdown" class="event-countdown">
-                        {% if site.next-year.countdown-text %}
-                        <div class="event-countdown-text">{{ site.next-year.countdown-text }}</div>
+                        {% if site.data.next-year.countdown-text %}
+                        <div class="event-countdown-text">{{ site.data.next-year.countdown-text }}</div>
                         {% endif %}
                         <span class="nowrap"><span id="d-left">0</span> <sub>days</sub></span>
                         <span class="nowrap">/ <span id="h-left">00</span> <sub>hours</sub></span>
