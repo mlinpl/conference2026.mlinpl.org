@@ -25,7 +25,7 @@ if (meetupCountdownElement) {
                 meetupCountdownElement.innerHTML = next_meetup_header + " in " + ts.days + " days";
             }
         },
-        new Date("{{ site.header.meetup-countdown-date }}"),
+        new Date("{{ site.data.header.meetup-countdown-date }}"),
         countdown.DAYS,
     );
 }

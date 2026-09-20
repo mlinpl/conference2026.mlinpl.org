@@ -16,6 +16,6 @@ if (eventCountdownElement) {
                 document.getElementById("s-left").innerHTML = ("0" + ts.seconds).slice(-2);
             }
         },
-        new Date("{{ site.next-year.countdown-date }}"),
+        new Date("{{ site.data.next-year.countdown-date }}"),
         countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
 }
