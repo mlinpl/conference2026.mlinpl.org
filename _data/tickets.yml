@@ -10,7 +10,7 @@ early-bird:
     regular: "700 PLN"
   price_label: "Early Bird Price"
   active: false
-  visible: true
+  visible: false
   url: "https://mlinpl2026earlybird.paperform.co/"
 
 regular:
@@ -18,7 +18,7 @@ regular:
   icon: "fa-solid fa-ticket"
   description: >-
     First-come, first-served registration, which starts 24&nbsp;August, 18:00 CEST
-    and lasts until all tickets are sold out.<br><br>
+    and lasts until all tickets are sold out.<br>
   prices:
     student: "500 PLN"
     regular: "1000 PLN"
@@ -33,7 +33,7 @@ late:
   description: >-
     Missed out on ticket sales?
     We've set aside a very limited number of tickets just for you. 
-    Available from 21&nbsp;September, 18:00 CEST.
+# Available from 21&nbsp;September, 18:00 CEST.
   prices:
     student: "1500 PLN"
     regular: "1500 PLN"
@@ -46,14 +46,14 @@ tutorials:
   name: "Tutorial registration"
   icon: "fa-solid fa-graduation-cap"
   description: >-
-    <strong>Separate registration</strong> for tutorials. 
-    Starts 1&nbsp;October, 18:00 CEST.
+    <strong>Separate registration</strong> for tutorials. Get hands-on experience!<br><br>
+# Starts 1&nbsp;October, 18:00 CEST.
 
-    <strong>Some tutorials are free of charge.</strong>
+# <strong>Some tutorials are free of charge.</strong>
   prices:
-    student: "60 PLN"
-    regular: "120 PLN"
+    student: "50 PLN"
+    regular: "100 PLN"
   price_label: "Price"
-  active: false
-  visible: false
-  url:
+  active: true
+  visible: true
+  url: https://app.evenea.pl/event/mlinpl26-tutorials/
