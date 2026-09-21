@@ -18,7 +18,7 @@ regular:
   icon: "fa-solid fa-ticket"
   description: >-
     First-come, first-served registration, which starts 24&nbsp;August, 18:00 CEST
-    and lasts until all tickets are sold out.
+    and lasts until all tickets are sold out.<br><br>
   prices:
     student: "500 PLN"
     regular: "1000 PLN"
