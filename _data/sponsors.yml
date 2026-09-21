@@ -117,6 +117,9 @@
     - name: IDEAS Research Institute
       image: "images/optimized/partners-600x600/ideas_research_institute.webp"
       url: "https://www.ideas.edu.pl/en/"
+    - name: NASK
+      image: "images/optimized/partners-600x600/NASK.webp"
+      url: "https://www.nask.pl/en/"
 
 # NOTE: Sorted by scope: national, local, venue, university, faculty.
 - title: "/ Honorary Patronages"
