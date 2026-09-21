@@ -262,3 +262,22 @@
     Michel Meintz is a PhD student at CISPA Helmholtz Center in Saarbrücken, Germany under supervision of Prof. Franziska Boenisch and Prof. Adam Dziedzic. His research lies at the intersection of trustworthy AI and generative models, with a particular focus on watermarking and data provenance. His work explores robust methods for tracing the origins and reuse of AI-generated content to attribute the content to its source.
 
     Maitri Shah is a Master's student in Data Science and Artificial Intelligence at Saarland University and a Research Assistant at the CISPA Helmholtz Center for Information Security. Her interests lie in trustworthy machine learning, with a particular focus on watermarking and machine unlearning.
+
+- title: 'Reinforcement learning using IdeGYM: power of IDE as your reward'
+  date: Sunday / 11 October
+  time: TBA
+  id: 7
+  desc-md: |-
+    In this tutorial, we will provide a brief introduction to reinforcement learning for code, discuss the infrastructure challenges involved, and demonstrate how to use our recently developed tool, IdeGYM — an orchestrator for RL rewards specifically designed for code-based tasks. During the tutorial, we will explore standard code-reward signals, such as execution and test-based feedback, as well as more advanced signals derived from IDE inspections.
+
+  authors:
+    - name: Patrik Bartak
+      title: JetBrains Research
+      image: images/optimized/tutorials-600x600/Patrik_Bartak.webp
+    - name: Vseslav Kasatskii
+      title: JetBrains
+      image: images/optimized/tutorials-600x600/Vseslav_Kasatskii.webp
+  author-bio-md: |-
+    Patrik Bartak is a researcher at JetBrains Research, working on model evaluation and finetuning. He has used IdeGYM and other tools for reinforcement learning, and set up environments and scaffolds for evaluation of agentic models.
+
+    Vseslav Kasatskii is a Software Engineer at JetBrains, building tools and infrastructure for research teams. He has contributed to IdeGYM and other projects that combine reinforcement learning workflows with agent evaluation, observability, and sandboxed execution.
