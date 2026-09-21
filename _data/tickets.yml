@@ -17,7 +17,7 @@ regular:
   name: "Regular registration"
   icon: "fa-solid fa-ticket"
   description: >-
-    First-come, first-served registration, which starts 24&nbsp;August, 18:00 CEST (GMT+2) 
+    First-come, first-served registration, which starts 24&nbsp;August, 18:00 CEST
     and lasts until all tickets are sold out.
   prices:
     student: "500 PLN"
@@ -33,7 +33,7 @@ late:
   description: >-
     Missed out on ticket sales?
     We've set aside a very limited number of tickets just for you. 
-    Available from 21&nbsp;September, 18:00 CEST (GMT+2).
+    Available from 21&nbsp;September, 18:00 CEST.
   prices:
     student: "1500 PLN"
     regular: "1500 PLN"
@@ -47,7 +47,7 @@ tutorials:
   icon: "fa-solid fa-graduation-cap"
   description: >-
     <strong>Separate registration</strong> for tutorials. 
-    Starts 1&nbsp;October, 18:00 CEST (GMT+2).
+    Starts 1&nbsp;October, 18:00 CEST.
 
     <strong>Some tutorials are free of charge.</strong>
   prices:
