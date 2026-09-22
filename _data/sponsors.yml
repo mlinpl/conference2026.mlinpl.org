@@ -137,9 +137,9 @@
     - name: Centrum Nauki Kopernik
       image: "images/optimized/honorary-patronages-600x600/CNK.webp"
       url: "https://www.kopernik.org.pl/en"
-    # - name: University of Warsaw
-    #   image: "images/honorary-patronages/UW.png"
-    #   url: https://en.uw.edu.pl/
+    - name: University of Warsaw
+      image: "images/optimized/honorary-patronages-600x600/UW.webp"
+      url: https://en.uw.edu.pl/
     - name: Warsaw University of Technology
       image: "images/optimized/honorary-patronages-600x600/PW.webp"
       url: https://eng.pw.edu.pl/
