@@ -91,6 +91,8 @@ items:
         when: cfc # only shown while state.cfc is set
       - name: "/ Call for Tutorials"
         url: "/call-for-tutorials"
+        when-eq:
+          cfc: open # hidden once the Call for Contributions is no longer open
         when-page: /call-for-tutorials # only shown once the /call-for-tutorials page is published
       - name: "/ Venue"
         url: "#venue"
