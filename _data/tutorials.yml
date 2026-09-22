@@ -175,6 +175,25 @@
 
     Kacper Gutowski is a software developer focused on Applied AI and Data Science, with a passion for Linux and agent based systems. He is the former president of the Czarna Magia AI Society and coorganizer of the CAIAK conference.
 
+- title: Cache Me If You Can
+  date: Sunday / 11 October
+  time: 9:00 - 13:00
+  id: 9
+  desc-md: |-
+    ”Cache Me If You Can" is a four-hour hands-on tutorial that demystifies LLM inference by measuring it on real Tenstorrent AI accelerators. Through a series of experiments in Python, participants will learn what lies underneath LLM chatbots and agents. They will look at the prefill and decode phases, and investigate various approaches to making models faster, such as KV caching and mixed precision. At the end of this tutorial, participants will have a mental model of how LLM inference providers are able to serve requests at global scale.
+
+  authors:
+    - name: Maciej Draguła
+      title: Tenstorrent
+      image: images/optimized/tutorials-600x600/Maciej_Dragula.webp
+    - name: Nathan Maurice
+      title: Tenstorrent
+      image: images/empty.png
+  author-bio-md: |-
+    Maciej Draguła is a Senior Engineer at Tenstorrent, where he develops tt-train, a framework for training large language models on Tenstorrent’s cutting-edge AI hardware, with a focus on optimising operations to reduce training time. Previously, he worked on computer vision applications for avionics at Daedalean, and his experience includes internships at CERN, Google, and Goldman Sachs. He holds a Bachelor’s degree in Computer Science from the University of Wrocław.
+
+    Nathan Maurice is a Staff Engineer at Tenstorrent. His work involves accelerating inference and training workloads on Tenstorrent's massively parallel hardware. Prior to Tenstorrent, he earned a PhD in Computer Science at Sorbonne University, where he developed novel real-time parallel image processing algorithms.
+
 # Afternoon Tutorials
 
 - title: 'Build Your Own 3D Scene: An Introduction to Gaussian Splatting'
