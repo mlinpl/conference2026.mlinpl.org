@@ -11,8 +11,6 @@
 #   author-bio-md: >-
 #
 
-# Morning Tutorials
-
 - title: Controllable Generative Design of Biological Sequences
   date: Sunday / 11 October
   time: 9:00 - 13:00
@@ -61,6 +59,44 @@
     Adam Izdebski works on generative models for drug discovery.
 
     Pankhil Gawade is interested in developing novel methodological approaches at the intersection of generative AI and topology. His research focuses on leveraging geometric and topological structure to improve generative models, particularly for applications in drug discovery and the design of novel therapeutic molecules.
+
+- title: 'Build Your Own 3D Scene: An Introduction to Gaussian Splatting'
+  date: Sunday / 11 October
+  time: 14:00 - 18:00
+  id: 2
+  desc-md: |-
+    Creating a digital 3D model of a real object or environment traditionally requires specialized equipment and knowledge of computer graphics. Recent machine learning methods make it possible to reconstruct detailed, interactive 3D scenes using only ordinary photographs or a short video.
+    This hands-on workshop introduces participants to the complete 3D reconstruction pipeline using 3D Gaussian Splatting. It is designed for people familiar with basic machine learning concepts but with no previous experience in 3D reconstruction, neural rendering, or Gaussian Splatting.
+    Participants will learn how images captured from different viewpoints can be used to estimate camera positions and create a scene that can be viewed from new perspectives. They will prepare a dataset from video, train a Gaussian Splatting model, and inspect the resulting reconstruction in an interactive viewer.
+    The workshop will also cover selected topics that extend Gaussian Splatting beyond basic reconstruction, including scene editing, animation, appearance manipulation, and image-to-3D generation.
+    By the end of the session, participants will understand the basic principles of modern image-based 3D reconstruction and will have practical experience creating and modifying their own 3D scene.
+
+    **Goals of the tutorial:** Introduce the basic concepts of image-based 3D reconstruction, novel-view synthesis, and 3D Gaussian Splatting; explain the complete pipeline from video or image capture to an interactive 3D scene; provide practical experience with dataset preparation, Gaussian Splatting training, and scene visualization; teach participants how to identify common reconstruction problems and improve data acquisition and model quality; and demonstrate how Gaussian Splatting can be extended beyond reconstruction through editing, animation, generation, and scene understanding.
+
+    **Prerequisites:** Bring a laptop and a computer mouse for convenient navigation in 3D viewers, and have basic Python programming skills.
+
+  authors:
+    - name: Grzegorz Wilczyński
+      title: IDEAS Research Institute
+      image: images/optimized/tutorials-600x600/Grzegorz_Wilczynski.webp
+    - name: Mikołaj Zieliński
+      title: Poznań University of Technology
+      image: images/optimized/tutorials-600x600/Mikolaj_Zielinski.webp
+    - name: Weronika Smolak-Dyżewska
+      title: Jagiellonian University, IDEAS Research Institute
+      image: images/optimized/tutorials-600x600/Weronika_Smolak-Dyzewska.webp
+    - name: Przemysław Spurek
+      title: Jagiellonian University
+      image: images/optimized/tutorials-600x600/Przemyslaw_Spurek.webp
+  author-bio-md: |-
+    Grzegorz Wilczyński is a PhD student at Jagiellonian University and a researcher at IDEAS Research Institute. His work focuses on 3D Gaussian Splatting, neural rendering, and the development of more expressive and flexible 3D scene representations. He is particularly interested in bringing Gaussian-based scenes to life through animation, dynamic manipulation, and the integration of generative models into the 3D reconstruction pipeline. His research explores how explicit scene representations can be extended beyond static rendering toward editable, generative, and interactive 3D environments. Through projects such as IRIS, QuantumGS, and MeshSplats, he investigates new ways of combining Gaussian Splatting with different representations, quantum-inspired encoding, and mesh-based rendering. He enjoys translating research ideas into practical systems and making advanced 3D technologies easier to understand, experiment with, and apply.
+
+    Mikołaj Zieliński is a PhD student at Poznań University of Technology whose research lies at the intersection of robotics, computer vision and neural scene representations. He is particularly interested in making Gaussian Splatting and neural rendering more interactive, editable and compatible with physical environments. His research explores new ways of combining explicit Gaussian representations with neural fields, enabling intuitive scene manipulation, efficient rendering and physics-based interaction. Through projects such as GENIE and IRIS, he works on bringing emerging 3D representation technologies closer to practical applications in robotics and interactive systems.
+    Mikołaj enjoys sharing new ideas in an approachable, hands-on way and turning complex research concepts into tools that others can experiment with and build upon.
+
+    Weronika is currently pursuing her PhD in Technical Computer Science at Jagiellonian University in Kraków. Her main area of interest is neural rendering models for 3D scene reconstruction, especially Gaussian Splatting. She employs it in different areas from physical simulations to medical data.
+
+    Przemysław Spurek is the leader of the Neural Rendering research team in the GMUM group operating at the Jagiellonian University in Krakow, and is also affiliated with the IDEAS Research Institute. In 2014, he defended his PhD in machine learning and information theory. In 2023, he obtained his habilitation degree and became a university professor. He has published articles at prestigious international conferences such as NeurIPS, ICML, IROS, AISTATS, and ECML. He co-authored the book "Głębokie uczenie. Wprowadzenie [Deep Learning. Introduction]" – a compendium of knowledge about the basics of AI. He has served as the principal investigator for PRELUDIUM, SONATA, OPUS, and SONATA BIS NCN grants, as well as the First Team grant. Currently, his research focuses mainly on neural rendering, in particular NeRF and Gaussian Splatting models.
 
 - title: Privacy in Machine Learning
   date: Sunday / 11 October
@@ -115,6 +151,54 @@
 
     Maitri Shah is a Master's student in Data Science and Artificial Intelligence at Saarland University and a Research Assistant at the CISPA Helmholtz Center for Information Security. Her interests lie in trustworthy machine learning, with a particular focus on watermarking and machine unlearning.
 
+- title: Security in Machine Learning
+  date: Sunday / 11 October
+  time: 14:00 - 18:00
+  id: 4
+  desc-md: |-
+    Machine learning models have become both valuable assets and attractive attack targets. State-of-the-art LLMs and image generators are trained on billions of data points, often scraped without the owners' consent, while the models themselves, exposed through public APIs, can be stolen by adversaries at a fraction of their training cost. This tutorial offers a comprehensive, hands-on introduction to security in machine learning, organized around one central question: how can we protect models and data in the era of generative AI?
+
+    We cover four interconnected themes. (1) Model stealing: how adversaries extract classifiers, self-supervised encoders, and LLMs through query access alone, and how defenses raise the cost of theft. (2) Data detection and identification: dataset inference for LLMs, diffusion models, and image autoregressive models, and how data owners can use them to prove unauthorized training on their data, e.g., in copyright disputes. (3) Watermarking: state-of-the-art techniques for marking generative model outputs, from LLM text watermarks to image watermarks, including robustness, radioactivity, and fundamental limits. (4) Security of generative models: memorization and post-hoc provenance.
+
+    Through lectures, live demos, and hands-on sessions built on open-source implementations, attendees will gain a structured map of the field, practical experience with attacks and defenses, and a clear view of open research problems. No prior security background is required.
+
+    **Goals of the tutorial:** The tutorial pursues three objectives. First, it provides a systematic, up-to-date map of security in machine learning, focusing on the two assets that need protection: the model (confidentiality, extraction, theft) and the training data (unauthorized use, memorization, leakage), with special attention to generative models: LLMs, diffusion models, and image autoregressive models. Second, it presents the state of the art in attacks and defenses: model extraction and its countermeasures, membership and dataset inference, training-data extraction, and watermarking of generated content, including methods published at NeurIPS, ICML, ICLR, CVPR, AAAI, and ECCV. Third, it translates research into practice through live demos and guided hands-on exercises built on open-source code.
+
+    Attendees benefit in three ways: researchers obtain a structured overview of a fast-moving field, an annotated reading list, rigorous evaluation methodology, and a catalogue of open problems; practitioners learn concrete recipes for protecting models exposed via APIs, watermarking generated content, and auditing whether their data was used to train a third-party model; and newcomers get a self-contained entry point, since all security and privacy concepts are introduced from first principles.
+
+    Expected learning outcomes. Knowledge: participants can describe the threat landscape of modern ML systems; explain how model-stealing, dataset-inference, data-extraction, and watermark-removal attacks work; and characterize watermark properties such as robustness, radioactivity, and multi-user support. Skills: participants can run a model-extraction attack against an API-exposed model and measure the fidelity of the stolen copy; perform dataset inference to detect unauthorized use of a dataset with statistical guarantees; and embed, detect, and stress-test watermarks in generated images and text using the provided notebooks. Understanding: participants can reason about the fundamental trade-offs of defenses (utility for legitimate users vs. protection against adversaries), recognize common evaluation pitfalls in the literature, and connect the technical methods to legal and regulatory questions around copyright, data ownership, and content provenance.
+
+    **Prerequisites:** Participants should be comfortable with the fundamentals of machine learning and deep neural networks (training and inference, loss functions, embeddings/representations) and have high-level familiarity with modern generative models such as LLMs and diffusion models. Basic Python proficiency is expected for the hands-on parts; experience with PyTorch and the Hugging Face ecosystem is helpful but not required, since all exercises are provided as guided notebooks. No prior background in security, privacy, or watermarking is needed — all security concepts are introduced from first principles.
+
+    **Software Requirements:** Participants should come with their laptops and install uv, Python 3.12+, PyTorch 2.x, and the Hugging Face transformers library. A free Hugging Face account is recommended for downloading pretrained checkpoints.
+
+  authors:
+    - name: Adam Dziedzic
+      title: CISPA
+      image: images/optimized/tutorials-600x600/Adam_Dziedzic.webp
+    - name: Bihe Zhao
+      title: CISPA
+      image: images/optimized/tutorials-600x600/Bihe_Zhao.webp
+    - name: Louis Kerner
+      title: CISPA
+      image: images/optimized/tutorials-600x600/Louis_Kerner.webp
+    - name: Michel Meintz
+      title: CISPA
+      image: images/optimized/tutorials-600x600/Michel_Meintz.webp
+    - name: Maitri Shah
+      title: CISPA
+      image: images/optimized/tutorials-600x600/Maitri_Shah.webp
+  author-bio-md: |-
+    Adam Dziedzic is a faculty member at CISPA Helmholtz Center for Information Security, where he co-leads the SprintML group. His research is focused on secure and trustworthy Machine Learning. Adam was a Postdoctoral Fellow at the Vector Institute and the University of Toronto, and a member of the CleverHans Lab, advised by Prof. Nicolas Papernot. He earned his PhD at the University of Chicago, where he was advised by Prof. Sanjay Krishnan and worked on input and model compression for adaptive and robust neural networks. Adam obtained his Bachelor's and Master's degrees from the Warsaw University of Technology in Poland. He was also studying at DTU (Technical University of Denmark) and carried out research at EPFL, Switzerland. Adam also worked at CERN (Geneva, Switzerland), Barclays Investment Bank (London, UK), Microsoft Research (Redmond, USA), and Google (Madison, USA). Adam is a founding member or co-organizer of the European Championship on AI.
+
+    Bihe Zhao is a PhD student at the CISPA Helmholtz Center for Information Security in Saarbrücken, Germany, supervised by Prof. Adam Dziedzic and Prof. Franziska Boenisch. His research focuses on trustworthy AI, with an emphasis on data provenance for generative models, including dataset inference, image attribution, and watermarking. His work aims to make it possible to trace what data and models were used to produce a given output, providing technical foundations for accountability in modern AI systems.
+
+    Louis Kerner is a PhD candidate at CISPA Helmholtz Center for Information Security in Saarbrücken, Germany, supervised by Dr. Franziska Boenisch and Dr. Adam Dziedzic, who lead the SprintML Lab. His research sits at the intersection of trustworthy AI and generative models, centering on watermarking and data provenance. He develops robust techniques for tracing how content originates and spreads, so it can be attributed back to its source.
+
+    Michel Meintz is a PhD student at CISPA Helmholtz Center in Saarbrücken, Germany under supervision of Prof. Franziska Boenisch and Prof. Adam Dziedzic. His research lies at the intersection of trustworthy AI and generative models, with a particular focus on watermarking and data provenance. His work explores robust methods for tracing the origins and reuse of AI-generated content to attribute the content to its source.
+
+    Maitri Shah is a Master's student in Data Science and Artificial Intelligence at Saarland University and a Research Assistant at the CISPA Helmholtz Center for Information Security. Her interests lie in trustworthy machine learning, with a particular focus on watermarking and machine unlearning.
+
 - title: Introduction to Physics Neural Surrogates for Engineering and Healthcare
   date: Sunday / 11 October
   time: 9:00 - 13:00
@@ -143,6 +227,25 @@
     Patryk is a PhD candidate in the EU Horizon VASCUL-AID project at the University of Twente supervised by Jelmer Wolterink, and a guest researcher at the Amsterdam University Medical Center. He is a former visiting PhD at the University of Manchester under the supervision of Alejandro Frangi. Before starting his PhD, he was a visiting student at NVIDIA and an AI research scientist at the med-tech startup Hemolens Diagnostics with two international medical device patents to his name. His current research focuses on AI for Science and Health, encompassing the development of neural surrogates for complex physics simulations (i.e. hemodynamics) and geometric deep learning methods for risk assessment of cardiovascular diseases.
 
     Julian is a postdoctoral researcher at the Institute for Artificial Intelligence in Healthcare and Medicine at the Technical University of Munich (TUM). His research interest are geometric deep learning and neural operators applied to cardiovascular hemodynamics modelling as well as cortical surface analysis. Julian received a MSc in applied mathematics from TUM and his PhD from the University of Twente under the supervision of Jelmer Wolterink. During his PhD, Julian completed an internship at Qualcomm AI Research in Amsterdam.
+
+- title: 'Reinforcement learning using IdeGYM: power of IDE as your reward'
+  date: Sunday / 11 October
+  time: 14:00 - 18:00
+  id: 6
+  desc-md: |-
+    In this tutorial, we will provide a brief introduction to reinforcement learning for code, discuss the infrastructure challenges involved, and demonstrate how to use our recently developed tool, IdeGYM — an orchestrator for RL rewards specifically designed for code-based tasks. During the tutorial, we will explore standard code-reward signals, such as execution and test-based feedback, as well as more advanced signals derived from IDE inspections.
+
+  authors:
+    - name: Patrik Bartak
+      title: JetBrains Research
+      image: images/optimized/tutorials-600x600/Patrik_Bartak.webp
+    - name: Vseslav Kasatskii
+      title: JetBrains
+      image: images/optimized/tutorials-600x600/Vseslav_Kasatskii.webp
+  author-bio-md: |-
+    Patrik Bartak is a researcher at JetBrains Research, working on model evaluation and finetuning. He has used IdeGYM and other tools for reinforcement learning, and set up environments and scaffolds for evaluation of agentic models.
+
+    Vseslav Kasatskii is a Software Engineer at JetBrains, building tools and infrastructure for research teams. He has contributed to IdeGYM and other projects that combine reinforcement learning workflows with agent evaluation, observability, and sandboxed execution.
 
 - title: 'Fundamentals matter more than ever: package management & design patterns for coding'
   date: Sunday / 11 October
@@ -193,110 +296,3 @@
     Maciej Draguła is a Senior Engineer at Tenstorrent, where he develops tt-train, a framework for training large language models on Tenstorrent’s cutting-edge AI hardware, with a focus on optimising operations to reduce training time. Previously, he worked on computer vision applications for avionics at Daedalean, and his experience includes internships at CERN, Google, and Goldman Sachs. He holds a Bachelor’s degree in Computer Science from the University of Wrocław.
 
     Nathan Maurice is a Staff Engineer at Tenstorrent. His work involves accelerating inference and training workloads on Tenstorrent's massively parallel hardware. Prior to Tenstorrent, he earned a PhD in Computer Science at Sorbonne University, where he developed novel real-time parallel image processing algorithms.
-
-# Afternoon Tutorials
-
-- title: 'Build Your Own 3D Scene: An Introduction to Gaussian Splatting'
-  date: Sunday / 11 October
-  time: 14:00 - 18:00
-  id: 2
-  desc-md: |-
-    Creating a digital 3D model of a real object or environment traditionally requires specialized equipment and knowledge of computer graphics. Recent machine learning methods make it possible to reconstruct detailed, interactive 3D scenes using only ordinary photographs or a short video.
-    This hands-on workshop introduces participants to the complete 3D reconstruction pipeline using 3D Gaussian Splatting. It is designed for people familiar with basic machine learning concepts but with no previous experience in 3D reconstruction, neural rendering, or Gaussian Splatting.
-    Participants will learn how images captured from different viewpoints can be used to estimate camera positions and create a scene that can be viewed from new perspectives. They will prepare a dataset from video, train a Gaussian Splatting model, and inspect the resulting reconstruction in an interactive viewer.
-    The workshop will also cover selected topics that extend Gaussian Splatting beyond basic reconstruction, including scene editing, animation, appearance manipulation, and image-to-3D generation.
-    By the end of the session, participants will understand the basic principles of modern image-based 3D reconstruction and will have practical experience creating and modifying their own 3D scene.
-
-    **Goals of the tutorial:** Introduce the basic concepts of image-based 3D reconstruction, novel-view synthesis, and 3D Gaussian Splatting; explain the complete pipeline from video or image capture to an interactive 3D scene; provide practical experience with dataset preparation, Gaussian Splatting training, and scene visualization; teach participants how to identify common reconstruction problems and improve data acquisition and model quality; and demonstrate how Gaussian Splatting can be extended beyond reconstruction through editing, animation, generation, and scene understanding.
-
-    **Prerequisites:** Bring a laptop and a computer mouse for convenient navigation in 3D viewers, and have basic Python programming skills.
-
-  authors:
-    - name: Grzegorz Wilczyński
-      title: IDEAS Research Institute
-      image: images/optimized/tutorials-600x600/Grzegorz_Wilczynski.webp
-    - name: Mikołaj Zieliński
-      title: Poznań University of Technology
-      image: images/optimized/tutorials-600x600/Mikolaj_Zielinski.webp
-    - name: Weronika Smolak-Dyżewska
-      title: Jagiellonian University, IDEAS Research Institute
-      image: images/optimized/tutorials-600x600/Weronika_Smolak-Dyzewska.webp
-    - name: Przemysław Spurek
-      title: Jagiellonian University
-      image: images/optimized/tutorials-600x600/Przemyslaw_Spurek.webp
-  author-bio-md: |-
-    Grzegorz Wilczyński is a PhD student at Jagiellonian University and a researcher at IDEAS Research Institute. His work focuses on 3D Gaussian Splatting, neural rendering, and the development of more expressive and flexible 3D scene representations. He is particularly interested in bringing Gaussian-based scenes to life through animation, dynamic manipulation, and the integration of generative models into the 3D reconstruction pipeline. His research explores how explicit scene representations can be extended beyond static rendering toward editable, generative, and interactive 3D environments. Through projects such as IRIS, QuantumGS, and MeshSplats, he investigates new ways of combining Gaussian Splatting with different representations, quantum-inspired encoding, and mesh-based rendering. He enjoys translating research ideas into practical systems and making advanced 3D technologies easier to understand, experiment with, and apply.
-
-    Mikołaj Zieliński is a PhD student at Poznań University of Technology whose research lies at the intersection of robotics, computer vision and neural scene representations. He is particularly interested in making Gaussian Splatting and neural rendering more interactive, editable and compatible with physical environments. His research explores new ways of combining explicit Gaussian representations with neural fields, enabling intuitive scene manipulation, efficient rendering and physics-based interaction. Through projects such as GENIE and IRIS, he works on bringing emerging 3D representation technologies closer to practical applications in robotics and interactive systems.
-    Mikołaj enjoys sharing new ideas in an approachable, hands-on way and turning complex research concepts into tools that others can experiment with and build upon.
-
-    Weronika is currently pursuing her PhD in Technical Computer Science at Jagiellonian University in Kraków. Her main area of interest is neural rendering models for 3D scene reconstruction, especially Gaussian Splatting. She employs it in different areas from physical simulations to medical data.
-
-    Przemysław Spurek is the leader of the Neural Rendering research team in the GMUM group operating at the Jagiellonian University in Krakow, and is also affiliated with the IDEAS Research Institute. In 2014, he defended his PhD in machine learning and information theory. In 2023, he obtained his habilitation degree and became a university professor. He has published articles at prestigious international conferences such as NeurIPS, ICML, IROS, AISTATS, and ECML. He co-authored the book "Głębokie uczenie. Wprowadzenie [Deep Learning. Introduction]" – a compendium of knowledge about the basics of AI. He has served as the principal investigator for PRELUDIUM, SONATA, OPUS, and SONATA BIS NCN grants, as well as the First Team grant. Currently, his research focuses mainly on neural rendering, in particular NeRF and Gaussian Splatting models.
-
-- title: Security in Machine Learning
-  date: Sunday / 11 October
-  time: 14:00 - 18:00
-  id: 4
-  desc-md: |-
-    Machine learning models have become both valuable assets and attractive attack targets. State-of-the-art LLMs and image generators are trained on billions of data points, often scraped without the owners' consent, while the models themselves, exposed through public APIs, can be stolen by adversaries at a fraction of their training cost. This tutorial offers a comprehensive, hands-on introduction to security in machine learning, organized around one central question: how can we protect models and data in the era of generative AI?
-
-    We cover four interconnected themes. (1) Model stealing: how adversaries extract classifiers, self-supervised encoders, and LLMs through query access alone, and how defenses raise the cost of theft. (2) Data detection and identification: dataset inference for LLMs, diffusion models, and image autoregressive models, and how data owners can use them to prove unauthorized training on their data, e.g., in copyright disputes. (3) Watermarking: state-of-the-art techniques for marking generative model outputs, from LLM text watermarks to image watermarks, including robustness, radioactivity, and fundamental limits. (4) Security of generative models: memorization and post-hoc provenance.
-
-    Through lectures, live demos, and hands-on sessions built on open-source implementations, attendees will gain a structured map of the field, practical experience with attacks and defenses, and a clear view of open research problems. No prior security background is required.
-
-    **Goals of the tutorial:** The tutorial pursues three objectives. First, it provides a systematic, up-to-date map of security in machine learning, focusing on the two assets that need protection: the model (confidentiality, extraction, theft) and the training data (unauthorized use, memorization, leakage), with special attention to generative models: LLMs, diffusion models, and image autoregressive models. Second, it presents the state of the art in attacks and defenses: model extraction and its countermeasures, membership and dataset inference, training-data extraction, and watermarking of generated content, including methods published at NeurIPS, ICML, ICLR, CVPR, AAAI, and ECCV. Third, it translates research into practice through live demos and guided hands-on exercises built on open-source code.
-
-    Attendees benefit in three ways: researchers obtain a structured overview of a fast-moving field, an annotated reading list, rigorous evaluation methodology, and a catalogue of open problems; practitioners learn concrete recipes for protecting models exposed via APIs, watermarking generated content, and auditing whether their data was used to train a third-party model; and newcomers get a self-contained entry point, since all security and privacy concepts are introduced from first principles.
-
-    Expected learning outcomes. Knowledge: participants can describe the threat landscape of modern ML systems; explain how model-stealing, dataset-inference, data-extraction, and watermark-removal attacks work; and characterize watermark properties such as robustness, radioactivity, and multi-user support. Skills: participants can run a model-extraction attack against an API-exposed model and measure the fidelity of the stolen copy; perform dataset inference to detect unauthorized use of a dataset with statistical guarantees; and embed, detect, and stress-test watermarks in generated images and text using the provided notebooks. Understanding: participants can reason about the fundamental trade-offs of defenses (utility for legitimate users vs. protection against adversaries), recognize common evaluation pitfalls in the literature, and connect the technical methods to legal and regulatory questions around copyright, data ownership, and content provenance.
-
-    **Prerequisites:** Participants should be comfortable with the fundamentals of machine learning and deep neural networks (training and inference, loss functions, embeddings/representations) and have high-level familiarity with modern generative models such as LLMs and diffusion models. Basic Python proficiency is expected for the hands-on parts; experience with PyTorch and the Hugging Face ecosystem is helpful but not required, since all exercises are provided as guided notebooks. No prior background in security, privacy, or watermarking is needed — all security concepts are introduced from first principles.
-
-    **Software Requirements:** Participants should come with their laptops and install uv, Python 3.12+, PyTorch 2.x, and the Hugging Face transformers library. A free Hugging Face account is recommended for downloading pretrained checkpoints.
-
-  authors:
-    - name: Adam Dziedzic
-      title: CISPA
-      image: images/optimized/tutorials-600x600/Adam_Dziedzic.webp
-    - name: Bihe Zhao
-      title: CISPA
-      image: images/optimized/tutorials-600x600/Bihe_Zhao.webp
-    - name: Louis Kerner
-      title: CISPA
-      image: images/optimized/tutorials-600x600/Louis_Kerner.webp
-    - name: Michel Meintz
-      title: CISPA
-      image: images/optimized/tutorials-600x600/Michel_Meintz.webp
-    - name: Maitri Shah
-      title: CISPA
-      image: images/optimized/tutorials-600x600/Maitri_Shah.webp
-  author-bio-md: |-
-    Adam Dziedzic is a faculty member at CISPA Helmholtz Center for Information Security, where he co-leads the SprintML group. His research is focused on secure and trustworthy Machine Learning. Adam was a Postdoctoral Fellow at the Vector Institute and the University of Toronto, and a member of the CleverHans Lab, advised by Prof. Nicolas Papernot. He earned his PhD at the University of Chicago, where he was advised by Prof. Sanjay Krishnan and worked on input and model compression for adaptive and robust neural networks. Adam obtained his Bachelor's and Master's degrees from the Warsaw University of Technology in Poland. He was also studying at DTU (Technical University of Denmark) and carried out research at EPFL, Switzerland. Adam also worked at CERN (Geneva, Switzerland), Barclays Investment Bank (London, UK), Microsoft Research (Redmond, USA), and Google (Madison, USA). Adam is a founding member or co-organizer of the European Championship on AI.
-
-    Bihe Zhao is a PhD student at the CISPA Helmholtz Center for Information Security in Saarbrücken, Germany, supervised by Prof. Adam Dziedzic and Prof. Franziska Boenisch. His research focuses on trustworthy AI, with an emphasis on data provenance for generative models, including dataset inference, image attribution, and watermarking. His work aims to make it possible to trace what data and models were used to produce a given output, providing technical foundations for accountability in modern AI systems.
-
-    Louis Kerner is a PhD candidate at CISPA Helmholtz Center for Information Security in Saarbrücken, Germany, supervised by Dr. Franziska Boenisch and Dr. Adam Dziedzic, who lead the SprintML Lab. His research sits at the intersection of trustworthy AI and generative models, centering on watermarking and data provenance. He develops robust techniques for tracing how content originates and spreads, so it can be attributed back to its source.
-
-    Michel Meintz is a PhD student at CISPA Helmholtz Center in Saarbrücken, Germany under supervision of Prof. Franziska Boenisch and Prof. Adam Dziedzic. His research lies at the intersection of trustworthy AI and generative models, with a particular focus on watermarking and data provenance. His work explores robust methods for tracing the origins and reuse of AI-generated content to attribute the content to its source.
-
-    Maitri Shah is a Master's student in Data Science and Artificial Intelligence at Saarland University and a Research Assistant at the CISPA Helmholtz Center for Information Security. Her interests lie in trustworthy machine learning, with a particular focus on watermarking and machine unlearning.
-
-- title: 'Reinforcement learning using IdeGYM: power of IDE as your reward'
-  date: Sunday / 11 October
-  time: 14:00 - 18:00
-  id: 6
-  desc-md: |-
-    In this tutorial, we will provide a brief introduction to reinforcement learning for code, discuss the infrastructure challenges involved, and demonstrate how to use our recently developed tool, IdeGYM — an orchestrator for RL rewards specifically designed for code-based tasks. During the tutorial, we will explore standard code-reward signals, such as execution and test-based feedback, as well as more advanced signals derived from IDE inspections.
-
-  authors:
-    - name: Patrik Bartak
-      title: JetBrains Research
-      image: images/optimized/tutorials-600x600/Patrik_Bartak.webp
-    - name: Vseslav Kasatskii
-      title: JetBrains
-      image: images/optimized/tutorials-600x600/Vseslav_Kasatskii.webp
-  author-bio-md: |-
-    Patrik Bartak is a researcher at JetBrains Research, working on model evaluation and finetuning. He has used IdeGYM and other tools for reinforcement learning, and set up environments and scaffolds for evaluation of agentic models.
-
-    Vseslav Kasatskii is a Software Engineer at JetBrains, building tools and infrastructure for research teams. He has contributed to IdeGYM and other projects that combine reinforcement learning workflows with agent evaluation, observability, and sandboxed execution.
