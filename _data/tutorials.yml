@@ -1,7 +1,7 @@
 # TEMPLATE
 # - title:
-#   date: 
-#   time: 
+#   date:
+#   time:
 #   id:
 #   desc-md: >-
 #   authors:
@@ -13,108 +13,10 @@
 
 # Morning Tutorials
 
-- title: 'Fundamentals matter more than ever: package management & design patterns for coding'
-  date: Sunday / 11 October
-  time: TBA
-  id: 1
-  desc-md: |-
-    Teams offter suffer from conventions, domain knowledge and unwritten assumptions live only in the developer’s head. This hands-on workshop sends you home with a shareable engineering methodology your team can adopt to standadize coding, make engineers benefit from Subject Matter Experts insights (as well as the other way around).
-
-    We will teach you how to apply classic software engineering principles to agentic coding: separation of concerns, dependency management and design patterns. Starting from a provided template, you will build, test, and install your own package ready to distribute across your team and with best practices baked into the desing.
-
-    **Goals of the tutorial:**
-    - Objective: present an emerging methodology for agentic coding along with practical examples on a specific tool.
-    - Attendee benefit:
-      - Learn vocabulary, patterns, tools and methodology for efficient coding.
-      - Benefit from codified coding standards and be able to focus on the domain challenges more.
-      - Be able to hassle-free exchange prompts in your team and across teams in your company.
-    - Learning outcomes: participants know how to create their own package, understand primitives, are familiarised with the methodology around instrumented codebase design (good practices, anti-patterns, vocabulary, design patterns, tools, resources).
-
-    **Prerequisites:** Nice to have: familiarity with dependency management, software design patterns, and object-oriented programming. Required: understanding of core LLM concepts such as attention, the context window, and the "lost in the middle" phenomenon. Participants should bring a CLI for the coding agent of their choice, compatible with APM (e.g. GitHub Copilot, Claude Code, Cursor, OpenCode, Codex, Gemini/Antigravity, Windsurf), and a GitHub account.
-
-  authors:
-    - name: Jan Karaś
-      title: 'CAIAK: Conference, AI and Kayaking'
-      image: images/optimized/tutorials-600x600/Jan_Karas.webp
-    - name: Kacper Gutowski
-      title: 'CAIAK: Conference, AI & Kayaking'
-      image: images/optimized/tutorials-600x600/Kacper_Gutowski.webp
-  author-bio-md: |-
-    Jan Karaś, ex-Pearson, ex-Microsoft. AI/ML student from Technical University Darmstadt (Hessen, Germany). Founder of the student conference “CAIAK: Conference, AI and Kayaking” and Czarna Magia AI Society. Privately a Rust, APM and biking enthusiast.
-
-    Kacper Gutowski is a software developer focused on Applied AI and Data Science, with a passion for Linux and agent based systems. He is the former president of the Czarna Magia AI Society and coorganizer of the CAIAK conference.
-
-- title: 'Build Your Own 3D Scene: An Introduction to Gaussian Splatting'
-  date: Sunday / 11 October
-  time: TBA
-  id: 2
-  desc-md: |-
-    Creating a digital 3D model of a real object or environment traditionally requires specialized equipment and knowledge of computer graphics. Recent machine learning methods make it possible to reconstruct detailed, interactive 3D scenes using only ordinary photographs or a short video.
-    This hands-on workshop introduces participants to the complete 3D reconstruction pipeline using 3D Gaussian Splatting. It is designed for people familiar with basic machine learning concepts but with no previous experience in 3D reconstruction, neural rendering, or Gaussian Splatting.
-    Participants will learn how images captured from different viewpoints can be used to estimate camera positions and create a scene that can be viewed from new perspectives. They will prepare a dataset from video, train a Gaussian Splatting model, and inspect the resulting reconstruction in an interactive viewer.
-    The workshop will also cover selected topics that extend Gaussian Splatting beyond basic reconstruction, including scene editing, animation, appearance manipulation, and image-to-3D generation.
-    By the end of the session, participants will understand the basic principles of modern image-based 3D reconstruction and will have practical experience creating and modifying their own 3D scene.
-
-    **Goals of the tutorial:** Introduce the basic concepts of image-based 3D reconstruction, novel-view synthesis, and 3D Gaussian Splatting; explain the complete pipeline from video or image capture to an interactive 3D scene; provide practical experience with dataset preparation, Gaussian Splatting training, and scene visualization; teach participants how to identify common reconstruction problems and improve data acquisition and model quality; and demonstrate how Gaussian Splatting can be extended beyond reconstruction through editing, animation, generation, and scene understanding.
-
-    **Prerequisites:** Bring a laptop and a computer mouse for convenient navigation in 3D viewers, and have basic Python programming skills.
-
-  authors:
-    - name: Grzegorz Wilczyński
-      title: IDEAS Research Institute
-      image: images/optimized/tutorials-600x600/Grzegorz_Wilczynski.webp
-    - name: Mikołaj Zieliński
-      title: Poznań University of Technology
-      image: images/optimized/tutorials-600x600/Mikolaj_Zielinski.webp
-    - name: Weronika Smolak-Dyżewska
-      title: Jagiellonian University, IDEAS Research Institute
-      image: images/optimized/tutorials-600x600/Weronika_Smolak-Dyzewska.webp
-    - name: Przemysław Spurek
-      title: Jagiellonian University
-      image: images/optimized/tutorials-600x600/Przemyslaw_Spurek.webp
-  author-bio-md: |-
-    Grzegorz Wilczyński is a PhD student at Jagiellonian University and a researcher at IDEAS Research Institute. His work focuses on 3D Gaussian Splatting, neural rendering, and the development of more expressive and flexible 3D scene representations. He is particularly interested in bringing Gaussian-based scenes to life through animation, dynamic manipulation, and the integration of generative models into the 3D reconstruction pipeline. His research explores how explicit scene representations can be extended beyond static rendering toward editable, generative, and interactive 3D environments. Through projects such as IRIS, QuantumGS, and MeshSplats, he investigates new ways of combining Gaussian Splatting with different representations, quantum-inspired encoding, and mesh-based rendering. He enjoys translating research ideas into practical systems and making advanced 3D technologies easier to understand, experiment with, and apply.
-
-    Mikołaj Zieliński is a PhD student at Poznań University of Technology whose research lies at the intersection of robotics, computer vision and neural scene representations. He is particularly interested in making Gaussian Splatting and neural rendering more interactive, editable and compatible with physical environments. His research explores new ways of combining explicit Gaussian representations with neural fields, enabling intuitive scene manipulation, efficient rendering and physics-based interaction. Through projects such as GENIE and IRIS, he works on bringing emerging 3D representation technologies closer to practical applications in robotics and interactive systems.
-    Mikołaj enjoys sharing new ideas in an approachable, hands-on way and turning complex research concepts into tools that others can experiment with and build upon.
-
-    Weronika is currently pursuing her PhD in Technical Computer Science at Jagiellonian University in Kraków. Her main area of interest is neural rendering models for 3D scene reconstruction, especially Gaussian Splatting. She employs it in different areas from physical simulations to medical data.
-
-    Przemysław Spurek is the leader of the Neural Rendering research team in the GMUM group operating at the Jagiellonian University in Krakow, and is also affiliated with the IDEAS Research Institute. In 2014, he defended his PhD in machine learning and information theory. In 2023, he obtained his habilitation degree and became a university professor. He has published articles at prestigious international conferences such as NeurIPS, ICML, IROS, AISTATS, and ECML. He co-authored the book "Głębokie uczenie. Wprowadzenie [Deep Learning. Introduction]" – a compendium of knowledge about the basics of AI. He has served as the principal investigator for PRELUDIUM, SONATA, OPUS, and SONATA BIS NCN grants, as well as the First Team grant. Currently, his research focuses mainly on neural rendering, in particular NeRF and Gaussian Splatting models.
-
-- title: Introduction to Physics Neural Surrogates for Engineering and Healthcare
-  date: Sunday / 11 October
-  time: TBA
-  id: 3
-  desc-md: |-
-    Computational modelling of physical phenomena - such as fluid flow, structural mechanics, and weather systems - plays a central role in science, engineering, and healthcare. These phenomena are commonly modelled using high-fidelity numerical solvers that approximate the governing physical laws expressed through partial differential equations (PDEs). Although such methods provide accurate and physically grounded solutions, their computational cost and runtime remain major bottlenecks in many real-world applications.
-
-    In recent years, neural surrogates - deep learning-based approximators of numerical methods - have emerged as a promising alternative, offering orders-of-magnitude acceleration by amortising simulation cost into offline training. Once trained, they can estimate physical quantities of interest in seconds, enabling design, analysis, and discovery workflows at scale.
-
-    This tutorial will introduce the theoretical foundations and practical design choices involved in building physics-based neural surrogates for engineering and healthcare applications. We will begin with geometric deep learning and examine how neural networks can process large, unstructured 3D geometries commonly encountered in engineering and biomedical workflows. We will then introduce neural fields and neural operators, which provide key building blocks for scalable and discretisation-agnostic surrogate models. We will showcase how the neural operator properties can be achieved by recombining core components of the Transformer architecture. Finally, we will briefly discuss physical inductive biases, including conservation laws and operator symmetries, and explain how they can improve model reliability and data efficiency, particularly in data-scarce settings.
-
-    Each part of the tutorial will be accompanied by hands-on exercises based on relevant engineering and healthcare examples, allowing participants to connect the theoretical concepts with practical implementation.
-
-    **Goals of the tutorial:** This tutorial aims to give participants a practical introduction to physics-based neural surrogates for engineering and healthcare. By the end of the tutorial, attendees will be able to: understand the role of neural surrogates in physics modelling; work with complex 3D geometries and unstructured data; explain the principles of neural fields and neural operators and how to implement them using Transformer architecture; recognise how physical constraints and symmetries can improve reliability and data efficiency; and implement and evaluate basic neural surrogate models in PyTorch. Participants will leave with both a conceptual overview and practical experience that they can apply to their own research and engineering problems.
-
-    **Prerequisites:** Participants should have a basic understanding of deep learning, Transformer architecture, and PyTorch, as the examples and practical exercises will build on these concepts. The exercises will be delivered through Jupyter Notebooks, so participants should have access to either Google Colab or a suitable local Python environment. Prior knowledge of neural operators, partial differential equations, numerical simulation, or geometry processing is helpful but not required — the essential concepts will be introduced during the tutorial.
-
-  authors:
-    - name: Patryk Rygiel
-      title: University of Twente, Amsterdam UMC
-      image: images/optimized/tutorials-600x600/Patryk_Rygiel.webp
-    - name: Julian Suk
-      title: Technical University of Munich
-      image: images/optimized/tutorials-600x600/Julian_Suk.webp
-  author-bio-md: |-
-    Patryk is a PhD candidate in the EU Horizon VASCUL-AID project at the University of Twente supervised by Jelmer Wolterink, and a guest researcher at the Amsterdam University Medical Center. He is a former visiting PhD at the University of Manchester under the supervision of Alejandro Frangi. Before starting his PhD, he was a visiting student at NVIDIA and an AI research scientist at the med-tech startup Hemolens Diagnostics with two international medical device patents to his name. His current research focuses on AI for Science and Health, encompassing the development of neural surrogates for complex physics simulations (i.e. hemodynamics) and geometric deep learning methods for risk assessment of cardiovascular diseases.
-
-    Julian is a postdoctoral researcher at the Institute for Artificial Intelligence in Healthcare and Medicine at the Technical University of Munich (TUM). His research interest are geometric deep learning and neural operators applied to cardiovascular hemodynamics modelling as well as cortical surface analysis. Julian received a MSc in applied mathematics from TUM and his PhD from the University of Twente under the supervision of Jelmer Wolterink. During his PhD, Julian completed an internship at Qualcomm AI Research in Amsterdam.
-
 - title: Controllable Generative Design of Biological Sequences
   date: Sunday / 11 October
-  time: TBA
-  id: 4
+  time: 9:00 - 13:00
+  id: 1
   desc-md: |-
     Generative machine learning is transforming how we design peptides, proteins and small molecules. Yet for AI-oriented researchers, understanding how these methods connect to real biological design problems, and how to apply them in practice, can be hard to approach. This tutorial closes that gap, teaching both the theory behind controllable generative design and the practical skills needed to apply our lab's models to concrete sequence design tasks.
 
@@ -162,8 +64,8 @@
 
 - title: Privacy in Machine Learning
   date: Sunday / 11 October
-  time: TBA
-  id: 5
+  time: 9:00 - 13:00
+  id: 3
   desc-md: |-
     Machine learning models are trained on some of our most sensitive data, for example, medical records, personal messages and images, financial information, etc. A growing body of research shows that the data leaks from ML models, which can reveal whether a specific person's data was part of the training set (membership inference), and modern attacks even reconstruct training data verbatim from model parameters, gradients, or generated outputs. With foundation models trained on web-scale data and regulations such as the GDPR and the EU AI Act that come into place, we need to understand and mitigate privacy risks. It has become a core competency for ML researchers and practitioners alike.
 
@@ -213,12 +115,110 @@
 
     Maitri Shah is a Master's student in Data Science and Artificial Intelligence at Saarland University and a Research Assistant at the CISPA Helmholtz Center for Information Security. Her interests lie in trustworthy machine learning, with a particular focus on watermarking and machine unlearning.
 
+- title: Introduction to Physics Neural Surrogates for Engineering and Healthcare
+  date: Sunday / 11 October
+  time: 9:00 - 13:00
+  id: 5
+  desc-md: |-
+    Computational modelling of physical phenomena - such as fluid flow, structural mechanics, and weather systems - plays a central role in science, engineering, and healthcare. These phenomena are commonly modelled using high-fidelity numerical solvers that approximate the governing physical laws expressed through partial differential equations (PDEs). Although such methods provide accurate and physically grounded solutions, their computational cost and runtime remain major bottlenecks in many real-world applications.
+
+    In recent years, neural surrogates - deep learning-based approximators of numerical methods - have emerged as a promising alternative, offering orders-of-magnitude acceleration by amortising simulation cost into offline training. Once trained, they can estimate physical quantities of interest in seconds, enabling design, analysis, and discovery workflows at scale.
+
+    This tutorial will introduce the theoretical foundations and practical design choices involved in building physics-based neural surrogates for engineering and healthcare applications. We will begin with geometric deep learning and examine how neural networks can process large, unstructured 3D geometries commonly encountered in engineering and biomedical workflows. We will then introduce neural fields and neural operators, which provide key building blocks for scalable and discretisation-agnostic surrogate models. We will showcase how the neural operator properties can be achieved by recombining core components of the Transformer architecture. Finally, we will briefly discuss physical inductive biases, including conservation laws and operator symmetries, and explain how they can improve model reliability and data efficiency, particularly in data-scarce settings.
+
+    Each part of the tutorial will be accompanied by hands-on exercises based on relevant engineering and healthcare examples, allowing participants to connect the theoretical concepts with practical implementation.
+
+    **Goals of the tutorial:** This tutorial aims to give participants a practical introduction to physics-based neural surrogates for engineering and healthcare. By the end of the tutorial, attendees will be able to: understand the role of neural surrogates in physics modelling; work with complex 3D geometries and unstructured data; explain the principles of neural fields and neural operators and how to implement them using Transformer architecture; recognise how physical constraints and symmetries can improve reliability and data efficiency; and implement and evaluate basic neural surrogate models in PyTorch. Participants will leave with both a conceptual overview and practical experience that they can apply to their own research and engineering problems.
+
+    **Prerequisites:** Participants should have a basic understanding of deep learning, Transformer architecture, and PyTorch, as the examples and practical exercises will build on these concepts. The exercises will be delivered through Jupyter Notebooks, so participants should have access to either Google Colab or a suitable local Python environment. Prior knowledge of neural operators, partial differential equations, numerical simulation, or geometry processing is helpful but not required — the essential concepts will be introduced during the tutorial.
+
+  authors:
+    - name: Patryk Rygiel
+      title: University of Twente, Amsterdam UMC
+      image: images/optimized/tutorials-600x600/Patryk_Rygiel.webp
+    - name: Julian Suk
+      title: Technical University of Munich
+      image: images/optimized/tutorials-600x600/Julian_Suk.webp
+  author-bio-md: |-
+    Patryk is a PhD candidate in the EU Horizon VASCUL-AID project at the University of Twente supervised by Jelmer Wolterink, and a guest researcher at the Amsterdam University Medical Center. He is a former visiting PhD at the University of Manchester under the supervision of Alejandro Frangi. Before starting his PhD, he was a visiting student at NVIDIA and an AI research scientist at the med-tech startup Hemolens Diagnostics with two international medical device patents to his name. His current research focuses on AI for Science and Health, encompassing the development of neural surrogates for complex physics simulations (i.e. hemodynamics) and geometric deep learning methods for risk assessment of cardiovascular diseases.
+
+    Julian is a postdoctoral researcher at the Institute for Artificial Intelligence in Healthcare and Medicine at the Technical University of Munich (TUM). His research interest are geometric deep learning and neural operators applied to cardiovascular hemodynamics modelling as well as cortical surface analysis. Julian received a MSc in applied mathematics from TUM and his PhD from the University of Twente under the supervision of Jelmer Wolterink. During his PhD, Julian completed an internship at Qualcomm AI Research in Amsterdam.
+
+- title: 'Fundamentals matter more than ever: package management & design patterns for coding'
+  date: Sunday / 11 October
+  time: 9:00 - 13:00
+  id: 7
+  desc-md: |-
+    Teams offter suffer from conventions, domain knowledge and unwritten assumptions live only in the developer’s head. This hands-on workshop sends you home with a shareable engineering methodology your team can adopt to standadize coding, make engineers benefit from Subject Matter Experts insights (as well as the other way around).
+
+    We will teach you how to apply classic software engineering principles to agentic coding: separation of concerns, dependency management and design patterns. Starting from a provided template, you will build, test, and install your own package ready to distribute across your team and with best practices baked into the desing.
+
+    **Goals of the tutorial:**
+    - Objective: present an emerging methodology for agentic coding along with practical examples on a specific tool.
+    - Attendee benefit:
+      - Learn vocabulary, patterns, tools and methodology for efficient coding.
+      - Benefit from codified coding standards and be able to focus on the domain challenges more.
+      - Be able to hassle-free exchange prompts in your team and across teams in your company.
+    - Learning outcomes: participants know how to create their own package, understand primitives, are familiarised with the methodology around instrumented codebase design (good practices, anti-patterns, vocabulary, design patterns, tools, resources).
+
+    **Prerequisites:** Nice to have: familiarity with dependency management, software design patterns, and object-oriented programming. Required: understanding of core LLM concepts such as attention, the context window, and the "lost in the middle" phenomenon. Participants should bring a CLI for the coding agent of their choice, compatible with APM (e.g. GitHub Copilot, Claude Code, Cursor, OpenCode, Codex, Gemini/Antigravity, Windsurf), and a GitHub account.
+
+  authors:
+    - name: Jan Karaś
+      title: 'CAIAK: Conference, AI and Kayaking'
+      image: images/optimized/tutorials-600x600/Jan_Karas.webp
+    - name: Kacper Gutowski
+      title: 'CAIAK: Conference, AI & Kayaking'
+      image: images/optimized/tutorials-600x600/Kacper_Gutowski.webp
+  author-bio-md: |-
+    Jan Karaś, ex-Pearson, ex-Microsoft. AI/ML student from Technical University Darmstadt (Hessen, Germany). Founder of the student conference “CAIAK: Conference, AI and Kayaking” and Czarna Magia AI Society. Privately a Rust, APM and biking enthusiast.
+
+    Kacper Gutowski is a software developer focused on Applied AI and Data Science, with a passion for Linux and agent based systems. He is the former president of the Czarna Magia AI Society and coorganizer of the CAIAK conference.
+
 # Afternoon Tutorials
+
+- title: 'Build Your Own 3D Scene: An Introduction to Gaussian Splatting'
+  date: Sunday / 11 October
+  time: 14:00 - 18:00
+  id: 2
+  desc-md: |-
+    Creating a digital 3D model of a real object or environment traditionally requires specialized equipment and knowledge of computer graphics. Recent machine learning methods make it possible to reconstruct detailed, interactive 3D scenes using only ordinary photographs or a short video.
+    This hands-on workshop introduces participants to the complete 3D reconstruction pipeline using 3D Gaussian Splatting. It is designed for people familiar with basic machine learning concepts but with no previous experience in 3D reconstruction, neural rendering, or Gaussian Splatting.
+    Participants will learn how images captured from different viewpoints can be used to estimate camera positions and create a scene that can be viewed from new perspectives. They will prepare a dataset from video, train a Gaussian Splatting model, and inspect the resulting reconstruction in an interactive viewer.
+    The workshop will also cover selected topics that extend Gaussian Splatting beyond basic reconstruction, including scene editing, animation, appearance manipulation, and image-to-3D generation.
+    By the end of the session, participants will understand the basic principles of modern image-based 3D reconstruction and will have practical experience creating and modifying their own 3D scene.
+
+    **Goals of the tutorial:** Introduce the basic concepts of image-based 3D reconstruction, novel-view synthesis, and 3D Gaussian Splatting; explain the complete pipeline from video or image capture to an interactive 3D scene; provide practical experience with dataset preparation, Gaussian Splatting training, and scene visualization; teach participants how to identify common reconstruction problems and improve data acquisition and model quality; and demonstrate how Gaussian Splatting can be extended beyond reconstruction through editing, animation, generation, and scene understanding.
+
+    **Prerequisites:** Bring a laptop and a computer mouse for convenient navigation in 3D viewers, and have basic Python programming skills.
+
+  authors:
+    - name: Grzegorz Wilczyński
+      title: IDEAS Research Institute
+      image: images/optimized/tutorials-600x600/Grzegorz_Wilczynski.webp
+    - name: Mikołaj Zieliński
+      title: Poznań University of Technology
+      image: images/optimized/tutorials-600x600/Mikolaj_Zielinski.webp
+    - name: Weronika Smolak-Dyżewska
+      title: Jagiellonian University, IDEAS Research Institute
+      image: images/optimized/tutorials-600x600/Weronika_Smolak-Dyzewska.webp
+    - name: Przemysław Spurek
+      title: Jagiellonian University
+      image: images/optimized/tutorials-600x600/Przemyslaw_Spurek.webp
+  author-bio-md: |-
+    Grzegorz Wilczyński is a PhD student at Jagiellonian University and a researcher at IDEAS Research Institute. His work focuses on 3D Gaussian Splatting, neural rendering, and the development of more expressive and flexible 3D scene representations. He is particularly interested in bringing Gaussian-based scenes to life through animation, dynamic manipulation, and the integration of generative models into the 3D reconstruction pipeline. His research explores how explicit scene representations can be extended beyond static rendering toward editable, generative, and interactive 3D environments. Through projects such as IRIS, QuantumGS, and MeshSplats, he investigates new ways of combining Gaussian Splatting with different representations, quantum-inspired encoding, and mesh-based rendering. He enjoys translating research ideas into practical systems and making advanced 3D technologies easier to understand, experiment with, and apply.
+
+    Mikołaj Zieliński is a PhD student at Poznań University of Technology whose research lies at the intersection of robotics, computer vision and neural scene representations. He is particularly interested in making Gaussian Splatting and neural rendering more interactive, editable and compatible with physical environments. His research explores new ways of combining explicit Gaussian representations with neural fields, enabling intuitive scene manipulation, efficient rendering and physics-based interaction. Through projects such as GENIE and IRIS, he works on bringing emerging 3D representation technologies closer to practical applications in robotics and interactive systems.
+    Mikołaj enjoys sharing new ideas in an approachable, hands-on way and turning complex research concepts into tools that others can experiment with and build upon.
+
+    Weronika is currently pursuing her PhD in Technical Computer Science at Jagiellonian University in Kraków. Her main area of interest is neural rendering models for 3D scene reconstruction, especially Gaussian Splatting. She employs it in different areas from physical simulations to medical data.
+
+    Przemysław Spurek is the leader of the Neural Rendering research team in the GMUM group operating at the Jagiellonian University in Krakow, and is also affiliated with the IDEAS Research Institute. In 2014, he defended his PhD in machine learning and information theory. In 2023, he obtained his habilitation degree and became a university professor. He has published articles at prestigious international conferences such as NeurIPS, ICML, IROS, AISTATS, and ECML. He co-authored the book "Głębokie uczenie. Wprowadzenie [Deep Learning. Introduction]" – a compendium of knowledge about the basics of AI. He has served as the principal investigator for PRELUDIUM, SONATA, OPUS, and SONATA BIS NCN grants, as well as the First Team grant. Currently, his research focuses mainly on neural rendering, in particular NeRF and Gaussian Splatting models.
 
 - title: Security in Machine Learning
   date: Sunday / 11 October
-  time: TBA
-  id: 6
+  time: 14:00 - 18:00
+  id: 4
   desc-md: |-
     Machine learning models have become both valuable assets and attractive attack targets. State-of-the-art LLMs and image generators are trained on billions of data points, often scraped without the owners' consent, while the models themselves, exposed through public APIs, can be stolen by adversaries at a fraction of their training cost. This tutorial offers a comprehensive, hands-on introduction to security in machine learning, organized around one central question: how can we protect models and data in the era of generative AI?
 
@@ -265,8 +265,8 @@
 
 - title: 'Reinforcement learning using IdeGYM: power of IDE as your reward'
   date: Sunday / 11 October
-  time: TBA
-  id: 7
+  time: 14:00 - 18:00
+  id: 6
   desc-md: |-
     In this tutorial, we will provide a brief introduction to reinforcement learning for code, discuss the infrastructure challenges involved, and demonstrate how to use our recently developed tool, IdeGYM — an orchestrator for RL rewards specifically designed for code-based tasks. During the tutorial, we will explore standard code-reward signals, such as execution and test-based feedback, as well as more advanced signals derived from IDE inspections.
 
