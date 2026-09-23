@@ -278,6 +278,50 @@
 
     Kacper Gutowski is a software developer focused on Applied AI and Data Science, with a passion for Linux and agent based systems. He is the former president of the Czarna Magia AI Society and coorganizer of the CAIAK conference.
 
+- title: 'Evaluating LLMs on HPC Clusters: A Step-by-Step Introduction to Slurm with PLLuM'
+  date: Sunday / 11 October
+  time: 14:00 - 18:00
+  id: 8
+  desc-md: |-
+    Evaluation is a central part of developing large language models, but running benchmarks at scale requires access to GPU clusters and familiarity with the tools used to manage them. This hands-on tutorial introduces LLM evaluation on high-performance computing (HPC) systems using Slurm, the workload manager found on most academic and industrial supercomputers.
+
+    Participants follow the same workflow that model developers use: preparing an evaluation environment, writing and submitting Slurm jobs, monitoring their execution, and interpreting the results. The session opens with a short introduction to PLLuM research and development, followed by HPC architecture and job scheduling, and an overview of how shared computing infrastructure is typically organised. Participants then run a complete benchmark themselves on a supercomputer operated by ACK Cyfronet AGH, using the PLLuM family of Polish language models as a working example.
+
+    The skills taught are not tied to a particular cluster or model: by the end of the session, participants will be able to apply the same workflow to other models, benchmarks and Slurm-based systems.
+
+    **Goals of the tutorial:** The tutorial aims to give participants the practical ability to run reproducible LLM evaluations independently on HPC systems, from submitting a job to analysing its results. Participants gain first-hand experience with supercomputing infrastructure and leave with a workflow they can transfer to the clusters available at their own institutions.
+
+    Expected learning outcomes:
+    - participants will be able to describe the basic architecture of an HPC system (login and compute nodes, partitions, shared storage) and explain how Slurm allocates resources and schedules jobs.
+    - participants will be able to describe how shared computing infrastructure is usually organised, including user accounts, computing grants and resource quotas.
+    - participants will be able to write, submit, monitor and cancel Slurm batch jobs, and request GPU resources appropriately.
+    - participants will be able to run an LLM benchmark on an open model and locate, read and compare the resulting scores.
+    - participants will understand which factors affect the reproducibility of LLM evaluation and how to control them through environment management, configuration logging and version pinning.
+
+    **Prerequisites:** This is an introductory tutorial and no prior HPC experience is required. Participants should be comfortable working in a Linux terminal (navigating directories, editing files, running scripts) and have a good command of Python. A general understanding of what a language model and a benchmark are is sufficient. Participants should bring a laptop with an SSH client installed.
+
+  authors:
+    - name: Wojciech Kusa
+      title: NASK National Research Institute
+      image: images/optimized/tutorials-600x600/Wojciech_Kusa.webp
+    - name: Katarzyna Lorenc
+      title: NASK National Research Institute
+      image: images/optimized/tutorials-600x600/Katarzyna_Lorenc.webp
+    - name: Grzegorz Statkiewicz
+      title: NASK National Research Institute
+      image: images/optimized/tutorials-600x600/Grzegorz_Statkiewicz.webp
+    - name: Marcin Bagnowski
+      title: NASK National Research Institute
+      image: images/optimized/tutorials-600x600/Marcin_Bagnowski.webp
+  author-bio-md: |-
+    Wojciech is an Assistant Professor at NASK National Research Institute, where he leads the NLP Department. His research focuses on building safe and trustworthy language technologies, with current emphasis on leading the development of PLLuM, an open Polish large language model. Wojciech holds PhD from TU Wien on NLP and Information Retrieval.
+
+    Katarzyna Lorenc is a PhD student and NLP Researcher at NASK National Research Institute with a research focused on LLM post-training dynamics. Currently working on PLLuM post-training and evaluation.
+
+    Grzegorz Statkiewicz is an NLP Researcher at NASK National Research Institute and MSc Computer Science student at Warsaw University of Technology, currently working on the development of Polish vision-language models.
+
+    Marcin Bagnowski is an NLP Researcher at NASK and MSc Computer Science student at WUT, passionate about LLMs and Natural Language Processing (NLP). He contributes to the development of the Polish Large Language Model (PLLuM).
+
 - title: Cache Me If You Can
   date: Sunday / 11 October
   time: 9:00 - 13:00
@@ -296,3 +340,22 @@
     Maciej Draguła is a Senior Engineer at Tenstorrent, where he develops tt-train, a framework for training large language models on Tenstorrent’s cutting-edge AI hardware, with a focus on optimising operations to reduce training time. Previously, he worked on computer vision applications for avionics at Daedalean, and his experience includes internships at CERN, Google, and Goldman Sachs. He holds a Bachelor’s degree in Computer Science from the University of Wrocław.
 
     Nathan Maurice is a Staff Engineer at Tenstorrent. His work involves accelerating inference and training workloads on Tenstorrent's massively parallel hardware. Prior to Tenstorrent, he earned a PhD in Computer Science at Sorbonne University, where he developed novel real-time parallel image processing algorithms.
+
+- title: Driving Real Particle-Physics Simulations with a Coding Agent
+  date: Sunday / 11 October
+  time: 14:00 - 18:00
+  id: 10
+  desc-md: |-
+    **Half-Life Skills: build a fallout shelter, melt a snowman for water, irradiate a cockroach for dinner**
+
+    This tutorial is about orchestrating a physics simulation with an LLM agent. Producing numerical code that compiles, runs, and satisfies its tests and its specification is something current models already do well. The demanding part sits elsewhere: turning a real-world problem into a physically meaningful representation in that code, and getting results out of the simulation that are physically meaningful too. That is a much harder job than writing the code, and it is where agents quietly fail. We show how to reduce hallucinations at that level, and why keeping a human in the loop is still worth its cost.
+
+    The domain is the interaction of particles with matter, computed by Monte-Carlo methods — the family of algorithms Stanisław Ulam devised at Los Alamos, and still the standard tool wherever radiation has to be predicted rather than measured. We work in Geant4, born at CERN and used today for detector design there, for treatment planning in proton therapy clinics, and for estimating radiation damage to spacecraft. No physics background is assumed and nobody writes C++.
+
+    We start with the tools themselves: what Geant4 is, and how a simulation is set up and run by hand, with no AI involved at all, so that everyone can see what the agent is doing later. Then the first worked example, chosen because its answer is known in advance: a radiation-therapy beam in a water phantom. Participants drive the agent through it stage by stage — geometry, physics, beam, scoring, compile, run, plot — approving each step, and check the result against the value the textbook gives.
+
+    The second half is a mission menu, loosely arranged as a survival guide: how thick a fallout shelter wall really needs to be, whether a particle beam is any way to melt snow for drinking water, and how much dose a cockroach standing beside a beam loss in the LHC tunnel would absorb. Along the way we go looking for the failure modes together — where the agent invents a command or a material that does not exist, how to catch it in the physics rather than in the code, and how the agent detects and repairs its own mistakes once the harness gives it something concrete to check against. The agent is then put to work on the results themselves, as an exploration tool rather than an author. Heavier runs go to Cyfronet's Athena cluster, driven by DeepSeek V4.1 served from PLGrid's own hardware — free, with nothing leaving the infrastructure.
+
+    **Goals of the tutorial:** Participants will leave with working knowledge of how to drive a numerical simulation with an LLM agent so that its results are meaningful — a different and harder skill than getting an agent to write code that matches a specification. Concretely: how to specify a simulation in plain language and steer an agent through building and running it; how to recognise where a model's domain knowledge silently fails, and how to ground it against a source it can read rather than its own memory; how to wrap a generative system in a deterministic verification layer, and where to place human approval so that it catches what the machine cannot; how to use the agent to explore and visualise results, not only to produce them; and how to run the whole workflow against open-weight models hosted on Cyfronet's own infrastructure — free for research, with nothing leaving the cluster.
+
+    **Prerequisites:** A laptop with a terminal and an SSH client, and basic comfort with the command line. Python is not required, no C++ is written at any point, and no physics or Geant4 background is assumed. Athena accounts, LLM Lab tokens and a prebuilt Geant4 are provided at the start of the session — nothing to install beforehand.

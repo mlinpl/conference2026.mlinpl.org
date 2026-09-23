@@ -513,3 +513,11 @@
         element-class: col-lg-4
         time: 14:00 - 18:00
         url: /program#tutorial-6
+      - title: 'Tutorial 8: <strong>Evaluating LLMs on HPC Clusters: A Step-by-Step Introduction to Slurm with PLLuM</strong>'
+        element-class: col-lg-4
+        time: 14:00 - 18:00
+        url: /program#tutorial-8
+      - title: 'Tutorial 10: <strong>Driving Real Particle-Physics Simulations with a Coding Agent</strong>'
+        element-class: col-lg-4
+        time: 14:00 - 18:00
+        url: /program#tutorial-10
