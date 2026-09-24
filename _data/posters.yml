@@ -1336,7 +1336,37 @@
   co-authors: 
   date: Saturday / 10 October
   time: 12:15 - 13:45
-  room: 
+  room:
   session: Poster Session 3
   id: 81
   author-image: images/optimized/cfc-600x600/JakubAdamczyk.webp
+
+- author-name: Bartłomiej Cupiał
+  title: "Learning Multi-Agent Coordination via Sheaf-ADMM"
+  author-title: "University of Warsaw / Sakana AI / AKCES NCBR"
+  abstract-md: |-
+    We present a differentiable optimization framework for multi-agent coordination. An input is decomposed into overlapping local views, each processed by an agent that solves a convex subproblem parameterized by a neural encoder. Agents coordinate through the Alternating Direction Method of Multipliers (ADMM) with inter-agent constraints specified by a cellular sheaf. The sheaf specifies which aspects of neighboring solutions must agree, allowing for heterogeneous notions of global consensus. Backpropagating through the unrolled optimization jointly trains all components of the multi-agent system. We evaluate on maze pathfinding, image classification, and Sudoku, where agents with individually insufficient local views learn to coordinate to produce correct global outputs. On MNIST, the local-view decomposition yields improved robustness to distribution shifts relative to a standard CNN. On Sudoku, the optimization-derived structure yields markedly higher solve rates than parameter-matched MPNN baselines. Finally, the ADMM structure exposes distinct primal, consensus, and dual state variables, opening the coordination dynamics to direct analysis and intervention — a property unavailable in standard message-passing architectures.
+  author-bio: >-
+    I’m Bartłomiej Cupiał, a PhD student at the University of Warsaw and IDEAS NCBR, supervised by Piotr Miłoś and Marcin Mucha. My research lies at the intersection of large language models, reinforcement learning, and multi-agent coordination. I develop efficient, adaptive AI agents that learn when to plan, reason, and collaborate. During my PhD, I’ve worked with Tim Rocktäschel and the UCL DARK Lab on long-horizon LLM agents, and with Jeffrey Seely at Sakana AI on decentralized, collaborative multi-agent systems.
+  co-authors: Jeffrey Seely, Llion Jones
+  date: Saturday / 10 October
+  time: 12:15 - 13:45
+  room:
+  session: Poster Session 3
+  id: 82
+  author-image: images/empty.png
+
+- author-name: Bartosz Cywiński
+  title: "How does midtraining control generalization from alignment data?"
+  author-title: "Warsaw University of Technology"
+  abstract-md: |-
+    Training LLMs on synthetic documents describing preferences or values can make them generalize and broadly adopt such values. Crucially, this technique enables us to instill desired values in models, even when those values are not directly observed in the preference dataset, thereby making model alignment easier and more effective. In this work we first introduce midtraining setting that is very cheap to use in already trained LLMs, removing the need for subsequent instruction fine-tuning. Then we study what mechanistically changed in the model that made it correctly generalize from preference data. Using techniques such as gradient attribution and SAEs, we show that we can localize features in the model that are largely responsible for generalization. We believe that our insights improve the understanding of generalization in LLMs and will enable us to develop more effective alignment training techniques.
+  author-bio: >-
+    I’m a PhD student at the Warsaw University of Technology. I am also currently a contractor at Google DeepMind on the Language Model Interpretability Team. I am mainly excited about LLM generalization science and alignment auditing.
+  co-authors: Senthooran Rajamanoharan, Neel Nanda
+  date: Saturday / 10 October
+  time: 12:15 - 13:45
+  room:
+  session: Poster Session 3
+  id: 83
+  author-image: images/optimized/cfc-600x600/BartoszCywinski.webp
