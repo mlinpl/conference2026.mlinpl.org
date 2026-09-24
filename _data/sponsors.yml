@@ -117,6 +117,9 @@
     - name: IDEAS Research Institute
       image: "images/optimized/partners-600x600/ideas_research_institute.webp"
       url: "https://www.ideas.edu.pl/en/"
+    - name: Academic Computer Center CYFRONET AGH
+      image: "images/optimized/partners-600x600/cyfronet.webp"
+      url: "https://www.cyfronet.pl/en/"
 
 # NOTE: Sorted by scope: national, local, venue, university, faculty.
 - title: "/ Honorary Patronages"
@@ -280,7 +283,7 @@
 #       url: "https://naukawpolsce.pl/"
 #     - name: Opanuj AI
 #       image: "images/optimized/media-partners-600x600/OpanujAI.webp"
-#       url: https://opanuj.ai/ 
+#       url: https://opanuj.ai/
 #     - name: Opium
 #       image: "images/optimized/media-partners-600x600/Opium.webp"
 #       url: http://opium.sh
