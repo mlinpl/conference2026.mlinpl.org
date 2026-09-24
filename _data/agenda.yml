@@ -94,11 +94,6 @@
         subtitle: by TBA
         element-class: col-lg-4
         time: 15:30 - 16:00
-        room: Main Hall
-      - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA
-        element-class: col-lg-4
-        time: 15:30 - 16:30
         room: Hall A
       - title: 'Sponsor Talk: <strong>TBA</strong>'
         subtitle: by TBA
@@ -111,7 +106,7 @@
         subtitle: by TBA
         element-class: col-lg-4
         time: 16:00 - 16:30
-        room: Main Hall
+        room: Hall A
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
