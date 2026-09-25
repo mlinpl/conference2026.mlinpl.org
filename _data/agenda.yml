@@ -94,11 +94,6 @@
         subtitle: by TBA
         element-class: col-lg-4
         time: 15:30 - 16:00
-        room: Main Hall
-      - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA
-        element-class: col-lg-4
-        time: 15:30 - 16:30
         room: Hall A
       - title: 'Sponsor Talk: <strong>TBA</strong>'
         subtitle: by TBA
@@ -111,7 +106,7 @@
         subtitle: by TBA
         element-class: col-lg-4
         time: 16:00 - 16:30
-        room: Main Hall
+        room: Hall A
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
@@ -411,7 +406,7 @@
 
     - events:
       - title: 'Poster Session 3'
-        subtitle: "with posters: 55-81"
+        subtitle: "with posters: 55-83"
         element-class: col-lg-12
         time: 12:15 - 13:45
         url: /program#poster-55
@@ -474,21 +469,26 @@
   location-address: <a href="https://maps.app.goo.gl/ZUf8muU9oLuehSvv7">Ludwika Pasteura 5, 02-093 Warsaw</a>
   sessions:
     - events:
-      - title: 'Tutorial 1: <strong>TBA</strong>'
+      - title: 'Tutorial 1: <strong>Controllable Generative Design of Biological Sequences</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
-      - title: 'Tutorial 2: <strong>TBA</strong>'
+        url: /program#tutorial-1
+      - title: 'Tutorial 3: <strong>Privacy in Machine Learning</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
-      - title: 'Tutorial 3: <strong>TBA</strong>'
+        url: /program#tutorial-3
+      - title: 'Tutorial 5: <strong>Introduction to Physics Neural Surrogates for Engineering and Healthcare</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
-      - title: 'Tutorial 4: <strong>TBA</strong>'
+        url: /program#tutorial-5
+      - title: 'Tutorial 7: <strong>Fundamentals matter more than ever: package management & design patterns for coding</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
-      - title: 'Tutorial 5: <strong>TBA</strong>'
+        url: /program#tutorial-7
+      - title: 'Tutorial 9: <strong>Cache Me If You Can</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
+        url: /program#tutorial-9
 
     - events:
       - title: 'Break'
@@ -496,15 +496,23 @@
         time: 13:00 - 14:00
 
     - events:
-      - title: 'Tutorial 6: <strong>TBA</strong>'
+      - title: 'Tutorial 2: <strong>Build Your Own 3D Scene: An Introduction to Gaussian Splatting</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
-      - title: 'Tutorial 7: <strong>TBA</strong>'
+        url: /program#tutorial-2
+      - title: 'Tutorial 4: <strong>Security in Machine Learning</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
-      - title: 'Tutorial 8: <strong>TBA</strong>'
+        url: /program#tutorial-4
+      - title: 'Tutorial 6: <strong>Reinforcement learning using IdeGYM: power of IDE as your reward</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
-      - title: 'Tutorial 9: <strong>TBA</strong>'
+        url: /program#tutorial-6
+      - title: 'Tutorial 8: <strong>Evaluating LLMs on HPC Clusters: A Step-by-Step Introduction to Slurm with PLLuM</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
+        url: /program#tutorial-8
+      - title: 'Tutorial 10: <strong>Driving Real Particle-Physics Simulations with a Coding Agent</strong>'
+        element-class: col-lg-4
+        time: 14:00 - 18:00
+        url: /program#tutorial-10

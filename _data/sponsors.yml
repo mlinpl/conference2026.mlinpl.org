@@ -109,6 +109,9 @@
   imageMaxHeight: 120px
   margin: 30px 45px
   sponsors:
+    - name: Academic Computer Center CYFRONET AGH
+      image: "images/optimized/partners-600x600/cyfronet.webp"
+      url: "https://www.cyfronet.pl/en/"
     - name: ELLIS Unit Warsaw
       image: "images/optimized/partners-600x600/ellis_unit_warsaw.webp"
       url: "https://ellis.eu/research/sites/unit-warsaw/"
@@ -140,9 +143,9 @@
     - name: Centrum Nauki Kopernik
       image: "images/optimized/honorary-patronages-600x600/CNK.webp"
       url: "https://www.kopernik.org.pl/en"
-    # - name: University of Warsaw
-    #   image: "images/honorary-patronages/UW.png"
-    #   url: https://en.uw.edu.pl/
+    - name: University of Warsaw
+      image: "images/optimized/honorary-patronages-600x600/UW.webp"
+      url: https://en.uw.edu.pl/
     - name: Warsaw University of Technology
       image: "images/optimized/honorary-patronages-600x600/PW.webp"
       url: https://eng.pw.edu.pl/
@@ -283,7 +286,7 @@
 #       url: "https://naukawpolsce.pl/"
 #     - name: Opanuj AI
 #       image: "images/optimized/media-partners-600x600/OpanujAI.webp"
-#       url: https://opanuj.ai/ 
+#       url: https://opanuj.ai/
 #     - name: Opium
 #       image: "images/optimized/media-partners-600x600/Opium.webp"
 #       url: http://opium.sh

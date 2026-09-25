@@ -61,6 +61,14 @@ Suggested branch prefixes:
 **When adding images use optimized versions.**
 Add the original files first under `images/`, run `bash scripts/optimize_images.sh`, and refer to optimized versions from `images/optimized/` in the website content.
 
+## Data conventions
+
+- **Affiliations** (`author-title` and similar): separate multiple institutions with ` / ` (space-slash-space), e.g. `University of Warsaw / ML in PL`.
+- **Co-authors**: list as a single comma-separated string, e.g. `Jane Doe, John Smith`.
+- **Missing images**: when no photo is available, use `images/empty.png`.
+- **Dates and times**: format dates as `Weekday / DD Month` (e.g. `Saturday / 10 October`) and times as `HH:MM - HH:MM` (e.g. `12:15 - 13:45`).
+- **IDs**: each poster/talk `id` is a unique integer; when adding entries, continue the existing numbering and update any count ranges referenced elsewhere (e.g. session subtitles in `_data/agenda.yml`).
+
 ## Troubleshooting
 
 - If changes to `_config.yml` or files in `_data/` are not reflected, restart the Jekyll server by stopping `run_locally.sh` and running it again.
