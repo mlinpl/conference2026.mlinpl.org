@@ -109,6 +109,9 @@
   imageMaxHeight: 120px
   margin: 30px 45px
   sponsors:
+    - name: Academic Computer Center CYFRONET AGH
+      image: "images/optimized/partners-600x600/cyfronet.webp"
+      url: "https://www.cyfronet.pl/en/"
     - name: ELLIS Unit Warsaw
       image: "images/optimized/partners-600x600/ellis_unit_warsaw.webp"
       url: "https://ellis.eu/research/sites/unit-warsaw/"
@@ -117,9 +120,9 @@
     - name: IDEAS Research Institute
       image: "images/optimized/partners-600x600/ideas_research_institute.webp"
       url: "https://www.ideas.edu.pl/en/"
-    - name: Academic Computer Center CYFRONET AGH
-      image: "images/optimized/partners-600x600/cyfronet.webp"
-      url: "https://www.cyfronet.pl/en/"
+    - name: NASK
+      image: "images/optimized/partners-600x600/NASK.webp"
+      url: "https://www.nask.pl/en/"
 
 # NOTE: Sorted by scope: national, local, venue, university, faculty.
 - title: "/ Honorary Patronages"
