@@ -17,19 +17,19 @@
         subevents:
           - title: "<strong>Interpretability-Guided Soft Pruning of Attention Heads in Vision Transformers</strong>"
             subtitle: by Michał Jan Włodarczyk (Centre for Credible AI)
-            time: 08:15 - 08:30
+            time: 8:15 - 8:30
             url: /program#srw-talk-1
           - title: "<strong>Diverse Subset Selection at Scale with Maximum Diversity Picking</strong>"
             subtitle: by Michał Szymocha (AGH University of Krakow)
-            time: 08:35 - 08:50
+            time: 8:35 - 8:50
             url: /program#srw-talk-2
           - title: "<strong>Goal Conditioned RL to Abstract Solved States via Relative Contrastive Reinforcement Learning</strong>"
             subtitle: by Jan Kwiecinski (University of Warsaw)
-            time: 08:55 - 09:10
+            time: 8:55 - 9:10
             url: /program#srw-talk-3
           - title: "<strong>Activity is in the Activations: Inference-Time Steering of Peptide Models for Antimicrobial Design</strong>"
             subtitle: by Grzegorz Siudak (Warsaw University of Technology)
-            time: 09:15 - 09:30
+            time: 9:15 - 9:30
             url: /program#srw-talk-4
           - title: "<strong>Conditioned Activation Transport for T2I Safety Steering</strong>"
             subtitle: by Aleksander Szymczyk (NASK National Research Institute)
@@ -155,7 +155,7 @@
         subevents:
           - title: "<strong>Teaching Humans and Machines How to Design Drugs</strong>"
             subtitle: by Tomasz Danel (Jagiellonian University | GMUM)
-            time: 09:30 - 10:00
+            time: 9:30 - 10:00
             url: /program#contributed-talk-1
           - title: "<strong>Inpainting physics: self-supervised learning for context-driven fluid simulation</strong>"
             subtitle: by Julian Suk (Technical University of Munich)
@@ -172,7 +172,7 @@
         subevents:
           - title: "<strong>Detecting Data Contamination in LLMs</strong>"
             subtitle: by Michał Zawalski (NVIDIA)
-            time: 09:30 - 10:00
+            time: 9:30 - 10:00
             url: /program#contributed-talk-4
           - title: "<strong>PoVisLE: Evaluating Polish Cultural and Linguistic Competence in Vision-Language Models</strong>"
             subtitle: by Anna Kołos (NASK)
@@ -189,7 +189,7 @@
         subevents:
           - title: "<strong>Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents</strong>"
             subtitle: by Julia Bazinska (Check Point AI Security)
-            time: 09:30 - 10:00
+            time: 9:30 - 10:00
             url: /program#contributed-talk-7
           - title: "<strong>How Vulnerable Are AI Agents to Indirect Prompt Injections? Insights from a Large-Scale Public Competition</strong>"
             subtitle: by Mateusz Dziemian (Gray Swan)
@@ -337,7 +337,7 @@
         subevents:
           - title: "<strong>Scalable and Interpretable Representation Alignment with Ordinal Similarity</strong>"
             subtitle: by Diogo Soares (Helmholtz Munich / TUM)
-            time: 09:30 - 10:00
+            time: 9:30 - 10:00
             url: /program#contributed-talk-16
           - title: "<strong>Surgical unlearning: precise concepts removal from AI models</strong>"
             subtitle: by Dawid Rymarczyk (Jagiellonian University / Ardigen)
@@ -354,7 +354,7 @@
         subevents:
           - title: "<strong>SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs</strong>"
             subtitle: by Mikołaj Zasada (AGH University of Krakow)
-            time: 09:30 - 10:00
+            time: 9:30 - 10:00
             url: /program#contributed-talk-19
           - title: "<strong>Masks Can Be Distracting: On Context Comprehension in Diffusion Language Models</strong>"
             subtitle: by Julianna Piskorz (University of Cambridge)
@@ -371,7 +371,7 @@
         subevents:
           - title: "<strong>FPS: Frames, Physics, and Steering – Probing and Controlling Physical Observables in Video Diffusion Models</strong>"
             subtitle: by Jonas Kneifl (IDEAS Research Institute)
-            time: 09:30 - 10:00
+            time: 9:30 - 10:00
             url: /program#contributed-talk-22
           - title: "<strong>PhAME: Phenotype-Aware Molecular Editing via Latent Diffusion</strong>"
             subtitle: by Łukasz Janisiów (Jagiellonian University / GMUM)
