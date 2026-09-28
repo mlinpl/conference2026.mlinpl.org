@@ -359,3 +359,15 @@
     **Goals of the tutorial:** Participants will leave with working knowledge of how to drive a numerical simulation with an LLM agent so that its results are meaningful — a different and harder skill than getting an agent to write code that matches a specification. Concretely: how to specify a simulation in plain language and steer an agent through building and running it; how to recognise where a model's domain knowledge silently fails, and how to ground it against a source it can read rather than its own memory; how to wrap a generative system in a deterministic verification layer, and where to place human approval so that it catches what the machine cannot; how to use the agent to explore and visualise results, not only to produce them; and how to run the whole workflow against open-weight models hosted on Cyfronet's own infrastructure — free for research, with nothing leaving the cluster.
 
     **Prerequisites:** A laptop with a terminal and an SSH client, and basic comfort with the command line. Python is not required, no C++ is written at any point, and no physics or Geant4 background is assumed. Athena accounts, LLM Lab tokens and a prebuilt Geant4 are provided at the start of the session — nothing to install beforehand.
+
+  authors:
+    - name: Leszek Grzanka
+      title: ACK Cyfronet AGH
+      image: images/optimized/tutorials-600x600/Leszek_Grzanka.webp
+    - name: Kamil Milewski
+      title: CERN
+      image: images/optimized/tutorials-600x600/Kamil_Milewski.webp
+  author-bio-md: |-
+    Leszek Grzanka is an expert at Cyfronet AGH and Gaia AI Factory, focusing on training researchers in AI and HPC. His 20+ years of experience in particle transport simulations include work with CERN and IFJ PAN. His work covers proton therapy, detector development, and space electronics radiation testing. He has utilized HPC resources for data analysis in the CMS experiment and applied research. His software projects include a web-based tool for managing particle transport simulations on HPC clusters. He has taught data analysis, Python, and logic at the university level and currently supervises MSc students at AGH and CERN.
+
+    Kamil Milewski is a software engineer at CERN, where he works on the CMS experiment, applying artificial intelligence to the development of particle physics simulations built on Geant4, a toolkit for simulating the passage of particles through matter. He is currently completing his MSc in Applied Computer Science at the Faculty of Physics and Applied Computer Science, AGH University of Krakow, where he also earned his Bachelor of Engineering degree. His undergraduate research explored the use of reinforcement learning in particle physics. Before joining CERN, he worked as a C++ Software Engineer at Nokia. His work lies at the intersection of machine learning and high-energy physics, a field in which he has developed specialized expertise. He is currently building a toolkit that uses large language models to generate simulations of particle interactions with matter, with the goal of making such simulations more robust, faster and accessible.
