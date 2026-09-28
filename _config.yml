@@ -113,16 +113,22 @@ sass:
 exclude:
   - drafts/
   - pages/drafts/
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  # Setting `exclude` replaces Jekyll's defaults, so they are repeated here
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  # Repo tooling, not part of the site
+  - package.json
+  - package-lock.json
+  - Dockerfile
+  - run_locally.sh
+  - scripts/
+  - README.md
+  - CONTRIBUTING.md
 
 include:
   - pages/
