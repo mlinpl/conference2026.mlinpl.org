@@ -144,6 +144,15 @@
     line-height: 1.5;
 }
 
+/* Same row in program entries (talks.html): date, time and room on the left, button on the right,
+   aligned to the top (the text can wrap to several lines) */
+.talk-when {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1em;
+}
+
 /* Center the capital letters themselves, not the line box (where supported) */
 .agenda-time > span {
     text-box: trim-both cap alphabetic;
@@ -240,23 +249,32 @@
     background: {{ site.color.background }};
     border: 1px solid {{ site.color.main }};
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    /* Own text styles, so the menu looks the same in agenda entries and in program headings */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-transform: none;
 }
 
-.agenda-item .cal-menu-list li a,
-.cal-menu-list li button {
+.cal-menu .cal-menu-list li a,
+.cal-menu .cal-menu-list li button {
     display: block;
     width: 100%;
     padding: 6px 12px;
     border: 0;
     background: none;
     text-align: left;
-    font-size: 14px;
+    font: inherit;
     color: {{ site.color.default-text }};
     white-space: nowrap;
 }
 
-.agenda-item .cal-menu-list li a:hover,
-.cal-menu-list li button:hover {
+.cal-menu .cal-menu-list li a:hover,
+.cal-menu .cal-menu-list li a:focus,
+.cal-menu .cal-menu-list li button:hover,
+.cal-menu .cal-menu-list li button:focus {
     background: {{ site.color.main }};
     color: {{ site.color.background }};
     text-decoration: none;

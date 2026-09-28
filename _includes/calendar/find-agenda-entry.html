@@ -1,0 +1,42 @@
+{% comment %}
+Finds the agenda entry (from _data/agenda.yml) for a program entry.
+Matches the entry whose url equals the given url; if there is none, the entry whose title equals the given session title
+(e.g. posters, which link to their poster session).
+Expects following parameters: url, session (optional)
+Sets following variables: found_day, found_event, found_parent, found_key (same keys as in agenda-day-details.html),
+found_event is nil when nothing matched
+{% endcomment %}
+{%- assign found_day = nil -%}
+{%- assign found_event = nil -%}
+{%- assign found_parent = nil -%}
+{%- assign found_key = nil -%}
+{%- for find_pass in (1..2) -%}
+{%- if found_event -%}{%- break -%}{%- endif -%}
+{%- if find_pass == 2 and include.session == nil -%}{%- break -%}{%- endif -%}
+{%- for find_day in site.data.agenda -%}
+{%- for find_session in find_day.sessions -%}
+{%- for find_event in find_session.events -%}
+{%- assign find_event_key = "e" | append: forloop.index -%}
+{%- if find_pass == 1 -%}
+{%- if find_event.url == include.url -%}
+{%- assign found_day = find_day -%}{%- assign found_event = find_event -%}{%- assign found_key = find_event_key -%}
+{%- endif -%}
+{%- for find_subevent in find_event.subevents -%}
+{%- if find_subevent.url == include.url -%}
+{%- assign found_day = find_day -%}{%- assign found_event = find_subevent -%}{%- assign found_parent = find_event -%}
+{%- assign found_key = find_event_key | append: "-" | append: forloop.index -%}
+{%- endif -%}
+{%- endfor -%}
+{%- else -%}
+{%- assign find_title = find_event.title | strip_html | strip -%}
+{%- if find_title == include.session -%}
+{%- assign found_day = find_day -%}{%- assign found_event = find_event -%}{%- assign found_key = find_event_key -%}
+{%- endif -%}
+{%- endif -%}
+{%- if found_event -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+{%- if found_event -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+{%- if found_event -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}

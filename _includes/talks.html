@@ -27,6 +27,12 @@ Expects following parameters:
             {% assign html-id = html-id | append: forloop.index %}
         {% endif %}
         <anchor style="position: relative; top: -70px;" id="{{ html-id }}"></anchor>
+        {% assign agenda_url = "/program#" | append: html-id %}
+        {% include calendar/find-agenda-entry.html url=agenda_url session=talk.session %}
+        {% assign cal_ok = false %}
+        {% if found_event %}
+        {% include calendar/event-fields.html day=found_day event=found_event parent=found_parent key=found_key %}
+        {% endif %}
         <div class="row" style="margin-bottom: 70px;">
             <div class="speaker-details-image col-md-3 person text-center">
                 {% if talk.author-name %}
@@ -71,7 +77,7 @@ Expects following parameters:
                     {% endif %}
                     <span class="emph-i bold">{{ talk.title }}</span>
                 </h3>
-                <h4><span><i class="fa-solid fa-calendar-day"></i> {{ talk.date }}</span>
+                <h4 class="talk-when"><span><span><i class="fa-solid fa-calendar-day"></i> {{ talk.date }}</span>
                     <span style="margin-left: 15px;"><i  class="fa-solid fa-clock"></i> {{ talk.time }}
                         {% if talk.room %}{% else %}
                         {% if talk.session %}
@@ -87,6 +93,8 @@ Expects following parameters:
                         {% endif %}
                     </span>
                     {% endif %}
+                    </span>
+                    {% include calendar/add-button.html %}
                 </h4>
 
                 {% if talk.desc-md %}
