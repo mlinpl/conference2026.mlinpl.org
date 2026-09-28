@@ -2,6 +2,7 @@
 #
 # Instructions for filling the entries:
 # - offset with: col-lg-offset-4
+# - calendars: false hides the "add to calendar" button and leaves the entry out of agenda.ics
 #
 
 - title: Thursday / 8 October
@@ -50,6 +51,7 @@
 
     - events:
       - title: Registration
+        calendars: false
         element-class: col-lg-12
         time: 9:00 - 11:45
 
@@ -110,6 +112,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        calendars: false
         element-class: col-lg-12
         time: 16:30 - 17:00
 
@@ -144,6 +147,7 @@
   sessions:
     - events:
       - title: 'Registration + <i class="fa-solid fa-mug-saucer"></i> Breakfast'
+        calendars: false
         element-class: col-lg-12
         time: 8:30 - 9:30
 
@@ -202,6 +206,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        calendars: false
         element-class: col-lg-12
         time: 11:00 - 11:15
 
@@ -277,6 +282,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        calendars: false
         element-class: col-lg-12
         time: 16:00 - 16:15
 
@@ -299,6 +305,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        calendars: false
         element-class: col-lg-12
         time: 17:15 - 17:30
 
@@ -326,6 +333,7 @@
   sessions:
     - events:
       - title: 'Registration + <i class="fa-solid fa-mug-saucer"></i> Breakfast'
+        calendars: false
         element-class: col-lg-12
         time: 8:30 - 9:30
 
@@ -384,6 +392,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        calendars: false
         element-class: col-lg-12
         time: 11:00 - 11:15
 
@@ -436,6 +445,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        calendars: false
         element-class: col-lg-12
         time: 15:30 - 16:00
 

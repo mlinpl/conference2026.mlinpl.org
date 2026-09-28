@@ -1,0 +1,16 @@
+{% comment %}
+One VEVENT of the agenda feed (pages/agenda.ics).
+Requires variables set by calendar/event-fields.html, and stamp
+{% endcomment %}
+{%- if cal_ok %}
+BEGIN:VEVENT
+UID:{{ cal_uid }}
+DTSTAMP:{{ stamp }}
+DTSTART;TZID=Europe/Warsaw:{{ cal_date }}T{{ cal_start }}
+DTEND;TZID=Europe/Warsaw:{{ cal_date }}T{{ cal_end }}
+SUMMARY:{{ cal_title | replace: "\", "\\" | replace: ";", "\;" | replace: ",", "\," }}
+LOCATION:{{ cal_location | replace: "\", "\\" | replace: ";", "\;" | replace: ",", "\," }}
+DESCRIPTION:{{ cal_details | replace: "\", "\\" | replace: ";", "\;" | replace: ",", "\," | replace: cal_nl, "\n" }}
+URL:{{ cal_link }}
+END:VEVENT
+{%- endif -%}

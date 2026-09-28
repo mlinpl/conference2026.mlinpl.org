@@ -1,0 +1,72 @@
+{% comment %}
+Maps an agenda entry (from _data/agenda.yml) to calendar fields.
+Expects following parameters: day, event, key (unique within the day), parent (optional, for subevents)
+Entries with `calendars: false` get cal_ok = false
+Sets following variables: cal_ok, cal_title, cal_location, cal_details, cal_link, cal_uid,
+cal_date, cal_start, cal_end (YYYYMMDD / HHMMSS, Europe/Warsaw local time),
+cal_start_iso, cal_end_iso (with +02:00 offset), cal_google, cal_outlook, cal_office
+{% endcomment %}
+{%- capture cal_nl %}
+{% endcapture -%}
+{%- assign cal_ok = false -%}
+{%- assign cal_times = include.event.time | split: "-" -%}
+{%- assign cal_start_parts = cal_times[0] | strip | split: ":" -%}
+{%- if include.day.date and cal_start_parts.size == 2 and include.event.calendars != false -%}
+{%- assign cal_ok = true -%}
+
+{%- assign cal_start_h = cal_start_parts[0] | plus: 0 -%}
+{%- assign cal_start_m = cal_start_parts[1] | plus: 0 -%}
+{%- if cal_times.size > 1 -%}
+{%- assign cal_end_parts = cal_times[1] | strip | split: ":" -%}
+{%- assign cal_end_h = cal_end_parts[0] | plus: 0 -%}
+{%- assign cal_end_m = cal_end_parts[1] | plus: 0 -%}
+{%- else -%}
+{%- comment %} Entries with only a start time (e.g. the party) get a default duration of 3 hours {% endcomment -%}
+{%- assign cal_end_h = cal_start_h | plus: 3 -%}
+{%- assign cal_end_m = cal_start_m -%}
+{%- endif -%}
+{%- assign cal_start_hh = cal_start_h | prepend: "0" | slice: -2, 2 -%}
+{%- assign cal_start_mm = cal_start_m | prepend: "0" | slice: -2, 2 -%}
+{%- assign cal_end_hh = cal_end_h | prepend: "0" | slice: -2, 2 -%}
+{%- assign cal_end_mm = cal_end_m | prepend: "0" | slice: -2, 2 -%}
+
+{%- assign cal_date = include.day.date | date: "%Y%m%d" -%}
+{%- assign cal_date_iso = include.day.date | date: "%Y-%m-%d" -%}
+{%- assign cal_start = cal_start_hh | append: cal_start_mm | append: "00" -%}
+{%- assign cal_end = cal_end_hh | append: cal_end_mm | append: "00" -%}
+{%- assign cal_start_iso = cal_date_iso | append: "T" | append: cal_start_hh | append: ":" | append: cal_start_mm | append: ":00+02:00" -%}
+{%- assign cal_end_iso = cal_date_iso | append: "T" | append: cal_end_hh | append: ":" | append: cal_end_mm | append: ":00+02:00" -%}
+
+{%- assign cal_title = include.event.title | strip_html | strip_newlines | split: " " | join: " " -%}
+
+{%- assign cal_room = include.event.room | default: include.parent.room -%}
+{%- assign cal_address = include.day.location-address | strip_html | strip -%}
+{%- assign cal_location = "" | split: "" -%}
+{%- if cal_room %}{% assign cal_location = cal_location | push: cal_room %}{% endif -%}
+{%- if include.day.location %}{% assign cal_location = cal_location | push: include.day.location %}{% endif -%}
+{%- if cal_address != "" %}{% assign cal_location = cal_location | push: cal_address %}{% endif -%}
+{%- assign cal_location = cal_location | join: ", " -%}
+
+{%- assign cal_details = "" | split: "" -%}
+{%- if include.event.subtitle %}{% assign cal_part = include.event.subtitle | strip_html | strip %}{% assign cal_details = cal_details | push: cal_part %}{% endif -%}
+{%- if include.parent %}{% assign cal_part = include.parent.title | strip_html | strip | prepend: "Part of: " %}{% assign cal_details = cal_details | push: cal_part %}{% endif -%}
+{%- if include.event.note %}{% assign cal_part = include.event.note | strip_html | strip %}{% assign cal_details = cal_details | push: cal_part %}{% endif -%}
+{%- assign cal_url = include.event.url | default: "/program#agenda" -%}
+{%- assign cal_link = site.url | append: site.baseurl | append: cal_url -%}
+{%- assign cal_details = cal_details | push: cal_link | push: site.title -%}
+{%- assign cal_details = cal_details | join: cal_nl -%}
+
+{%- comment %} Stable across title changes (e.g. when a TBA talk gets announced) {% endcomment -%}
+{%- assign cal_uid = cal_date | append: "-" | append: cal_start | append: "-" | append: include.key | append: "-" | append: cal_room | slugify: "latin" | append: "@conference.mlinpl.org" -%}
+
+{%- assign cal_title_q = cal_title | url_encode | replace: "+", "%20" -%}
+{%- assign cal_location_q = cal_location | url_encode | replace: "+", "%20" -%}
+{%- assign cal_details_q = cal_details | url_encode | replace: "+", "%20" -%}
+{%- assign cal_google = "https://calendar.google.com/calendar/render?action=TEMPLATE&ctz=Europe%2FWarsaw&text=" | append: cal_title_q | append: "&dates=" | append: cal_date | append: "T" | append: cal_start | append: "%2F" | append: cal_date | append: "T" | append: cal_end | append: "&location=" | append: cal_location_q | append: "&details=" | append: cal_details_q -%}
+{%- assign cal_outlook_q = "path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&subject=" | append: cal_title_q -%}
+{%- assign cal_start_iso_q = cal_start_iso | url_encode -%}
+{%- assign cal_end_iso_q = cal_end_iso | url_encode -%}
+{%- assign cal_outlook_q = cal_outlook_q | append: "&startdt=" | append: cal_start_iso_q | append: "&enddt=" | append: cal_end_iso_q | append: "&location=" | append: cal_location_q | append: "&body=" | append: cal_details_q -%}
+{%- assign cal_outlook = "https://outlook.live.com/calendar/0/deeplink/compose?" | append: cal_outlook_q -%}
+{%- assign cal_office = "https://outlook.office.com/calendar/0/deeplink/compose?" | append: cal_outlook_q -%}
+{%- endif -%}

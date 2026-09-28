@@ -131,3 +131,133 @@
 .agenda-item ul li a {
     display: inline-table;
 }
+
+/* Add to calendar */
+/* Time row: text on the left, button in the top-right corner; both share one fixed height,
+   so rows line up with or without a button */
+.agenda-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    min-height: 1.5em;
+    line-height: 1.5;
+}
+
+/* Center the capital letters themselves, not the line box (where supported) */
+.agenda-time > span {
+    text-box: trim-both cap alphabetic;
+}
+
+.cal-add {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cal-menu {
+    display: block;
+    position: relative;
+}
+
+.cal-menu > summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.cal-menu > summary::-webkit-details-marker {
+    display: none;
+}
+
+.cal-icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 16px; /* fixed base, so the button is the same size in lists (20px text) and agenda entries */
+    height: 1.5em;
+    padding: 0 0.4em;
+    border: 1px solid {{ site.color.main }};
+    color: {{ site.color.main }};
+}
+
+.cal-icon-btn > i {
+    font-size: 0.8125em;
+    line-height: 1;
+}
+
+/* Subevents: button in the top-right corner, text flows around and under it */
+.agenda-subitem::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.agenda-item ul li.agenda-subitem > a {
+    display: inline;
+}
+
+.agenda-subitem > .cal-add {
+    float: right;
+    padding-left: 0.6em;
+}
+
+.cal-icon-btn:hover,
+.cal-icon-btn:focus,
+.cal-menu[open] > .cal-icon-btn {
+    background: {{ site.color.main }};
+    color: {{ site.color.background }};
+    text-decoration: none;
+}
+
+/* Non-interactive copy of the button, for referring to it in text */
+.cal-icon-btn.cal-icon-btn-static {
+    display: inline-flex;
+    vertical-align: middle;
+    cursor: default;
+}
+
+.cal-icon-btn.cal-icon-btn-static:hover {
+    background: none;
+    color: {{ site.color.main }};
+}
+
+.cal-inline-buttons {
+    display: inline-flex;
+    gap: 0.4em;
+    vertical-align: middle;
+}
+
+.cal-menu-list {
+    position: absolute;
+    z-index: 20;
+    top: calc(100% + 4px);
+    right: 0;
+    min-width: 170px;
+    margin: 0;
+    padding: 4px 0;
+    list-style: none !important;
+    background: {{ site.color.background }};
+    border: 1px solid {{ site.color.main }};
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.agenda-item .cal-menu-list li a,
+.cal-menu-list li button {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    border: 0;
+    background: none;
+    text-align: left;
+    font-size: 14px;
+    color: {{ site.color.default-text }};
+    white-space: nowrap;
+}
+
+.agenda-item .cal-menu-list li a:hover,
+.cal-menu-list li button:hover {
+    background: {{ site.color.main }};
+    color: {{ site.color.background }};
+    text-decoration: none;
+}

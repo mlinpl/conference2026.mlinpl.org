@@ -1,0 +1,24 @@
+{% comment %}
+"Add to calendar" button for an agenda entry.
+Requires variables set by calendar/event-fields.html
+{% endcomment %}
+{%- if cal_ok -%}
+<span class="cal-add"
+    data-cal-uid="{{ cal_uid | escape }}"
+    data-cal-date="{{ cal_date }}"
+    data-cal-start="{{ cal_start }}"
+    data-cal-end="{{ cal_end }}"
+    data-cal-title="{{ cal_title | escape }}"
+    data-cal-location="{{ cal_location | escape }}"
+    data-cal-details="{{ cal_details | escape }}">
+<details class="cal-menu">
+    <summary class="cal-icon-btn" title="Add to calendar" aria-label="Add to calendar"><i class="fa-regular fa-calendar-plus"></i></summary>
+    <ul class="cal-menu-list">
+        <li><a href="{{ cal_google }}" target="_blank" rel="noopener"><i class="fa-brands fa-google fa-fw"></i> Google</a></li>
+        <li><a href="{{ cal_outlook }}" target="_blank" rel="noopener"><i class="fa-solid fa-envelope fa-fw"></i> Outlook.com</a></li>
+        <li><a href="{{ cal_office }}" target="_blank" rel="noopener"><i class="fa-brands fa-microsoft fa-fw"></i> Office 365</a></li>
+        <li><button type="button" class="cal-ics"><i class="fa-brands fa-apple fa-fw"></i> Apple / .ics</button></li>
+    </ul>
+</details>
+</span>
+{%- endif -%}
