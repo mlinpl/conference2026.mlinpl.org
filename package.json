@@ -1,12 +1,11 @@
 {
   "name": "conference2026.mlinpl.org",
   "scripts": {
-    "build": "docker build -t conference2026.mlinpl.org .",
-    "run": "docker run --name conference2026-mlinpl-container --rm -p 127.0.0.1:4000:4000 conference2026.mlinpl.org",
-    "run:livereload": "docker run --name conference2026-mlinpl-container --rm -e JEKYLL_LIVERELOAD=\"--livereload\" -p 127.0.0.1:4000:4000 -p 127.0.0.1:35729:35729 conference2026.mlinpl.org",
-    "open:win": "start http://localhost:4000",
-    "open:linux": "xdg-open http://localhost:4000",
-    "open:mac": "open http://localhost:4000",
-    "stop": "docker stop conference2026-mlinpl-container"
+    "dev": "bash run_locally.sh",
+    "images:optimize": "bash scripts/optimize_images.sh",
+    "docker:build": "docker build -t conference2026.mlinpl.org .",
+    "docker:run": "docker run --name conference2026-mlinpl-container --rm -p 127.0.0.1:4000:4000 conference2026.mlinpl.org",
+    "docker:run:livereload": "docker run --name conference2026-mlinpl-container --rm -e JEKYLL_LIVERELOAD=\"--livereload\" -p 127.0.0.1:4000:4000 -p 127.0.0.1:35729:35729 conference2026.mlinpl.org",
+    "docker:stop": "docker stop conference2026-mlinpl-container"
   }
 }
