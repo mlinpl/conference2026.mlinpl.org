@@ -326,11 +326,6 @@
         time: 17:30 - 18:30
         room: Hall A
         url: /program#invited-talk-9
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
-        element-class: col-lg-4
-        time: 17:30 - 18:30
-        room: Hall B
 
 - title: Saturday / 10 October
   date: 2026-10-10
