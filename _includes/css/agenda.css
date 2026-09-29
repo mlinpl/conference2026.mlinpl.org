@@ -237,7 +237,7 @@
     vertical-align: middle;
 }
 
-.cal-menu-list {
+.cal-menu > .cal-menu-list {
     position: absolute;
     z-index: 20;
     top: calc(100% + 4px);
@@ -249,7 +249,7 @@
     background: {{ site.color.background }};
     border: 1px solid {{ site.color.main }};
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-    /* Own text styles, so the menu looks the same in agenda entries and in program headings */
+    /* Own box and text styles (selector outranks e.g. `.agenda-item ul`), so the menu looks the same in agenda entries and in program headings */
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
