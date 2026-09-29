@@ -1,0 +1,147 @@
+# TEMPLATE
+# - author-name:
+#   title:
+#   author-title:
+#   abstract-md: |-
+#   author-bio: >-
+#   date:
+#   time:
+#   room:
+#   id:
+#   author-image:
+
+- author-name: Pierre Stock
+  title: "Deep Dive Mistral. Scalable and agentic AI: co-developing scaffolds & models hand-in-hand"
+  author-title: "Mistral"
+  abstract-md: |-
+    As we have scaled parameters, data, and compute to trillions, the model alone is still not enough to build capable agents. This talk walks through the full training pipeline (pre-training, supervised fine-tuning, and reinforcement learning), explaining how models learn tool use, adapt to new domains, and develop "thinking traces" that enable reasoning, error recovery, transparency, and control. Then, the focus turns to the harness: tools, memory, orchestration, guardrails, and context management built around a stateless model, with "skills" as versioned, human- and agent-editable external memory that lets agents learn without retraining. These ideas are illustrated with a running example of an agent diagnosing crop stress and planning irrigation. The conclusion puts forth an outlook on increasing agent autonomy and the evolving role of humans in the loop.
+  author-bio: |-
+    Pierre Stock is VP Science, driving Mistral's model releases, roadmap strategy and execution. Pierre holds a Master's degree in Mathematics Vision Learning from Paris Saclay and began his career at Facebook AI Research (FAIR) in 2017. At FAIR, he completed his PhD exploring efficiency and redundancy in LLMs, in collaboration with ENS de Lyon until 2021. He then continued his career at Meta before joining Mistral as the first employee.
+  date: Thursday / 8 October
+  time: 17:00 - 18:00
+  room: Main Hall
+  id: 3
+  author-image: images/optimized/speakers-600x600/PierreStock.webp
+
+- author-name: Adam Paszke
+  title: "Ten Years of ML Systems: PyTorch, JAX, Pallas, and What's Next"
+  author-title: "Google DeepMind"
+  abstract-md: |-
+    Over the last decade, machine learning systems have experienced multiple paradigm shifts. Rapidly evolving model architectures and hardware have constantly changed what we optimize for, from enhancing developer productivity towards scale-up and mechanical sympathy. In this talk I'll share my lessons from building these systems and the practical design decisions behind each step, highlight where we are today, and finally discuss how another shift in our priorities and abstractions has already begun.
+  author-bio: |-
+    Adam Paszke is a co-creator of PyTorch, an open-source framework widely used across the machine learning community, and an alumnus of the University of Warsaw. Throughout his career, he has focused on designing software abstractions and languages for ML modeling on heterogeneous accelerators, at scales large and small.
+
+    Today, Adam is a research scientist at Google DeepMind, where his work centers on Pallas and JAX with the goal of making GPU and TPU performance engineering productive. This work is entirely open-source, continuing his long-standing dedication to open systems and infrastructure.
+  date: Thursday / 8 October
+  time: 17:00 - 18:00
+  room: Hall A
+  id: 4
+  author-image: images/optimized/speakers-600x600/AdamPaszke.webp
+
+- author-name: Markus Wulfmeier
+  title: "Mastery-first Physical AI - Demos, Deployment, Open Questions"
+  author-title: "Nomagic"
+  abstract-md: |-
+    Physical AI can perform increasingly diverse and complex tasks, yet reliable operation remains an open challenge. Drawing on work spanning deploying AI for Google Maps, Robot Soccer, Gravitational Wave Detection, Gemini Robotics, and industrial manipulation at Nomagic, I examine how simulation, large-scale physical data, and deployment contribute to this goal. Deployment provides three essential foundations: training experience generated through useful work, evaluation grounded in operational outcomes, and modular control systems that manage failures while learned models improve. Together, these foundations enable deployment to bootstrap both initial models and their development process. This argues for a mastery-first research agenda and connects practical deployment with fundamental questions surrounding imitation and reinforcement learning, targeted data collection, learned simulation, and efficient knowledge transfer.
+  author-bio: |-
+    Markus Wulfmeier is the Chief Scientist of Nomagic and a leading researcher in robotics, reinforcement learning, and physical AI. Previously a Staff Research Scientist at Google DeepMind, where he helped bridge advances in machine learning with real-world deployment.
+
+    He received his Ph.D. from the University of Oxford, where he later conducted postdoctoral research and held visiting roles at UC Berkeley, MIT, and ETH Zurich. Dr. Wulfmeier has authored more than 50 publications, holds patents in machine learning and robotics, and his award-winning research has been featured in Wired, BBC, and 60 Minutes.
+  date: Thursday / 8 October
+  time: 17:00 - 18:00
+  room: Hall B
+  id: 5
+  author-image: images/optimized/speakers-600x600/MarkusWulfmeier.webp
+
+- author-name: Lenka Zdeborová
+  title: "Machine Learning Theory in the Age of Attention"
+  author-title: "EPFL"
+  abstract-md: |-
+    Modern machine learning systems rely on architectures and mechanisms that go beyond the classical models at the heart of much of learning theory. In this talk, I will discuss how solvable high-dimensional models can provide a framework for studying these systems while retaining enough structure to expose their underlying mechanisms. I will focus in particular on attention-based architectures. By analyzing simplified models of attention, we can derive their learning dynamics and identify phase transitions, scaling laws, and mechanisms of representation and specialization. I will argue that such models offer a complementary route to understanding modern machine learning: not by reproducing the complexity of current systems, but by constructing tractable settings in which their essential phenomena can be made explicit.
+  author-bio: |-
+    Lenka Zdeborová is a Professor of Physics and Computer Science at École Polytechnique Fédérale de Lausanne, where she leads the Statistical Physics of Computation Laboratory. She received a PhD in physics from the University of Paris-Sud and Charles University in Prague in 2008. She spent two years in the Los Alamos National Laboratory as the Director's Postdoctoral Fellow.
+
+    Between 2010 and 2020, she was a researcher at CNRS, working in the Institute of Theoretical Physics in CEA Saclay, France. In 2014, she was awarded the CNRS bronze medal, in 2016 Philippe Meyer prize in theoretical physics and an ERC Starting Grant, in 2018 the Irène Joliot-Curie prize, in 2021 the Gibbs lectureship of AMS and the Neuron Fund award, in 2025 she received an ERC Advanced Grant. Lenka's expertise is in the application of concepts from statistical physics, such as advanced mean field methods, the replica method, and related message-passing algorithms, to problems in machine learning, signal processing, inference, and optimization. Currently, she focuses on statistical physics of learning, developing solvable models and theoretical principles that explain how modern AI systems generalize, memorize, and scale. She enjoys erasing the boundaries between theoretical physics, mathematics and computer science.
+  date: Friday / 9 October
+  time: 11:15 - 12:15
+  room: Hall A
+  id: 6
+  author-image: images/optimized/speakers-600x600/LenkaZdeborova.webp
+
+- author-name: Valentina Boeva
+  title: "Transformer-based foundation models for molecular cancer research"
+  author-title: "ETH Zurich"
+  abstract-md: |-
+    Over the past few years, the transformer architecture has moved from natural language processing into molecular biology, where large models pretrained on millions of transcriptomes, genomes, and protein sequences are now proposed as general-purpose substrates for downstream biomedical tasks. This talk is an introduction to transcriptomics models and what they can plausibly do for cancer research today. I will begin with the general approach of modeling single cells by training foundation models on large corpora of single-cell RNA-seq data. The second part turns to cancer-specific modeling. Using CancerFoundation, a model trained exclusively on malignant cells, I will illustrate the case for focused rather than maximally large models, and show applications to zero-shot batch integration and drug response prediction for unseen cell lines and compounds. The third part will address interpretability. I will present recent work applying sparse autoencoders to the hidden representations of single-cell foundation models, which reveals disentangled biological and technical features that can be intervened upon, offering a route from black-box embeddings to mechanistic understanding and to the removal of unwanted technical signal. Finally, I will look ahead to architectural directions likely to matter for biology, in particular looped and fixed-point transformers that allocate test-time compute adaptively to the difficulty of a problem.
+  author-bio: |-
+    Dr. Valentina Boeva is a Tenure Track Assistant Professor at the Department of Computer Science, ETH Zurich, where she leads the Computational Cancer Genomics Group. Her research focuses on developing computational methods for multi-omics data integration to understand the epigenetic and transcriptional plasticity of cancer cells.
+
+    Before joining ETH Zurich in 2019, Prof. Boeva led the Computational Epigenetics of Cancer laboratory at Inserm's Cochin Institute in Paris. She holds a Ph.D. in Bioengineering and Bioinformatics from Lomonosov Moscow State University. Throughout her career, Prof. Boeva has made contributions to the field of computational cancer genomics by developing methods for the analysis of DNA sequencing data, bulk and single-cell transcriptomics and epigenomics data, and, recently, spatial transcriptomics and proteomics.
+  date: Friday / 9 October
+  time: 17:30 - 18:30
+  room: Hall A
+  id: 9
+  author-image: images/optimized/speakers-600x600/ValentinaBoeva.webp
+
+- author-name: Peter Richtárik
+  title: "The Broximal Point Method and Its Impact on Optimization Theory and Machine Learning"
+  author-title: "KAUST"
+  abstract-md: |-
+    The Broximal Point Method (BPM) of Gruntkowska, Li, Rane, and Richtárik, related to the ball-oracle work of Carmon, Sidford, et al., replaces the quadratic penalty of the classical proximal point method with a ball constraint. In the nonsmooth convex regime it converges linearly and in finitely many steps, without dependence on any condition number. I will focus on the basic results described in Gruntkowska et al., then briefly cover four extensions: a non-Euclidean theory that makes BPM a blueprint for geometry-aware methods; Broximal Alignment, a condition under which BPM finds a global minimizer with no smoothness or Lipschitz assumption; Local LMO, which applies a linear minimization oracle on the constraint set intersected with a local ball and recovers gradient-descent rates without projections; and distributed Brox (new results; not yet online).
+
+    BPM itself is a conceptual method. What makes it useful in machine learning is approximation: apply Brox to a stochastic linear model of the objective, approximately, under a specific non-Euclidean norm. That construction is Muon (and its relatives). I will sketch this link and our follow-up work on theory of this family.
+
+    **Ball oracles**
+
+    - Carmon, Jambulapati, Jiang, Jin, Lee, Sidford, Tian, Acceleration with a ball optimization oracle, NeurIPS 2020.
+
+    **Brox / BPM**
+
+    - Gruntkowska, Li, Rane, Richtárik, The ball-proximal ("broximal") point method, [arXiv:2502.02002](https://arxiv.org/abs/2502.02002).
+    - Gruntkowska, Richtárik, Non-Euclidean broximal point method, [arXiv:2510.00823](https://arxiv.org/abs/2510.00823).
+    - Gruntkowska, Li, Qian, Richtárik, Broximal alignment for global non-convex optimization, [arXiv:2604.13483](https://arxiv.org/abs/2604.13483).
+    - Richtárik, Gruntkowska, Li, Local LMO, [arXiv:2605.08850](https://arxiv.org/abs/2605.08850).
+
+    **Muon / LMO**
+
+    - Jordan, Jin, Boza, You, Cesista, Newhouse, Bernstein, Muon: an optimizer for hidden layers in neural networks, 2024.
+    - Riabinin, Shulgin, Gruntkowska, Richtárik, From Muon to Gluon, ICML 2026, [arXiv:2505.13416](https://arxiv.org/abs/2505.13416).
+    - Gruntkowska, Gaponov, Tovmasyan, Richtárik, Error feedback for Muon and friends, ICLR 2026, [arXiv:2510.00643](https://arxiv.org/abs/2510.00643).
+    - Gruntkowska, Maziane, Qu, Richtárik, Drop-Muon, [arXiv:2510.02239](https://arxiv.org/abs/2510.02239).
+    - Qian, Rammal, Kovalev, Richtárik, Muon is provably faster with momentum variance reduction, [arXiv:2512.16598](https://arxiv.org/abs/2512.16598).
+    - Khirirat, Sadiev, Demidovich, Richtárik, Better LMO-based momentum methods with second-order information, [arXiv:2512.13227](https://arxiv.org/abs/2512.13227).
+    - Qian, Gaponov, Malinovsky, Richtárik, Communication-efficient Gluon in federated learning, [arXiv:2604.10689](https://arxiv.org/abs/2604.10689).
+    - Demidovich, Chakraborty, Malinovsky, Nedić, Richtárik, Distance-aware Muon, [arXiv:2605.18999](https://arxiv.org/abs/2605.18999).
+    - Qian, Richtárik, Convergence analysis of Muon-type methods with inexact LMO in the degenerate case, [arXiv:2606.21581](https://arxiv.org/abs/2606.21581).
+    - Shulgin, Awad, Richtárik, Gorbunov, General analysis of LMO-based optimizers, ICML 2026.
+  author-bio: |-
+    Peter Richtárik is a professor of Computer Science at the King Abdullah University of Science and Technology (KAUST), Saudi Arabia, where he leads the Optimization and Machine Learning Lab. His research interests lie at the intersection of mathematics, computer science, machine learning, optimization, numerical linear algebra, and high-performance computing. Through his work on randomized and distributed optimization algorithms, he has contributed to the foundations of machine learning, optimization and randomized numerical linear algebra. He is one of the original developers of Federated Learning.
+
+    Prof Richtárik’s works attracted international awards, including the Charles Broyden Prize, SIAM SIGEST Best Paper Award, Distinguished Speaker Award at the 2019 International Conference on Continuous Optimization, the IMA Leslie Fox Prize (three times), and a Best Paper Award at the NeurIPS 2020 Workshop on Scalability, Privacy, and Security in Federated Learning. Several of his works are among the most read papers published by the SIAM Journal on Optimization and the SIAM Journal on Matrix Analysis and Applications. Prof Richtárik serves as an Area Chair for leading machine learning conferences, including NeurIPS, ICML and ICLR, and is an Action Editor of JMLR, and Associate Editor of Numerische Mathematik and Optimization Methods and Software. In the past, he served as an Action Editor of TMLR and an Area Editor of JOTA.
+  date: Saturday / 10 October
+  time: 11:15 - 12:15
+  room: Main Hall
+  id: 10
+  author-image: images/optimized/speakers-600x600/PeterRichtarik.webp
+
+- author-name: Johannes von Oswald
+  title: "Retrieval-Centric Deep Learning: Replacing Weight Matrices with Vector Databases"
+  author-title: "Google / Paradigms of Intelligence Team"
+  abstract-md: |-
+    The deep learning models powering our current AI revolution are built on parameter matrices that form linear layers. These essential components dictate a learning system's capacity, as well as its computational and memory requirements during training and inference.
+
+    In this talk, I will first highlight that linear layers trained by gradient descent can be expressed as key-value memory systems, storing inputs as keys and their corresponding output gradients as values (Irie et al., 2022). This creates a direct connection between gradient-descent trained linear layers and popular sequence layers that learn in-context, such as Mamba or Gated DeltaNet. Consequently, this duality motivates a gradient-descent-based linear layer counterpart to softmax self-attention.
+
+    Second, leveraging this duality, I will present both historically overlooked and novel "growing" retrieval-centric layers. These provide a principled drop-in replacement for standard linear layers by storing (roughly) inputs and output gradients in a database, recalling them using non-linear attention.
+
+    Finally, I will share ongoing empirical results that highlight the practical challenges and promising future directions of this new paradigm in retrieval-centric deep learning.
+  author-bio: |-
+    Johannes von Oswald is a research scientist at Google in Zurich, working with Blaise Agüera y Arcas and João Sacramento in the Paradigms of Intelligence Team. Until 2023, he was a PhD student supervised by Angelika Steger and João Sacramento at the Institute of Theoretical Computer Science, ETH Zurich.
+    His research focuses on how and what machines, in particular neural networks, learn from data. One important goal is to allow these learning algorithms to generalize broadly and solve novel complex tasks. Therefore, he is heavily inspired by (meta-) learning within a large, possibly open-ended, environment.
+
+    Currently, he investigates how state-of-the-art neural network models, in particular transformer-based large language models, can move beyond pattern matching to learn and implement algorithmic-like solutions. This led him to work on mesa-optimization: the emergence of optimization algorithms within neural networks! In recent work, he showed that gradient descent-based algorithms can be implemented within the activations of transformers by simple autoregressive outer-optimization. This allows transformers to learn and generalize at test time to novel data provided in-context. This led to the development of a novel recurrent neural network architecture, the MesaNet, which was layer on tested on language modeling at scale.
+  date: Saturday / 10 October
+  time: 16:00 - 17:00
+  room: Hall A
+  id: 13
+  author-image: images/optimized/speakers-600x600/JohannesVonOswald.webp

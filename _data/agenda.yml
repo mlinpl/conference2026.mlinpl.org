@@ -63,21 +63,16 @@
         room: Main Hall
 
     - events:
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Invited Talk 1: <strong>TBA</strong>'
+        subtitle: by Razvan Pascanu
         element-class: col-lg-4
         time: 12:15 - 13:15
         room: Main Hall
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Invited Talk 2: <strong>TBA</strong>'
+        subtitle: by Piotr Sankowski
         element-class: col-lg-4
         time: 12:15 - 13:15
         room: Hall A
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
-        element-class: col-lg-4
-        time: 12:15 - 13:15
-        room: Hall B
 
     - events:
       - title: 'Poster Session 1'
@@ -96,6 +91,11 @@
       - title: 'Sponsor Talk: <strong>TBA</strong>'
         subtitle: by TBA
         element-class: col-lg-4
+        time: 15:30 - 16:30
+        room: Main Hall
+      - title: 'Sponsor Talk: <strong>TBA</strong>'
+        subtitle: by TBA
+        element-class: col-lg-4
         time: 15:30 - 16:00
         room: Hall A
       - title: 'Sponsor Talk: <strong>TBA</strong>'
@@ -107,7 +107,7 @@
     - events:
       - title: 'Sponsor Talk: <strong>TBA</strong>'
         subtitle: by TBA
-        element-class: col-lg-4
+        element-class: col-lg-4 col-lg-offset-4
         time: 16:00 - 16:30
         room: Hall A
 
@@ -118,21 +118,24 @@
         time: 16:30 - 17:00
 
     - events:
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Invited Talk 3: <strong>Deep Dive Mistral. Scalable and agentic AI: co-developing scaffolds & models hand-in-hand</strong>'
+        subtitle: by Pierre Stock
         element-class: col-lg-4
         time: 17:00 - 18:00
         room: Main Hall
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+        url: /program#invited-talk-3
+      - title: 'Invited Talk 4: <strong>Ten Years of ML Systems: PyTorch, JAX, Pallas, and What''s Next</strong>'
+        subtitle: by Adam Paszke
         element-class: col-lg-4
         time: 17:00 - 18:00
         room: Hall A
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+        url: /program#invited-talk-4
+      - title: 'Invited Talk 5: <strong>Mastery-first Physical AI - Demos, Deployment, Open Questions</strong>'
+        subtitle: by Markus Wulfmeier
         element-class: col-lg-4
         time: 17:00 - 18:00
         room: Hall B
+        url: /program#invited-talk-5
 
     - events:
       - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party (powered by <a href="https://elevenlabs.io/" target="_blank" style="text-transform: none;">ElevenLabs</a>)'
@@ -217,13 +220,14 @@
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Main Hall
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Invited Talk 6: <strong>Machine Learning Theory in the Age of Attention</strong>'
+        subtitle: by Lenka Zdeborová
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall A
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+        url: /program#invited-talk-6
+      - title: 'Invited Talk 7: <strong>TBA</strong>'
+        subtitle: by Chiara Plizzari
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall B
@@ -311,16 +315,17 @@
         time: 17:15 - 17:30
 
     - events:
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Invited Talk 8: <strong>TBA</strong>'
+        subtitle: by Emanuele Rodolà
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Main Hall
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Invited Talk 9: <strong>Transformer-based foundation models for molecular cancer research</strong>'
+        subtitle: by Valentina Boeva
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Hall A
+        url: /program#invited-talk-9
       - title: 'Invited Talk: <strong>TBA</strong>'
         subtitle: by TBA
         element-class: col-lg-4
@@ -398,21 +403,17 @@
         time: 11:00 - 11:15
 
     - events:
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Invited Talk 10: <strong>The Broximal Point Method and Its Impact on Optimization Theory and Machine Learning</strong>'
+        subtitle: by Peter Richtárik
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Main Hall
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+        url: /program#invited-talk-10
+      - title: 'Invited Talk 11: <strong>TBA</strong>'
+        subtitle: by Tomáš Pluskal
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall A
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
-        element-class: col-lg-4
-        time: 11:15 - 12:15
-        room: Hall B
 
     - events:
       - title: 'Poster Session 3'
@@ -451,18 +452,19 @@
         time: 15:30 - 16:00
 
     - events:
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Invited Talk 12: <strong>TBA</strong>'
+        subtitle: by João F. Henriques
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Main Hall
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Invited Talk 13: <strong>Retrieval-Centric Deep Learning: Replacing Weight Matrices with Vector Databases</strong>'
+        subtitle: by Johannes von Oswald
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Hall A
-      - title: 'Invited Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+        url: /program#invited-talk-13
+      - title: 'Invited Talk 14: <strong>TBA</strong>'
+        subtitle: by Stanisław Jastrzębski
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Hall B
