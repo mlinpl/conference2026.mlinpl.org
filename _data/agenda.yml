@@ -2,6 +2,8 @@
 #
 # Instructions for filling the entries:
 # - offset with: col-lg-offset-4
+# - calendars: false hides the "add to calendar" button and leaves the entry out of agenda.ics
+# - location: overrides the day's location for an entry held elsewhere (e.g. the party); subevents inherit it
 #
 
 - title: Thursday / 8 October
@@ -50,6 +52,7 @@
 
     - events:
       - title: Registration
+        calendars: false
         element-class: col-lg-12
         time: 9:00 - 11:45
 
@@ -78,7 +81,7 @@
 
     - events:
       - title: 'Poster Session 1'
-        subtitle: "with posters: 1-27"
+        subtitle: "With posters: 1-27"
         element-class: col-lg-12
         time: 13:15 - 14:45
         url: /program#poster-1
@@ -110,6 +113,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        calendars: false
         element-class: col-lg-12
         time: 16:30 - 17:00
 
@@ -133,8 +137,8 @@
     - events:
       - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party (powered by <a href="https://elevenlabs.io/" target="_blank" style="text-transform: none;">ElevenLabs</a>)'
         element-class: col-lg-12
-        time: "19:30"
-        subtitle: <i class="fa-solid fa-location-dot"></i> Bolek Pub & Restaurant, al. Niepodległości 211, 02-086 Warszawa
+        time: "19:30 - 24:00"
+        location: '<a href="https://maps.app.goo.gl/cHCXriu3nTMY4mQ9A" target="_blank" rel="noopener">Bolek Pub & Restaurant, al. Niepodległości 211, 02-086 Warszawa</a>'
         note: '<i class="fa-solid fa-id-badge"></i> Remember to take your badges and ID cards with you, they are required to enter'
 
 - title: Friday / 9 October
@@ -144,11 +148,12 @@
   sessions:
     - events:
       - title: 'Registration + <i class="fa-solid fa-mug-saucer"></i> Breakfast'
+        calendars: false
         element-class: col-lg-12
         time: 8:30 - 9:30
 
     - events:
-      - title: 'Contributed Talks Session 1'
+      - title: 'Contributed Talks <br>Session 1'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Main Hall
@@ -165,7 +170,7 @@
             subtitle: by Paulina Szymczak (Helmholtz Munich)
             time: 10:30 - 11:00
             url: /program#contributed-talk-3
-      - title: 'Contributed Talks Session 2'
+      - title: 'Contributed Talks <br>Session 2'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall A
@@ -182,7 +187,7 @@
             subtitle: by Katarzyna Kobalczyk (University of Cambridge)
             time: 10:30 - 11:00
             url: /program#contributed-talk-6
-      - title: 'Contributed Talks Session 3'
+      - title: 'Contributed Talks <br>Session 3'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall B
@@ -202,6 +207,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        calendars: false
         element-class: col-lg-12
         time: 11:00 - 11:15
 
@@ -224,7 +230,7 @@
 
     - events:
       - title: 'Poster Session 2'
-        subtitle: "with posters: 28-54"
+        subtitle: "With posters: 28-54"
         element-class: col-lg-12
         time: 12:15 - 13:45
         url: /program#poster-28
@@ -240,7 +246,7 @@
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Main Hall
-      - title: 'Contributed Talks Session 4'
+      - title: 'Contributed Talks <br>Session 4'
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Hall A
@@ -257,7 +263,7 @@
             subtitle: by Oleksii Furman (Wrocław University of Science and Technology)
             time: 15:30 - 16:00
             url: /program#contributed-talk-12
-      - title: 'Contributed Talks Session 5'
+      - title: 'Contributed Talks <br>Session 5'
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Hall B
@@ -277,6 +283,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        calendars: false
         element-class: col-lg-12
         time: 16:00 - 16:15
 
@@ -299,6 +306,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        calendars: false
         element-class: col-lg-12
         time: 17:15 - 17:30
 
@@ -326,11 +334,12 @@
   sessions:
     - events:
       - title: 'Registration + <i class="fa-solid fa-mug-saucer"></i> Breakfast'
+        calendars: false
         element-class: col-lg-12
         time: 8:30 - 9:30
 
     - events:
-      - title: 'Contributed Talks Session 6'
+      - title: 'Contributed Talks <br>Session 6'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Main Hall
@@ -347,7 +356,7 @@
             subtitle: by Franziska Boenisch (CISPA)
             time: 10:30 - 11:00
             url: /program#contributed-talk-18
-      - title: 'Contributed Talks Session 7'
+      - title: 'Contributed Talks <br>Session 7'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall A
@@ -364,7 +373,7 @@
             subtitle: by Patryk Marszałek (Jagiellonian University in Kraków / GMUM)
             time: 10:30 - 11:00
             url: /program#contributed-talk-21
-      - title: 'Contributed Talks Session 8'
+      - title: 'Contributed Talks <br>Session 8'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall B
@@ -384,6 +393,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        calendars: false
         element-class: col-lg-12
         time: 11:00 - 11:15
 
@@ -406,7 +416,7 @@
 
     - events:
       - title: 'Poster Session 3'
-        subtitle: "with posters: 55-83"
+        subtitle: "With posters: 55-83"
         element-class: col-lg-12
         time: 12:15 - 13:45
         url: /program#poster-55
@@ -436,6 +446,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
+        calendars: false
         element-class: col-lg-12
         time: 15:30 - 16:00
 

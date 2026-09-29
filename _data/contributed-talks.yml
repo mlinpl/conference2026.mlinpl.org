@@ -9,7 +9,7 @@
     Tomasz Danel is an Assistant Professor at the Faculty of Chemistry, Jagiellonian University, and a member of the GMUM machine learning research group. He is also a Senior Machine Learning Scientist at insitro. He develops machine-learning methods for problems in chemistry and drug discovery, including graph and geometric deep learning, generative models for molecular design, and explainable AI for molecules. He completed his PhD in technical computer science at Jagiellonian University in 2023 with the dissertation "Deep Learning Methods in Pharmaceutical Sciences," which received the Polish Prime Minister's Award. More recently he has been working on multimodal agents for scientific discovery that plan and reason over geometric representations of molecules and proteins.
   co-authors: 
   date: Friday / 9 October
-  time: 09:30 - 10:00
+  time: 9:30 - 10:00
   room: Main Hall
   session: Contributed Talks Session 1
   id: 1
@@ -62,7 +62,7 @@
     Michał Zawalski is a Deep Learning Researcher at NVIDIA, where he develops reliable methods for evaluating LLMs. He earned his PhD in Computer Science from the University of Warsaw, with research spanning reinforcement learning, hierarchical planning, and embodied AI. His work has appeared at leading venues including NeurIPS, ICLR, CoRL, and AAMAS. During his doctoral studies, he completed a research internship at UC Berkeley under Prof. Sergey Levine, where he worked on embodied AI and robotic control. His current focus is on trustworthy LLM evaluation, including methods for detecting training data contamination.
   co-authors: 
   date: Friday / 9 October
-  time: 09:30 - 10:00
+  time: 9:30 - 10:00
   room: Hall A
   session: Contributed Talks Session 2
   id: 4
@@ -119,7 +119,7 @@
     Julia is a Senior Research Engineer at Lakera AI, a Check Point Company. Her professional interests are in NLP, AI security, and performance optimization of ML systems. Lakera allows developers to build secure AI applications and agents with Lakera Guard, which protects against prompt injections, data leaks, and other risks. Julia has worked on red-teaming LLMs, building defenses for agents and evaluations for both red and blue sides of AI security. Lakera AI was acquired by Check Point in late 2025.
   co-authors: Max Mathys, Francesco Casucci, Mateo Rojas-Carulla, Xander Davies, Alexandra Souly, Niklas Pfister
   date: Friday / 9 October
-  time: 09:30 - 10:00
+  time: 9:30 - 10:00
   room: Hall B
   session: Contributed Talks Session 3
   id: 7
@@ -258,7 +258,7 @@
     PhD Student at Helmholtz Munich and Technical University of Munich working in Representation Learning
   co-authors: Pankhil Gawade, Andrea Dittadi, Ewa Szczurek
   date: Saturday / 10 October
-  time: 09:30 - 10:00
+  time: 9:30 - 10:00
   room: Main Hall
   session: Contributed Talks Session 6
   id: 16
@@ -307,7 +307,7 @@
     I am a PhD student at AGH University of Krakow and a Research Assistant working on large-scale machine learning systems. My research focuses on efficient large language models, sparse neural architectures, mixture-of-experts, distributed training and inference, and scalable AI infrastructure. I am particularly interested in bridging novel machine learning algorithms with production-scale AI systems. I have contributed to research projects in collaboration with CERN, and my recent work explores efficient routing methods for Mixture-of-Experts models and optimization techniques for large language models.
   co-authors: Łukasz Struski, Jacek Tabor, Marcin Kurdziel
   date: Saturday / 10 October
-  time: 09:30 - 10:00
+  time: 9:30 - 10:00
   room: Hall A
   session: Contributed Talks Session 7
   id: 19
@@ -370,7 +370,7 @@
     Jonas Kneifl is an AI Researcher working on generative AI and computer vision with an emphasis on physical consistency in generative video models. He obtained his PhD in Scientific Machine Learning from the University of Stuttgart dealing with data-driven learning to build accurate, interpretable, and computationally efficient surrogate models of complex dynamical systems. He previously held research positions at the University of Washington and the Politecnico di Milano.
   co-authors: Jakub Skalski, Kamil Deja, Bartłomiej Twardowski
   date: Saturday / 10 October
-  time: 09:30 - 10:00
+  time: 9:30 - 10:00
   room: Hall B
   session: Contributed Talks Session 8
   id: 22

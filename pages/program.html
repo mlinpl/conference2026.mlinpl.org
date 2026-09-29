@@ -45,9 +45,20 @@ permalink: /program
     <div class="row">
         <div class="col-xs-12">
             <h2>/ Agenda</h2>
-            <p>
-                Click on <span class="emph">the red agenda items</span> to jump to the details.
-            </p>
+            {% assign agenda_feed = site.url | append: site.baseurl | append: "/agenda.ics" %}
+            {% assign agenda_webcal = agenda_feed | replace_first: "https://", "webcal://" %}
+            <ul>
+                <li>Click on <span class="emph">the red agenda items</span> to jump to the details.</li>
+                <li>
+                    Add the whole agenda to your calendar, it will update automatically:
+                    <span class="cal-inline-buttons">
+                        <a href="https://calendar.google.com/calendar/r?cid={{ agenda_webcal | url_encode }}" class="cal-icon-btn" target="_blank" rel="noopener" title="Subscribe in Google Calendar" aria-label="Subscribe in Google Calendar"><i class="fa-brands fa-google"></i></a>
+                        <a href="{{ agenda_webcal }}" class="cal-icon-btn" title="Subscribe in Apple Calendar, Outlook and others" aria-label="Subscribe in Apple Calendar, Outlook and others"><i class="fa-solid fa-rss"></i></a>
+                        <a href="{{ "/agenda.ics" | relative_url }}" download class="cal-icon-btn" title="Download ICS" aria-label="Download ICS"><i class="fa-solid fa-download"></i></a>
+                    </span>
+                </li>
+                <li>Use <span class="cal-icon-btn cal-icon-btn-static" role="img" aria-label="the add to calendar button"><i class="fa-regular fa-calendar-plus"></i></span> next to an agenda item to add just that item.</li>
+            </ul>
         </div>
     </div>
     
