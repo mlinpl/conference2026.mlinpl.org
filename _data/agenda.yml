@@ -3,6 +3,7 @@
 # Instructions for filling the entries:
 # - offset with: col-lg-offset-4
 # - calendars: false hides the "add to calendar" button and leaves the entry out of agenda.ics
+# - location: overrides the day's location for an entry held elsewhere (e.g. the party); subevents inherit it
 #
 
 - title: Thursday / 8 October
@@ -80,7 +81,7 @@
 
     - events:
       - title: 'Poster Session 1'
-        subtitle: "with posters: 1-27"
+        subtitle: "With posters: 1-27"
         element-class: col-lg-12
         time: 13:15 - 14:45
         url: /program#poster-1
@@ -136,8 +137,8 @@
     - events:
       - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party (powered by <a href="https://elevenlabs.io/" target="_blank" style="text-transform: none;">ElevenLabs</a>)'
         element-class: col-lg-12
-        time: "19:30"
-        subtitle: <i class="fa-solid fa-location-dot"></i> Bolek Pub & Restaurant, al. Niepodległości 211, 02-086 Warszawa
+        time: "19:30 - 24:00"
+        location: '<a href="https://maps.app.goo.gl/cHCXriu3nTMY4mQ9A" target="_blank" rel="noopener">Bolek Pub & Restaurant, al. Niepodległości 211, 02-086 Warszawa</a>'
         note: '<i class="fa-solid fa-id-badge"></i> Remember to take your badges and ID cards with you, they are required to enter'
 
 - title: Friday / 9 October
@@ -229,7 +230,7 @@
 
     - events:
       - title: 'Poster Session 2'
-        subtitle: "with posters: 28-54"
+        subtitle: "With posters: 28-54"
         element-class: col-lg-12
         time: 12:15 - 13:45
         url: /program#poster-28
@@ -415,7 +416,7 @@
 
     - events:
       - title: 'Poster Session 3'
-        subtitle: "with posters: 55-83"
+        subtitle: "With posters: 55-83"
         element-class: col-lg-12
         time: 12:15 - 13:45
         url: /program#poster-55

@@ -41,10 +41,16 @@ cal_start_iso, cal_end_iso (with +02:00 offset), cal_google, cal_outlook, cal_of
 
 {%- assign cal_room = include.event.room | default: include.parent.room -%}
 {%- assign cal_address = include.day.location-address | strip_html | strip -%}
+{%- assign cal_event_location = include.event.location | default: include.parent.location | strip_html | strip -%}
 {%- assign cal_location = "" | split: "" -%}
 {%- if cal_room %}{% assign cal_location = cal_location | push: cal_room %}{% endif -%}
+{%- if cal_event_location != "" -%}
+{%- comment %} Entries held elsewhere (e.g. the party) replace the day's venue {% endcomment -%}
+{%- assign cal_location = cal_location | push: cal_event_location -%}
+{%- else -%}
 {%- if include.day.location %}{% assign cal_location = cal_location | push: include.day.location %}{% endif -%}
 {%- if cal_address != "" %}{% assign cal_location = cal_location | push: cal_address %}{% endif -%}
+{%- endif -%}
 {%- assign cal_location = cal_location | join: ", " -%}
 
 {%- assign cal_details = "" | split: "" -%}

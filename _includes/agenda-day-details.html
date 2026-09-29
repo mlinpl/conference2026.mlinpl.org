@@ -28,6 +28,9 @@ Expects following parameters: day
         {% if event.subtitle %}
         <h5>{{ event.subtitle }}</h5>
         {% endif %}
+        {% if event.location %}
+        <h5><i class="fa-solid fa-location-dot"></i> {{ event.location }}</h5>
+        {% endif %}
 
         {% if event.url %}
         </a>
@@ -50,6 +53,9 @@ Expects following parameters: day
             <h5>{{ subevent.title }}</h5>
             {% if subevent.subtitle %}
             <h6>{{ subevent.subtitle }}</h6>
+            {% endif %}
+            {% if subevent.location %}
+            <h6><i class="fa-solid fa-location-dot"></i> {{ subevent.location }}</h6>
             {% endif %}
             {% if subevent.url %}
             </a>

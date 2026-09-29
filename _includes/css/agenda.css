@@ -258,6 +258,13 @@
     text-transform: none;
 }
 
+/* Agenda days in the home page slider clip their content; let the menu overlap what comes after a day */
+#agenda-slider .slider-item-content {
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+}
+
 .cal-menu .cal-menu-list li a,
 .cal-menu .cal-menu-list li button {
     display: block;
