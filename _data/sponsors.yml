@@ -7,7 +7,7 @@
   margin: 45px 60px
   sponsors:
     - name: ElevenLabs
-      image: "images/sponsors/ElevenLabs.svg"
+      image: "images/optimized/sponsors-600x600/ElevenLabs.svg"
       url: "https://elevenlabs.io/"
 
 - title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
@@ -26,22 +26,22 @@
       imageMaxWidth: 320px
       margin: 45px 80px
     - name: DeepMind
-      image: "images/sponsors/DeepMind.png"
+      image: "images/optimized/sponsors-600x600/DeepMind.webp"
       url: "https://deepmind.google/about/"
     - name: Dropbox
-      image: "images/sponsors/Dropbox.svg"
+      image: "images/optimized/sponsors-600x600/Dropbox.svg"
       url: "https://www.dropbox.jobs"
     - name: Jetbrains
       image: "images/optimized/sponsors-600x600/Jetbrains.webp"
       url: "https://www.jetbrains.com/company/"
     - name: Mistral
-      image: "images/sponsors/Mistral.svg"
+      image: "images/optimized/sponsors-600x600/Mistral.svg"
       url: "https://mistral.ai/"
     - name: RTB House
       image: "images/optimized/sponsors-600x600/RTBHouse.webp"
       url: "https://www.rtbhouse.com/"
     - name: Tenstorrent
-      image: "images/sponsors/Tenstorrent.svg"
+      image: "images/optimized/sponsors-600x600/Tenstorrent.svg"
       url: "https://tenstorrent.com/"
 
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
@@ -65,7 +65,7 @@
       image: "images/optimized/sponsors-600x600/NVIDIA.webp"
       url: "https://nvidia.eightfold.ai/events/candidate/landing?plannedEventId=qZbodMmBY"
     - name: Pathway
-      image: "images/sponsors/Pathway.svg"
+      image: "images/optimized/sponsors-600x600/Pathway.svg"
       url: "https://pathway.com/"
     - name: QRT
       image: "images/optimized/sponsors-600x600/QRT.webp"

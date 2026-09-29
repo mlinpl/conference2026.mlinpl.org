@@ -24,7 +24,7 @@ optimize_images () {
     size=$2
     format=$3
     quality=$4
-    input_directory="${ROOT_DIR}/images/${1}"
+    input_directory="${ROOT_DIR}/_images/${1}"
     output_directory="${ROOT_DIR}/images/optimized/${1}-${2}"
 
     if [ ! -d "$input_directory" ]; then
@@ -32,14 +32,23 @@ optimize_images () {
         return
     fi
 
-    echo "Optimizing images in images/${1}, saving to images/optimized/${1}-${2} ..."
+    echo "Optimizing images in _images/${1}, saving to images/optimized/${1}-${2} ..."
     
     mkdir -p "$output_directory"
 
     cd "$input_directory"
     for file in *; do
         [ -e "$file" ] || continue
-        if [[ "$file" != *.svg ]]; then
+        if [[ "$file" == *.svg ]]; then
+            # Vector logos are already web-ready, so they are copied as they are
+            output_file="${output_directory}/${file}"
+            if [ "$OVERWRITE" = true ] || [ ! -f "$output_file" ]; then
+                echo "Copying $file..."
+                cp "$file" "$output_file"
+            else
+                echo "Skipping $file (already exists)"
+            fi
+        else
             output_file="${output_directory}/${file%.*}.${format}"
             if [ "$OVERWRITE" = true ] || [ ! -f "$output_file" ]; then
                 echo "Processing $file..."

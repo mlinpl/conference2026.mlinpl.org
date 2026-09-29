@@ -1,8 +1,8 @@
 - name: Accenture
-  image: images/previous-sponsors/Accenture.svg
+  image: images/optimized/previous-sponsors-300x300/Accenture.svg
 
 - name: ASI
-  image: images/previous-sponsors/ASI.svg
+  image: images/optimized/previous-sponsors-300x300/ASI.svg
 
 - name: AI Clearing
   image: images/optimized/previous-sponsors-300x300/AIClearing.webp
@@ -41,7 +41,7 @@
   image: images/optimized/previous-sponsors-300x300/Dialo.webp
 
 - name: ElevenLabs
-  image: images/previous-sponsors/ElevenLabs.svg
+  image: images/optimized/previous-sponsors-300x300/ElevenLabs.svg
 
 - name: Goldman Sachs
   image: images/optimized/previous-sponsors-300x300/GoldmanSachs.webp
@@ -86,7 +86,7 @@
   image: images/optimized/previous-sponsors-300x300/OLX.webp
 
 - name: Palto
-  image: images/previous-sponsors/Palto.svg
+  image: images/optimized/previous-sponsors-300x300/Palto.svg
 
 - name: Pearson
   image: images/optimized/previous-sponsors-300x300/Pearson.webp
@@ -113,7 +113,7 @@
   image: images/optimized/previous-sponsors-300x300/Samsung.webp
 
 - name: Semtic AI
-  image: images/previous-sponsors/SemticAI.svg
+  image: images/optimized/previous-sponsors-300x300/SemticAI.svg
 
 - name: sentione
   image: images/optimized/previous-sponsors-300x300/sentione.webp

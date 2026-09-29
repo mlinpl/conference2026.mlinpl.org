@@ -35,6 +35,8 @@ bundle install
 bash run_locally.sh
 ```
 
+(or `npm run dev`)
+
 This script:
 - builds the Jekyll site into `_site/`,
 - starts a local Jekyll server at `http://localhost:4000`.
@@ -59,7 +61,7 @@ Suggested branch prefixes:
 - `chore/...`
 
 **When adding images use optimized versions.**
-Add the original files first under `images/`, run `bash scripts/optimize_images.sh`, and refer to optimized versions from `images/optimized/` in the website content.
+Add the original files first under `_images/<group>/` (e.g. `_images/sponsors/`), run `bash scripts/optimize_images.sh` (or `npm run images:optimize`), and refer to optimized versions from `images/optimized/` in the website content. `_images/` is not published; SVGs are copied to `images/optimized/` as they are.
 
 ## Data conventions
 

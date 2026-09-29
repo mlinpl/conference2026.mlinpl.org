@@ -11,8 +11,8 @@
       imageMaxWidth: 340px
       imageMaxHeight: 220px
     - name: Major of Warsaw
-      image: "images/honorary-patronages/MayorOfWarsaw.png"
-      # image: "images/honorary-patronages/PrezydentWarszawy.png"
+      image: "images/optimized/honorary-patronages-600x600/MayorOfWarsaw.webp"
+      # image: "images/optimized/honorary-patronages-600x600/PrezydentWarszawy.png"
       url: https://en.um.warszawa.pl/
       margin: 0 0
       imageMaxWidth: 360px
@@ -36,7 +36,7 @@
       image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
       url: https://www.mimuw.edu.pl/en/
     - name: Faculty of Mathematics and Information Science, Warsaw University of Technology
-      image: "images/honorary-patronages/MiNIPW.png"
+      image: "images/optimized/honorary-patronages-600x600/MiNIPW.webp"
       url: https://ww4.mini.pw.edu.pl/
     # - name: Faculty of Electronics and Information Technology, Warsaw University of Technology
     #   image: "images/optimized/honorary-patronages-600x600/WEiTI.webp"

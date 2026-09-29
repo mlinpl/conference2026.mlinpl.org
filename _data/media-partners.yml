@@ -16,7 +16,7 @@
       image: "images/optimized/media-partners-600x600/AIPort.webp"
       url: "https://aiport.pl/"
     - name: Atlas
-      image: "images/media-partners/Atlas.svg"
+      image: "images/optimized/media-partners-600x600/Atlas.svg"
       url: "https://www.linkedin.com/company/knumatlas"
     - name: bit
       image: "images/optimized/media-partners-600x600/bit.webp"
@@ -58,13 +58,13 @@
       image: "images/optimized/media-partners-600x600/PoloniumFoundation.webp"
       url: "https://poloniumfoundation.org/"
     - name: Przeprogramowani
-      image: "images/media-partners/przeprogramowani.png"
+      image: "images/optimized/media-partners-600x600/przeprogramowani.webp"
       url: "https://przeprogramowani.pl/"
     - name: PyDataBydgoszcz
       image: "images/optimized/media-partners-600x600/PyDataBydgoszcz.webp"
       url: "https://www.bydgoszcz.it/"
     - name: PyStok
-      image: "images/media-partners/PyStok.svg"
+      image: "images/optimized/media-partners-600x600/PyStok.svg"
       url: "https://pystok.org/o-nas"
     - name: SKN Data Science
       image: "images/optimized/media-partners-600x600/SKNDataScience.webp"
