@@ -3,7 +3,7 @@
 # Represents the state of the conference.
 # Dynamically controls visibility and content of the site sections.
 
-invited-speakers: "first" # options: null, "first", "all"
+invited-speakers: "all" # options: null, "first", "all"
 call-for-sponsors: false # shows the Call for Sponsors section. options: true, false
 cfc: "closed" # options: null, "open", "closed", "after" (the conference)
 tickets: true # whether tickets section is visible. options: true, false
