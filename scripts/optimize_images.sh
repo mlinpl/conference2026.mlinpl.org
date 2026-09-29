@@ -38,6 +38,7 @@ optimize_images () {
 
     cd "$input_directory"
     for file in *; do
+        [ -e "$file" ] || continue
         if [[ "$file" != *.svg ]]; then
             output_file="${output_directory}/${file%.*}.${format}"
             if [ "$OVERWRITE" = true ] || [ ! -f "$output_file" ]; then
@@ -57,7 +58,8 @@ optimize_images advisory-board 300x300 webp 90
 
 # Optimize images of speakers
 optimize_images previous-speakers 300x300 webp 90
-optimize_images speakers 600x600 webp 90
+optimize_images invited-speakers 600x600 webp 90
+optimize_images sponsor-speakers 600x600 webp 90
 optimize_images cfc 600x600 webp 90
 optimize_images tutorials 600x600 webp 90
 

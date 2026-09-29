@@ -21,7 +21,7 @@
   time: 17:00 - 18:00
   room: Main Hall
   id: 3
-  author-image: images/optimized/speakers-600x600/PierreStock.webp
+  author-image: images/optimized/invited-speakers-600x600/PierreStock.webp
 
 - author-name: Adam Paszke
   title: "Ten Years of ML Systems: PyTorch, JAX, Pallas, and What's Next"
@@ -36,7 +36,7 @@
   time: 17:00 - 18:00
   room: Hall A
   id: 4
-  author-image: images/optimized/speakers-600x600/AdamPaszke.webp
+  author-image: images/optimized/invited-speakers-600x600/AdamPaszke.webp
 
 - author-name: Markus Wulfmeier
   title: "Mastery-first Physical AI - Demos, Deployment, Open Questions"
@@ -51,7 +51,7 @@
   time: 17:00 - 18:00
   room: Hall B
   id: 5
-  author-image: images/optimized/speakers-600x600/MarkusWulfmeier.webp
+  author-image: images/optimized/invited-speakers-600x600/MarkusWulfmeier.webp
 
 - author-name: Lenka Zdeborová
   title: "Machine Learning Theory in the Age of Attention"
@@ -66,7 +66,7 @@
   time: 11:15 - 12:15
   room: Hall A
   id: 6
-  author-image: images/optimized/speakers-600x600/LenkaZdeborova.webp
+  author-image: images/optimized/invited-speakers-600x600/LenkaZdeborova.webp
 
 - author-name: Valentina Boeva
   title: "Transformer-based foundation models for molecular cancer research"
@@ -81,7 +81,7 @@
   time: 17:30 - 18:30
   room: Hall A
   id: 9
-  author-image: images/optimized/speakers-600x600/ValentinaBoeva.webp
+  author-image: images/optimized/invited-speakers-600x600/ValentinaBoeva.webp
 
 - author-name: Peter Richtárik
   title: "The Broximal Point Method and Its Impact on Optimization Theory and Machine Learning"
@@ -122,7 +122,7 @@
   time: 11:15 - 12:15
   room: Main Hall
   id: 10
-  author-image: images/optimized/speakers-600x600/PeterRichtarik.webp
+  author-image: images/optimized/invited-speakers-600x600/PeterRichtarik.webp
 
 - author-name: Johannes von Oswald
   title: "Retrieval-Centric Deep Learning: Replacing Weight Matrices with Vector Databases"
@@ -144,4 +144,4 @@
   time: 16:00 - 17:00
   room: Hall A
   id: 13
-  author-image: images/optimized/speakers-600x600/JohannesVonOswald.webp
+  author-image: images/optimized/invited-speakers-600x600/JohannesVonOswald.webp

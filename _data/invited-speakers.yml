@@ -1,7 +1,7 @@
 # TEMPLATE
 # - name:
 #   affiliation:
-#   image: images/optimized/speakers-600x600/___.webp
+#   image: images/optimized/invited-speakers-600x600/___.webp
 #   bio: >- 
 #   OR 
 #   bio-intro: >-
@@ -12,7 +12,7 @@
 
 - name: Razvan Pascanu
   affiliation: Google DeepMind
-  image: images/optimized/speakers-600x600/RazvanPascanu.webp
+  image: images/optimized/invited-speakers-600x600/RazvanPascanu.webp
   bio-intro: >-
     Razvan Pascanu has been a research scientist at Google DeepMind since 2014. Before this, he completed his PhD at Universite de Montréal with prof. Yoshua Bengio, where he worked on understanding deep networks, specifically recurrent neural architectures. During his career he has made significant contributions to theory of deep networks, optimization, recurrent architectures as well as deep reinforcement learning, continual learning, meta-learning and graph neural networks. For details on his work please see razp.info. 
   bio-more: >-
@@ -24,7 +24,7 @@
 
 - name: Emanuele Rodolà
   affiliation: Sapienza University of Rome
-  image: images/optimized/speakers-600x600/EmanueleRodola.webp
+  image: images/optimized/invited-speakers-600x600/EmanueleRodola.webp
   bio-intro: >-
     Emanuele Rodolà is a Full Professor of Computer Science at Sapienza University of Rome, where he leads the GLADIA AI group. His work in this field has been supported by an ERC grant, a FIS grant, and a Google Research Award. In the past, he was a postdoctoral researcher at USI Lugano (2016–2017), an Alexander von Humboldt Fellow at TU Munich (2013–2016), and a JSPS Research Fellow at the University of Tokyo (2013), in addition to visiting periods at Tel Aviv University, Technion, École Polytechnique, and Stanford. He is a fellow of ELLIS and a fellow of the Young Academy of Europe. 
   bio-more: >-
@@ -32,7 +32,7 @@
 
 - name: Piotr Sankowski
   affiliation: IDEAS Research Institute / University of Warsaw / ELLIS Unit Warsaw
-  image: images/optimized/speakers-600x600/PiotrSankowski.webp
+  image: images/optimized/invited-speakers-600x600/PiotrSankowski.webp
   bio-intro: >-
     Piotr Sankowski is a director of IDEAS Research Institute and a professor at the Institute of Computer Science at the University of Warsaw, where he received his habilitation in 2009 and his doctorate in computer science in 2005. His research interests include algorithmics, with a particular focus on algorithmic graph analysis and data analysis algorithms. 
   bio-more: >-
@@ -40,7 +40,7 @@
 
 - name: Adam Paszke
   affiliation: Google DeepMind
-  image: images/optimized/speakers-600x600/AdamPaszke.webp
+  image: images/optimized/invited-speakers-600x600/AdamPaszke.webp
   bio-intro: >-
     Adam Paszke is a co-creator of PyTorch, an open-source framework widely used across the machine learning community, and an alumnus of the University of Warsaw. Throughout his career, he has focused on designing software abstractions and languages for ML modeling on heterogeneous accelerators, at scales large and small. 
   bio-more: >-
@@ -48,7 +48,7 @@
 
 - name: Valentina Boeva
   affiliation: ETH Zurich
-  image: images/optimized/speakers-600x600/ValentinaBoeva.webp
+  image: images/optimized/invited-speakers-600x600/ValentinaBoeva.webp
   bio-intro: >-
     Dr. Valentina Boeva is a Tenure Track Assistant Professor at the Department of Computer Science, ETH Zurich, where she leads the Computational Cancer Genomics Group. Her research focuses on developing computational methods for multi-omics data integration to understand the epigenetic and transcriptional plasticity of cancer cells. 
   bio-more: >-
@@ -56,7 +56,7 @@
 
 - name: Lenka Zdeborová
   affiliation: EPFL
-  image: images/optimized/speakers-600x600/LenkaZdeborova.webp
+  image: images/optimized/invited-speakers-600x600/LenkaZdeborova.webp
   bio-intro: >-
     Lenka Zdeborová is a Professor of Physics and Computer Science at École Polytechnique Fédérale de Lausanne, where she leads the Statistical Physics of Computation Laboratory. She received a PhD in physics from the University of Paris-Sud and Charles University in Prague in 2008. She spent two years in the Los Alamos National Laboratory as the Director's Postdoctoral Fellow. 
   bio-more: >-
@@ -64,7 +64,7 @@
 
 - name: Johannes von Oswald
   affiliation: Google / Paradigms of Intelligence Team
-  image: images/optimized/speakers-600x600/JohannesVonOswald.webp
+  image: images/optimized/invited-speakers-600x600/JohannesVonOswald.webp
   bio-intro: >-
     Johannes von Oswald is a research scientist at Google in Zurich, working with Blaise Agüera y Arcas and João Sacramento in the Paradigms of Intelligence Team. Until 2023, he was a PhD student supervised by Angelika Steger and João Sacramento at the Institute of Theoretical Computer Science, ETH Zurich.
 
@@ -75,7 +75,7 @@
 
 - name: João F. Henriques
   affiliation: University of Oxford
-  image: images/optimized/speakers-600x600/JoaoFHenriques.webp
+  image: images/optimized/invited-speakers-600x600/JoaoFHenriques.webp
   bio-intro: >-
     Dr. João Henriques is an Associated Faculty at the Visual Geometry Group (VGG), University of Oxford. His research focuses on computer vision and robotics, with the goal of making machines more perceptive and intelligent. He created the KCF and SiameseFC visual object trackers, which won the highly competitive VOT Challenge twice, and are widely deployed in consumer hardware, from social media apps to commercial drones. 
   bio-more: >-
@@ -85,7 +85,7 @@
 
 - name: Tomáš Pluskal
   affiliation: IOCB Prague
-  image: images/optimized/speakers-600x600/TomasPluskal.webp
+  image: images/optimized/invited-speakers-600x600/TomasPluskal.webp
   bio-intro: >-
     Tomáš Pluskal is a group leader at IOCB Prague, where he heads the Biochemistry of Plant Specialized Metabolites research group (www.pluskal-lab.org). Building on his Ph.D. training from the Okinawa Institute of Science and Technology and a postdoctoral fellowship conducted at the Whitehead Institute for Biomedical Research, he develops new computational and biochemical approaches to discover, characterize, and synthesize bioactive plant molecules. 
   bio-more: >-
@@ -93,7 +93,7 @@
 
 - name: Peter Richtárik
   affiliation: KAUST
-  image: images/optimized/speakers-600x600/PeterRichtarik.webp
+  image: images/optimized/invited-speakers-600x600/PeterRichtarik.webp
   bio-intro: >-
     Peter Richtárik is a professor of Computer Science at the King Abdullah University of Science and Technology (KAUST), Saudi Arabia, where he leads the Optimization and Machine Learning Lab. His research interests lie at the intersection of mathematics, computer science, machine learning, optimization, numerical linear algebra, and high-performance computing. Through his work on randomized and distributed optimization algorithms, he has contributed to the foundations of machine learning, optimization and randomized numerical linear algebra. He is one of the original developers of Federated Learning.
   bio-more: >-
@@ -101,13 +101,13 @@
 
 - name: Pierre Stock
   affiliation: Mistral
-  image: images/optimized/speakers-600x600/PierreStock.webp
+  image: images/optimized/invited-speakers-600x600/PierreStock.webp
   bio: >-
     Pierre Stock is VP Science, driving Mistral's model releases, roadmap strategy and execution. Pierre holds a Master's degree in Mathematics Vision Learning from Paris Saclay and began his career at Facebook AI Research (FAIR) in 2017. At FAIR, he completed his PhD exploring efficiency and redundancy in LLMs, in collaboration with ENS de Lyon until 2021. He then continued his career at Meta before joining Mistral as the first employee.
 
 - name: Stanisław Jastrzębski
   affiliation: Molecule.one
-  image: images/optimized/speakers-600x600/StanislawJastrzebski.webp
+  image: images/optimized/invited-speakers-600x600/StanislawJastrzebski.webp
   bio-intro: >-
     Stan is a scientist-founder and Co-Founder, CTO and Chief Scientist at Molecule.one. He is building Maria, a platform for autonomous scientific discovery in organic chemistry, recently used in a collaboration with OpenAI on near-autonomous chemical discovery. He completed his postdoctoral research at New York University and earned a PhD at Jagiellonian University.
   bio-more: >-
@@ -115,7 +115,7 @@
 
 - name: Chiara Plizzari
   affiliation: Bocconi University
-  image: images/optimized/speakers-600x600/ChiaraPlizzari.webp
+  image: images/optimized/invited-speakers-600x600/ChiaraPlizzari.webp
   bio-intro: >-
     Chiara Plizzari is an Assistant Professor in the Department of Computing Sciences at Bocconi University. Previously, she was a Postdoctoral Researcher at the Smart Eyewear Lab, a joint research center between EssilorLuxottica and Politecnico di Milano. Before that, she worked as a Student Researcher at Google in Zurich. She got her PhD in Computer Vision at Politecnico di Torino, during which she also spent time as a visiting researcher at the University of Bristol and the University of California, Berkeley.
   bio-more: >-
@@ -123,7 +123,7 @@
 
 - name: Markus Wulfmeier
   affiliation: Nomagic
-  image: images/optimized/speakers-600x600/MarkusWulfmeier.webp
+  image: images/optimized/invited-speakers-600x600/MarkusWulfmeier.webp
   bio-intro: >-
     Markus Wulfmeier is the Chief Scientist of Nomagic and a leading researcher in robotics, reinforcement learning, and physical AI. Previously a Staff Research Scientist at Google DeepMind, where he helped bridge advances in machine learning with real-world deployment.
   bio-more: >-

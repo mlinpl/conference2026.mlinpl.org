@@ -24,10 +24,10 @@
   authors:
     - name: Mateusz Błajda
       title: RTB House
-      image: images/optimized/speakers-600x600/MateuszBłajda.webp
+      image: images/optimized/sponsor-speakers-600x600/MateuszBłajda.webp
     - name: Maciej Zdanowicz
       title: RTB House
-      image: images/optimized/speakers-600x600/MaciejZdanowicz.webp
+      image: images/optimized/sponsor-speakers-600x600/MaciejZdanowicz.webp
   id: 1
   slides: docs/sponsor-talk-1.pdf
 
@@ -55,7 +55,7 @@
   room: Hall B
   slider-order: 3
   author-title: Allegro
-  author-image: images/optimized/speakers-600x600/AleksandraChrabrowa.webp
+  author-image: images/optimized/sponsor-speakers-600x600/AleksandraChrabrowa.webp
   author-bio-md: |-
     Aleksandra Chrabrowa brings over five years of experience as a commercial research engineer, specializing in training machine learning models for large-scale systems, including retrieval models for Allegro search. Her expertise encompasses both large-scale training of in-house Transformer models and utilizing off-the-shelf LLM solutions. With a background in physics from the University of Warsaw, she merges scientific knowledge with practical application.
 
@@ -63,10 +63,10 @@
   authors:
     - name: Aleksandra Chrabrowa
       title: Allegro
-      image: images/optimized/speakers-600x600/AleksandraChrabrowa.webp
+      image: images/optimized/sponsor-speakers-600x600/AleksandraChrabrowa.webp
     - name: Mateusz Marzec
       title: Allegro
-      image: images/optimized/speakers-600x600/MateuszMarzec.webp
+      image: images/optimized/sponsor-speakers-600x600/MateuszMarzec.webp
   id: 2
 
 - title: "G-Research: what makes us unique, what new techniques we are working on and how you can be part of it."
@@ -78,7 +78,7 @@
   slider-order: 4
   author-name: Charles Martinez
   author-title: G-Research
-  author-image: images/optimized/speakers-600x600/CharlesMartinez.webp
+  author-image: images/optimized/sponsor-speakers-600x600/CharlesMartinez.webp
   author-bio: |-
     Dr Charles Martinez is the Academic Relations Manager at G-Research. Charles completed a PhD in Phonon interactions in Gallium Nitride nanostructures at the University of Nottingham. Charles' previous role was as Elsevier's Key Account Manager, managing sales and renewals for the UK Russell Group institutions, Government and Funding body accounts, including being one of the negotiators in the UK ScienceDirect Read and Publish agreement. Since leaving Elsevier Charles is dedicated to forming beneficial partnerships between G-Research and Europe's top institutions, and is living in Cambridge, UK.
   id: 3
@@ -92,7 +92,7 @@
   slider-order: 5
   author-name: Mateusz Chiliński
   author-title: Snowflake
-  author-image: images/optimized/speakers-600x600/MateuszChilinski.webp
+  author-image: images/optimized/sponsor-speakers-600x600/MateuszChilinski.webp
   author-bio: |-
     Mateusz Chiliński, PhD, is a researcher and machine learning professional specializing in Document Understanding and Large Language Models (LLMs). For the past year, he has been a Research Scientist in the Document AI team at Snowflake, where he designs, trains, and deploys cutting-edge AI features. His role focuses on the end-to-end productization of LLMs, from research to production.
     His academic foundation includes a PhD in Computer Science and a background in computational genomics, providing a cross-disciplinary perspective on complex data. Mateusz's extensive research experience is demonstrated by over 16 scientific publications in high-quality journals, reflecting his deep expertise in advanced machine learning and AI.
@@ -107,7 +107,7 @@
   slider-order: 6
   author-name: Patrycja Cieplicka
   author-title: Tooploox
-  author-image: images/optimized/speakers-600x600/PatrycjaCieplicka.webp
+  author-image: images/optimized/sponsor-speakers-600x600/PatrycjaCieplicka.webp
   author-bio: |-
     Patrycja Cieplicka is a computer science graduate from the Warsaw University of Technology with over six years of experience in machine learning. Her work focuses on Large Language Models, particularly model post-training, evaluation, and optimization.
   id: 5
@@ -122,7 +122,7 @@
   room: Hall B
   slider-order: 7
   author-title: Tenstorrent
-  author-image: images/optimized/speakers-600x600/MaciejDragula.webp
+  author-image: images/optimized/sponsor-speakers-600x600/MaciejDragula.webp
   author-bio-md: |-
     Maciej Draguła is a Senior Engineer at Tenstorrent, where he develops tt-train, a framework for training large language models on Tenstorrent’s cutting-edge AI hardware, with a focus on optimising operations to reduce training time. Previously, he worked on computer vision applications for avionics at Daedalean, and his experience includes internships at CERN, Google, and Goldman Sachs. He holds a Bachelor’s degree in Computer Science from the University of Wrocław.
 
@@ -130,8 +130,8 @@
   authors:
     - name: Maciej Draguła
       title: Tenstorrent
-      image: images/optimized/speakers-600x600/MaciejDragula.webp
+      image: images/optimized/sponsor-speakers-600x600/MaciejDragula.webp
     - name: Artem Yerofieiev
       title: Tenstorrent
-      image: images/optimized/speakers-600x600/ArtemYerofieiev.webp
+      image: images/optimized/sponsor-speakers-600x600/ArtemYerofieiev.webp
   id: 6
