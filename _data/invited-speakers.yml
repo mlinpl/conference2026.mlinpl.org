@@ -46,14 +46,6 @@
   bio-more: >-
     Today, Adam is a research scientist at Google DeepMind, where his work centers on Pallas and JAX with the goal of making GPU and TPU performance engineering productive. This work is entirely open-source, continuing his long-standing dedication to open systems and infrastructure.
 
-- name: Bartosz Piotrowski
-  affiliation: Axiom Math
-  image: images/optimized/speakers-600x600/BartoszPiotrowski.webp
-  bio-intro: >-
-    Bartosz Piotrowski is a Member of Technical Staff at Axiom Math, a Silicon Valley–based startup building verifiable AI. He is passionate about combining machine learning with symbolic reasoning techniques. In 2023, he defended his PhD thesis on this topic at Radboud University Nijmegen in the Netherlands.
-  bio-more: >-
-    Previously, he worked with the Automated Reasoning Group at the Czech Technical University, was a visiting researcher at Carnegie Mellon University, and held postdoctoral research positions at the IDEAS Institute in Warsaw, Poland, and at Meta FAIR in New York. In addition, Bartosz has a background in mathematics and philosophy.
-
 - name: Valentina Boeva
   affiliation: ETH Zurich
   image: images/optimized/speakers-600x600/ValentinaBoeva.webp
@@ -90,16 +82,6 @@
     His research spans many topics: 3D video understanding, robot mapping and navigation, agentic and safe AI; as well as various forms of learning, from self-supervised, causal, and reinforcement learning, including optimisation theory.
   google-scholar:
     https://scholar.google.com/citations?user=aCQjyp0AAAAJ&hl=en&oi=ao
-
-- name: Alexia Jolicoeur-Martineau
-  affiliation: Microsoft Applied Sciences Group
-  image: images/optimized/speakers-600x600/AlexiaJolicoeurMartineau.webp
-  bio-intro: >-
-    Alexia Jolicoeur-Martineau is a principal researcher at Microsoft's Applied Sciences Group. She previously worked as a biostatistician before entering the field of AI in 2017 with "Meow Generator", the first generative model of cat pictures. Since then, she has explored all facets of generative AI, having previously developed AI systems for images, videos, text, tabular data, neural network weights, molecules, and video games. 
-  bio-more: >-
-    Her recent work on Tiny Recursive Models won the ARC 2025 Prize by showing that tiny models that reason recursively can outperform large foundational models.
-  google-scholar:
-    https://scholar.google.com/citations?user=0qytQ1oAAAAJ
 
 - name: Tomáš Pluskal
   affiliation: IOCB Prague
