@@ -458,11 +458,12 @@
         time: 16:00 - 17:00
         room: Hall A
         url: /program#invited-talk-13
-      - title: 'Invited Talk 14: <strong>TBA</strong>'
+      - title: 'Invited Talk 14: <strong>Molecule.one and OpenAI near-autonomous discovery in organic chemistry: a deep dive and the broader outlook</strong>'
         subtitle: by Stanisław Jastrzębski
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Hall B
+        url: /program#invited-talk-14
 
     - events:
       - title: 'Closing remarks'
