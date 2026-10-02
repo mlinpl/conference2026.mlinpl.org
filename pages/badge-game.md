@@ -28,7 +28,7 @@ This year each participant's badge contains **one of three symbols**, which are 
 </span>
 
 As in classic machine learning problems, your task is to **collect data** and **discover the unknown mapping function**.
-The **first five participants** who correctly predict all the labels for the test set will receive special prizes. 
+The **first five participants** who correctly predict all the labels for the test set and give a short description of the function will receive special prizes. 
 
 ## / Rules
 
@@ -65,6 +65,7 @@ But remember, the faster you solve the puzzle, the higher are your chances of wi
 ## / Submit results
 
 Submit your predictions for the test set names by filling out the form -- you can make multiple submissions (under a reasonable limit).
+Along with your predictions, include a short description of the function you discovered.
 
 <div align="center" style="margin-bottom: 30px;">
     {% if site.data.badge-game.status == "open" %}
