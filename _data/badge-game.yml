@@ -10,3 +10,16 @@ hints:
 #  - "Numbers hide behind the letters."
 #  - "The first letters of the labels are important."
 #  - "(post winners' list closed) A beginning follows the end."
+
+# Winners in order (Markdown allowed). Leave empty to hide the Winners section.
+winners:
+#  - "Jane Doe"
+#  - "John Smith"
+
+# Explanation of the secret mapping function (Markdown allowed, multiple paragraphs OK).
+# Leave empty to hide the Solution section.
+solution:
+# solution: |
+#   The label is chosen by ...
+#
+#   For example, ...

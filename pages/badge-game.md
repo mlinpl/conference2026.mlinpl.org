@@ -8,11 +8,16 @@ permalink: /badge-game
 Welcome to our conference badge game! 
 This year each participant's badge contains **one of three symbols**, which are based on their first and last names, and roles:
 
-<!-- TODO: Change to bootstrap -->
-<div align="center" style="margin-bottom: 30px;">
-    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/decoder.webp" | relative_url }}">
-    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/autoencoder.webp" | relative_url }}">
-    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/encoder.webp" | relative_url }}">
+<div class="row" style="margin-bottom: 30px;">
+    <div class="col-xs-4">
+        <img class="img-responsive center-block photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/decoder.webp" | relative_url }}">
+    </div>
+    <div class="col-xs-4">
+        <img class="img-responsive center-block photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/autoencoder.webp" | relative_url }}">
+    </div>
+    <div class="col-xs-4">
+        <img class="img-responsive center-block photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/encoder.webp" | relative_url }}">
+    </div>
 </div>
 
 <span style="font-size: 1.25em; text-align: center; display: block;">
@@ -21,7 +26,6 @@ This year each participant's badge contains **one of three symbols**, which are 
 
 As in classic machine learning problems, your task is to **collect data** and **discover the unknown mapping function**.
 The **first five participants** who correctly predict all the labels for the test set will receive special prizes. 
-
 
 ## / Rules
 
@@ -32,10 +36,16 @@ You can **network with other participants** to collect their names and associate
 
 The assigned labels are printed on the back of the badges, so you can ask other participants to show them.
 
-<div align="center" style="margin-bottom: 30px;">
-    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-decoder.webp" | relative_url }}">
-    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-autoencoder.webp" | relative_url }}">
-    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-encoder.webp" | relative_url }}">
+<div class="row" style="margin-bottom: 30px;">
+    <div class="col-xs-4">
+        <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-decoder.webp" | relative_url }}">
+    </div>
+    <div class="col-xs-4">
+        <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-autoencoder.webp" | relative_url }}">
+    </div>
+    <div class="col-xs-4">
+        <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-encoder.webp" | relative_url }}">
+    </div>
 </div>
 
 ## / Hints
@@ -61,3 +71,18 @@ Submit your predictions for the test set names by filling out the form -- you ca
     <p style="margin-top: 10px;">Submissions are closed.</p>
     {% endif %}
 </div>
+
+{% if site.data.badge-game.winners.size > 0 %}
+## / Winners
+
+Congratulations to the winners of this year's badge game!
+{% for winner in site.data.badge-game.winners %}
+{{ forloop.index }}. {{ winner }}
+{%- endfor %}
+{% endif %}
+
+{% if site.data.badge-game.solution %}
+## / Solution
+
+{{ site.data.badge-game.solution }}
+{% endif %}
