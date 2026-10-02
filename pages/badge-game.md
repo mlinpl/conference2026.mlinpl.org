@@ -30,6 +30,8 @@ This year each participant's badge contains **one of three symbols**, which are 
 As in classic machine learning problems, your task is to **collect data** and **discover the unknown mapping function**.
 The **first five participants** who correctly predict all the labels for the test set and give a short description of the function will receive special prizes. 
 
+Curious what the game looked like before? See [last year's badge game](https://conference2025.mlinpl.org/badge-game){:target="_blank"} together with its solution.
+
 ## / Rules
 
 The rules are simple -- collect as much data as possible and discover the mapping function to accurately predict the labels of the test set. 
