@@ -6,9 +6,16 @@
         </div>
 
         <div class="col-md-6">
-            <div align="center" style="margin-bottom: 30px;">
-                <img class="width-50 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-cnn.webp" | relative_url }}">
-                <img class="width-50 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-rnn.webp" | relative_url }}">
+            <div class="row" style="margin-bottom: 30px;">
+                <div class="col-xs-4">
+                    <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-decoder.webp" | relative_url }}">
+                </div>
+                <div class="col-xs-4">
+                    <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-autoencoder.webp" | relative_url }}">
+                </div>
+                <div class="col-xs-4">
+                    <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-encoder.webp" | relative_url }}">
+                </div>
             </div>
         </div>
 
@@ -16,7 +23,7 @@
             <p style="font-size: 1.75em; text-align: center;"><strong>What are these symbols on the badges?</strong></p>
             <p>
                 <span style="font-size: 1.25em; text-align: center; display: block;">
-                    <span style="letter-spacing: 5px; font-style: italic;">f</span>(firstName, lastName) ∈ {CNN, RNN}
+                    <span style="letter-spacing: 5px; font-style: italic;">f</span>(firstName, lastName, role) ∈ {decoder, autoencoder, encoder}
                 </span>
             </p>
             <p style="text-align: center;">
