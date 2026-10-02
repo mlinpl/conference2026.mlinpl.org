@@ -361,7 +361,7 @@
 
 - author-name: Jan Malinowski
   title: "From scRNA-seq to DRL Control: An End-to-End Boolean Network Environment Inference Pipeline for Cell Fate Reprogramming"
-  author-title: "IDEAS Research Institute"
+  author-title: "University of Warsaw / IDEAS Research Institute"
   abstract-md: |- 
     Recent development of novel biology experimental techniques allowed us to gain new insights about the dynamic state of the cells. One of such methods is single-cell sequencing of RNA transcripts, which provides quantitative information about gene expressions of individual cells. Data obtained through these new protocols enabled new research directions such as prediction of cell phenotype changes after modifications of its gene regulatory networks (GRN), which is highly sought in the area of cellular reprogramming. In that field GRN dynamics can be described with Boolean networks, where activation of each gene corresponds to binary value and is determined by non-linear logical functions. Within this formalism, attractor states - the stable configurations into which the system dynamics eventually settle - have clear biological interpretation of cell phenotypes, which allows to formulate the problem of control with regard to GRN. Classical methods struggle to identify optimal reprogramming strategies due to state-space explosion. To solve this issue we developed the GATTACA - Gymnasium compatible framework, that utilizes deep reinforcement learning. In this approach the agent learns potential gene modifications through perturbations of certain gene-states and relations on graph neural networks. Although GATTACA has been shown to effectively identify control solutions, constructing robust Boolean networks from biological data — the framework's primary inputs — remains a challenge, as no single inference method has emerged as a gold standard.
 
@@ -1080,7 +1080,7 @@
     In this work, we present the results of applying counterfactual explanation methods to tabletop RPG monster design and discuss their potential use by professional game designers as well as players interested in creating and balancing their own monsters.
   author-bio: >- 
     I am a first year PhD candidate from AGH university of Krakow. My research focuses on the application of AI in game design, particularly the monsters design proces
-  co-authors: 
+  co-authors: Jakub Adamczyk
   date: Saturday / 10 October
   time: 12:15 - 13:45
   room: 
