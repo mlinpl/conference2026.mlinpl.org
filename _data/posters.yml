@@ -284,20 +284,20 @@
   id: 17
   author-image: images/optimized/cfc-600x600/AntoniKowalczuk.webp
 
-- author-name: Evgenii Kortukov
+- author-name: Piotr Komorowski
   title: "Predicting Future Behaviors in Reasoning Models Enables Better Steering"
   author-title: "Fraunhofer HHI"
   abstract-md: |- 
     Deployed large reasoning models (LRMs) often behave unexpectedly. Test-time steering controls LRM outputs by intervening on their hidden representations, but it can degrade output quality. We argue that prior steering work implicitly relies on internal features that detect behavior in already generated text. We show that these detection features are poor predictors of future behavioral outcomes, and thus not the natural intervention target. Instead, we train activation probes to predict future behavior likelihoods from intermediate reasoning steps. These probes predict the most likely behavior with 64%-91% accuracy, revealing a separate type of internal prediction features. Building on these prediction features, we introduce a text-level steering method, Future Probe Controlled Generation. FPCG samples multiple candidate sentences and chooses the best one according to a probe predicting the future behavior likelihood. This enables steering with almost no output quality degradation. FPCG also enables steering in several evaluations where activation steering fails. These results show that distinguishing detection and prediction features enables a more nuanced approach to controlling LRM behaviors.
   author-bio: >- 
-    I am a research associate and a PhD candidate at the XAI group at Fraunhofer HHI, working under the supervision of Sebastian Lapuschkin and Wojciech Samek. I am excited about understanding what happens inside LLMs with the goal of making them more trustworthy, secure and safe. More broadly, my research interests revolve around mitigating the risks associated with increasingly powerful ML systems. Prior to joining Fraunhofer, I did a research master’s at the University of Tübingen. I had the pleasure to work at the STAI group, where I investigated knowledge conflicts in retrieval-augmented LLMs. Before that, I worked as a student research assistant at the Decision Making group, where I explored the Multi-Armed Bandit problem under distribution shifts and its application to recommender systems. Before coming to Tübingen, I got my Bachelor degree in Computer Science from Lomonosov Moscow State University in 2020. During and after my studies, I worked for about 2.5 years as a software engineer at Yandex. I am passionate about using technical expertise to help solve the world’s most pressing problems.
-  co-authors: Piotr Komorowski, Florian Klein, Paula Engl, Gabriele Sarti, Seong Joon Oh, Sebastian Lapuschkin, Wojciech Samek
+    I started out in XAI and computer vision, and now I'm working on AI Safety. Among other things, I try to figure out how to break models so we can later fix them and make them safer. I'm especially interested in two areas: a) monitoring model behavior through its internals, which is important if we can't rely on CoT for whatever reason, and b) investigating jailbreaks and asking what makes a genuinely capable jailbreak.
+  co-authors: Evgenii Kortukov, Florian Klein, Paula Engl, Gabriele Sarti, Seong Joon Oh, Sebastian Lapuschkin, Wojciech Samek
   date: Thursday / 8 October
   time: 13:15 - 14:45
   room: 
   session: Poster Session 1
   id: 18
-  author-image: images/optimized/cfc-600x600/EvgeniiKortukov.webp
+  author-image: images/optimized/cfc-600x600/PiotrKomorowski.webp
 
 - author-name: Filip Pawlicki
   title: "NanoVSR: Towards Real-Time Video Super-Resolution on Edge Devices"
