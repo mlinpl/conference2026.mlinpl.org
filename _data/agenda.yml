@@ -215,11 +215,12 @@
         time: 11:00 - 11:15
 
     - events:
-      - title: 'Discussion Panel: <strong>TBA</strong>'
+      - title: 'Discussion Panel: <strong>Is Europe Losing the AI Race – and Can ELLIS Turn the Tide?</strong>'
         subtitle: by ELLIS
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Main Hall
+        url: /program#discussion-panel-1
       - title: 'Invited Talk 6: <strong>Machine Learning Theory in the Age of Attention</strong>'
         subtitle: by Lenka Zdeborová
         element-class: col-lg-4

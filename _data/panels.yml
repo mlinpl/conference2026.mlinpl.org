@@ -1,0 +1,28 @@
+- name: "Is Europe Losing the AI Race – and Can ELLIS Turn the Tide?"
+  short-name: "Is Europe Losing the AI Race?"
+  date: Friday / 9 October
+  room: Main Hall
+  time: 11:15 - 12:15
+  id: 1
+  desc: |-
+    As AI reshapes the global economy, massive computing power and capital remain overwhelmingly concentrated in the US and China. Where does this leave Europe? This panel explores how initiatives like the ELLIS network offer a strategic countermeasure. Join our experts as they discuss how uniting the continent's top research hubs and industry players can actively combat brain drain, retain elite talent, and leverage decentralized scientific excellence to build true European technological sovereignty in the global AI race.
+  note: "Moderator: Grażyna Żebrowska (IDEAS Research Institute)"
+  panelists:
+    - name: Robert Bogucki
+      image: images/empty.png
+      title: Google
+    - name: Artur Dubrawski
+      image: images/optimized/panels-600x600/ArturDubrawski.webp
+      title: Carnegie Mellon University
+    - name: Aleksandra Pędraszewska
+      image: images/optimized/panels-600x600/AleksandraPedraszewska.webp
+      title: partner@ vastpoint, Member of Future Council of Polish Prime Minister
+    - name: Magdalena Rempuszewska
+      image: images/empty.png
+      title: Director, Office of Digital Transformation and AI, ORLEN
+    - name: Tomasz Trzciński
+      image: images/optimized/panels-600x600/TomaszTrzcinski.webp
+      title: IDEAS Research Institute, Warsaw University of Technology, ELLIS Unit Warsaw
+    - name: Grażyna Żebrowska
+      image: images/optimized/panels-600x600/GrazynaZebrowska.webp
+      title: "Moderator, IDEAS Research Institute"
