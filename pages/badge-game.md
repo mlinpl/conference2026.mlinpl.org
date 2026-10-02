@@ -16,7 +16,7 @@ This year each participant's badge contains **one of three symbols**, which are 
 </div>
 
 <span style="font-size: 1.25em; text-align: center; display: block;">
-    <span style="letter-spacing: 5px; font-style: italic;">f</span>(firstName, lastName, role) ∈ {decoder, autoencoder, encoder}
+    <span style="letter-spacing: 5px; font-style: italic;">f</span>(first_name, last_name, role) ∈ {decoder, autoencoder, encoder}
 </span>
 
 As in classic machine learning problems, your task is to **collect data** and **discover the unknown mapping function**.
@@ -40,7 +40,7 @@ The assigned labels are printed on the back of the badges, so you can ask other 
 
 ## / Hints
 
-Don't worry if you can't find the pattern right away -- after each day we will provide hints to guide you in solving the mapping function. 
+Don't worry if you can't find the pattern right away -- we will provide hints to guide you in solving the mapping function. 
 But remember, the faster you solve the puzzle, the higher are your chances of winning.
 
 {% if site.data.badge-game.hints.size > 0 %}
