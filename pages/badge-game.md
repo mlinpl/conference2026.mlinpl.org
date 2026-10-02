@@ -10,13 +10,16 @@ This year each participant's badge contains **one of three symbols**, which are 
 
 <div class="row" style="margin-bottom: 30px;">
     <div class="col-xs-4">
-        <img class="img-responsive center-block photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/decoder.webp" | relative_url }}">
+        <img class="img-responsive center-block photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/decoder.webp" | relative_url }}" alt="decoder symbol">
+        <p class="text-center"><strong>decoder</strong></p>
     </div>
     <div class="col-xs-4">
-        <img class="img-responsive center-block photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/autoencoder.webp" | relative_url }}">
+        <img class="img-responsive center-block photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/autoencoder.webp" | relative_url }}" alt="autoencoder symbol">
+        <p class="text-center"><strong>autoencoder</strong></p>
     </div>
     <div class="col-xs-4">
-        <img class="img-responsive center-block photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/encoder.webp" | relative_url }}">
+        <img class="img-responsive center-block photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/encoder.webp" | relative_url }}" alt="encoder symbol">
+        <p class="text-center"><strong>encoder</strong></p>
     </div>
 </div>
 
