@@ -16,6 +16,11 @@ if (sliders === null) {
 for (let slider of sliders) {
   // Slider elements
   let sliderTabs = slider.getElementsByClassName('slider-tabs')[0];
+  if (!sliderTabs) {
+    let firstSliderItemContent = slider.querySelector('.slider-item-content');
+    if (firstSliderItemContent) firstSliderItemContent.classList.add('fade-in');
+    continue;
+  }
   let sliderItems = sliderTabs.querySelectorAll('.slider-item');
   let sliderContent = slider.getElementsByClassName('slider-content')[0];
   let sliderItemContents = sliderContent.querySelectorAll('.slider-item-content');
