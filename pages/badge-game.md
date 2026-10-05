@@ -41,17 +41,17 @@ You can **network with other participants** to collect their names and associate
 
 The assigned labels are printed on the back of the badges, so you can ask other participants to show them.
 
-<!-- <div class="row" style="margin-bottom: 30px;">
+<div class="row" style="margin-bottom: 30px;">
     <div class="col-xs-4">
-        <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-decoder.webp" | relative_url }}">
+        <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-decoder.webp" | relative_url }}" alt="decoder badge">
     </div>
     <div class="col-xs-4">
-        <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-autoencoder.webp" | relative_url }}">
+        <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-autoencoder.webp" | relative_url }}" alt="autoencoder badge">
     </div>
     <div class="col-xs-4">
-        <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-encoder.webp" | relative_url }}">
+        <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-encoder.webp" | relative_url }}" alt="encoder badge">
     </div>
-</div> -->
+</div>
 
 ## / Hints
 
