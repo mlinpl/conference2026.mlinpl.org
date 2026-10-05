@@ -1305,6 +1305,21 @@
   id: 78
   author-image: images/optimized/cfc-600x600/PiotrSzkoda.webp
 
+- author-name: Ammar Mahran
+  title: "Rescaled Asynchronous SGD: Distributed Optimization under Data and System Heterogeneity"
+  author-title: "KAUST"
+  abstract-md: |- 
+    Asynchronous stochastic gradient descent (ASGD) is a standard way to exploit heterogeneous compute resources in distributed learning: instead of forcing fast workers to wait for slow ones, the server updates the model whenever a gradient arrives. Vanilla ASGD applies each arriving gradient with the same weight. When local data distributions are heterogeneous, this becomes problematic: faster workers contribute more updates, and we show theoretically that the method is biased toward a frequency-weighted average of the local objectives rather than the desired global objective. Existing remedies typically move away from the simple ASGD template by introducing gathering phases, buffering, or extra memory. We show that this is unnecessary. Keeping the standard ASGD mechanism, we recover the correct objective by rescaling worker-specific stepsizes in proportion to their computation times, so that each worker contributes the same aggregate learning rate over time. In the non-convex setting, under smoothness and bounded heterogeneity assumptions, we prove that the resulting method, Rescaled ASGD, converges to stationary points of the correct global objective in the fixed-computation model. Its time complexity matches the known lower bound in the leading term, while the effects of staleness and data heterogeneity appear only in lower-order terms. Experiments confirm that the method converges to the correct objective and is competitive with state-of-the-art baselines.
+  author-bio: >- 
+    I am a Ph.D. student in the Optimization and Machine Learning research group headed by Peter Richtárik at KAUST. My research focuses on distributed optimization algorithms with a focus on asynchronous methods applicable to federated learning.
+  co-authors: 
+  date: Thursday / 8 October
+  time: 13:15 - 14:45
+  room: 
+  session: Poster Session 1
+  id: 79
+  author-image: images/optimized/cfc-600x600/AmmarMahran.webp
+
 - author-name: Adam Kania
   title: "Numbers, Codes and Timestamps: Challenges of Building Sequence Models for Multimodal Medical Data"
   author-title: "GSK.ai"
