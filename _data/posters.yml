@@ -1297,7 +1297,7 @@
     To validate the platform, we evaluate nine leading algorithms, including AdamW, Lion, CMA-ES, and DE, on a diverse set of vision and tabular tasks included in the proposed benchmark. Our experiments show that evolutionary methods can match the performance of gradient-based optimizers but require substantially more samples to do so. The modular system, with a web interface and a compute orchestration backend, provides the community with an open tool for objectively evaluating new optimization methods.
   author-bio: >- 
     Piotr Szkoda is a fourth-year Bachelor's student at Warsaw University of Technology, who has spent years fiddling with optimizers and training methods for neural networks. He collaborates with the Medical University of Warsaw on the statistical and analytical study of rare disease datasets. His current project, developed with a team of talented student researchers under the supervision of Prof. Jarosław Arabas and Dr. Łukasz Lepak, focuses on benchmarking gradient-based and evolutionary optimization methods for machine learning.
-  co-authors: Adam Szostek, Andrzej Wrzesiński, Bartosz Ząbkowski, Dominik Zieliński, Kacper Ptaszek, Tobiasz Kownacki, Łukasz Eugeniusz Lepak, Jarosław Arabas
+  co-authors: Adam Szostek, Andrzej Wrzesiński, Bartosz Ząbkowski, Dominik Zieliński, Jakub Komosa, Kacper Ptaszek, Tobiasz Kownacki, Łukasz Eugeniusz Lepak, Jarosław Arabas
   date: Saturday / 10 October
   time: 12:15 - 13:45
   room: 
