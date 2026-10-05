@@ -3,7 +3,7 @@
  * Slider module CSS
  */
 
-.slider-tabs {
+.slider-tabs, .panelist-tabs {
     display: flex;
     width: 100%;
     margin: 0 auto;
@@ -11,8 +11,7 @@
     justify-content: center;
 }
 
-.slider-tabs .slider-item {
-    cursor: pointer;
+.slider-tabs .slider-item, .panelist-tabs .panelist-item {
     padding: 10px;
     align-items: center;
     gap: 10px;
@@ -30,7 +29,7 @@
     width: 370px;
 }
 
-.slider-tabs .slider-item .speaker-photo {
+.slider-tabs .slider-item .speaker-photo, .panelist-tabs .speaker-photo {
     width: 75px;
     float: left;
     margin-bottom: 0.5em;
@@ -38,14 +37,18 @@
     margin-right: 0.5em;
 }
 
-.slider-tabs .slider-item .speaker-name {
+.slider-tabs .slider-item .speaker-name, .panelist-tabs .speaker-name {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
 }
 
-.slider-tabs .slider-item .speaker-title {
+.slider-tabs .slider-item .speaker-title, .panelist-tabs .speaker-title {
     font-size: 14px;
+}
+
+.slider-tabs .slider-item {
+    cursor: pointer;
 }
 
 .slider-tabs .slider-item.active, .slider-tabs .slider-item:hover {

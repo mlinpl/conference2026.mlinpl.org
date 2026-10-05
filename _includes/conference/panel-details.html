@@ -22,6 +22,30 @@ Expects following parameters: panel, include-details
 <p style="font-size: 16px; margin-top: -20px">{{ include.panel.note }}</p>
 {% endif %}
 
+{% if include.panel.panelists.size > 3 %}
+{% comment %} Many panelists: compact cards, same as the speakers tabs {% endcomment %}
+<div class="panelist-tabs">
+    {% for person in include.panel.panelists %}
+    <div class="panelist-item person item-col-3">
+        <div class="person-photo-wrapper speaker-photo" style="width: 75px;">
+            <div>
+                <img src="{{ person.image | relative_url }}" alt="{{ person.name }} photo">
+            </div>
+        </div>
+        <div class="center-verticaly" style="max-height: 92px;">
+            <div>
+                <span class="speaker-name">
+                    {{ person.name }}
+                </span></br>
+                <span class="speaker-title">
+                    {{ person.title }}
+                </span>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
 <div class="people-grid">
     {% for person in include.panel.panelists %}
     <div class="person" style="width: 330px; margin: 20px;">
@@ -46,3 +70,4 @@ Expects following parameters: panel, include-details
     </div>
     {% endfor %}
 </div>
+{% endif %}
