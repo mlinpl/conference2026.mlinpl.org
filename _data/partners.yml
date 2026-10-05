@@ -20,3 +20,6 @@
     - name: NASK
       image: "images/optimized/partners-600x600/NASK.webp"
       url: "https://www.nask.pl/en/"
+    - name: Warsaw Tourism Organization
+      image: "images/optimized/partners-600x600/WOT.webp"
+      url: "https://wot.waw.pl/"
