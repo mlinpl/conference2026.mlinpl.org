@@ -38,7 +38,7 @@ late:
     student: "1500 PLN"
     regular: "1500 PLN"
   price_label: "Late Price"
-  active: true
+  active: false
   visible: true
   url: https://app.evenea.pl/event/mlinpl26/
 
@@ -46,10 +46,7 @@ tutorials:
   name: "Tutorial registration"
   icon: "fa-solid fa-graduation-cap"
   description: >-
-    <strong>Separate registration</strong> for tutorials. Get hands-on experience!<br><br>
-# Starts 1&nbsp;October, 18:00 CEST.
-
-# <strong>Some tutorials are free of charge.</strong>
+    <strong>Separate registration</strong> for tutorials. Get hands-on experience! <strong>Some tutorials are free of charge.</strong><br>
   prices:
     student: "50 PLN"
     regular: "100 PLN"
