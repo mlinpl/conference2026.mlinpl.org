@@ -68,6 +68,19 @@
   id: 6
   author-image: images/optimized/invited-speakers-600x600/LenkaZdeborova.webp
 
+- author-name: Paweł Budzianowski
+  title: "Supervising Physical AI"
+  author-title: "Lute"
+  abstract-md: |-
+    Physical intelligence is rapidly improving robotics capabilities. Vision-language-action models and world models benefit from pre-training on general video corpora, enabling greater generalization capabilities. However, further improvements in performance still require human intervention, even with policies reaching a 99.99% success rate. We will discuss how temporal prediction and reward models enable automatic supervision and how general VLMs will eventually take over the handling of end-to-end deployments.
+  author-bio: |-
+    Paweł Budzianowski is the co-founder and CEO of Lute, which builds the next frontier of physical intelligence. He previously co-founded K-Scale Labs, which produced affordable open-source humanoid robots to democratize embodied AI, and led the ML team at PolyAI. He holds a PhD from Cambridge, where he worked on long-term conversational agents, and created and co-lectured the joint NLP course for the ML master's programs at Warsaw University and Jagiellonian University.
+  date: Friday / 9 October
+  time: 11:15 - 12:15
+  room: Hall B
+  id: 7
+  author-image: images/optimized/invited-speakers-600x600/PawelBudzianowski.webp
+
 - author-name: Valentina Boeva
   title: "Transformer-based foundation models for molecular cancer research"
   author-title: "ETH Zurich"
@@ -147,10 +160,10 @@
   author-image: images/optimized/invited-speakers-600x600/JohannesVonOswald.webp
 
 - author-name: Stanisław Jastrzębski
-  title: "Molecule.one and OpenAI near-autonomous discovery in organic chemistry: a deep dive and the broader outlook"
+  title: "The first near-autonomous discovery in organic chemistry made by OpenAI and Molecule.one"
   author-title: "Molecule.one"
   abstract-md: |-
-    In the first part of the talk, we will discuss the recent collaboration between Molecule.one and OpenAI that led to a near-autonomous discovery in organic chemistry. Over three months, our system planned, carried out, and analyzed more than 10,000 Chan–Lam coupling reactions with minimal human oversight. Among its findings, it identified TEMPO as a particularly effective additive (oxidant)—a result that surprised human experts. Through the lens of this project, we will discuss what the increasing automation of the scientific process means for us — as AI scientists and engineers — and the broader economy.
+    In the first part of the talk, I will discuss the recent collaboration between Molecule.one and OpenAI that led to a near-autonomous discovery in organic chemistry. Over three months, our system planned, carried out, and analyzed more than 10,000 Chan–Lam coupling reactions with minimal human oversight. Among its findings, it identified TEMPO as a particularly effective additive (oxidant)—a result that surprised human experts. Through the lens of this project, we will explore what the increasing automation of the scientific process means for us — as AI scientists and engineers.
   author-bio: |-
     Stan is a scientist-founder and Co-Founder, CTO and Chief Scientist at Molecule.one. He is building Maria, a platform for autonomous scientific discovery in organic chemistry, recently used in a collaboration with OpenAI on near-autonomous chemical discovery. He completed his postdoctoral research at New York University and earned a PhD at Jagiellonian University.
 

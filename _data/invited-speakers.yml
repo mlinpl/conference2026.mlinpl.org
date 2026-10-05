@@ -113,14 +113,6 @@
   bio-more: >-
     He has co-authored highly cited work on the foundations of deep learning with collaborators at Mila, including Yoshua Bengio, and at Google Research. He serves as an Action Editor for TMLR and regularly as an Area Chair for leading ML conferences, including ICLR 2026. He is also a Venture Partner at Expeditions Fund.
 
-- name: Chiara Plizzari
-  affiliation: Bocconi University
-  image: images/optimized/invited-speakers-600x600/ChiaraPlizzari.webp
-  bio-intro: >-
-    Chiara Plizzari is an Assistant Professor in the Department of Computing Sciences at Bocconi University. Previously, she was a Postdoctoral Researcher at the Smart Eyewear Lab, a joint research center between EssilorLuxottica and Politecnico di Milano. Before that, she worked as a Student Researcher at Google in Zurich. She got her PhD in Computer Vision at Politecnico di Torino, during which she also spent time as a visiting researcher at the University of Bristol and the University of California, Berkeley.
-  bio-more: >-
-    She is interested in computer vision, with a focus on the challenge of creating machines that can “see” the world as humans do. Her research centers on video understanding and explores how visual perception can be enriched by other modalities—such as language, audio, and 3D information—to achieve deeper and more human-like understanding.
-
 - name: Markus Wulfmeier
   affiliation: Nomagic
   image: images/optimized/invited-speakers-600x600/MarkusWulfmeier.webp
@@ -128,3 +120,9 @@
     Markus Wulfmeier is the Chief Scientist of Nomagic and a leading researcher in robotics, reinforcement learning, and physical AI. Previously a Staff Research Scientist at Google DeepMind, where he helped bridge advances in machine learning with real-world deployment.
   bio-more: >-
     He received his Ph.D. from the University of Oxford, where he later conducted postdoctoral research and held visiting roles at UC Berkeley, MIT, and ETH Zurich. Dr. Wulfmeier has authored more than 50 publications, holds patents in machine learning and robotics, and his award-winning research has been featured in Wired, BBC, and 60 Minutes.
+
+- name: Paweł Budzianowski
+  affiliation: Lute
+  image: images/optimized/invited-speakers-600x600/PawelBudzianowski.webp
+  bio: >-
+    Paweł Budzianowski is the co-founder and CEO of Lute, which builds the next frontier of physical intelligence. He previously co-founded K-Scale Labs, which produced affordable open-source humanoid robots to democratize embodied AI, and led the ML team at PolyAI. He holds a PhD from Cambridge, where he worked on long-term conversational agents, and created and co-lectured the joint NLP course for the ML master's programs at Warsaw University and Jagiellonian University.

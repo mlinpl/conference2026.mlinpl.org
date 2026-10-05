@@ -227,11 +227,12 @@
         time: 11:15 - 12:15
         room: Hall A
         url: /program#invited-talk-6
-      - title: 'Invited Talk 7: <strong>TBA</strong>'
-        subtitle: by Chiara Plizzari
+      - title: 'Invited Talk 7: <strong>Supervising Physical AI</strong>'
+        subtitle: by Paweł Budzianowski
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall B
+        url: /program#invited-talk-7
 
     - events:
       - title: 'Poster Session 2'
@@ -459,7 +460,7 @@
         time: 16:00 - 17:00
         room: Hall A
         url: /program#invited-talk-13
-      - title: 'Invited Talk 14: <strong>Molecule.one and OpenAI near-autonomous discovery in organic chemistry: a deep dive and the broader outlook</strong>'
+      - title: 'Invited Talk 14: <strong>The first near-autonomous discovery in organic chemistry made by OpenAI and Molecule.one</strong>'
         subtitle: by Stanisław Jastrzębski
         element-class: col-lg-4
         time: 16:00 - 17:00
