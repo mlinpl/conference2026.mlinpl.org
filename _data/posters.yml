@@ -547,7 +547,7 @@
   author-image: images/optimized/cfc-600x600/KatarzynaZaleska.webp
 
 - author-name: Michał Sadowski
-  title: "LoRA-Based Correction of DDIM Inversion for Image Editing"
+  title: "Moonwalker: Learning Accurate Inversion Steps in Diffusion Models"
   author-title: "Warsaw University of Technology"
   abstract-md: |- 
     Diffusion inversion maps an input image to a noise that enables reconstruction and editing. Standard DDIM inversion, however, relies on a local approximation that reuses model predictions across consecutive trajectory states, accumulating error and imprinting spatially correlated image structure into the recovered noise. We introduce a lightweight LoRA adapter that corrects this approximation exclusively during inversion, leaving the original generation pipeline unchanged. With a detailed evaluation on existing benchmarks we show that thanks to the corrected noise recovered by our method, which better matches the Gaussian prior, we can achieve state-of-the-art performance in downstream tasks such as edition or style transfer.
