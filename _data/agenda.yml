@@ -63,11 +63,12 @@
         room: Main Hall
 
     - events:
-      - title: 'Invited Talk 1: <strong>TBA</strong>'
+      - title: 'Invited Talk 1: <strong>Is the reliance on scale unavoidable?</strong>'
         subtitle: by Razvan Pascanu
         element-class: col-lg-4
         time: 12:15 - 13:15
         room: Main Hall
+        url: /program#invited-talk-1
       - title: 'Invited Talk 2: <strong>TBA</strong>'
         subtitle: by Piotr Sankowski
         element-class: col-lg-4
@@ -322,11 +323,12 @@
         time: 17:15 - 17:30
 
     - events:
-      - title: 'Invited Talk 8: <strong>TBA</strong>'
+      - title: 'Invited Talk 8: <strong>Navigating Model Spaces with Less Tax</strong>'
         subtitle: by Emanuele Rodolà
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Main Hall
+        url: /program#invited-talk-8
       - title: 'Invited Talk 9: <strong>Transformer-based foundation models for molecular cancer research</strong>'
         subtitle: by Valentina Boeva
         element-class: col-lg-4

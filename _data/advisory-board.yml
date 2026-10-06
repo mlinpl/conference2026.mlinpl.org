@@ -76,11 +76,13 @@
     Piotr Miłoś is an Associate Professor at the University of Warsaw, a member of the ELLIS Society, and an AI Scientist at Mistral AI. He is interested in methods that deliver robust decision-making capabilities in complex scenarios. His work covers topics including continual learning, automated reasoning in mathematics, planning algorithms, and sequential modeling
 
 - name: Razvan Pascanu
-  affiliation: DeepMind
+  affiliation: Mila / Google DeepMind
   image: images/optimized/advisory-board-300x300/RazvanPascanu.webp
   google-scholar: https://scholar.google.com/citations?user=eSPY8LwAAAAJ
-  bio: >-
-    Razvan Pascanu is a Research Scientist at Google DeepMind, London. He obtained a Ph.D. from the University of Montreal under the supervision of Yoshua Bengio. While in Montreal he was a core developer of Theano. Razvan is also one of the organizers of the Eastern European Summer School. He has a wide range of interests around deep learning including optimization, RNNs, meta-learning and graph neural networks.
+  bio-intro: >-
+    Razvan Pascanu has been a research scientist at Google DeepMind since 2014. Before this, he completed his PhD at Universite de Montréal with prof. Yoshua Bengio, where he worked on understanding deep networks, specifically recurrent neural architectures. During his career he has made significant contributions to theory of deep networks, optimization, recurrent architectures as well as deep reinforcement learning, continual learning, meta-learning and graph neural networks.
+  bio-more: >-
+    He has been Program Chair for the Neural Information Processing Systems (NeurIPS) conference and currently acts as General Chair, as well as a Program Chair for the Conference on Life-long Learning Agents (CoLLAs) and the Learning on Graphs Conference (LoG). He has organized various workshops on topics such as continual learning at top-tier conferences. He is also one of the main organizers of the Eastern European Machine Learning Summer School (EEML) and EEML workshop series, as well as an organizer of the Romanian AI Days.
 
 - name: Viorica Patraucean
   affiliation: DeepMind

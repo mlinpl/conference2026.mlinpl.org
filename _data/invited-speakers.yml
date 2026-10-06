@@ -11,7 +11,7 @@
 #   google-scholar:
 
 - name: Razvan Pascanu
-  affiliation: Google DeepMind
+  affiliation: Mila / Google DeepMind
   image: images/optimized/invited-speakers-600x600/RazvanPascanu.webp
   bio-intro: >-
     Razvan Pascanu has been a research scientist at Google DeepMind since 2014. Before this, he completed his PhD at Universite de Montréal with prof. Yoshua Bengio, where he worked on understanding deep networks, specifically recurrent neural architectures. During his career he has made significant contributions to theory of deep networks, optimization, recurrent architectures as well as deep reinforcement learning, continual learning, meta-learning and graph neural networks. For details on his work please see razp.info. 
@@ -23,7 +23,7 @@
     https://www.linkedin.com/in/razvan-pascanu/
 
 - name: Emanuele Rodolà
-  affiliation: Sapienza University of Rome
+  affiliation: Sapienza University of Rome / Paradigma
   image: images/optimized/invited-speakers-600x600/EmanueleRodola.webp
   bio-intro: >-
     Emanuele Rodolà is a Full Professor of Computer Science at Sapienza University of Rome, where he leads the GLADIA AI group. His work in this field has been supported by an ERC grant, a FIS grant, and a Google Research Award. In the past, he was a postdoctoral researcher at USI Lugano (2016–2017), an Alexander von Humboldt Fellow at TU Munich (2013–2016), and a JSPS Research Fellow at the University of Tokyo (2013), in addition to visiting periods at Tel Aviv University, Technion, École Polytechnique, and Stanford. He is a fellow of ELLIS and a fellow of the Young Academy of Europe. 

@@ -10,6 +10,21 @@
 #   id:
 #   author-image:
 
+- author-name: Razvan Pascanu
+  title: "Is the reliance on scale unavoidable?"
+  author-title: "Mila / Google DeepMind"
+  abstract-md: |-
+    In this talk I will investigate the importance of scale in building modern ML systems. The main hypothesis put forward is that the heavy reliance on scale is likely unsustainable; therefore, a natural question is whether alternatives exist. To this end I explore the role of gradient interference in representation building, and argue for its dual role in learning: it slows down learning and implicitly prevents small models from converging to good solutions, while also serving as the main mechanism for discovering structure in data. I will frame continual learning as an attempt to resolve some of these contradictions, exposing some of the basic phenomena that make sequential learning hard, in particular catastrophic forgetting, feature identification and co-observation. The talk itself is not aiming at providing a working solution or an answer, but rather exposing the difficulties of removing the reliance on scale, the open problems and our current understanding of them. The hope is that this will outline a possible frontier for future development in the field.
+  author-bio: |-
+    Razvan Pascanu has been a research scientist at Google DeepMind since 2014. Before this, he completed his PhD at Universite de Montréal with prof. Yoshua Bengio, where he worked on understanding deep networks, specifically recurrent neural architectures. During his career he has made significant contributions to theory of deep networks, optimization, recurrent architectures as well as deep reinforcement learning, continual learning, meta-learning and graph neural networks. For details on his work please see razp.info.
+
+    He has been Program Chair for the Neural Information Processing Systems (NeurIPS) conference and currently acts as General Chair, as well as a Program Chair for the Conference on Life-long Learning Agents (CoLLAs) and the Learning on Graphs Conference (LoG). He has organized various workshops on topics such as continual learning at top-tier conferences. He is also one of the main organizers of the Eastern European Machine Learning Summer School (EEML) and EEML workshop series, as well as an organizer of the Romanian AI Days.
+  date: Thursday / 8 October
+  time: 12:15 - 13:15
+  room: Main Hall
+  id: 1
+  author-image: images/optimized/invited-speakers-600x600/RazvanPascanu.webp
+
 - author-name: Pierre Stock
   title: "Deep Dive Mistral. Scalable and agentic AI: co-developing scaffolds & models hand-in-hand"
   author-title: "Mistral"
@@ -80,6 +95,21 @@
   room: Hall B
   id: 7
   author-image: images/optimized/invited-speakers-600x600/PawelBudzianowski.webp
+
+- author-name: Emanuele Rodolà
+  title: "Navigating Model Spaces with Less Tax"
+  author-title: "Sapienza University of Rome / Paradigma"
+  abstract-md: |-
+    Modern AI research often pays a high tax for early commitments: once we train, fine-tune, quantize, or deploy a model, changing course becomes expensive. This talk argues for treating model spaces as objects to be navigated, rather than searched blindly. I will discuss three instruments for reducing this tax: inspection, to read trained networks as dynamical systems; inversion, to ask what hidden states still remember; and patching, to reuse expensive robustness improvements as transferable directions. The common theme is extracting more signal from each trained model, turning checkpoints into maps, witnesses, and directions for future decisions.
+  author-bio: |-
+    Emanuele Rodolà is a Full Professor of Computer Science at Sapienza University of Rome, where he leads the GLADIA AI group. His work in this field has been supported by an ERC grant, a FIS grant, and a Google Research Award. In the past, he was a postdoctoral researcher at USI Lugano (2016–2017), an Alexander von Humboldt Fellow at TU Munich (2013–2016), and a JSPS Research Fellow at the University of Tokyo (2013), in addition to visiting periods at Tel Aviv University, Technion, École Polytechnique, and Stanford. He is a fellow of ELLIS and a fellow of the Young Academy of Europe.
+
+    Professor Rodolà has received numerous awards for his research and plays an active role in the academic community, serving on program committees and as Area Chair for major conferences in AI and ML. His current research focuses primarily on neural model fusion, representation learning, language models, ML for audio, and multimodal learning, with around 190 publications in these areas. His work has been featured in media outlets including Fortune, Wired, Italian national broadcast and newspapers.
+  date: Friday / 9 October
+  time: 17:30 - 18:30
+  room: Main Hall
+  id: 8
+  author-image: images/optimized/invited-speakers-600x600/EmanueleRodola.webp
 
 - author-name: Valentina Boeva
   title: "Transformer-based foundation models for molecular cancer research"
