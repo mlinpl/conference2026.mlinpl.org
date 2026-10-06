@@ -1,0 +1,133 @@
+- title: "BTS: Story of the Neural Ranking Model Lifecycle at Allegro"
+  abstract-md: |-
+    In this talk, we dive into Allegro's ML ranking lifecycle to address the gap between offline training and online model serving. We share the story of a pipeline that silently failed a year post-launch, illustrating what goes wrong when teams rely on trust rather than automated validation. We discuss our detective work to resolve these failures and how those lessons reshaped our entire online-offline lifecycle processes. You will leave with an awareness of the subtle silos that can emerge when moving ML systems to production, and ideas on how to avoid our mistakes in your own workflows.
+  date: Thursday / 8 October
+  time: 15:30 - 16:30
+  room: Main Hall
+  id: 1
+  authors:
+    - name: Eliška Kosturová
+      title: Allegro
+      image: images/optimized/sponsor-speakers-600x600/EliskaKosturova.webp
+  author-bio-md: |-
+    Eliška is a Machine Learning Developer at Allegro.com, where she works on e-commerce recommender systems. Her work focuses on complementary retrieval, with an additional interest in technical engineering tasks.
+
+- title: "Evolving AI Functions: From Unstructured Data to Agentic Intelligence"
+  abstract-md: |-
+    AI Functions bring generative AI directly into SQL, enabling scalable semantic processing of unstructured and multimodal enterprise data. But making these functions truly useful requires solving a deeper research problem: how do we continuously improve their quality, cost, and reliability as models, workloads, and user needs evolve? In this talk, I’ll share research from Snowflake on evaluation and benchmarking as well as automated function evolution, model routing and cascades, and agentic optimization.
+  date: Thursday / 8 October
+  time: 15:30 - 16:00
+  room: Hall A
+  id: 2
+  authors:
+    - name: Darek Kłeczek
+      title: Snowflake
+      image: images/optimized/sponsor-speakers-600x600/DarekKleczek.webp
+  author-bio-md: |-
+    Darek Kłeczek is a Staff Research Scientist at Snowflake working on LLM and multimodal applications. Previously, he worked as a Machine Learning Engineer at Weights & Biases and led intelligent automation program at P&G. Darek is an author of the first Polish language models and a quadruple Kaggle Grandmaster.
+
+- title: "So You Want to Train an LLM from Scratch? Lessons from Mellum 2"
+  abstract-md: |-
+    Training an LLM from scratch requires a long chain of decisions before instruction tuning ever begins. Using Mellum 2, JetBrains' 12B-parameter Mixture-of-Experts model, as a case study, we will walk through choices around tokenization, training data, and the pre-training recipe, as well as the experiments used to evaluate them. We will also discuss the engineering trade-offs that arise when turning these choices into a full training run. Attendees will leave with a practical understanding of how pre-training decisions are made, tested, and iterated on in a real model development process.
+  date: Thursday / 8 October
+  time: 15:30 - 16:30
+  room: Hall B
+  id: 4
+  authors:
+    - name: Kseniia Lysaniuk
+      title: JetBrains
+      image: images/optimized/sponsor-speakers-600x600/KseniiaLysaniuk.webp
+    - name: Petr Borovlev
+      title: JetBrains
+      image: images/optimized/sponsor-speakers-600x600/PetrBorovlev.webp
+  author-bio-md: |-
+    Kseniia Lysaniuk is a Machine Learning Engineer at JetBrains. Her work spans model evaluation and training data research, including contributions to Mellum2.
+
+    Petr Borovlev is a Machine Learning Engineer at JetBrains, working on large language models with a focus on pre-training, architecture, and infrastructure. He contributed to Mellum2 and its tokenizer, exploring how tokenization choices affect the efficiency and behavior of language models.
+
+- title: "Scaling AI: From Chip to Galaxy to Cluster"
+  abstract-md: |-
+    Tenstorrent produces AI hardware for running models at all scales. The hardware is infinitely scalable around a single building block: the Galaxy machine, a fully general AI computer. Galaxy systems are affordable because they use standard Ethernet for communication and DRAM for storage, while ample on-chip SRAM and efficient data movement enable high performance. We will describe how multiple Galaxies can be connected to serve models of any size with high efficiency. As an example, we will show how Galaxy systems can serve video generation inference at speeds unavailable on other systems, enabling interactive video generation in real time.
+  date: Friday / 9 October
+  time: 16:15 - 17:15
+  room: Main Hall
+  id: 5
+  authors:
+    - name: Bazyli Klockiewicz
+      title: Tenstorrent
+      image: images/optimized/sponsor-speakers-600x600/BazyliKlockiewicz.webp
+    - name: Daniil Yurshevich
+      title: Tenstorrent
+      image: images/optimized/sponsor-speakers-600x600/DaniilYurshevich.webp
+  author-bio-md: |-
+    Bazyli is a Senior Staff Engineer at Tenstorrent, where he designs and optimizes the systems that make large AI models run efficiently, from low-level accelerator kernels to distributed training and inference. He also serves as Site Lead for the company's Polish branch. He holds a PhD in Computational and Mathematical Engineering from Stanford University.
+
+    Daniil is a Senior Engineer at Tenstorrent, where he develops training and inference workflows for LLMs at different scales. He studied theoretical mathematics and computer science at Jagiellonian University before completing a master's in mathematics at EPFL, where he also conducted research on reinforcement learning and mechanistic interpretability in the Data Science Lab.
+
+- title: "From Anomaly Detection to Autonomous Action: Bridging ML Analytics and Agentic AI in Sovereign Telecom Networks"
+  abstract-md: |-
+    Modern telecommunications networks generate billions of events daily, requiring high-precision analytics and strict data sovereignty. Machine Learning forms the foundation of network operations, providing real-time time-series forecasting, anomaly detection, and Root Cause Analysis (RCA) across Fault and Performance Management systems. Building upon these core analytical capabilities, the next evolution lies in connecting ML-driven insights with multi-agent orchestration to achieve closed-loop automation.
+
+    In this session, we present the architecture of the Comarch OSS AI/ML Platform—a hybrid, sovereign ecosystem designed to bridge predictive ML with Agentic AI. We will discuss how production ML pipelines generate the critical operational triggers that feed directly into multi-agent workflows. Using standardized context sharing via the Model Context Protocol (MCP), AI agents interpret ML outputs, reason over network topology, and safely orchestrate remediation paths. Join us to explore how combining deterministic ML precision with Agentic AI reasoning establishes a practical foundation for autonomous telecom operations.
+  date: Friday / 9 October
+  time: 16:15 - 17:15
+  room: Hall A
+  id: 6
+  authors:
+    - name: Arkadiusz Zwierz
+      title: Comarch
+      image: images/empty.png
+    - name: Sebastian Zaranek
+      title: Comarch
+      image: images/empty.png
+  author-bio-md: |-
+    Arkadiusz Zwierz, Head of R&D Department at Comarch, Sector OSS
+    Sebastian Zaranek, Software Developer, Architect at Comarch, Sector OSS
+
+- title: "The multimodal representation problem"
+  abstract-md: |-
+    Multimodal systems aim to unify understanding and generation, but these tasks often need different representations. Understanding benefits from semantic features, while generation requires fine-grained detail. This talk explores this tension and how recent models address it, with examples from audio and vision.
+  date: Saturday / 10 October
+  time: 14:30 - 15:30
+  room: Main Hall
+  id: 8
+  authors:
+    - name: Hubert Siuzdak
+      title: ElevenLabs
+      image: images/optimized/sponsor-speakers-600x600/HubertSiuzdak.webp
+  author-bio-md: |-
+    Hubert Siuzdak is a researcher at ElevenLabs. His research focuses on neural audio codecs, vocoders, learned representations, and generative modeling for speech and audio. His academic background is in acoustical engineering and computer science at AGH University of Krakow.
+
+- title: "Autoresearch: Can an LLM Agent Improve Real-Time Bidding Models?"
+  abstract-md: |-
+    In this talk, we present our ongoing work on Autoresearch: a system where LLM agents autonomously optimize production machine learning models we use for real-time bidding at RTB House. The agents analyze experiment results, propose hypotheses, modify training code and launch new training runs – all in an isolated sandbox environment, without human involvement. We will describe how the system evolved from a simple agent loop into a structured multi-agent pipeline, and why we built our own framework instead of adopting existing tools. Finally, we will share challenges of running agents unattended for weeks: objective specification, metric guardrails, and observability.
+  date: Saturday / 10 October
+  time: 14:30 - 15:30
+  room: Hall A
+  id: 9
+  authors:
+    - name: Krzysztof Spaliński
+      title: RTB House
+      image: images/optimized/sponsor-speakers-600x600/KrzysztofSpalinski.webp
+  author-bio-md: |-
+    Krzysztof is a Machine Learning Researcher at RTB House, working on bidding models and, more recently, on autonomous ML research. He holds an MEng in Data Science from the Warsaw University of Technology and a BSc in Mathematics from the University of Warsaw.
+
+- title: "Building Document Intelligence: How Dropbox Sign Automates Field Placement"
+  abstract-md: |-
+    A form document might look obvious to a person. Sign here. Add a date there. Teaching an AI system to understand those same cues reliably and at scale is much harder.
+
+    We set out to remove one of the most repetitive parts of preparing documents for signature: manually finding, placing, and sizing every field. Getting there meant experimenting across computer vision, text, layout, document semantics, and user behavior.
+
+    Dropbox Sign encountered that challenge while building an AI system to automate field placement for electronic signatures. What looked like a document vision problem quickly became a challenge spanning language, spatial relationships, semantics, and intent.
+
+    This talk explores how we turned that ambiguity into a production system. We’ll unpack the experiments that shaped our approach, the trade-offs behind a modular architecture, and how latency, privacy, and reliability influenced the solution.
+  date: Saturday / 10 October
+  time: 14:30 - 15:30
+  room: Hall B
+  id: 10
+  authors:
+    - name: Jan Doliński
+      title: Dropbox
+      image: images/optimized/sponsor-speakers-600x600/JanDolinski.webp
+  author-bio-md: |-
+    Jan is a Software Engineer at Dropbox, where he leads the end-to-end delivery of AI features for Dropbox Sign, taking intelligent capabilities from early concepts all the way to production. With a strong background in senior engineering and tech lead roles, Jan specializes in bridging intuitive user experiences with scalable technical architecture. He is passionate about the practical realities of shipping AI in the real world, focusing on iterative feedback loops and product-driven engineering. Outside of work, Jan continuously expands his ML knowledge and is an avid car enthusiast.

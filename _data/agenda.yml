@@ -88,25 +88,28 @@
         time: 14:00 - 15:30
 
     - events:
-      - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Sponsor Talk 1: <strong>BTS: Story of the Neural Ranking Model Lifecycle at Allegro</strong>'
+        subtitle: by Eliška Kosturová (Allegro)
         element-class: col-lg-4
         time: 15:30 - 16:30
         room: Main Hall
-      - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+        url: /program#sponsor-talk-1
+      - title: 'Sponsor Talk 2: <strong>Evolving AI Functions: From Unstructured Data to Agentic Intelligence</strong>'
+        subtitle: by Darek Kłeczek (Snowflake)
         element-class: col-lg-4
         time: 15:30 - 16:00
         room: Hall A
-      - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+        url: /program#sponsor-talk-2
+      - title: 'Sponsor Talk 4: <strong>So You Want to Train an LLM from Scratch? Lessons from Mellum 2</strong>'
+        subtitle: by Kseniia Lysaniuk and Petr Borovlev (JetBrains)
         element-class: col-lg-4
         time: 15:30 - 16:30
         room: Hall B
+        url: /program#sponsor-talk-4
 
     - events:
-      - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Sponsor Talk 3: <strong>TBA</strong>'
+        subtitle: by Bayer
         element-class: col-lg-4 col-lg-offset-4
         time: 16:00 - 16:30
         room: Hall A
@@ -294,18 +297,20 @@
         time: 16:00 - 16:15
 
     - events:
-      - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Sponsor Talk 5: <strong>Scaling AI: From Chip to Galaxy to Cluster</strong>'
+        subtitle: by Bazyli Klockiewicz and Daniil Yurshevich (Tenstorrent)
         element-class: col-lg-4
         time: 16:15 - 17:15
         room: Main Hall
-      - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+        url: /program#sponsor-talk-5
+      - title: 'Sponsor Talk 6: <strong>From Anomaly Detection to Autonomous Action: Bridging ML Analytics and Agentic AI in Sovereign Telecom Networks</strong>'
+        subtitle: by Arkadiusz Zwierz and Sebastian Zaranek (Comarch)
         element-class: col-lg-4
         time: 16:15 - 17:15
         room: Hall A
-      - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+        url: /program#sponsor-talk-6
+      - title: 'Sponsor Talk 7: <strong>TBA</strong>'
+        subtitle: by Pathway
         element-class: col-lg-4
         time: 16:15 - 17:15
         room: Hall B
@@ -427,21 +432,24 @@
         time: 13:00 - 14:30
 
     - events:
-      - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+      - title: 'Sponsor Talk 8: <strong>The multimodal representation problem</strong>'
+        subtitle: by Hubert Siuzdak (ElevenLabs)
         element-class: col-lg-4
         time: 14:30 - 15:30
         room: Main Hall
-      - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+        url: /program#sponsor-talk-8
+      - title: 'Sponsor Talk 9: <strong>Autoresearch: Can an LLM Agent Improve Real-Time Bidding Models?</strong>'
+        subtitle: by Krzysztof Spaliński (RTB House)
         element-class: col-lg-4
         time: 14:30 - 15:30
         room: Hall A
-      - title: 'Sponsor Talk: <strong>TBA</strong>'
-        subtitle: by TBA
+        url: /program#sponsor-talk-9
+      - title: 'Sponsor Talk 10: <strong>Building Document Intelligence: How Dropbox Sign Automates Field Placement</strong>'
+        subtitle: by Jan Doliński (Dropbox)
         element-class: col-lg-4
         time: 14:30 - 15:30
         room: Hall B
+        url: /program#sponsor-talk-10
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
