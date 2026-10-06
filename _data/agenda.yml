@@ -406,11 +406,12 @@
         time: 11:15 - 12:15
         room: Main Hall
         url: /program#invited-talk-10
-      - title: 'Invited Talk 11: <strong>TBA</strong>'
+      - title: 'Invited Talk 11: <strong>Decoding the chemical universe of plants</strong>'
         subtitle: by Tomáš Pluskal
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall A
+        url: /program#invited-talk-11
 
     - events:
       - title: 'Poster Session 3'

@@ -137,6 +137,21 @@
   id: 10
   author-image: images/optimized/invited-speakers-600x600/PeterRichtarik.webp
 
+- author-name: Tomáš Pluskal
+  title: "Decoding the chemical universe of plants"
+  author-title: "IOCB Prague"
+  abstract-md: |-
+    Plants are an incredibly rich source of pharmaceutically relevant specialized metabolites (small molecules). However, deciphering the biochemistry that occurs in non-model plant species is a highly challenging task. My lab is developing generalized computational workflows for connecting biosynthetic gene sequences (obtained using RNA sequencing) to their downstream metabolites (detected using mass spectrometry). To this end, we have developed EnzymeExplorer, a targeted machine learning pipeline for predicting the enzymatic functions of terpene synthases directly from their amino acid sequences (Samusevich et al, bioRxiv 2025) and DreaMS, a self-supervised foundation machine learning model for tandem mass spectrometry, which outperforms state-of-the-art methods in a range of different prediction tasks (Bushuiev et al., Nature Biotechnology 2025). We are further building on these foundations towards the final goal: a full computational characterization of the chemodiversity and biosynthetic potential of each plant species using easy-to-obtain experimental datasets.
+  author-bio: |-
+    Tomáš Pluskal is a group leader at IOCB Prague, where he heads the Biochemistry of Plant Specialized Metabolites research group (www.pluskal-lab.org). Building on his Ph.D. training from the Okinawa Institute of Science and Technology and a postdoctoral fellowship conducted at the Whitehead Institute for Biomedical Research, he develops new computational and biochemical approaches to discover, characterize, and synthesize bioactive plant molecules.
+
+    He co-authored the widely used metabolomics software platform mzmine and recently introduced the AI-driven DreaMS model for identifying unknown compounds from mass spectrometry data. Tomáš is a recipient of the Neuron Award for Promising Scientists and an ERC Consolidator Grant, is a member of the EMBO Young Investigator Programme, and serves as a board member of the international Metabolomics Society.
+  date: Saturday / 10 October
+  time: 11:15 - 12:15
+  room: Hall A
+  id: 11
+  author-image: images/optimized/invited-speakers-600x600/TomasPluskal.webp
+
 - author-name: Johannes von Oswald
   title: "Retrieval-Centric Deep Learning: Replacing Weight Matrices with Vector Databases"
   author-title: "Google / Paradigms of Intelligence Team"
