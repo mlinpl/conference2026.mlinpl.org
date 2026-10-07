@@ -26,6 +26,22 @@
   author-bio-md: |-
     Darek Kłeczek is a Staff Research Scientist at Snowflake working on LLM and multimodal applications. Previously, he worked as a Machine Learning Engineer at Weights & Biases and led intelligent automation program at P&G. Darek is an author of the first Polish language models and a quadruple Kaggle Grandmaster.
 
+- title: "Driving Supply Chain Sustainability: Minimizing Product Waste through Probabilistic Modeling and Scalable Simulation"
+  abstract-md: |-
+    Environmental crisis across modern supply chains, squandering vital energy, water, raw materials, and transport capacity. Traditional inventory management relies heavily on deterministic point forecasts that fail to capture the non-normal, long-tailed nature of real-world forecast errors, resulting in systemic overproduction and preventable expiration. To address this, we present a proactive, simulation-based framework for write-off prediction powered by Bayesian error modeling. Utilizing Stochastic Variational Inference (SVI) within Pyro, our approach parameterizes candidate non-Gaussian error distributions and selects optimal fits via Energy Distance. By generating Monte Carlo demand trajectories against remaining product shelf-life, the framework computes two decision-critical metrics: Write-Off Probability (WOP) and Expected Unsold Units (EUU), enabling timely inventory reallocations and targeted sales interventions. Beyond its immediate financial return, we advocate that integrating probabilistic, uncertainty-aware simulation into production planning should become a foundational standard across manufacturing enterprises to systematically curb resource waste and drive industrial sustainability.
+
+    Expect a practical look at how embracing uncertainty can lead to smarter, more proactive decisions.
+  date: Thursday / 8 October
+  time: 16:00 - 16:30
+  room: Hall A
+  id: 3
+  authors:
+    - name: Adam Dendek
+      title: Bayer
+      image: images/optimized/sponsor-speakers-600x600/AdamDendek.webp
+  author-bio-md: |-
+    Adam is a Lead Data Scientist and Physics Ph.D. (AGH UST / CERN LHCb) specializing in probabilistic modelling, Bayesian error estimation, and deep learning. He works at the intersection of industry data science and academic research, building robust statistical frameworks for complex decision analysis.
+
 - title: "So You Want to Train an LLM from Scratch? Lessons from Mellum 2"
   abstract-md: |-
     Training an LLM from scratch requires a long chain of decisions before instruction tuning ever begins. Using Mellum 2, JetBrains' 12B-parameter Mixture-of-Experts model, as a case study, we will walk through choices around tokenization, training data, and the pre-training recipe, as well as the experiments used to evaluate them. We will also discuss the engineering trade-offs that arise when turning these choices into a full training run. Attendees will leave with a practical understanding of how pre-training decisions are made, tested, and iterated on in a real model development process.
