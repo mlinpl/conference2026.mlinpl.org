@@ -319,6 +319,9 @@
     - name: Marcin Bagnowski
       title: NASK National Research Institute
       image: images/optimized/tutorials-600x600/Marcin_Bagnowski.webp
+    - name: Dominika Grajewska
+      title: NASK National Research Institute
+      image: images/optimized/tutorials-600x600/Dominika_Grajewska.webp
   author-bio-md: |-
     Wojciech is an Assistant Professor at NASK National Research Institute, where he leads the NLP Department. His research focuses on building safe and trustworthy language technologies, with current emphasis on leading the development of PLLuM, an open Polish large language model. Wojciech holds PhD from TU Wien on NLP and Information Retrieval.
 
@@ -327,6 +330,8 @@
     Grzegorz Statkiewicz is an NLP Researcher at NASK National Research Institute and MSc Computer Science student at Warsaw University of Technology, currently working on the development of Polish vision-language models.
 
     Marcin Bagnowski is an NLP Researcher at NASK and MSc Computer Science student at WUT, passionate about LLMs and Natural Language Processing (NLP). He contributes to the development of the Polish Large Language Model (PLLuM).
+
+    Dominika Grajewska is an NLP Expert. Actively involved in developing the PLLuM - family of polish large language models, with a focus on natural language processing. Implementation and Partnerships Coordinator for the HIVE 2 project.
 
 - title: Cache Me If You Can
   date: Sunday / 11 October
