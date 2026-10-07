@@ -100,6 +100,22 @@
     Arkadiusz Zwierz, Head of R&D Department at Comarch, Sector OSS
     Sebastian Zaranek, Software Developer, Architect at Comarch, Sector OSS
 
+- title: "BDH: The Missing Link between the Transformer and Models of the Brain"
+  abstract-md: |-
+    We introduce Dragon Hatchling (BDH), a new large language model architecture inspired by scale-free biological networks. BDH shows how attention can emerge from local, graph-based neuron interactions rather than centralized matrix multiplications. On one hand, BDH behaves like a brain-like, decentralized system where computation lives on synapses adjusted through Hebbian learning. On the other, it offers a dual, GPU-friendly implementation that empirically matches the performance of GPT-style Transformers. This duality makes BDH both performant and interpretable: reasoning in BDH arises from explicit local graph dynamics with well-defined limit behavior. Latent space in BDH is large, sparse and non-negative. It can be directly interpreted as activations of a large neuron population, enabling mechanistic interpretability (we show emergence of monosemanticity) and stable encoding of concepts which simplifies learning relations across time. In fact the model demonstrates rudimentary language processing capabilities even when trained without backpropagation through time.
+
+    Associated paper: [https://arxiv.org/abs/2509.26507](https://arxiv.org/abs/2509.26507)
+  date: Friday / 9 October
+  time: 16:15 - 17:15
+  room: Hall B
+  id: 7
+  authors:
+    - name: Jan Chorowski
+      title: Pathway
+      image: images/optimized/sponsor-speakers-600x600/JanChorowski.webp
+  author-bio-md: |-
+    Jan Chorowski is the Chief Technology Officer and co-founder of Pathway, where he oversees the engineering direction of the company’s AI architecture. A pioneer in neural network models, Chorowski was the first person to apply attention in speech recognition. His research — including collaborations with Geoffrey Hinton and Yoshua Bengio — has been cited more than 13,000 times and helped shape the field of sequence-to-sequence learning. Before co-founding Pathway, he held research and engineering roles at Google Brain and MILA. At Pathway, Chorowski ensures that the company’s research breakthroughs are translated into scalable systems capable of reasoning, adapting, and learning continuously in real-world environments. Co-author of the BDH architecture.
+
 - title: "The multimodal representation problem"
   abstract-md: |-
     Multimodal systems aim to unify understanding and generation, but these tasks often need different representations. Understanding benefits from semantic features, while generation requires fine-grained detail. This talk explores this tension and how recent models address it, with examples from audio and vision.

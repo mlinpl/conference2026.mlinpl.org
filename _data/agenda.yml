@@ -311,11 +311,12 @@
         time: 16:15 - 17:15
         room: Hall A
         url: /program#sponsor-talk-6
-      - title: 'Sponsor Talk 7: <strong>TBA</strong>'
-        subtitle: by Pathway
+      - title: 'Sponsor Talk 7: <strong>BDH: The Missing Link between the Transformer and Models of the Brain</strong>'
+        subtitle: by Jan Chorowski (Pathway)
         element-class: col-lg-4
         time: 16:15 - 17:15
         room: Hall B
+        url: /program#sponsor-talk-7
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee break'
