@@ -71,6 +71,7 @@ optimize_images invited-speakers 600x600 webp 90
 optimize_images sponsor-speakers 600x600 webp 90
 optimize_images cfc 600x600 webp 90
 optimize_images tutorials 600x600 webp 90
+optimize_images panels 600x600 webp 90
 
 # Optimize sponsors and partners logos
 optimize_images sponsors 600x600 webp 90
