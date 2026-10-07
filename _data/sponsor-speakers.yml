@@ -1,0 +1,79 @@
+- name: Eliška Kosturová
+  affiliation: Allegro
+  image: images/optimized/sponsor-speakers-600x600/EliskaKosturova.webp
+  bio: >-
+    Eliška is a Machine Learning Developer at Allegro.com, where she works on e-commerce recommender systems. Her work focuses on complementary retrieval, with an additional interest in technical engineering tasks.
+
+- name: Darek Kłeczek
+  affiliation: Snowflake
+  image: images/optimized/sponsor-speakers-600x600/DarekKleczek.webp
+  bio: >-
+    Darek Kłeczek is a Staff Research Scientist at Snowflake working on LLM and multimodal applications. Previously, he worked as a Machine Learning Engineer at Weights & Biases and led intelligent automation program at P&G. Darek is an author of the first Polish language models and a quadruple Kaggle Grandmaster.
+
+- name: Adam Dendek
+  affiliation: Bayer
+  image: images/optimized/sponsor-speakers-600x600/AdamDendek.webp
+  bio: >-
+    Adam is a Lead Data Scientist and Physics Ph.D. (AGH UST / CERN LHCb) specializing in probabilistic modelling, Bayesian error estimation, and deep learning. He works at the intersection of industry data science and academic research, building robust statistical frameworks for complex decision analysis.
+
+- name: Kseniia Lysaniuk
+  affiliation: JetBrains
+  image: images/optimized/sponsor-speakers-600x600/KseniiaLysaniuk.webp
+  bio: >-
+    Kseniia Lysaniuk is a Machine Learning Engineer at JetBrains. Her work spans model evaluation and training data research, including contributions to Mellum2.
+
+- name: Petr Borovlev
+  affiliation: JetBrains
+  image: images/optimized/sponsor-speakers-600x600/PetrBorovlev.webp
+  bio: >-
+    Petr Borovlev is a Machine Learning Engineer at JetBrains, working on large language models with a focus on pre-training, architecture, and infrastructure. He contributed to Mellum2 and its tokenizer, exploring how tokenization choices affect the efficiency and behavior of language models.
+
+- name: Bazyli Klockiewicz
+  affiliation: Tenstorrent
+  image: images/optimized/sponsor-speakers-600x600/BazyliKlockiewicz.webp
+  bio: >-
+    Bazyli is a Senior Staff Engineer at Tenstorrent, where he designs and optimizes the systems that make large AI models run efficiently, from low-level accelerator kernels to distributed training and inference. He also serves as Site Lead for the company's Polish branch. He holds a PhD in Computational and Mathematical Engineering from Stanford University.
+
+- name: Daniil Yurshevich
+  affiliation: Tenstorrent
+  image: images/optimized/sponsor-speakers-600x600/DaniilYurshevich.webp
+  bio: >-
+    Daniil is a Senior Engineer at Tenstorrent, where he develops training and inference workflows for LLMs at different scales. He studied theoretical mathematics and computer science at Jagiellonian University before completing a master's in mathematics at EPFL, where he also conducted research on reinforcement learning and mechanistic interpretability in the Data Science Lab.
+
+- name: Arkadiusz Zwierz
+  affiliation: Comarch
+  image: images/empty.png
+  bio: >-
+    Arkadiusz Zwierz is Head of R&D Department at Comarch, Sector OSS.
+    Sebastian Zaranek, Software Developer, Architect at Comarch, Sector OSS.
+
+- name: Sebastian Zaranek
+  affiliation: Comarch
+  image: images/empty.png
+  bio: >-
+    Sebastian Zaranek is a Software Developer and Architect at Comarch, Sector OSS.
+    Sebastian Zaranek, Software Developer, Architect at Comarch, Sector OSS.
+
+- name: Jan Chorowski
+  affiliation: Pathway
+  image: images/optimized/sponsor-speakers-600x600/JanChorowski.webp
+  bio: >-
+    Jan Chorowski is the Chief Technology Officer and co-founder of Pathway, where he oversees the engineering direction of the company’s AI architecture. A pioneer in neural network models, Chorowski was the first person to apply attention in speech recognition. His research — including collaborations with Geoffrey Hinton and Yoshua Bengio — has been cited more than 13,000 times and helped shape the field of sequence-to-sequence learning. Before co-founding Pathway, he held research and engineering roles at Google Brain and MILA. At Pathway, Chorowski ensures that the company’s research breakthroughs are translated into scalable systems capable of reasoning, adapting, and learning continuously in real-world environments. Co-author of the BDH architecture.
+
+- name: Hubert Siuzdak
+  affiliation: ElevenLabs
+  image: images/optimized/sponsor-speakers-600x600/HubertSiuzdak.webp
+  bio: >-
+    Hubert Siuzdak is a researcher at ElevenLabs. His research focuses on neural audio codecs, vocoders, learned representations, and generative modeling for speech and audio. His academic background is in acoustical engineering and computer science at AGH University of Krakow.
+
+- name: Krzysztof Spaliński
+  affiliation: RTB House
+  image: images/optimized/sponsor-speakers-600x600/KrzysztofSpalinski.webp
+  bio: >-
+    Krzysztof is a Machine Learning Researcher at RTB House, working on bidding models and, more recently, on autonomous ML research. He holds an MEng in Data Science from the Warsaw University of Technology and a BSc in Mathematics from the University of Warsaw.
+
+- name: Jan Doliński
+  affiliation: Dropbox
+  image: images/optimized/sponsor-speakers-600x600/JanDolinski.webp
+  bio: >-
+    Jan is a Software Engineer at Dropbox, where he leads the end-to-end delivery of AI features for Dropbox Sign, taking intelligent capabilities from early concepts all the way to production. With a strong background in senior engineering and tech lead roles, Jan specializes in bridging intuitive user experiences with scalable technical architecture. He is passionate about the practical realities of shipping AI in the real world, focusing on iterative feedback loops and product-driven engineering. Outside of work, Jan continuously expands his ML knowledge and is an avid car enthusiast.
