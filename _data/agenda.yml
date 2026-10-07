@@ -69,11 +69,12 @@
         time: 12:15 - 13:15
         room: Main Hall
         url: /program#invited-talk-1
-      - title: 'Invited Talk 2: <strong>TBA</strong>'
+      - title: 'Invited Talk 2: <strong>Global AI Governance from the Inside of UN AI Panel</strong>'
         subtitle: by Piotr Sankowski
         element-class: col-lg-4
         time: 12:15 - 13:15
         room: Hall A
+        url: /program#invited-talk-2
 
     - events:
       - title: 'Poster Session 1'
@@ -462,11 +463,12 @@
         time: 15:30 - 16:00
 
     - events:
-      - title: 'Invited Talk 12: <strong>TBA</strong>'
+      - title: 'Invited Talk 12: <strong>Blurring the lines between synthetic and real data for 3D vision</strong>'
         subtitle: by João F. Henriques
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Main Hall
+        url: /program#invited-talk-12
       - title: 'Invited Talk 13: <strong>Retrieval-Centric Deep Learning: Replacing Weight Matrices with Vector Databases</strong>'
         subtitle: by Johannes von Oswald
         element-class: col-lg-4

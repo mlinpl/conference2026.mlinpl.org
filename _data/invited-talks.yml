@@ -25,6 +25,25 @@
   id: 1
   author-image: images/optimized/invited-speakers-600x600/RazvanPascanu.webp
 
+- author-name: Piotr Sankowski
+  title: "Global AI Governance from the Inside of UN AI Panel"
+  author-title: "IDEAS Research Institute / University of Warsaw"
+  abstract-md: |-
+    Artificial Intelligence is evolving at an unprecedented pace, shifting from narrow applications to frontier models with truly transformative potential. While this rapid acceleration brings immense opportunities for scientific and economic progress, it also introduces critical challenges - ranging from the extreme concentration of computational power and market dominance, to the risks of unaligned systems and societal disruption.
+
+    As these technologies inherently transcend borders, national regulations alone are insufficient. How do we build a cohesive global framework? Drawing on firsthand experience and discussions from the Independent International Scientific UN Panel on AI, this talk provides an exclusive, insider’s perspective on the current state of global AI governance. We will explore the ongoing international debates, and the profound complexities of aligning diverse geopolitical interests to ensure AI benefits humanity as a whole.
+
+    Please note: To facilitate an open and candid discussion, this talk will not be recorded, and the presentation slides will not be made available afterward.
+  author-bio: |-
+    Piotr Sankowski is a director of IDEAS Research Institute and a professor at the Institute of Computer Science at the University of Warsaw, where he received his habilitation in 2009 and his doctorate in computer science in 2005. His research interests include algorithmics, with a particular focus on algorithmic graph analysis and data analysis algorithms.
+
+    In 2009, Piotr Sankowski received his doctorate in physics in the field of solid state theory at the Polish Academy of Sciences. He was the first Pole to receive four grants from the European Research Council (ERC): ERC Starting Independent Researcher Grant (2010), ERC Proof of Concept Grant (2015, 2023), ERC Consolidator Grant (2017). He is a co-founder of the Highlights of Algorithms conference. From 2021 to 2024, he was president of IDEAS NCBR, where he led the working group “Intelligent Algorithms and Data Structures.” He is co-founder and CSO of the spin-off MIM Solutions. He is a member of ELLIS Unit Warsaw with ELLIS Fellow status. Member of the Future Council and the UN Independent International Panel on AI.
+  date: Thursday / 8 October
+  time: 12:15 - 13:15
+  room: Hall A
+  id: 2
+  author-image: images/optimized/invited-speakers-600x600/PiotrSankowski.webp
+
 - author-name: Pierre Stock
   title: "Deep Dive Mistral. Scalable and agentic AI: co-developing scaffolds & models hand-in-hand"
   author-title: "Mistral"
@@ -181,6 +200,23 @@
   room: Hall A
   id: 11
   author-image: images/optimized/invited-speakers-600x600/TomasPluskal.webp
+
+- author-name: João F. Henriques
+  title: "Blurring the lines between synthetic and real data for 3D vision"
+  author-title: "University of Oxford"
+  abstract-md: |-
+    Machine learning thrives whenever data is plentiful, but 3D vision remains a stubborn exception. The reason is that cameras capture only flat images, so recovering and labelling the 3D scene behind them is slow and expensive - especially when people are moving. Simulators offer a tempting way out, as they provide perfect 3D labels for free; yet models trained on simulated data often struggle in the real world.
+
+    In this talk I'll suggest that large pretrained models for 2D vision can change this picture by blurring the line between synthetic and real data. I'll describe two recent projects that cross the gap from opposite directions. One makes synthetic data look real, using diffusion models to generate photorealistic people with exact 3D labels. The other makes real data look synthetic, letting a model trained purely in simulation reconstruct uncalibrated broadcast rugby in full 3D. I'll close with some lessons that may carry over to other fields where ground truth is scarce but simulators are not.
+  author-bio: |-
+    Dr. João Henriques is an Associated Faculty at the Visual Geometry Group (VGG), University of Oxford. His research focuses on computer vision and robotics, with the goal of making machines more perceptive and intelligent. He created the KCF and SiameseFC visual object trackers, which won the highly competitive VOT Challenge twice, and are widely deployed in consumer hardware, from social media apps to commercial drones.
+
+    His research spans many topics: 3D video understanding, robot mapping and navigation, agentic and safe AI; as well as various forms of learning, from self-supervised, causal, and reinforcement learning, including optimisation theory.
+  date: Saturday / 10 October
+  time: 16:00 - 17:00
+  room: Main Hall
+  id: 12
+  author-image: images/optimized/invited-speakers-600x600/JoaoFHenriques.webp
 
 - author-name: Johannes von Oswald
   title: "Retrieval-Centric Deep Learning: Replacing Weight Matrices with Vector Databases"
