@@ -1,0 +1,56 @@
+# TEMPLATE
+# - author-name:
+#   title:
+#   author-title:
+#   abstract-md: |-
+#   author-bio: >-
+#   date:
+#   time:
+#   room:
+#   session:
+#   id:
+#   author-image:
+
+- author-name: Kamil Deja
+  title: "When Prompting Is Not Enough: Precise Control Needs Precise Understanding"
+  author-title: "Warsaw University of Technology / IDEAS Research Institute"
+  abstract-md: |-
+    Generative models such as diffusion models can create images, music, and video from text prompts. But prompts provide only coarse control. Small changes in wording can produce unpredictable changes in the output, while intermediate states of a concept are often difficult to express. In other domains, such as protein structure design, models are not conditioned on text at all, leaving no prompt to adjust.
+
+    In this talk, I argue that precise control requires looking inside the model. I will discuss several of our recent papers that analyse where information is represented inside generative models and how these representations can be used for control. The emerging approach combining those ideas has three steps. First, we localize concepts (which turn out to be surprisingly well structured). Second, we interpret internal representations, decomposing activations into human-understandable features. Third, we steer generation by directly intervening in activation space.
+
+    Across images, music, video, and protein structures, these studies show that internal representations provide a way to achieve fine-grained control that prompting alone cannot provide.
+  author-bio: >-
+    Kamil Deja is an Assistant Professor at the Warsaw University of Technology and Leader of the GenAI Team at the IDEAS Research Institute, where he bridges theoretical machine learning with interdisciplinary applications. He is also a member of the ELLIS Society. Building on his Ph.D. in generative modeling, he explores the potential of Diffusion Models across computer vision, audio synthesis, and scientific discovery, including High Energy Physics and protein design. His research experience includes visiting positions at Vrije Universiteit Amsterdam, Sapienza University and Amazon Alexa, as well as collaboration with the ALICE experiment at CERN. His current work focuses on some of the most pressing challenges in modern AI, particularly transparency and controllability, with an emphasis on mechanistic interpretability, model adaptation, and precise steering of generative processes.
+  date: Friday / 9 October
+  time: 14:30 - 15:00
+  room: Main Hall
+  session: Talks by Witold Lipski Award Laureates
+  id: 1
+  author-image: images/optimized/lipski-awards-600x600/KamilDeja.webp
+
+- author-name: Hubert Baniecki
+  title: "Explainable Machine Intelligence"
+  author-title: "University of Warsaw / Centre for Credible AI"
+  abstract-md: |-
+    I will briefly talk about explainable machine intelligence, the main topic of my research over the last six years. What began as a question about how humans interactively analyze models led me to investigate what an explanation actually measures, and ultimately to develop algorithms that make explanations more faithful to models and more robust to changes in data.
+  author-bio: >-
+    Hubert Baniecki is a PhD candidate at the University of Warsaw and a research assistant at the Centre for Credible AI. During his PhD, he interned at Meta in New York and was a visiting researcher at LMU Munich. His research focuses on machine learning interpretability, also known as explainable AI. He develops algorithms and tools to better understand how deep neural networks work, focusing on efficiently computing model explanations and applying them in medicine. His research has been published at NeurIPS, ICML, ICLR, as well as in JMLR and PNAS. He has received the FNP START Scholarship, the Minister’s Scholarship, the Pearls of Science grant, and the John M. Chambers Statistical Software Award.
+  date: Friday / 9 October
+  time: 15:00 - 15:30
+  room: Main Hall
+  session: Talks by Witold Lipski Award Laureates
+  id: 2
+  author-image: images/optimized/lipski-awards-600x600/HubertBaniecki.webp
+
+- author-name: Michał Nauman
+  title: "Scaling value-based reinforcement learning"
+  author-title: "University of Warsaw / Nomagic"
+  author-bio: >-
+    Michał Nauman is an artificial intelligence researcher specializing in reinforcement learning. He completed his PhD at the University of Warsaw under the supervision of Marek Cygan, and was a visiting scholar at the University of California, Berkeley, working with Pieter Abbeel. His work has been published and recognized at leading AI conferences, including ICML, NeurIPS, and ICLR. His research focuses on scaling reinforcement learning for continuous control, with a particular interest in how learned policies generalize and transfer to new tasks.
+  date: Friday / 9 October
+  time: 15:30 - 16:00
+  room: Main Hall
+  session: Talks by Witold Lipski Award Laureates
+  id: 3
+  author-image: images/optimized/lipski-awards-600x600/MichalNauman.webp

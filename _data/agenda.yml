@@ -258,6 +258,19 @@
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Main Hall
+        subevents:
+          - title: "<strong>When Prompting Is Not Enough: Precise Control Needs Precise Understanding</strong>"
+            subtitle: by Kamil Deja (Warsaw University of Technology / IDEAS Research Institute)
+            time: 14:30 - 15:00
+            url: /program#witold-lipski-award-talk-1
+          - title: "<strong>Explainable Machine Intelligence</strong>"
+            subtitle: by Hubert Baniecki (University of Warsaw / Centre for Credible AI)
+            time: 15:00 - 15:30
+            url: /program#witold-lipski-award-talk-2
+          - title: "<strong>Scaling value-based reinforcement learning</strong>"
+            subtitle: by Michał Nauman (University of Warsaw / Nomagic)
+            time: 15:30 - 16:00
+            url: /program#witold-lipski-award-talk-3
       - title: 'Contributed Talks <br>Session 4'
         element-class: col-lg-4
         time: 14:30 - 16:00
