@@ -2,7 +2,7 @@
 # The /badge-game page (and its nav entry and main page section) are shown only
 # once pages/badge-game.md is published (moved out of pages/drafts/).
 
-status: "open" # whether submissions are accepted. options: "open", "closed"
+status: "closed" # whether submissions are accepted. options: "open", "closed"
 form-url: "https://mlinpl2026-badge-game.paperform.co"
 
 # Hints revealed so far, in order (Markdown allowed). Leave empty to hide the list.
