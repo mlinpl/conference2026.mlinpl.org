@@ -6,12 +6,13 @@ status: "closed" # whether submissions are accepted. options: "open", "closed"
 form-url: "https://mlinpl2026-badge-game.paperform.co"
 
 # Hints revealed so far, in order (Markdown allowed). Leave empty to hide the list.
+# A hint can also be {text, image}, with image a file in images/optimized/badge-game-800x800/.
 hints:
   - "The function is a sum of votes from a few features."
   - "One of the features ignores names."
-#  - "Numbers hide behind the letters."
-#  - "The first letters of the labels are important."
-#  - "(post winners' list closed) A beginning follows the end."
+  - text: Type your name. Which hand does more work?
+    image: keyboard_split_hint.webp
+  - Do you remember Figure 1 of *Attention Is All You Need*?
 
 # Winners in order (Markdown allowed). Leave empty to hide the Winners section.
 winners:

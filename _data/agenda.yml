@@ -255,7 +255,7 @@
 
     - events:
       - title: '<i class="fa-solid fa-award"></i> Talks by Witold Lipski Award Laureates'
-        subtitle: Opening remarks by Krzysztof Gawkowski (Deputy Prime Minister of Poland and Minister of Digital Affairs)
+        subtitle: Opening remarks by Krzysztof Gawkowski (Deputy Prime Minister of Poland and Minister of Digital Affairs) and invited guests
         element-class: col-lg-4
         time: 14:30 - 16:00
         room: Main Hall

@@ -60,7 +60,7 @@ But remember, the faster you solve the puzzle, the higher are your chances of wi
 
 {% if site.data.badge-game.hints.size > 0 %}
 {% for hint in site.data.badge-game.hints %}
-- **Hint {{ forloop.index }}:** {{ hint }}
+- **Hint {{ forloop.index }}:** {{ hint.text | default: hint }}{% if hint.image %}<img class="img-responsive" style="margin: 10px 0 20px; border: 0;" src="{{ hint.image | prepend: './images/optimized/badge-game-800x800/' | relative_url }}" alt="Hint {{ forloop.index }}">{% endif %}
 {%- endfor %}
 {% endif %}
 
