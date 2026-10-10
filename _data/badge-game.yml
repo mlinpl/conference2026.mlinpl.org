@@ -2,7 +2,7 @@
 # The /badge-game page (and its nav entry and main page section) are shown only
 # once pages/badge-game.md is published (moved out of pages/drafts/).
 
-status: "open" # whether submissions are accepted. options: "open", "closed"
+status: "closed" # whether submissions are accepted. options: "open", "closed"
 form-url: "https://mlinpl2026-badge-game.paperform.co"
 
 # Hints revealed so far, in order (Markdown allowed). Leave empty to hide the list.
@@ -21,8 +21,35 @@ winners:
 
 # Explanation of the secret mapping function (Markdown allowed, multiple paragraphs OK).
 # Leave empty to hide the Solution section.
-solution:
-# solution: |
-#   The label is chosen by ...
-#
-#   For example, ...
+solution: |
+  The label is a vote of three features. Each feature votes **+1** (encoder), **−1** (decoder) or **0**, and the votes are summed: a positive score gives **encoder**, a negative one gives **decoder**, and zero gives **autoencoder**.
+
+  Before anything else, the name is cleaned: diacritics are dropped (e.g. ł → l, ó → o), case is ignored and only the letters A--Z are kept.
+
+  1. **Those who listen encode, those who present decode.** Participants vote +1. Those who present (invited speakers, CfC authors, tutorial speakers and panelists) vote −1. Everyone else votes 0.
+  2. **Encoders narrow, decoders widen.** Each letter gets a width equal to its position in the alphabet: A = 1, B = 2, ..., Z = 26. If the last name is on average narrower than the first name, the name narrows like an encoder and votes +1; if it is wider, it widens like a decoder and votes −1; otherwise it votes 0.
+  3. **Which hand does more work while typing your?** Type the whole name on a QWERTY keyboard. Just like in Figure 1 of *Attention Is All You Need*, the encoder is on the left and the decoder on the right: letters typed with the left hand (Q W E R T, A S D F G, Z X C V B) count for the encoder, letters typed with the right hand (Y U I O P, H J K L, N M) for the decoder. More left-hand letters vote +1, more right-hand letters vote −1, and a tie votes 0.
+
+  For example, *Yoshua Bengio* (invited speaker): the role votes −1; YOSHUA has an average width of 14.83 and BENGIO 8.67, so the name narrows and votes +1; it has 5 left-hand and 7 right-hand letters, so the keyboard votes −1. The score is −1, so the label is **decoder**. *Michael Bronstein* (participant): the role votes +1; MICHAEL (7.29) widens to BRONSTEIN (12.89), so −1; 8 left-hand and 8 right-hand letters give 0. The score is 0, so the label is **autoencoder**.
+
+  ### / Test set
+
+  | Name | Role | Label |
+  | --- | --- | :-: |
+  | Yoshua Bengio | invited speaker | **decoder** |
+  | Michael Bronstein | participant | **autoencoder** |
+  | Rich Caruana | invited speaker | **encoder** |
+  | Kyle Cranmer | invited speaker | **encoder** |
+  | Richard Hamming | participant | **autoencoder** |
+  | Łukasz Kaiser | invited speaker | **encoder** |
+  | Diederik Kingma | participant | **autoencoder** |
+  | Daphne Koller | invited speaker | **decoder** |
+  | Marta Kwiatkowska | invited speaker | **decoder** |
+  | Tomas Mikolov | participant | **decoder** |
+  | Niki Parmar | participant | **decoder** |
+  | Marian Rejewski | participant | **encoder** |
+  | Jerzy Różycki | participant | **encoder** |
+  | Jakob Uszkoreit | participant | **autoencoder** |
+  | Laurens van der Maaten | participant | **encoder** |
+  | Henryk Zygalski | participant | **decoder** |
+  {: .table .table-condensed}
