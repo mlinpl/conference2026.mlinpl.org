@@ -513,27 +513,27 @@
         element-class: col-lg-4
         time: 9:00 - 13:00
         url: /program#tutorial-1
-        room: "Room 206"
+        room: "Room 2.12"
       - title: 'Tutorial 3: <strong>Privacy in Machine Learning</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
         url: /program#tutorial-3
-        room: "Room 207"
+        room: "Room 2.07"
       - title: 'Tutorial 5: <strong>Introduction to Physics Neural Surrogates for Engineering and Healthcare</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
         url: /program#tutorial-5
-        room: "Room 208"
+        room: "Room 2.08"
       - title: 'Tutorial 7: <strong>Fundamentals matter more than ever: package management & design patterns for coding</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
         url: /program#tutorial-7
-        room: "Room 221"
+        room: "Room 2.21"
       - title: 'Tutorial 9: <strong>Cache Me If You Can</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
         url: /program#tutorial-9
-        room: "Room 222"
+        room: "Room 2.22"
 
     - events:
       - title: 'Break'
@@ -545,24 +545,24 @@
         element-class: col-lg-4
         time: 14:00 - 18:00
         url: /program#tutorial-2
-        room: "Room 206"
+        room: "Room 2.06"
       - title: 'Tutorial 4: <strong>Security in Machine Learning</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
         url: /program#tutorial-4
-        room: "Room 207"
+        room: "Room 2.07"
       - title: 'Tutorial 6: <strong>Reinforcement learning using IdeGYM: power of IDE as your reward</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
         url: /program#tutorial-6
-        room: "Room 208"
+        room: "Room 2.08"
       - title: 'Tutorial 8: <strong>Evaluating LLMs on HPC Clusters: A Step-by-Step Introduction to Slurm with PLLuM</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
         url: /program#tutorial-8
-        room: "Room 221"
+        room: "Room 2.21"
       - title: 'Tutorial 10: <strong>Driving Real Particle-Physics Simulations with a Coding Agent</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
         url: /program#tutorial-10
-        room: "Room 222"
+        room: "Room 2.22"
