@@ -15,7 +15,7 @@
   date: Sunday / 11 October
   time: 9:00 - 13:00
   id: 1
-  room: "Room 206"
+  room: "Room 206, Building A, Faculty of Physics, University of Warsaw (FUW)"
   desc-md: |-
     Generative machine learning is transforming how we design peptides, proteins and small molecules. Yet for AI-oriented researchers, understanding how these methods connect to real biological design problems, and how to apply them in practice, can be hard to approach. This tutorial closes that gap, teaching both the theory behind controllable generative design and the practical skills needed to apply our lab's models to concrete sequence design tasks.
 
@@ -65,7 +65,7 @@
   date: Sunday / 11 October
   time: 14:00 - 18:00
   id: 2
-  room: "Room 206"
+  room: "Room 206, Building A, Faculty of Physics, University of Warsaw (FUW)"
   desc-md: |-
     Creating a digital 3D model of a real object or environment traditionally requires specialized equipment and knowledge of computer graphics. Recent machine learning methods make it possible to reconstruct detailed, interactive 3D scenes using only ordinary photographs or a short video.
     This hands-on workshop introduces participants to the complete 3D reconstruction pipeline using 3D Gaussian Splatting. It is designed for people familiar with basic machine learning concepts but with no previous experience in 3D reconstruction, neural rendering, or Gaussian Splatting.
@@ -104,7 +104,7 @@
   date: Sunday / 11 October
   time: 9:00 - 13:00
   id: 3
-  room: "Room 207"
+  room: "Room 207, Building A, Faculty of Physics, University of Warsaw (FUW)"
   desc-md: |-
     Machine learning models are trained on some of our most sensitive data, for example, medical records, personal messages and images, financial information, etc. A growing body of research shows that the data leaks from ML models, which can reveal whether a specific person’s data was part of the training set (membership inference), and modern attacks even reconstruct training data verbatim from model parameters, gradients, or generated outputs. With foundation models trained on web-scale data and regulations such as the GDPR and the EU AI Act that come into place, we need to understand and mitigate privacy risks. It has become a core competency for ML researchers and practitioners alike.
 
@@ -160,7 +160,7 @@
   date: Sunday / 11 October
   time: 14:00 - 18:00
   id: 4
-  room: "Room 207"
+  room: "Room 207, Building A, Faculty of Physics, University of Warsaw (FUW)"
   desc-md: |-
     Machine learning models have become both valuable assets and attractive attack targets. State-of-the-art LLMs and image generators are trained on billions of data points, often scraped without the owners’ consent, while the models themselves, exposed through public APIs, can be stolen by adversaries at a fraction of their training cost. This tutorial offers a comprehensive, hands-on introduction to security in machine learning, organized around one central question: how can we protect models and data in the era of generative AI?
 
@@ -213,7 +213,7 @@
   date: Sunday / 11 October
   time: 9:00 - 13:00
   id: 5
-  room: "Room 208"
+  room: "Room 208, Building A, Faculty of Physics, University of Warsaw (FUW)"
   desc-md: |-
     Computational modelling of physical phenomena - such as fluid flow, structural mechanics, and weather systems - plays a central role in science, engineering, and healthcare. These phenomena are commonly modelled using high-fidelity numerical solvers that approximate the governing physical laws expressed through partial differential equations (PDEs). Although such methods provide accurate and physically grounded solutions, their computational cost and runtime remain major bottlenecks in many real-world applications.
 
@@ -243,7 +243,7 @@
   date: Sunday / 11 October
   time: 14:00 - 18:00
   id: 6
-  room: "Room 208"
+  room: "Room 208, Building A, Faculty of Physics, University of Warsaw (FUW)"
   desc-md: |-
     In this tutorial, we will provide a brief introduction to reinforcement learning for code, discuss the infrastructure challenges involved, and demonstrate how to use our recently developed tool, IdeGYM — an orchestrator for RL rewards specifically designed for code-based tasks. During the tutorial, we will explore standard code-reward signals, such as execution and test-based feedback, as well as more advanced signals derived from IDE inspections.
 
@@ -263,7 +263,7 @@
   date: Sunday / 11 October
   time: 9:00 - 13:00
   id: 7
-  room: "Room 221"
+  room: "Room 221, Building A, Faculty of Physics, University of Warsaw (FUW)"
   desc-md: |-
     Teams offter suffer from conventions, domain knowledge and unwritten assumptions live only in the developer’s head. This hands-on workshop sends you home with a shareable engineering methodology your team can adopt to standadize coding, make engineers benefit from Subject Matter Experts insights (as well as the other way around).
 
@@ -295,7 +295,7 @@
   date: Sunday / 11 October
   time: 14:00 - 18:00
   id: 8
-  room: "Room 221"
+  room: "Room 221, Building A, Faculty of Physics, University of Warsaw (FUW)"
   desc-md: |-
     Evaluation is a central part of developing large language models, but running benchmarks at scale requires access to GPU clusters and familiarity with the tools used to manage them. This hands-on tutorial introduces LLM evaluation on high-performance computing (HPC) systems using Slurm, the workload manager found on most academic and industrial supercomputers.
 
@@ -345,7 +345,7 @@
   date: Sunday / 11 October
   time: 9:00 - 13:00
   id: 9
-  room: "Room 222"
+  room: "Room 222, Building A, Faculty of Physics, University of Warsaw (FUW)"
   desc-md: |-
     ”Cache Me If You Can" is a four-hour hands-on tutorial that demystifies LLM inference by measuring it on real Tenstorrent AI accelerators. Through a series of experiments in Python, participants will learn what lies underneath LLM chatbots and agents. They will look at the prefill and decode phases, and investigate various approaches to making models faster, such as KV caching and mixed precision. At the end of this tutorial, participants will have a mental model of how LLM inference providers are able to serve requests at global scale.
 
@@ -365,7 +365,7 @@
   date: Sunday / 11 October
   time: 14:00 - 18:00
   id: 10
-  room: "Room 222"
+  room: "Room 222, Building A, Faculty of Physics, University of Warsaw (FUW)"
   desc-md: |-
     **Half-Life Skills: build a fallout shelter, melt a snowman for water, irradiate a cockroach for dinner**
 
