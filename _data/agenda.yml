@@ -506,7 +506,7 @@
   date: 2026-10-11
   note: 'Due to a limited number of seats, <strong>attending tutorials requires separate registration and tickets</strong> (see <a href="#tickets">tickets section</a>).'
   location: Faculty of Physics, University of Warsaw
-  location-address: <a href="https://maps.app.goo.gl/ZUf8muU9oLuehSvv7">Ludwika Pasteura 5, 02-093 Warsaw</a>
+  location-address: <a href="https://maps.app.goo.gl/ZUf8muU9oLuehSvv7">Building A, 2nd floor, Ludwika Pasteura 5, 02-093 Warsaw</a>
   sessions:
     - events:
       - title: 'Tutorial 1: <strong>Controllable Generative Design of Biological Sequences</strong>'
