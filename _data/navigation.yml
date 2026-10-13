@@ -1,33 +1,20 @@
 # Navigation is defined once under `items`, and `order` lists the explicit top-level ordering for each conference phase.
 
 order:
-  base:
+  default:
     - about
+    - tickets
     - program
     - timeline
     - call-for-sponsors
     - sponsors
     - organizers
-  tickets:
+  tickets-first:
     - tickets
     - about
     - program
     - timeline
     - call-for-sponsors
-    - sponsors
-    - organizers
-  agenda-full:
-    - program
-    - tickets
-    - about
-    - timeline
-    - sponsors
-    - organizers
-  after-conference:
-    - about
-    - tickets
-    - program
-    - timeline
     - sponsors
     - organizers
 
@@ -35,6 +22,9 @@ items:
   tickets:
     name: "/ Tickets"
     url: "#tickets"
+    when-eq:
+      tickets: true # only shown while the tickets section is enabled (state.tickets is true)
+    when-visible: tickets # ...and at least one ticket type in site.data.tickets has visible: true
 
   about:
     name: "/ About"
@@ -42,8 +32,9 @@ items:
     subsites:
       - name: "/ More information"
         url: "/about-ml-in-pl-conference"
-      # - name: "/ Photos"
-      #   url: "/photos"
+      - name: "/ Photos"
+        url: "/photos"
+        when-page: /photos # only shown once the /photos page is published (moved out of pages/drafts/)
       - name: "/ FAQ"
         url: "/faq"
       - name: "/ Previous editions"

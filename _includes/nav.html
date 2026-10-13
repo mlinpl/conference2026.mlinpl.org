@@ -24,13 +24,9 @@
                     <a href="#page-top"></a>
                 </li>
                 {% comment %} Pick the nav ordering variant for the current conference phase {% endcomment %}
-                {% assign nav_variant = "tickets" %}
-                {% if site.data.state.after-conference == true %}
-                    {% assign nav_variant = "after-conference" %}
-                {% elsif site.data.state.agenda == "full" %}
-                    {% assign nav_variant = "agenda-full" %}
-                {% elsif site.data.state.tickets == false %}
-                    {% assign nav_variant = "base" %}
+                {% assign nav_variant = "tickets-first" %}
+                {% if site.data.state.after-conference == true or site.data.state.tickets == false %}
+                    {% assign nav_variant = "default" %}
                 {% endif %}
                 {% assign nav_order = site.data.navigation.order[nav_variant] %}
                 {% for key in nav_order %}
