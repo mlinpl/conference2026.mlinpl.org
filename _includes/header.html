@@ -19,7 +19,7 @@
                     <h3 class="event-date-location">{{ site.data.header.date-location }}</h3>
                     {% endif %}
                     
-                    {% if site.data.header.countdown-overwrite.active == true %}
+                    {% if site.data.state.after-conference == true %}
                     <h3 id="event-countdown" class="event-countdown">
                         {% if site.data.state.aftermovie %}
                             {% assign message = site.data.header.countdown-overwrite.post-event-message.with-aftermovie %}
@@ -28,9 +28,25 @@
                         {% else %}
                             {% assign message = site.data.header.countdown-overwrite.post-event-message.default %}
                         {% endif %}
-                        {{ message }}
+                        {% comment %} Link "next year" to the next edition's site once it is available, else to the local /next-year page when it is published, else leave it as plain text {% endcomment %}
+                        {% assign next_year_url = nil %}
+                        {% assign next_year_page = site.pages | where: "url", "/next-year" | first %}
+                        {% if next_year_page %}
+                            {% assign next_year_url = site.baseurl | append: "/next-year" %}
+                        {% endif %}
+                        {% if site.data.state.next-year-site == true and site.data.next-year.url %}
+                            {% assign next_year_url = site.data.next-year.url %}
+                        {% endif %}
+                        {% if next_year_url %}
+                            {% capture next_year_open %}<a href="{{ next_year_url }}">{% endcapture %}
+                            {% assign next_year_close = "</a>" %}
+                        {% else %}
+                            {% assign next_year_open = "" %}
+                            {% assign next_year_close = "" %}
+                        {% endif %}
+                        {{ message | replace: "%baseurl%", site.baseurl | replace: "%next-year-link%", next_year_open | replace: "%/next-year-link%", next_year_close }}
                     </h3>
-                    {% else if site.data.header.countdown-date %}
+                    {% elsif site.data.header.countdown-date %}
                     <h3 id="event-countdown" class="event-countdown">
                         {% if site.data.header.countdown-text %}
                         <div class="event-countdown-text">{{ site.data.header.countdown-text }}</div>
@@ -42,11 +58,11 @@
                     </h3>
                     {% endif %}
 
-                    {% comment %} Are any ticket types still open for registration? {% endcomment %}
-                    {% assign any_ticket_active = false %}
+                    {% comment %} Is any ticket type shown in the tickets section? {% endcomment %}
+                    {% assign any_ticket_visible = false %}
                     {% for ticket in site.data.tickets %}
-                        {% if ticket[1].active == true %}
-                            {% assign any_ticket_active = true %}
+                        {% if ticket[1].visible == true %}
+                            {% assign any_ticket_visible = true %}
                             {% break %}
                         {% endif %}
                     {% endfor %}
@@ -54,9 +70,11 @@
                     {% comment %} Select arrow destination based on conference phase {% endcomment %}
                     {% if site.data.state.aftermovie %}
                         {% assign arrow_url = site.data.header.arrow-destinations.after-event %}
+                    {% elsif site.data.state.after-conference == true %}
+                        {% assign arrow_url = site.data.header.arrow-destinations.default %}
                     {% elsif site.data.state.agenda == "full" %}
                         {% assign arrow_url = site.data.header.arrow-destinations.agenda-full %}
-                    {% elsif site.data.state.tickets == true and any_ticket_active %}
+                    {% elsif site.data.state.tickets == true and any_ticket_visible %}
                         {% assign arrow_url = site.data.header.arrow-destinations.during-tickets %}
                     {% else %}
                         {% assign arrow_url = site.data.header.arrow-destinations.default %}
