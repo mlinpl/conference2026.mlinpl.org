@@ -105,6 +105,25 @@
     }
 }
 
+/* Text title for headers without a logo image (e.g. the next-year page):
+   large name with a smaller second line */
+.event-heading.event-heading-text {
+    font-size: 3em;
+    line-height: 1;
+}
+
+.event-heading.event-heading-text .sub-name {
+    display: block;
+    font-size: 0.45em;
+    line-height: 1;
+}
+
+@media(min-width:767px) {
+    .event-heading.event-heading-text {
+        font-size: 6em;
+    }
+}
+
 .event-date-location {
     margin-top: 35px;
     color: {{ site.color.main }};

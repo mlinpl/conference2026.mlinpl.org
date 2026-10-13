@@ -5,12 +5,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1 class="event-heading">{{ site.data.next-year.heading }}</h1>
-                    {% if site.data.next-year.subheading %}
-                    <h2 class="event-subheading">{{ site.data.next-year.subheading }}</h2>
+                    <h1 class="event-heading{% unless site.data.next-year.image %} event-heading-text{% endunless %}">{{ site.data.next-year.heading }}</h1>
+                    {% if site.data.next-year.dates or site.data.next-year.location %}
+                    <h3 class="event-date-location">{% if site.data.next-year.dates %}{{ site.data.next-year.dates }}{% endif %}{% if site.data.next-year.dates and site.data.next-year.location %} / {% endif %}{% if site.data.next-year.location %}{{ site.data.next-year.location }}{% endif %}</h3>
                     {% endif %}
-                    {% if site.data.next-year.date-location %}
-                    <h3 class="event-date-location">{{ site.data.next-year.date-location }}</h3>
+                    {% if site.data.next-year.subheading %}
+                    <h3 class="event-subheading">{{ site.data.next-year.subheading }}</h3>
                     {% endif %}
                     
                     {% if site.data.next-year.countdown-date %}
