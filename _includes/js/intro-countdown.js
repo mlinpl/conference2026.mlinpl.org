@@ -7,14 +7,18 @@
 
 var eventCountdownElement = document.getElementById("event-countdown");
 var daysElement = document.getElementById("d-left");
-if (eventCountdownElement && daysElement){
+if (eventCountdownElement && daysElement) {
     var introTimer = countdown(
         function(ts) {
-            if(ts.value > 0){
+            if (ts.value > 0) {
                 document.getElementById("d-left").innerHTML = ts.days;
                 document.getElementById("h-left").innerHTML = ("0" + ts.hours).slice(-2);
                 document.getElementById("m-left").innerHTML = ("0" + ts.minutes).slice(-2);
                 document.getElementById("s-left").innerHTML = ("0" + ts.seconds).slice(-2);
+            } else if (eventCountdownElement.dataset.duringEventMessage) {
+                // The conference has started: replace the countdown with the welcome message
+                eventCountdownElement.innerHTML = eventCountdownElement.dataset.duringEventMessage;
+                if (introTimer) window.clearInterval(introTimer);
             }
         },
         new Date("{{ site.data.header.countdown-date }}"),

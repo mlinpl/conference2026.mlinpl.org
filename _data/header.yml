@@ -5,9 +5,11 @@ date-location: 8 - 11 October / Copernicus Science Centre, Warsaw, Poland
 # Countdown settings
 countdown-date: "2026-10-08T08:00:00"
 
-# Shown instead of the countdown when state.after-conference is true
+# Messages shown instead of the countdown
 countdown-overwrite:
-  # Post-event messages
+  # Shown once countdown-date has passed, until state.after-conference is true
+  during-event-message: 'Welcome to the conference!'
+  # Shown when state.after-conference is true
   # These are automatically selected based on what content is available (see state.photos and state.aftermovie)
   post-event-message:
     default: 'Thank you for participating<br>and we hope to see you %next-year-link%next year!%/next-year-link%'

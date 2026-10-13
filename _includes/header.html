@@ -47,7 +47,7 @@
                         {{ message | replace: "%baseurl%", site.baseurl | replace: "%next-year-link%", next_year_open | replace: "%/next-year-link%", next_year_close }}
                     </h3>
                     {% elsif site.data.header.countdown-date %}
-                    <h3 id="event-countdown" class="event-countdown">
+                    <h3 id="event-countdown" class="event-countdown"{% if site.data.header.countdown-overwrite.during-event-message %} data-during-event-message="{{ site.data.header.countdown-overwrite.during-event-message | escape }}"{% endif %}>
                         {% if site.data.header.countdown-text %}
                         <div class="event-countdown-text">{{ site.data.header.countdown-text }}</div>
                         {% endif %}
