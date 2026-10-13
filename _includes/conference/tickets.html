@@ -43,7 +43,7 @@ To change which tickets are active or visible, modify the 'active' and 'visible'
             </p>
             {% endunless %}
 
-            {% if site.data.tickets.tutorials.visible %}
+            {% if site.data.tickets.tutorials.visible and site.data.tickets.tutorials.active %}
             <p style="margin-top: 20px;">
                 <i class="emph fa-solid fa-circle-info"></i> Please note that <strong>attending tutorials requires separate tickets</strong>.
             </p>
