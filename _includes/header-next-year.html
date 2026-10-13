@@ -5,24 +5,33 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1 class="event-heading{% unless site.data.next-year.image %} event-heading-text{% endunless %}">{{ site.data.next-year.heading }}</h1>
-                    {% if site.data.next-year.dates or site.data.next-year.location %}
-                    <h3 class="event-date-location">{% if site.data.next-year.dates %}{{ site.data.next-year.dates }}{% endif %}{% if site.data.next-year.dates and site.data.next-year.location %} / {% endif %}{% if site.data.next-year.location %}{{ site.data.next-year.location }}{% endif %}</h3>
+                    {% assign next_year = site.data.next-year.subpage %}
+                    {% comment %} Show the logo only once its file exists, else fall back to the text heading {% endcomment %}
+                    {% assign next_year_image = site.static_files | where: "path", next_year.image | first %}
+                    <h1 class="event-heading{% unless next_year_image %} event-heading-text{% endunless %}">
+                        {% if next_year_image %}
+                        <img src="{{ next_year.image | relative_url }}" alt="{{ next_year.image-alt | default: 'ML in PL Conference' }}" style="max-height: 1.5em; max-width: 90%;">
+                        {% else %}
+                        {% if next_year.icon %}<img class="event-heading-icon" src="{{ next_year.icon | relative_url }}" alt="">{% endif %}
+                        {{ next_year.heading }}
+                        {% endif %}
+                    </h1>
+                    {% if next_year.dates or next_year.location %}
+                    <h3 class="event-date-location">{% if next_year.dates %}{{ next_year.dates }}{% endif %}{% if next_year.dates and next_year.location %} / {% endif %}{% if next_year.location %}{{ next_year.location }}{% endif %}</h3>
                     {% endif %}
-                    {% if site.data.next-year.subheading %}
-                    <h3 class="event-subheading">{{ site.data.next-year.subheading }}</h3>
-                    {% endif %}
-                    
-                    {% if site.data.next-year.countdown-date %}
+                    {% if next_year.countdown-date %}
                     <h3 id="next-year-event-countdown" class="event-countdown">
-                        {% if site.data.next-year.countdown-text %}
-                        <div class="event-countdown-text">{{ site.data.next-year.countdown-text }}</div>
+                        {% if next_year.countdown-text %}
+                        <div class="event-countdown-text">{{ next_year.countdown-text }}</div>
                         {% endif %}
                         <span class="nowrap"><span id="d-left">0</span> <sub>days</sub></span>
                         <span class="nowrap">/ <span id="h-left">00</span> <sub>hours</sub></span>
                         <span class="nowrap">/ <span id="m-left">00</span> <sub>minutes</sub></span>
                         <span class="nowrap">/ <span id="s-left">00</span> <sub>seconds</sub></span>
                     </h3>
+                    {% endif %}
+                    {% if next_year.subheading %}
+                    <h3 class="event-subheading">{{ next_year.subheading }}</h3>
                     {% endif %}
                     
                     <!-- HACK: left but made invisible to fix positioning -->

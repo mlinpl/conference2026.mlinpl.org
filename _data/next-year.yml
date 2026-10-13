@@ -1,9 +1,18 @@
-# Next year settings — fill in when announcing the next edition.
-# `image` is optional: set it when `heading` is a logo image; without it the heading is styled as a text title.
-heading: '<span class="logo"><span class="main-name">ML&nbsp;<span class="emph">i</span>n&nbsp;PL</span><br><span class="sub-name">Conference 2027</span></span>'
-subheading: 'See you next year at the 11th edition!'
-# Address of the next edition's website, used when state.next-year-site is true
-url: "https://conference2027.mlinpl.org"
-location: Copernicus Science Centre, Warsaw, Poland
-# dates: 8 - 10 October 2027 # add when announced; shown before the location, separated by " / "
-# countdown-date: "2027-10-08T08:00:00"
+# Next year settings: fill in when announcing the next edition.
+
+# The next edition's own website, linked instead of the subpage when state.next-year-site is true
+new-page:
+  url: "https://conference.mlinpl.org/2027"
+
+# The local /next-year subpage
+subpage:
+  # Logo shown instead of `heading` once a file exists at this path
+  image: "/images/mlinpl-conference-2027-logo.png"
+  image-alt: "ML in PL Conference 2027"
+  # Icon shown left of `heading` (when no logo image is used), recreating the logo layout
+  icon: "/images/mlinpl-icon.png"
+  heading: '<span class="logo"><span class="main-name">ML&nbsp;<span class="emph">i</span>n&nbsp;PL</span><br><span class="sub-name">Conference 2027</span></span>'
+  subheading: 'See you next year at the 11th edition!'
+  location: Copernicus Science Centre, Warsaw, Poland
+  dates: 13 - 16 October 2027
+  countdown-date: "2027-10-13T08:00:00"

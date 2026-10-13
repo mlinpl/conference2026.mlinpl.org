@@ -9,7 +9,7 @@ cfc: "closed" # options: null, "open", "closed", "after" (the conference)
 tickets: true # whether tickets section is visible. options: true, false
 agenda: "full" # options: null, "draft", "full"
 after-conference: true # options: true, false
-next-year-site: false # when true, "next year" links point to next-year.url (the next edition's site) instead of the local /next-year page. options: true, false
+next-year-site: false # when true, "next year" links point to the next edition's site instead of the local /next-year page. options: true, false
 photos: false # options: true, false
 aftermovie: false # options: true, false
 

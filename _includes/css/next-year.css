@@ -1,0 +1,31 @@
+/* Text title for headers without a logo image (used on the /next-year page):
+   large name with a smaller second line */
+.event-heading.event-heading-text {
+    font-size: 3em;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Icon left of the text title, matching the height of both lines like in the logo */
+.event-heading.event-heading-text .event-heading-icon {
+    height: 1.45em;
+    margin-right: 0.3em;
+}
+
+.event-heading.event-heading-text .logo {
+    text-align: left;
+}
+
+.event-heading.event-heading-text .sub-name {
+    display: block;
+    font-size: 0.45em;
+    line-height: 1;
+}
+
+@media(min-width:767px) {
+    .event-heading.event-heading-text {
+        font-size: 6em;
+    }
+}

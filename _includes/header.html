@@ -34,8 +34,8 @@
                         {% if next_year_page %}
                             {% assign next_year_url = site.baseurl | append: "/next-year" %}
                         {% endif %}
-                        {% if site.data.state.next-year-site == true and site.data.next-year.url %}
-                            {% assign next_year_url = site.data.next-year.url %}
+                        {% if site.data.state.next-year-site == true and site.data.next-year.new-page.url %}
+                            {% assign next_year_url = site.data.next-year.new-page.url %}
                         {% endif %}
                         {% if next_year_url %}
                             {% capture next_year_open %}<a href="{{ next_year_url }}">{% endcapture %}
