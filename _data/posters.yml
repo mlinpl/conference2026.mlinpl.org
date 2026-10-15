@@ -81,12 +81,10 @@
   author-image: images/optimized/cfc-600x600/PiotrKacprzak.webp
 
 - author-name: Mateusz Pyla
-  title: "On the role of regularization at Edge of Stability phenomenon"
+  title: "Global Memorisation Direction"
   author-title: "Jagiellonian University (UJ) in Kraków"
   abstract-md: |- 
-    Gradient descent on neural networks self-organizes at the **Edge of Stability** (EoS): the top Hessian eigenvalue $\lambda_{max}$ climbs until it reaches the stability ceiling $2/\eta$ and then hovers there while the loss keeps falling. This is difficult to reconcile with the standard account of regularization, in which weight decay, data augmentation and many types of regularization earn their generalization benefit by steering optimization toward flatter minima. If the learning rate alone fixes how much curvature a network can carry, what is a regularizer actually doing?
-
-    To answer this question, we perform controlled dose–response study across architectures and learning rates on a CIFAR-scale classification task, and we provide some theoretical discussion on the effect of the regularization on the Hessian, sharpness and its relation to the EoS phenomenon. This work and the talk is based on my internship at the Université Paris Dauphine-PSL that is happening over the summer this year.
+    Can a network learn a new label for an image it has never seen, without looking at that image? We examine the sharpest direction of the model Fisher, which we call the global memorisation direction (GMD). On CNN and ResNet models trained on CIFAR-10 with 30 % corrupted labels, averaging the gradients that other images receive for a label yields one update direction per label. A step along it lowers the loss of every unseen image given a new random label with significant median cosine with the image's own gradient, while another label's direction does nothing. These label directions span the top of the Fisher spectrum, and the GMD lies up to 96 % inside them. We tracked the evolution of these vectors and discovered that memorisation is the phase in which images stop sharing them: the alignment falls by a third to two thirds (depending on architecture) while the corrupted labels go in, and fewer images in each batch drive the SGD step along the GMD. We empirically verify that common regularisers delay this phenomenon.
   author-bio: >- 
     Mateusz is pursuing his PhD in AI at Jagiellonian University. He holds a Master’s degree from Dauphine-PSL Université in Paris and a Bachelor’s degree from the University of Edinburgh. His research expertise includes optimization, mechanistic interpretability, and Bayesian learning.
   co-authors: Stanislaw Kamil Jastrzebski
