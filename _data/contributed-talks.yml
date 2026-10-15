@@ -108,22 +108,26 @@
   id: 6
   author-image: images/optimized/cfc-600x600/KatarzynaKobalczyk.webp
 
-- author-name: Julia Bazinska
-  title: "Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents"
-  author-title: "Check Point AI Security"
+- title: "Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents"
+  authors:
+    - name: Julia Bazinska
+      title: Check Point AI Security
+      image: images/empty.png
+    - name: Max Mathys
+      title: Check Point AI Security
+      image: images/empty.png
   abstract-md: |- 
     AI agents powered by large language models (LLMs) are being deployed at scale, yet we lack a systematic understanding of how the choice of backbone LLM affects agent security. The non-deterministic sequential nature of AI agents complicates security modeling, while the integration of traditional software with AI components entangles novel LLM vulnerabilities with conventional security risks. Existing frameworks only partially address these challenges as they either capture specific vulnerabilities only or require modeling of complete agents. To address these limitations, we introduce threat snapshots: a framework that isolates specific states in an agent's execution flow where LLM vulnerabilities manifest, enabling the systematic identification and categorization of security risks that propagate from the LLM to the agent level. We apply this framework to construct the b3 benchmark, a security benchmark based on 194,331 unique crowdsourced adversarial attacks. We then evaluate 34 popular LLMs with it, revealing, among other insights, that enhanced reasoning capabilities improve security, while model size does not correlate with security. We release our benchmark, dataset, and evaluation code to facilitate widespread adoption by LLM providers and practitioners, offering guidance for agent developers and incentivizing model developers to prioritize backbone security improvements.
 
     In the talk, besides the above content, I'll offer a brief introduction to AI Security, how it differs from AI Safety and what are current challenges in the field.
   author-bio: >- 
     Julia is a Senior Research Engineer at Lakera AI, a Check Point Company. Her professional interests are in NLP, AI security, and performance optimization of ML systems. Lakera allows developers to build secure AI applications and agents with Lakera Guard, which protects against prompt injections, data leaks, and other risks. Julia has worked on red-teaming LLMs, building defenses for agents and evaluations for both red and blue sides of AI security. Lakera AI was acquired by Check Point in late 2025.
-  co-authors: Max Mathys, Francesco Casucci, Mateo Rojas-Carulla, Xander Davies, Alexandra Souly, Niklas Pfister
+  co-authors: Francesco Casucci, Mateo Rojas-Carulla, Xander Davies, Alexandra Souly, Niklas Pfister
   date: Friday / 9 October
   time: 9:30 - 10:00
   room: Hall B
   session: Contributed Talks Session 3
   id: 7
-  author-image: images/empty.png
 
 - author-name: Bartłomiej Marek
   title: "Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models"
