@@ -799,21 +799,6 @@
   id: 48
   author-image: images/optimized/cfc-600x600/TurhanCanKargin.webp
 
-- author-name: Rasmus Møller-Larsen
-  title: "Mutation Flows: Discrete Flow Matching over Edit Graphs"
-  author-title: "Helmholtz Munich"
-  abstract-md: |- 
-    Biological sequences evolve through a rich set of local edits: single-residue substitutions, deletions, and block insertions of new residues. Existing discrete flow matching models either fix sequence length or restrict edits to single tokens, offer no control over source-to-output similarity, and cannot decompose the joint prediction of edit type, block length, and token content. We introduce Mutation Flows, the first discrete flow matching framework over variable-length biological sequences that resolves all three limitations via: (i) block insertions modelled by a zero-truncated Poisson distribution; (ii) R-coupling, a distance-aware coupling that matches the pairwise distance distribution of the training data, giving parametrizable inference-time diversity control while supporting identical source and target distributions; and (iii) an exact planner-denoiser factorisation whose denoiser loss reduces to a standard fixed-length discrete flow matching objective, admitting any pretrained biological sequence model as a drop-in denoiser. On a peptide dataset, Mutation Flows achieves state-of-the-art sequence quality and controllable generation across target distances.
-  author-bio: >- 
-    I am currently a PhD student at Helmholtz Munich and the Technical University of Munich, working on deep generative models for peptide design and multi-objective optimization.
-  co-authors: Ewa Szczurek
-  date: Friday / 9 October
-  time: 12:15 - 13:45
-  room: 
-  session: Poster Session 2
-  id: 49
-  author-image: images/empty.png
-
 - author-name: Małgorzata Grzanka
   title: "Reasoning Diffusion: Enhancing Spatial Planning in Diffusion Models via Tiny Recursive Model Networks"
   author-title: "Warsaw University of Technology"
