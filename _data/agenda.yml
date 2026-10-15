@@ -202,7 +202,7 @@
         room: Hall B
         subevents:
           - title: "<strong>Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents</strong>"
-            subtitle: by Julia Bazinska (Check Point AI Security)
+            subtitle: by Julia Bazinska and Max Mathys (Check Point AI Security)
             time: 9:30 - 10:00
             url: /program#contributed-talk-7
           - title: "<strong>How Vulnerable Are AI Agents to Indirect Prompt Injections? Insights from a Large-Scale Public Competition</strong>"
