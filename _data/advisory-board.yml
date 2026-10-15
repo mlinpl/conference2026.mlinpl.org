@@ -3,7 +3,7 @@
   image: images/optimized/advisory-board-300x300/PrzemyslawBiecek.webp
   google-scholar: https://scholar.google.com/citations?user=Af0O75cAAAAJ
   bio: >-
-    "We are here to fix Al!" That's the central topic of Przemyslaw Biecek's research on the safety and explainability of artificial intelligence at the Warsaw University of Technology and the University of Warsaw. He leads the MI2.Al team conducting red-teaming of text and image models used in medicine, earth observation, or finance.
+    "We are here to fix Al!" That's the central topic of Przemysław Biecek's research on the safety and explainability of artificial intelligence at the Warsaw University of Technology and the University of Warsaw. He leads the MI2.Al team conducting red-teaming of text and image models used in medicine, earth observation, or finance.
 
 - name: Jan Chorowski
   affiliation: Pathway
@@ -46,7 +46,7 @@
   image: images/optimized/advisory-board-300x300/StanislawJastrzebski.webp
   google-scholar: https://scholar.google.pl/citations?user=wbJxGQ8AAAAJ
   bio-intro: >-
-    Stanislaw Jastrzebski serves as the CTO and Chief Scientist at Molecule.one, a biotech startup in the drug discovery space. He is passionate about improving the fundamental aspects of deep learning and applying it to automate scientific discovery. He completed his postdoctoral training at New York University in deep learning.
+    Stanisław Jastrzębski serves as the CTO and Chief Scientist at Molecule.one, a biotech startup in the drug discovery space. He is passionate about improving the fundamental aspects of deep learning and applying it to automate scientific discovery. He completed his postdoctoral training at New York University in deep learning.
   bio-more: >-
     His PhD thesis was based on work on foundations of deep learning done during research visits at MILA (with Yoshua Bengio) and the University of Edinburgh (with Amos Storkey). He received his PhD from Jagiellonian University, advised by Jacek Tabor. Beyond academia, he gained industrial experience at Google, Microsoft and Palantir. In his scientific work, he has published at leading machine learning venues (NeurIPS, ICLR, ICML, JMLR, Nature SR). He is also actively contributing to the machine learning community as an Area Chair (most recently NeurIPS '23) and as an Action Editor for TMLR. At Molecule.one, he leads technical teams working on software for synthesis planning based on deep learning, public data sources, and experiments from a highly automated laboratory.
 

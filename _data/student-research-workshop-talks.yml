@@ -5,7 +5,7 @@
     Vision foundation models, such as DINOv2, learn highly expressive representations but rely on massive, opaque architectures that demand substantial computational power and memory. To provide an interpretable-guided and efficient solution to this issue, we first propose a spectral analysis and new visualization technique for individual attention heads based on the Laplacian eigenvectors of their attention maps. Building upon recent observations regarding the block structure of Vision Transformers, we perform semantic clustering of attention heads and identify functional redundancies. Leveraging these insights, we introduce SAPER (Soft Attention PrunER), an end-to-end differentiable pruning framework based on the LapSum Soft Top-K approach. Extensive experiments on ImageNet-1K demonstrate that SAPER achieves a highly favorable accuracy-efficiency trade-off, outperforming the competitive RAPTOR baseline in FLOPs reduction while preserving strong classification performance.
   author-bio: >- 
     Michał Jan Włodarczyk is a Machine Learning MSc student at Warsaw University of Technology and a Research Software Engineer at the Center for Credible AI and the Systems Research Institute of the Polish Academy of Sciences. His research focuses on interpretable deep learning, implicit neural representations, and world models, with publications at ICCV, Pacific Graphics, and SIGGRAPH Asia.
-  co-authors: Kamil Książek, Piotr Suszyński, Jacek Tabor, Przemyslaw Biecek
+  co-authors: Kamil Książek, Piotr Suszyński, Jacek Tabor, Przemysław Biecek
   date: Thursday / 8 October
   time: 8:15 - 8:30
   room: Main Hall
@@ -32,7 +32,7 @@
   id: 2
   author-image: images/optimized/cfc-600x600/MichalSzymocha.webp
 
-- author-name: Jan Kwiecinski
+- author-name: Jan Kwieciński
   title: "Goal Conditioned RL to Abstract Solved States via Relative Contrastive Reinforcement Learning"
   author-title: "University of Warsaw"
   abstract-md: |- 
@@ -73,7 +73,7 @@
     Despite their impressive capabilities, current Text-to-Image (T2I) models remain prone to generating unsafe and toxic content. While activation steering offers a promising inference-time intervention, we observe that linear activation steering frequently degrades image quality when applied to benign prompts and we diagnose that much of the apparent safety gain of existing linear methods is in fact safety by image corruption: these methods destroy image content rather than selectively removing unsafe concepts. To address this trade-off, we first construct SafeSteerDataset, a contrastive dataset containing 2300 safe and unsafe prompt pairs with high cosine similarity. Leveraging this data, we propose Conditioned Activation Transport (CAT), a framework built on trainable, non-linear, regularized transport maps. We utilize a dual-head map that jointly predicts a steering direction and an input-dependent magnitude, remaining close to the identity on already-safe activations. We validate our approach on four state-of-the-art architectures: SD1.4, Flux.1-dev, Infinity, and Z-Image. Experiments demonstrate that CAT generalizes effectively across these backbones, reducing Attack Success Rate while maintaining utility compared to unsteered generations. Warning: This paper contains potentially offensive text and images.
   author-bio: >- 
     Aleksander Szymczyk is an M.Sc. student in Computer Science at the Warsaw University of Technology, specializing in Artificial Intelligence. He works in the AI Security and Transparency Department at NASK. His current research focuses on the safety and interpretability of generative AI models.
-  co-authors: Maciej Chrabaszcz, Jan Dubiński, Tomasz Trzcinski, Franziska Boenisch, Adam Dziedzic
+  co-authors: Maciej Chrabąszcz, Jan Dubiński, Tomasz Trzciński, Franziska Boenisch, Adam Dziedzic
   date: Thursday / 8 October
   time: 10:00 - 10:15
   room: Main Hall
@@ -130,7 +130,7 @@
     Contrastively pre-trained Vision-Language Models (VLMs) serve as powerful feature extractors. Yet, their shared latent spaces are prone to structural anomalies and act as repositories for non-semantic, multi-modal noise. To address this phenomenon, we employ spectral decomposition of covariance matrices to decompose the VLM latent space into a multi-modal semantic signal component and a shared noise subspace. We observe that this noise geometry exhibits strong subgroup invariance across distinct data subsets. Crucially, pruning these shared noise dimensions is mainly harmless, preserving or actively improving downstream task performance. By isolating true semantic signals from artifactual noise, this work provides new mechanistic insights into the representational structure of modern VLMs, suggesting that a substantial fraction of their latent geometry is governed by shared, architecture-level noise rather than task-relevant semantics alone.
   author-bio: >- 
     I’m a Research Software Engineer working at CCAI and a 2nd year Data Science MSc student at Warsaw University of Technology. Passionate about deep learning, generative models, data science, overall software development and all things math. I am involved in various projects tying to push forward the frontier of explainable AI ranging from practical application of generative AI for model validation to vision model depoisoning.
-  co-authors: Dawid Płudowski, Przemyslaw Biecek
+  co-authors: Dawid Płudowski, Przemysław Biecek
   date: Thursday / 8 October
   time: 11:00 - 11:15
   room: Main Hall

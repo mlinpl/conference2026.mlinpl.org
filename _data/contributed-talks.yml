@@ -110,7 +110,7 @@
 
 - title: "Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents"
   authors:
-    - name: Julia Bazinska
+    - name: Julia Bazińska
       title: Check Point AI Security
       image: images/empty.png
     - name: Max Mathys
@@ -198,7 +198,7 @@
     Counterfactual explanations play a pivotal role in explainable artificial intelligence (XAI) by offering intuitive, human-understandable alternatives that elucidate machine learning model decisions. Despite their significance, existing methods for generating counterfactuals often require constant access to the predictive model, involve computationally intensive optimization for each instance, and lack the flexibility to adapt to new user-defined constraints without retraining. In this paper, we propose DiCoFlex, a novel model-agnostic, conditional generative framework that produces multiple diverse counterfactuals in a single forward pass. Leveraging conditional normalizing flows trained solely on labeled data, DiCoFlex addresses key limitations by enabling real-time user-driven customization of constraints such as sparsity and actionability at inference time. Extensive experiments on standard benchmark datasets show that DiCoFlex outperforms existing methods in terms of validity, diversity, proximity, and constraint adherence, making it a practical and scalable solution for counterfactual generation in sensitive decision-making domains.
   author-bio: >- 
     Oleksii Furman is a PhD candidate in Artificial Intelligence at Wrocław University of Science and Technology and a Research Engineer at DataWalk. His research centers on explainable AI (XAI), counterfactual explanations, and deep generative models, with a focus on building transparent, trustworthy ML systems for sensitive, real-world decision-making. He is the lead author of DiCoFlex, a model-agnostic framework for diverse counterfactual generation published at NeurIPS 2025, and has contributed to multiple publications on normalizing flows and probabilistic modeling. Oleksii is an active member of the ML community, having delivered talks, posters, and tutorials, and regularly presents at local AI meetups.
-  co-authors: Ulvi Movsum-zada, Patryk Marszałek, Maciej Zieba, Marek Śmieja
+  co-authors: Ulvi Movsum-zada, Patryk Marszałek, Maciej Zięba, Marek Śmieja
   date: Friday / 9 October
   time: 15:30 - 16:00
   room: Hall A
@@ -245,7 +245,7 @@
     The Hierarchical Dirichlet Process Hidden Markov Model (HDP-HMM) is a Bayesian nonparametric extension of the classical Hidden Markov Model, well-suited for learning from (spatio-)temporal data. To relax the restrictive geometric assumption on state durations, the HDP Hidden Semi-Markov Model was introduced. However, both models assume stationary state durations, which limits their expressive power. In this work, we extend the HDP-HMM framework by incorporating recurrent explicit duration modeling, resulting in a more general and flexible model: the Recurrent Explicit Duration HDP-HMM (RED-HDP-HMM). We propose a Gibbs sampling method for efficient inference in this model. Empirical results on both synthetic and real-world segmentation tasks demonstrate that RED-HDP-HMM consistently outperforms the disentangled sticky HDP-HMM and the standard sticky HDP-HMM.
   author-bio: >- 
     I’m Mikołaj Słupiński - a researcher, developer, and ML/AI consultant based in Wrocław, Poland. I work across the full spectrum of machine learning: from theoretical research in probabilistic AI and Bayesian inference at the University of Wrocław, where I’m completing my PhD and teaching courses on machine learning, neural networks, and evolutionary algorithms, to building production systems that serve real users in finance, energy, and adtech. Over the years I’ve shipped ML at companies ranging from startups to Microsoft, covering everything from on-device neural network deployment to large-scale anomaly detection and real-time bidding. Currently I split my time between academic research, a Technical Researcher role at RTB House, and running my own ML/AI consulting practice. Beyond research and engineering, I’m passionate about growing the AI community in Poland. I’m one of the organizers of the first three editions of the Polish AI Olympiad, where I coach national teams, design competition problems, and lead the development of the online judge platform - our team brought home 1st place at IOAI 2025. I also served on the Call for Contributions committee at ML in PL, Poland’s premier machine learning conference.
-  co-authors: Piotr Lipinski
+  co-authors: Piotr Lipiński
   date: Friday / 9 October
   time: 15:30 - 16:00
   room: Hall B
@@ -395,7 +395,7 @@
   id: 23
   author-image: images/optimized/cfc-600x600/LukaszJanisiow.webp
 
-- author-name: Bartlomiej Sobieski
+- author-name: Bartłomiej Sobieski
   title: "Auditing Sybil: Explaining Deep Lung Cancer Risk Prediction Through Generative Interventional Attributions"
   author-title: "University of Warsaw / Centre for Credible AI"
   abstract-md: |- 
@@ -404,7 +404,7 @@
     This work was accepted to ICML 2026.
   author-bio: >- 
     I am a second-year Ph.D. student in Computer Science at the University of Warsaw, under the supervision of Prof. dr hab. inż. Przemysław Biecek. My research focuses on developing and utilizing state-of-the-art generative modeling techniques to construct novel explainability algorithms for computer vision models. My greatest passion lies in exploring advanced mathematical methodologies and translating them into practical use cases, where theory meets practice.
-  co-authors: Jakub Grzywaczewski, Karol Dobiczek, Mateusz Wójcik, Tomasz Bartczak, Szatkowski Patryk, Przemysław Bombiński, Matthew Tivnan, Przemyslaw Biecek
+  co-authors: Jakub Grzywaczewski, Karol Dobiczek, Mateusz Wójcik, Tomasz Bartczak, Patryk Szatkowski, Przemysław Bombiński, Matthew Tivnan, Przemysław Biecek
   date: Saturday / 10 October
   time: 10:30 - 11:00
   room: Hall B

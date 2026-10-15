@@ -26,7 +26,7 @@
             time: 8:35 - 8:50
             url: /program#srw-talk-2
           - title: "<strong>Goal Conditioned RL to Abstract Solved States via Relative Contrastive Reinforcement Learning</strong>"
-            subtitle: by Jan Kwiecinski (University of Warsaw)
+            subtitle: by Jan Kwieciński (University of Warsaw)
             time: 8:55 - 9:10
             url: /program#srw-talk-3
           - title: "<strong>Activity is in the Activations: Inference-Time Steering of Peptide Models for Antimicrobial Design</strong>"
@@ -202,7 +202,7 @@
         room: Hall B
         subevents:
           - title: "<strong>Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents</strong>"
-            subtitle: by Julia Bazinska and Max Mathys (Check Point AI Security)
+            subtitle: by Julia Bazińska and Max Mathys (Check Point AI Security)
             time: 9:30 - 10:00
             url: /program#contributed-talk-7
           - title: "<strong>How Vulnerable Are AI Agents to Indirect Prompt Injections? Insights from a Large-Scale Public Competition</strong>"
@@ -413,7 +413,7 @@
             time: 10:00 - 10:30
             url: /program#contributed-talk-23
           - title: "<strong>Auditing Sybil: Explaining Deep Lung Cancer Risk Prediction Through Generative Interventional Attributions</strong>"
-            subtitle: by Bartlomiej Sobieski (University of Warsaw / Centre for Credible AI)
+            subtitle: by Bartłomiej Sobieski (University of Warsaw / Centre for Credible AI)
             time: 10:30 - 11:00
             url: /program#contributed-talk-24
 

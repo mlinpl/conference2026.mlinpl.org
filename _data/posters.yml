@@ -87,7 +87,7 @@
     Can a network learn a new label for an image it has never seen, without looking at that image? We examine the sharpest direction of the model Fisher, which we call the global memorisation direction (GMD). On CNN and ResNet models trained on CIFAR-10 with 30 % corrupted labels, averaging the gradients that other images receive for a label yields one update direction per label. A step along it lowers the loss of every unseen image given a new random label with significant median cosine with the image's own gradient, while another label's direction does nothing. These label directions span the top of the Fisher spectrum, and the GMD lies up to 96 % inside them. We tracked the evolution of these vectors and discovered that memorisation is the phase in which images stop sharing them: the alignment falls by a third to two thirds (depending on architecture) while the corrupted labels go in, and fewer images in each batch drive the SGD step along the GMD. We empirically verify that common regularisers delay this phenomenon.
   author-bio: >- 
     Mateusz is pursuing his PhD in AI at Jagiellonian University. He holds a Master’s degree from Dauphine-PSL Université in Paris and a Bachelor’s degree from the University of Edinburgh. His research expertise includes optimization, mechanistic interpretability, and Bayesian learning.
-  co-authors: Stanislaw Kamil Jastrzebski
+  co-authors: Stanisław Kamil Jastrzębski
   date: Thursday / 8 October
   time: 13:15 - 14:45
   room: 
@@ -138,7 +138,7 @@
     Multimodal large language models (MLLMs, often referred to as VLMs) have become a standard approach for many vision tasks. However, exploring real-world environments and performing object search in open-world settings, actively controlling a UAV from camera observations to locate a target described in natural language, remains highly challenging. Even state-of-the-art large models struggle, while smaller open models often fail almost entirely. In this presentation, we show how an MLLM can be trained with reinforcement learning for this setting. To enable fine-tuning on realistic visual data, we develop a 3D Gaussian-splat simulation environment based on real-world captures and combine it with a fast, procedurally generated simulator to scale and diversify training. Leveraging the multimodal tool-calling capabilities of Qwen3.5 and Group Relative Policy Optimization (GRPO) through the Hugging Face TRL framework, we train a 9B-parameter MLLM that achieves a 52% success rate on the FlySearch FS-1 Forest benchmark, matching Claude 3.5 Sonnet (52%) and approaching GPT-5 (57%) and Claude 4.5 Sonnet (55%), despite being substantially smaller. Finally, we present early results from deployment on physical UAV hardware and discuss the challenges of closing the sim-to-real gap.
   author-bio: >- 
     Adam Pardyl is a PhD candidate in Group of Machine Learning Research (GMUM) at Jagiellonian University and a researcher at IDEAS NCBR. Formerly visiting researcher at Max Planck Institute for Informatics and SWE intern at Google. His research interests include computer vision for embodied AI, reinforcement learning, and MLLMs for robotics.
-  co-authors: Jan Mikolajczyk, Hubert Zientara, Jan Matusiak, Dominik Gaweł, Marek Cygan, Bartosz Michał Zieliński, Maciej Wolczyk
+  co-authors: Jan Mikołajczyk, Hubert Zientara, Jan Matusiak, Dominik Gaweł, Marek Cygan, Bartosz Michał Zieliński, Maciej Wołczyk
   date: Thursday / 8 October
   time: 13:15 - 14:45
   room: 
@@ -153,7 +153,7 @@
     A single text prompt passed to a diffusion model often yields a wide range of visual outputs determined solely by stochastic process, leaving users with no direct control over which specific semantic variations appear in the image. While existing unsupervised methods attempt to analyze these variations via output features, they omit the underlying generative process. In this work, we propose a framework to disentangle these semantic directions directly within the input embedding space. To that end, we collect a set of gradients obtained by backpropagating the differences between stochastic realizations of a fixed prompt that we later decompose into meaningful steering directions with Principal Components Analysis or Sparse Autoencoder. Our approach yields three key contributions: (1) it isolates interpretable, steerable directions for precise, fine-grained control over a single concept; (2) it effectively mitigates mode collapse in distilled models by reintroducing lost diversity; and (3) it establishes a novel estimator for concept complexity under a specific model, based on the dimensionality of the discovered subspace.
   author-bio: >- 
     PhD Student at Warsaw University of Technology and ML researcher at IDEAS Research Institute interested in generative modeling, mechanistic interpretability, and reasoning models.
-  co-authors: Emilia Kaczmarczyk, Tomasz Trzcinski, Kamil Deja
+  co-authors: Emilia Kaczmarczyk, Tomasz Trzciński, Kamil Deja
   date: Thursday / 8 October
   time: 13:15 - 14:45
   room: 
@@ -202,7 +202,7 @@
     We introduce the metagame, a conceptual framework for quantifying second-order interaction effects of model explanations. For any first-order attribution $\phi(f)$ explaining a model $f$, we measure the directional influence of feature $j$ on the attribution of feature $i$, denoted as meta-attribution $\varphi_{j \to i}(f)$, by treating the attribution method itself as a cooperative game and computing its Shapley value. Theoretically, we prove that attributions hierarchically decompose into meta-attributions, and establish these as directional extensions of existing interaction indices. Empirically, we demonstrate that the metagame delivers insights across diverse interpretability applications: (i) quantifying token interactions in instruction-tuned language models, (ii) explaining cross-modal similarity in vision-language encoders, and (iii) interpreting text-to-image concepts in multimodal diffusion transformers.
   author-bio: >- 
     Hubert Baniecki is a PhD candidate at the University of Warsaw, advised by Przemysław Biecek. During his PhD, he interned at Meta in New York (’26) and was a visiting researcher at LMU Munich, hosted by Eyke Hüllermeier (’25) and Bernd Bischl (’24). His research focuses on machine learning interpretability (a.k.a. explainable AI). He develops algorithms and tools to better understand how deep neural networks work, focusing on efficiently computing model explanations and applying them in medicine. His research has been published at leading machine learning conferences (NeurIPS, ICML, and ICLR) and in the journals JMLR and PNAS. He has received the FNP START Scholarship (’25), the Minister’s Scholarship (’24), the Pearls of Science grant (’23), and the John M. Chambers Statistical Software Award (’22).
-  co-authors: Przemyslaw Biecek, Fabian Fumagalli
+  co-authors: Przemysław Biecek, Fabian Fumagalli
   date: Thursday / 8 October
   time: 13:15 - 14:45
   room: 
@@ -223,7 +223,7 @@
     The study examines whether scale-aware losses can recover high-frequency detail and improve extreme-event prediction while retaining accurate and stable autoregressive forecasts.
   author-bio: >- 
     Adam Dobosz is a master’s student in Artificial Intelligence at Poznań University of Technology and a Machine Learning Researcher at the Poznań Supercomputing and Networking Center. His research focuses on machine learning for weather forecasting and the data-driven modeling of spatiotemporal geophysical fields. He is particularly interested in generative and probabilistic approaches, including diffusion-based methods, that can represent forecast uncertainty and produce realistic predictions beyond conventional point-estimate objectives. He has contributed to the development of WICHER-M, a high-resolution weather forecasting model that received the Best Poster Award at ML in PL 2025.
-  co-authors: Wojciech Stefaniak, Anatol Kaczmarek, Jędrzej Miczke, Wiktor Kamzela, Jakub Kubiak, Piotr Wyrwinski
+  co-authors: Wojciech Stefaniak, Anatol Kaczmarek, Jędrzej Miczke, Wiktor Kamzela, Jakub Kubiak, Piotr Wyrwiński
   date: Thursday / 8 October
   time: 13:15 - 14:45
   room: 
@@ -259,7 +259,7 @@
     On speed, the key advantage of next-scale prediction is the reduction of sequential generation steps from linear to logarithmic in the token count. CaloVAR generates a shower in 0.23 ms at batch size 1000 on a single A100 GPU in BF16. Because the two token-based baselines were the fastest GPU submissions in the CaloChallenge 2022 review, and CaloVAR outpaces them in direct re-timing on the same hardware, CaloVAR ranks as the fastest approach among the CaloChallenge GPU submissions. The remaining field, built on diffusion, normalizing flows, and point-cloud generation, while achieving higher peak fidelity, requires one to three orders of magnitude more generation time at comparable batch sizes. Beyond peak performance, the coarse-to-fine generation order offers a built-in speed-fidelity trade-off: stopping generation at a coarser resolution can reduce latency by up to a further factor of roughly three, at the cost of spatial detail, without any retraining. Coarse-to-fine generation is a practical and scalable route to fast and faithful calorimeter simulation.
   author-bio: >- 
     Franciszek Wójcik is a Master's student in Computer Science at Warsaw University of Technology and an Associate AI Engineer at Nykredit, specializing in generative models and multi-agent systems. His academic research focuses on applying deep learning to high-energy physics, specifically adapting next-scale autoregressive vision models for fast calorimeter simulation at the CERN Large Hadron Collider. Alongside his research, he has professional experience architecting LLM-powered orchestration systems and enterprise-level cloud infrastructure.
-  co-authors: Tomasz Trzcinski, Jan Dubiński
+  co-authors: Tomasz Trzciński, Jan Dubiński
   date: Thursday / 8 October
   time: 13:15 - 14:45
   room: 
@@ -342,14 +342,14 @@
   id: 21
   author-image: images/empty.png
 
-- author-name: Bartlomiej Sobieski
+- author-name: Bartłomiej Sobieski
   title: "Local Intrinsic Dimension Unveils Hallucinations in Diffusion Models"
   author-title: "University of Warsaw / Centre for Credible AI"
   abstract-md: |- 
     Diffusion models are prone to generating structural hallucinations - samples that match the statistical properties of the training data yet defy underlying structural rules, resulting in anomalies like hands with more than five fingers. Recent research studied this failure mode from several viewpoints, offering partial explanations to their occurrence, such as mode interpolation. In this work, we propose a complementary perspective that treats hallucinations as instabilities on the model-induced manifold. We begin by showing that a hallucination filter based on such instabilities matches or exceeds the performance of the recently proposed temporal one. By tracing the source of these instabilities, we identify local intrinsic dimension (LID) as their primary driver and propose Intrinsic Quenching (IQ), a direct corrective mechanism that deflates it to alleviate hallucinations. IQ consistently outperforms standard hallucination reduction baselines across a wide array of benchmarks and offers a highly promising solution for enforcing anatomical consistency in downstream medical imaging tasks.
   author-bio: >- 
     I am a second-year Ph.D. student in Computer Science at the University of Warsaw, under the supervision of Prof. dr hab. inż. Przemysław Biecek. My research focuses on developing and utilizing state-of-the-art generative modeling techniques to construct novel explainability algorithms for computer vision models. My greatest passion lies in exploring advanced mathematical methodologies and translating them into practical use cases, where theory meets practice.
-  co-authors: Matthew Tivnan, Dawid Płudowski, Michał Jan Włodarczyk, Pengfei Jin, Przemyslaw Biecek, Quanzheng Li
+  co-authors: Matthew Tivnan, Dawid Płudowski, Michał Jan Włodarczyk, Pengfei Jin, Przemysław Biecek, Quanzheng Li
   date: Thursday / 8 October
   time: 13:15 - 14:45
   room: 
@@ -383,7 +383,7 @@
     Generative molecular optimization aims to design molecules with properties surpassing those of existing compounds. However, evaluating candidate molecules is expensive, so sample efficiency, i.e., generating optimized molecules within a fixed evaluation budget, is essential. Moreover, in the offline setting, where a surrogate model approximates candidate evaluation, sample inefficiency compounds with surrogate error, further limiting performance. To address these challenges, we introduce JOINT SELF-IMPROVEMENT (JSI), a framework for sample-efficient online and offline molecular optimization. JSI combines (i) a joint generative-predictive model trained via a joint likelihood-based loss, which aligns molecule generation and surrogate modeling, and (ii) inference-time self-improvement, which iteratively biases the generative component of the joint model toward higher-scoring molecules using direct objective evaluations in the online setting and the predictive component in the offline setting. Experiments across docking score optimization, in both online and offline settings, as well as antimicrobial peptide optimization, demonstrate that JSI outperforms state-of-the-art methods under limited evaluation budgets.
   author-bio: >- 
     I am a researcher at Helmholtz Munich. I hold an M.Sc. in Chemical Biotechnology from Technical University of Munich, and my research is at the intersection of chemistry and AI, with a particular focus on generative AI for drug discovery.
-  co-authors: Adam Izdebski, Jonathan Pirnay, Rasmus Møller-Larsen, Michal Kmicikiewicz, Pankhil Gawade, Dominik G. Grimm, Ewa Szczurek
+  co-authors: Adam Izdebski, Jonathan Pirnay, Rasmus Møller-Larsen, Michał Kmicikiewicz, Pankhil Gawade, Dominik G. Grimm, Ewa Szczurek
   date: Thursday / 8 October
   time: 13:15 - 14:45
   room: 
@@ -447,7 +447,7 @@
     Generating a 3D dental volume from a single panoramic radiograph (PXR) could provide a low-radiation alternative to Cone-Beam Computed Tomography (CBCT), but the problem is highly underdetermined: panoramic acquisition integrates 3D attenuation along curved X-ray paths into a 2D image, leaving depth-resolved anatomy unobserved. Existing implicit and generative approaches often produce oversmoothed geometry or anatomically inconsistent hallucinations, lacking geometry-driven supervision and relying on smooth representations unable to precisely localize sharp anatomical boundaries. We propose X-Splat, the first Gaussian Splatting framework for generating CBCT-like 3D dental volumes from a single PXR. X-Splat uses the known panoramic acquisition geometry as a generation scaffold: learnable anisotropic Gaussian primitives are initialized along the X-ray paths that formed the input image and adjusted in a single feed-forward pass, constrained by Beer--Lambert reprojection and multi-view radiographic training supervision. A lightweight residual refiner adds dataset-level anatomical priors without overriding the geometry already resolved by the Gaussians. We train on synthetic PXR--CBCT pairs, enabling direct volumetric supervision without paired real scans. We further introduce segmentation-based geometry-aware metrics, providing the first evaluation of PXR-based generation over maxillofacial anatomy. X-Splat outperforms NeRF- and GAN-based baselines, recovering individual teeth, cortical boundaries, and alveolar structure, including the mandibular canal which prior methods fail to reconstruct.
   author-bio: >- 
     Tomasz Szczepański is a PhD candidate affiliated with the Sano Centre for Computational Medicine in Kraków and the Warsaw University of Technology (WUT). His research interests include multimodal data integration and geometric approaches to medical image analysis. His research has been presented at MICCAI ('24, '25) and ICCS ('22), and published in high-impact journals such as IEEE Transactions on Medical Imaging (TMI, '24) and Medical Image Analysis (MEDIA, '25).
-  co-authors: Szymon Plotka, Michal K. Grzeszczyk, Tomasz Trzcinski, Arkadiusz Sitek
+  co-authors: Szymon Płotka, Michał K. Grzeszczyk, Tomasz Trzciński, Arkadiusz Sitek
   date: Friday / 9 October
   time: 12:15 - 13:45
   room: 
@@ -480,7 +480,7 @@
   id: 29
   author-image: images/optimized/cfc-600x600/AndrzejZapala.webp
 
-- author-name: Piotr Wyrwinski
+- author-name: Piotr Wyrwiński
   title: "Structure over Pixels: Learning Variable-Length Visual Programs"
   author-title: "Poznan University of Technology | PCSS"
   abstract-md: |- 
@@ -587,7 +587,7 @@
     Our approach advances both the performance and interpretability of weight-space classifiers.
   author-bio: >- 
     I'm a PhD student in AI applied to Medical Images. My research focuses of Weight Space Learning and Implicit Neural Representations.
-  co-authors: Michal Byra
+  co-authors: Michał Byra
   date: Friday / 9 October
   time: 12:15 - 13:45
   room: 
@@ -678,7 +678,7 @@
     In this work, we present substantial advancements that transition of previously presented work from a theoretical downscaling architecture to an operationally viable, physically consistent forecasting system. First, we establish rigorous baselines, demonstrating that our lightweight framework outperforms operational NWP (WRF-ARW) and state-of-the-art generative ML models (StormCast) at a fraction of the computational cost. Second, we bridge the "sim-to-real" gap by integrating in-situ weather station observations (HadISD). Using continual learning with experience replay, we fine-tune the model on sparse station data, correcting systematic biases inherited from NWP simulation targets without catastrophic forgetting of fine-scale spatial dynamics. Third, we extend the framework beyond near-surface variables to full 3D atmospheric fields across multiple pressure levels, demonstrating that the foundation model's latent space contains sufficient information to reconstruct the entire atmospheric column at kilometer-scale resolution. Fourth, we demonstrate cross-continental generalization through multi-region training on geographically disjoint domains (CONUS and the Baltic region) using a single shared network. Fifth, we validate the physical realism of our outputs using energy spectra, confirming preservation of multi-scale atmospheric dynamics rather than mere pixel-wise error minimization. Finally, we introduce autoregressive rollout capabilities, showing that our model maintains stability over short-range forecast horizons (up to 48 hours), with error growth rates substantially lower than those of operational NWP. Together, these results establish our approach as a comprehensive, globally adaptable, and physically grounded alternative to traditional mesoscale NWP.
   author-bio: >- 
     Wojciech Stefaniak is a graduate of Automatic Control and Robotics, specializing in Autonomous Vehicles, at Poznan University of Technology. He has been working at PCSS since 2018 as a machine learning specialist, first in the robotics team and later in a dedicated artificial intelligence team. His research interests focus on modeling physical processes using machine learning methods, particularly in the field of meteorology, where he works on Limited Area Models (LAMs) and the prediction of atmospheric parameters based on weather data. He has been involved in numerous research projects as technical lead, including: ADMIRE (application of AI methods to the analysis of neurodegenerative diseases from microscopic images and anomaly detection in the Eagle HPC system using encoder-decoder networks), TAPAS (analysis of reinforcement learning systems for air traffic management through surrogate model training), HIDALGO2 (prediction of renewable energy production and anomaly detection from weather data using recurrent neural networks), and EnergyLAB (terrain roughness modeling and work on a large machine learning model for satellite data). In his work, he emphasizes not only achieving high-quality results but also the explainability of the obtained solutions and increasing trust in AI-based systems.
-  co-authors: Jędrzej Miczke, Adam Dobosz, Wiktor Kamzela, Jakub Kubiak, Anatol Kaczmarek, Piotr Wyrwinski
+  co-authors: Jędrzej Miczke, Adam Dobosz, Wiktor Kamzela, Jakub Kubiak, Anatol Kaczmarek, Piotr Wyrwiński
   date: Friday / 9 October
   time: 12:15 - 13:45
   room: 
@@ -740,7 +740,7 @@
     In our work, we consider cooperative multi-agent reinforcement learning (MARL). The dominant paradigm in this field is Centralized Training with Decentralized Execution (CTDE), which enables agents to act independently at test time while leveraging additional information during training. In this work, we propose a simple yet highly effective framework that operates in this paradigm. During training, we allow the agents to share information in the latent space, thereby combining the full history of observations and actions. Concurrently, we distill these communication-based policies into counterparts that rely solely on local observations, utilizing the form of the value decomposition architecture, and using a simple cross-entropy loss. We show that such an approach is sufficient to outperform current state-of-the art methods operating in CTDE in most of the SMAC (with more difficult settings than the standard ones) and SMACv2 scenarios. However, in some cases, the distribution shift between the communication-based policy (that generates the trajectories) and the target decentralized policy disenables qualitative distillation. To counteract this issue, we gradually introduce samples from the decentralized policy into the replay buffer. This allows us to derive well-performing policies in the cases where the previous vanilla approach fails. Moreover, we solve the Hallway task (requiring very strong coordination) in the CTDE paradigm, which, to the best of our knowledge, has not been done before.
   author-bio: >- 
     I'm a machine learning researcher with a strong mathematical background. I finished a Master's degree in machine learning and a Master's degree in mathematics. I graduated from a class for exceptionally gifted students in XIV LO im. Stanisława Staszica and successfully competed in the Polish Mathematical Olympiad and the International Mathematics Competition. I conducted research on commutative algebra and algebraic geometry with Dr. Hab. Joachim Jelisiejew, which resulted in two publications. Now I'm conducting research in reinforcement learning. With a group from the Polish Academy of Sciences I co-created the Latent Subgoal Search algorithm (which is yet to be extended). I worked on a proactive cloud solver based on RL for 7bulls.com and developed RL methods for investing in currency pairs for AI Investments. Currently I'm pursuing a PhD at the University of Warsaw in the topic of reinforcement learning. I'm also employed at the IDEAS Research Institute. We conduct research on the topic of communication for multi-agent reinforcement learning. I'm also working on the application of reinforcement learning for the tension regulation in hanger rods with a group from the Polish Academy of Sciences under an NCBR grant.
-  co-authors: Bogusz Stefanczyk, Dominik Jacek Bogucki, Łukasz Eugeniusz Lepak, Paweł Wawrzyński
+  co-authors: Bogusz Stefańczyk, Dominik Jacek Bogucki, Łukasz Eugeniusz Lepak, Paweł Wawrzyński
   date: Friday / 9 October
   time: 12:15 - 13:45
   room: 
@@ -819,7 +819,7 @@
     Large language models (LLMs) in medicine are mainly evaluated using multiple-choice question answering (MCQA), which can overestimate real clinical ability due to guessing strategies and answer biases. To address these limitations, we introduce an expanded and more challenging benchmark based on Polish medical exams, adding over 15,000 questions, two new domains, and four structural modifications that reduce MCQA-specific artifacts and better test reasoning. We evaluate 21 LLMs and show that evaluation design strongly affects results. Under our harder setup, the best model (Qwen3.5-122B) drops by 28.4 and 31 pp on English and Polish exams, respectively. Despite low evidence of data contamination, standard MCQA scores do not reliably reflect true medical competence.
   author-bio: >- 
     Research Engineer. Interested in LLM evaluation, cross-linguality, and alignment.
-  co-authors: Jakub Pokrywka, Łukasz Grzybowski, Jeremi Ignacy Kaczmarek, Gabriela Korzańska, Janusz Świeczkowski-Feiz, Oskar Pastuszek, Paulina Hoffman, Jakub Tomasz Dabrowski, Wojciech Kusa
+  co-authors: Jakub Pokrywka, Łukasz Grzybowski, Jeremi Ignacy Kaczmarek, Gabriela Korzańska, Janusz Świeczkowski-Feiz, Oskar Pastuszek, Paulina Hoffman, Jakub Tomasz Dąbrowski, Wojciech Kusa
   date: Friday / 9 October
   time: 12:15 - 13:45
   room: 
@@ -864,7 +864,7 @@
     Full fine-tuning is effective for adapting pretrained models to downstream tasks, but requires updating and storing a separate set of weights for each task. Parameter-Efficient Fine-Tuning (PEFT) reduces this cost by optimizing compact task-specific updates. Among reparameterized PEFT methods, LoRA has become a dominant approach by representing weight updates through low-rank factorization. In this paper, we introduce position-based adapters, which generate weight updates as functions of normalized matrix coordinates. Building on this formulation, we propose the Gaussian Splatting (GS) adapter, which represents updates as a sum of learnable 2D Gaussian primitives. We also introduce GaussLoRA, a hybrid adapter that combines the GS update with a LoRA update under a matched parameter budget. The standalone GS adapter provides effective adaptation despite its strong spatial constraint, showing that coordinate-based update generation is a viable PEFT mechanism. The hybrid GaussLoRA adapter further improves over LoRA across vision benchmarks under matched parameter budgets, and provides competitive results on natural language understanding tasks. Through update visualizations, pruning-based analyses, magnitude comparisons, and training-order experiments, we illustrate the usefulness of the Gaussian component and analyze how it interacts with LoRA.
   author-bio: >- 
     A Cognitive Science graduate, currently pursuing a Master's degree in Machine Learning at MIMUW (University of Warsaw). As a researcher at IPPT PAN, I develop novel transfer learning approaches with a focus on advancing efficient and adaptable AI systems.
-  co-authors: Michal Byra
+  co-authors: Michał Byra
   date: Friday / 9 October
   time: 12:15 - 13:45
   room: 
@@ -1019,7 +1019,7 @@
     Steering or intervening on model representations at inference time to correct predictions is essential for AI interpretability and safety, yet existing evaluation protocols are limited to ambiguous language modeling tasks. To address this gap, we introduce SwordBench, a benchmark for steering image representations of vision models across multiple backbones and concept removal tasks. Beyond a unified benchmarking suite, we propose new evaluation notions that uncover the second-order effects of orthogonalization among concept activation vectors for pragmatic steering. Specifically, cross-concept robustness measures the stability of concept detection performance across inputs orthogonalized against alternative concepts, and collateral damage quantifies whether steering inadvertently affects model performance on a downstream task for inputs lacking the bias. We find that although a linear support vector machine exhibits superior separability and orthogonality, it fails to achieve zero collateral damage, often trailing sparse autoencoders. In simpler regimes, both standard baselines and optimization-based methods fail to achieve perfect steering.
   author-bio: >- 
     I am a third year PhD candidate and Researcher at the Centre for Credible Artificial Intelligence Warsaw University of Technology (CCAI), working in the RED-XAI team on verification, exploration and control. Under the supervision of Prof. Przemysław Biecek, my research focuses on representation learning and explainable AI . My aim is to make AI systems transparent to build human understanding and trust.
-  co-authors: Dawid Płudowski, Hubert Baniecki, Przemyslaw Biecek
+  co-authors: Dawid Płudowski, Hubert Baniecki, Przemysław Biecek
   date: Saturday / 10 October
   time: 12:15 - 13:45
   room: 
@@ -1080,7 +1080,7 @@
     Operating in a strictly black-box setting, LINE leverages a large language model and a text-to-image generator to iteratively propose and refine concepts in a closed loop, guided by activation history. LINE achieves state-of-the-art performance across multiple model architectures, yielding AUC improvements of up to 0.11 on ImageNet and 0.05 on Places365, while discovering, on average, 27% of new concepts missed by predefined vocabularies. Beyond identifying the top concept, LINE provides a complete generation history, enabling polysemanticity evaluation and producing visual explanations that rival gradient-dependent activation maximization methods.
   author-bio: >- 
     Research Software Engineer at Centre for Credible AI
-  co-authors: Vladimir Zaigrajew, Michał Piechota, Gaspar Sekula, Przemyslaw Biecek
+  co-authors: Vladimir Zaigrajew, Michał Piechota, Gaspar Sekula, Przemysław Biecek
   date: Saturday / 10 October
   time: 12:15 - 13:45
   room: 
@@ -1144,7 +1144,7 @@
     Recent advances in large-scale diffusion models have intensified concerns about their potential misuse, particularly in generating realistic yet harmful or socially disruptive content. This challenge has spurred growing interest in effective machine unlearning, the process of selectively removing specific knowledge or concepts from a model without compromising its overall generative capabilities. Among various approaches, Low-Rank Adaptation (LoRA) has emerged as an effective and efficient method for fine-tuning models toward targeted unlearning. However, LoRA-based methods often exhibit limited adaptability to concept semantics and struggle to balance removing closely related concepts with maintaining generalization across broader meanings. Moreover, these methods face scalability challenges when multiple concepts must be erased simultaneously. To address these limitations, we introduce UnHype, a framework that incorporates hypernetworks into single- and multi-concept LoRA training. The proposed architecture can be directly plugged into Stable Diffusion as well as modern flow-based text-to-image models, where it demonstrates stable training behavior and effective concept control. During inference, the hypernetwork dynamically generates adaptive LoRA weights based on the CLIP embedding, enabling more context-aware, scalable unlearning. We evaluate UnHype across several challenging tasks, including object erasure, celebrity erasure, and explicit content removal, demonstrating its effectiveness and versatility.
   author-bio: >- 
     Wojciech is a PhD student at Wrocław University of Science and Technology and a researcher at IDEAS Research Institute. His research focuses on machine unlearning and the safety of text-to-image generative models. He holds an MSc in Artificial Intelligence and a BSc in Applied Mathematics from Wrocław University of Science and Technology.
-  co-authors: Piotr Wójcik, Maksym Petrenko, Przemysław Spurek, Maciej Zieba
+  co-authors: Piotr Wójcik, Maksym Petrenko, Przemysław Spurek, Maciej Zięba
   date: Saturday / 10 October
   time: 12:15 - 13:45
   room: 
