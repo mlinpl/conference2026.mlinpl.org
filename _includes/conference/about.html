@@ -4,9 +4,9 @@
         <div class="col-lg-12">
             <h2>/ About the event</h2>
             <p>
-                {{ site.inline-logo }} is <strong>the 10th edition</strong> of an annual conference focused on 
+                {{ site.inline-logo }} {% if site.data.state.after-conference %}was{% else %}is{% endif %} <strong>the 10th edition</strong> of an annual conference focused on
                 the best of Machine Learning both in academia and in business.
-                Join us and...
+                Join us {% if site.data.state.after-conference %}next year {% endif %}and...
             </p>
         </div>
     </div>
