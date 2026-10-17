@@ -285,7 +285,7 @@
   room: Main Hall
   session: Contributed Talks Session 6
   id: 17
-  author-image: images/empty.png
+  author-image: images/optimized/cfc-600x600/DawidRymarczyk.webp
 
 - author-name: Franziska Boenisch
   title: "Concept Removal for Frontier Image Generative Models"
