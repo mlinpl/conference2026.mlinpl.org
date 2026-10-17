@@ -1,17 +1,21 @@
 <!-- Calls Section -->
 {% comment %}
-This section has 3 main states, parametrised with include.state:
-    1. Open calls ("open")
-    2. Closed calls before the conference ("closed")
-    3. After the conference ("after"), with additional parameters:
+This section has 3 main states:
+    1. Open calls (state.cfc is "open")
+    2. Closed calls before the conference (state.cfc is "closed")
+    3. After the conference (state.after-conference is true), with additional parameters:
         - pdfs: boolean
 {% endcomment %}
+{% assign calls_state = site.data.state.cfc %}
+{% if site.data.state.after-conference == true %}
+    {% assign calls_state = "after" %}
+{% endif %}
 <section id="calls" class="container content-section">
     <div class="row">
         <div class="col-md-12">
             <h2>/ Call for Contributions (Talks, Posters, and Tutorials)</h2>
 
-            {% case include.state %}
+            {% case calls_state %}
                 <!-- When CfC starts -->
                 {% when "open" %}
                     <p class="lead">

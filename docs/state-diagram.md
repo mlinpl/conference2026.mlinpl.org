@@ -53,7 +53,7 @@ stateDiagram-v2
 |---|---|
 | `agenda` | `"draft"` shows the draft agenda after about and tickets, and an about-section button pointing to it; `"full"` is covered by the diagram |
 | `invited-speakers` | `null` hides, `"first"` shows with "more coming", `"all"` shows final |
-| `cfc` | `null` hides, `"open"`, `"closed"`, `"after"` change the calls section; `open` also enables the Call for Tutorials nav link |
+| `cfc` | `null` hides, `"open"` and `"closed"` change the calls section; `open` also enables the Call for Tutorials nav link. After the conference the section switches to its summary on its own |
 | `call-for-sponsors` | shows the sponsors call section and nav item |
 | `photos` | selects the header message with the photos link; the Photos nav link needs the `/photos` page published |
 | `next-year-site` | "next year" links point to the next edition's site instead of the local `/next-year` page |
