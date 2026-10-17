@@ -1,6 +1,6 @@
 - author-name: Michał Jan Włodarczyk
   title: "Interpretability-Guided Soft Pruning of Attention Heads in Vision Transformers"
-  author-title: "Centre for Credible AI"
+  author-affiliation: "Centre for Credible AI"
   abstract-md: |- 
     Vision foundation models, such as DINOv2, learn highly expressive representations but rely on massive, opaque architectures that demand substantial computational power and memory. To provide an interpretable-guided and efficient solution to this issue, we first propose a spectral analysis and new visualization technique for individual attention heads based on the Laplacian eigenvectors of their attention maps. Building upon recent observations regarding the block structure of Vision Transformers, we perform semantic clustering of attention heads and identify functional redundancies. Leveraging these insights, we introduce SAPER (Soft Attention PrunER), an end-to-end differentiable pruning framework based on the LapSum Soft Top-K approach. Extensive experiments on ImageNet-1K demonstrate that SAPER achieves a highly favorable accuracy-efficiency trade-off, outperforming the competitive RAPTOR baseline in FLOPs reduction while preserving strong classification performance.
   author-bio: >- 
@@ -15,7 +15,7 @@
 
 - author-name: Michał Szymocha
   title: "Diverse Subset Selection at Scale with Maximum Diversity Picking"
-  author-title: "AGH University of Krakow"
+  author-affiliation: "AGH University of Krakow"
   abstract-md: |- 
     Data scarcity is a common problem in machine learning. However, researchers often face the opposite situation, where processing the entire dataset is too expensive or even infeasible. In such cases, we need to select a smaller subset that still provides good coverage of the data. Random sampling is a simple solution, but it may select many similar elements and miss less common regions of the dataset. Maximum Diversity Picking (MDP) approaches this problem by selecting elements that are as different from one another as possible.
 
@@ -34,7 +34,7 @@
 
 - author-name: Jan Kwieciński
   title: "Goal Conditioned RL to Abstract Solved States via Relative Contrastive Reinforcement Learning"
-  author-title: "University of Warsaw"
+  author-affiliation: "University of Warsaw"
   abstract-md: |- 
     Goal-Conditioned Reinforcement Learning (GCRL) has been proposed as an effective way to solve tasks with sparse rewards, offering an alternative to tedious reward engineering. Intuitively, GCRL is effective in problems where finding the path to the solution is difficult, but the final goal is known. However, in many interesting settings (e.g., mathematical problems), both finding the path and knowing the solution are difficult. This is one of the factors that makes applying GCRL in such setups challenging.
 
@@ -53,7 +53,7 @@
 
 - author-name: Grzegorz Siudak
   title: "Activity is in the Activations: Inference-Time Steering of Peptide Models for Antimicrobial Design"
-  author-title: "Warsaw University of Technology"
+  author-affiliation: "Warsaw University of Technology"
   abstract-md: |- 
     While recent generative diffusion models offer intuitive control over complex outputs, transferring this steerability to targeted scientific discovery remains a significant challenge. Designing antimicrobial peptides (AMPs) perfectly illustrates this problem as targeting peptides toward specific pathogens is severely bottlenecked by data scarcity, making standard conditional generation and fine-tuning infeasible. Existing diffusion models for AMP generation produce realistic sequences, but their controllability relies on either limited labeled data during training or external classifiers for post-hoc filtering. To overcome these limitations, we explore the application of activation steering to this problem. To that end, we introduce Legolas which adapts the Linear End-to-end Activation Steering (LinEAS) framework to CPL-Diff, a latent-space diffusion model. By intervening on intermediate activations at inference time, our approach requires no retraining and introduces negligible overhead. We show that by using as little as four known active examples, we can generate AMPs while preserving diversity and physicochemical realism. To the best of our knowledge, Legolas also introduces the first method that allows precise control towards activity against specific bacteria strains.
   author-bio: >- 
@@ -68,7 +68,7 @@
 
 - author-name: Aleksander Szymczyk
   title: "Conditioned Activation Transport for T2I Safety Steering"
-  author-title: "NASK National Research Institute"
+  author-affiliation: "NASK National Research Institute"
   abstract-md: |- 
     Despite their impressive capabilities, current Text-to-Image (T2I) models remain prone to generating unsafe and toxic content. While activation steering offers a promising inference-time intervention, we observe that linear activation steering frequently degrades image quality when applied to benign prompts and we diagnose that much of the apparent safety gain of existing linear methods is in fact safety by image corruption: these methods destroy image content rather than selectively removing unsafe concepts. To address this trade-off, we first construct SafeSteerDataset, a contrastive dataset containing 2300 safe and unsafe prompt pairs with high cosine similarity. Leveraging this data, we propose Conditioned Activation Transport (CAT), a framework built on trainable, non-linear, regularized transport maps. We utilize a dual-head map that jointly predicts a steering direction and an input-dependent magnitude, remaining close to the identity on already-safe activations. We validate our approach on four state-of-the-art architectures: SD1.4, Flux.1-dev, Infinity, and Z-Image. Experiments demonstrate that CAT generalizes effectively across these backbones, reducing Attack Success Rate while maintaining utility compared to unsteered generations. Warning: This paper contains potentially offensive text and images.
   author-bio: >- 
@@ -83,7 +83,7 @@
 
 - author-name: Viacheslav Krilyshyn
   title: "Drobage: Closing the Perception–Grasp Loop for Manipulation and Navigation in Unstructured Outdoor Environments"
-  author-title: "GHOST"
+  author-affiliation: "GHOST"
   abstract-md: |- 
     Outdoor cleaning robots exist, and nearly all of them are blind: sweepers and suction units displace whatever they pass over, with no representation of an individual object and no way to tell afterward whether they collected it or drove over it. Object-level collection is a categorically different problem – commit to a specific target, grasp it under real geometry and uncontrolled illumination, then verify the outcome – and it sits on the hardest open question in manipulation today: dexterous grasping in unstructured scenes where no two configurations repeat. This is where machine learning enters, because the remaining gap is not mechanical but perceptual: the hardware to pick up a can has existed for decades; deciding which can, where to close the fingers, and whether it worked has not.
 
@@ -104,7 +104,7 @@
 
 - author-name: Tymoteusz Zapala
   title: "GS-JEPA: A Self-Supervised Approach to Learning Gaussian Splat Representations Using Joint Embedding Predictive Architecture"
-  author-title: "Wrocław University of Science and Technology"
+  author-affiliation: "Wrocław University of Science and Technology"
   abstract-md: |- 
     Current self-supervised learning methods for Gaussian splat object representations primarily rely on reconstruction-based pretraining, where the model is optimized to reconstruct its input. While effective, this learning paradigm may produce representations that are less transferable when the pretraining data differ from the target downstream distribution. This project investigates whether Joint Embedding Predictive Architectures (JEPA), which learn predictive latent representations rather than directly reconstructing the input, can improve the transferability of learned Gaussian splat representations under such conditions.
 
@@ -125,7 +125,7 @@
 
 - author-name: Jakub Grzywaczewski
   title: "Your CLIP has 164 dimensions of noise: Exploring the embeddings covariance eigenspectrum of contrastively pretrained vision-language transformers"
-  author-title: "Warsaw University of Technology / Centre for Credible AI"
+  author-affiliation: "Warsaw University of Technology / Centre for Credible AI"
   abstract-md: |- 
     Contrastively pre-trained Vision-Language Models (VLMs) serve as powerful feature extractors. Yet, their shared latent spaces are prone to structural anomalies and act as repositories for non-semantic, multi-modal noise. To address this phenomenon, we employ spectral decomposition of covariance matrices to decompose the VLM latent space into a multi-modal semantic signal component and a shared noise subspace. We observe that this noise geometry exhibits strong subgroup invariance across distinct data subsets. Crucially, pruning these shared noise dimensions is mainly harmless, preserving or actively improving downstream task performance. By isolating true semantic signals from artifactual noise, this work provides new mechanistic insights into the representational structure of modern VLMs, suggesting that a substantial fraction of their latent geometry is governed by shared, architecture-level noise rather than task-relevant semantics alone.
   author-bio: >- 

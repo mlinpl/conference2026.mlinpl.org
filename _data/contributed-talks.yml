@@ -1,6 +1,6 @@
 - author-name: Tomasz Danel
   title: "Teaching Humans and Machines How to Design Drugs"
-  author-title: "Jagiellonian University | GMUM"
+  author-affiliation: "Jagiellonian University | GMUM"
   abstract-md: |- 
     Drug design becomes a game the moment you write down a score. Choose an objective that stands in for "this molecule would make a good drug", give it to a player, and see what comes back. That is a deliberate simplification. A real campaign balances drug potency, selectivity, safety, and synthesizability at once, and the objective that actually matters is hard to put in closed form without months of wet-lab work. But when we do compress it into a single number and hand the same number to people and to generative models, the two sets of failure modes look alike. Both learn to satisfy the score rather than the intent behind it, drifting toward the regions of chemical space where the objective is generous, and the chemistry is not. A measure that becomes a target stops being a good measure. Economists call this Goodhart's law, and it makes surprisingly little difference whether the optimizer is a person or a network. Both players also come away with something more interesting than a score. Each builds an internal representation of a molecule, a working theory of how its structure relates to what it does, and that is the part worth opening up.
 
@@ -17,7 +17,7 @@
 
 - author-name: Julian Suk
   title: "Inpainting physics: self-supervised learning for context-driven fluid simulation"
-  author-title: "Technical University of Munich"
+  author-affiliation: "Technical University of Munich"
   abstract-md: |- 
     Neural surrogate models for computational fluid dynamics (CFD) are typically trained as forward operators that map explicit problem specifications, such as geometry and boundary conditions, to solution fields. This ties the model to the conditioning variables seen during training and limits reuse under boundary-condition shifts or local geometry changes. We propose to reformulate steady CFD inference as an inpainting problem: instead of training on explicit boundary conditions, we learn a self-supervised prior over velocity fields and impose boundary constraints only during inference by fixing known regions such as inlet, outlet or unchanged regions from previous simulations. To scale this idea to large 3D meshes, we introduce a local neighbourhood tokeniser that represents high-resolution velocity fields as compact spatial latent tokens and train latent flow-matching and masked-autoencoder models on these tokens. On intracranial aneurysm hemodynamics, our method reconstructs full velocity fields from sparse boundary context, outperforms supervised neural surrogates under boundary-condition and dataset shift and enables local geometry editing by reusing unchanged simulation context. These results suggest that viewing CFD inference as context-conditioned inpainting can turn neural surrogates from task-specific predictors into reusable flow priors.
   author-bio: >- 
@@ -32,7 +32,7 @@
 
 - author-name: Paulina Szymczak
   title: "Generative AI for physicochemistry-based controllable design of antimicrobial peptides"
-  author-title: "Helmholtz Munich"
+  author-affiliation: "Helmholtz Munich"
   abstract-md: |- 
     Antimicrobial peptides (AMPs) are a promising solution to antimicrobial resistance, yet generative models cannot precisely control the physicochemical properties and motifs that shape activity and selectivity. Here, we present OmegAMP, a conditional diffusion framework controlling net charge, mean hydrophobicity, and sequence length, supporting de novo, analog, and motif-guided design. Across 204 wet-lab characterized designs, de novo generation yielded peptides with broad activity against multidrug-resistant Gram-negative isolates. Analog generation converted six inactive prototypes into antimicrobials, with the prototype family determining analogs’ membrane-disruption mode and safety. Motif-guided generation preserved auxiliary functions. Analogs retained lipopolysaccharide engagement of active prototypes, and a redesigned non-antimicrobial leucine zipper gained antimicrobial activity while retaining DNA-perturbing character in vitro. In murine skin and thigh infection models, leads reduced bacterial burden, with a DNA-perturbing lead matching the fluoroquinolone control systemically. OmegAMP turns controllable generation into a route to new antibiotics whose mechanism and safety follow from the chosen prototype.
   author-bio: >- 
@@ -47,7 +47,7 @@
 
 - author-name: Michał Zawalski
   title: "Detecting Data Contamination in LLMs"
-  author-title: "NVIDIA"
+  author-affiliation: "NVIDIA"
   abstract-md: |- 
     Benchmarking is the cornerstone of LLM evaluation, yet reported scores are increasingly compromised by **data contamination**. As models train on vast web corpora and synthetically generated data, test set leakage obscures whether a model is genuinely solving complex problems or simply recalling memorized patterns. Traditional detection approaches often require full access to pre-training data, heavy threshold tuning, or fail when test content is subtly rephrased or modified.
 
@@ -70,7 +70,7 @@
 
 - author-name: Anna Kołos
   title: "PoVisLE: Evaluating Polish Cultural and Linguistic Competence in Vision-Language Models"
-  author-title: "NASK"
+  author-affiliation: "NASK"
   abstract-md: |- 
     Vision-language models (VLMs) have demonstrated impressive capabilities across tasks such as image captioning, visual question answering, and multimodal content generation. Despite this progress, most VLMs are primarily trained on English-centric resources, which can hinder their ability to interpret culturally specific symbols, references, and context-dependent meanings. As a result, these models often struggle with visual understanding that requires knowledge of local cultural and linguistic conventions. Existing benchmarks aimed at measuring cultural competence typically emphasize surface-level recognition and frequently rely on template-based examples, limiting their usefulness for assessing deeper forms of multimodal reasoning.
 
@@ -89,7 +89,7 @@
 
 - author-name: Katarzyna Kobalczyk
   title: "Beyond Global Calibration: Discovering Hidden Miscalibration Regimes"
-  author-title: "University of Cambridge"
+  author-affiliation: "University of Cambridge"
   abstract-md: |- 
     A model can appear well calibrated overall while being systematically overconfident on some kinds of inputs and underconfident on others. Standard calibration diagnostics can miss this behaviour because they group predictions by confidence score: when opposing errors occur at similar confidence levels, they cancel under aggregation.
 
@@ -111,10 +111,10 @@
 - title: "Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents"
   authors:
     - name: Julia Bazińska
-      title: Check Point AI Security
+      affiliation: Check Point AI Security
       image: images/empty.png
     - name: Max Mathys
-      title: Check Point AI Security
+      affiliation: Check Point AI Security
       image: images/empty.png
   abstract-md: |- 
     AI agents powered by large language models (LLMs) are being deployed at scale, yet we lack a systematic understanding of how the choice of backbone LLM affects agent security. The non-deterministic sequential nature of AI agents complicates security modeling, while the integration of traditional software with AI components entangles novel LLM vulnerabilities with conventional security risks. Existing frameworks only partially address these challenges as they either capture specific vulnerabilities only or require modeling of complete agents. To address these limitations, we introduce threat snapshots: a framework that isolates specific states in an agent's execution flow where LLM vulnerabilities manifest, enabling the systematic identification and categorization of security risks that propagate from the LLM to the agent level. We apply this framework to construct the b3 benchmark, a security benchmark based on 194,331 unique crowdsourced adversarial attacks. We then evaluate 34 popular LLMs with it, revealing, among other insights, that enhanced reasoning capabilities improve security, while model size does not correlate with security. We release our benchmark, dataset, and evaluation code to facilitate widespread adoption by LLM providers and practitioners, offering guidance for agent developers and incentivizing model developers to prioritize backbone security improvements.
@@ -131,7 +131,7 @@
 
 - author-name: Bartłomiej Marek
   title: "Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models"
-  author-title: "CISPA"
+  author-affiliation: "CISPA"
   abstract-md: |- 
     Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.
   author-bio: >- 
@@ -146,7 +146,7 @@
 
 - author-name: Mateusz Dziemian
   title: "How Vulnerable Are AI Agents to Indirect Prompt Injections? Insights from a Large-Scale Public Competition"
-  author-title: "Gray Swan"
+  author-affiliation: "Gray Swan"
   abstract-md: |- 
     LLM based agents are increasingly deployed in high stakes settings where they process external data sources such as emails, documents, and code repositories. This creates exposure to indirect prompt injection attacks, where adversarial instructions embedded in external content manipulate agent behavior without user awareness. A critical but underexplored dimension of this threat is concealment: since users tend to observe only an agent's final response, an attack can conceal its existence by presenting no clue of compromise in the final user facing response while successfully executing harmful actions. This leaves users unaware of the manipulation and likely to accept harmful outcomes as legitimate. We present findings from a large scale public red teaming competition evaluating this dual objective across three agent settings: tool calling, coding, and computer use. The competition attracted 464 participants who submitted 272000 attack attempts against 13 frontier models, yielding 8648 successful attacks across 41 scenarios. All models proved vulnerable, with attack success rates ranging from 0.5% (Claude Opus 4.5) to 8.5% (Gemini 2.5 Pro). We identify universal attack strategies that transfer across 21 of 41 behaviors and multiple model families, suggesting fundamental weaknesses in instruction following architectures. Capability and robustness showed weak correlation, with Gemini 2.5 Pro exhibiting both high capability and high vulnerability. To address benchmark saturation and obsoleteness, we will endeavor to deliver quarterly updates through continued red teaming competitions. We open source the competition environment for use in evaluations, along with 95 successful attacks against Qwen that did not transfer to any closed source model. We share model-specific attack data with respective frontier labs and the full dataset with the UK AISI and US CAISI to support robustness research.
   author-bio: >- 
@@ -161,7 +161,7 @@
 
 - author-name: Adam Wróbel
   title: "DAVE: Distribution-aware Attribution via ViT Gradient Decomposition"
-  author-title: "Jagiellonian University"
+  author-affiliation: "Jagiellonian University"
   abstract-md: |- 
     Vision Transformers (ViTs) have become a dominant architecture in computer vision, yet producing stable and high-resolution attribution maps for these models remains challenging. Architectural components such as patch embeddings and attention routing often introduce structured artifacts in pixel-level explanations, causing many existing methods to rely on coarse patch-level attributions. We introduce DAVE (Distribution-aware Attribution via ViT Gradient DEcomposition), a mathematically grounded attribution method for ViTs based on a structured decomposition of the input gradient. By exploiting architectural properties of ViTs, DAVE isolates locally equivariant and stable components of the effective input–output mapping. It separates these from architecture-induced artifacts and other sources of instability. Consequently, DAVE produces robust, precise and class-consistent attribution maps that reliably highlight visual features used by the model across inputs. Experimental results demonstrate that DAVE attributions are more stable and spatially precise than existing approaches.
   author-bio: >- 
@@ -176,7 +176,7 @@
 
 - author-name: Mateusz Pach
   title: "Interpreting Vision-Language Models with Sparse Autoencoders"
-  author-title: "Jagiellonian University"
+  author-affiliation: "Jagiellonian University"
   abstract-md: |- 
     Sparse Autoencoders (SAEs) have recently gained attention as a means to improve the interpretability and steerability of Large Language Models (LLMs), both of which are essential for AI safety. In this work, we extend the application of SAEs to Vision-Language Models (VLMs), such as CLIP, and introduce a comprehensive framework for evaluating monosemanticity at the neuron-level in visual representations. To ensure that our evaluation aligns with human perception, we propose a benchmark derived from a large-scale user study. Our experimental results reveal that SAEs trained on VLMs significantly enhance the monosemanticity of individual neurons, with sparsity and wide latents being the most influential factors. Further, we demonstrate that applying SAE interventions on CLIP's vision encoder directly steers multimodal LLM outputs (e.g., LLaVA), without any modifications to the underlying language model. These findings emphasize the practicality and efficacy of SAEs as an unsupervised tool for enhancing both interpretability and control of VLMs.
 
@@ -193,7 +193,7 @@
 
 - author-name: Oleksii Furman
   title: "DiCoFlex: Model-agnostic diverse counterfactual explanations with flexible control"
-  author-title: "Wrocław University of Science and Technology"
+  author-affiliation: "Wrocław University of Science and Technology"
   abstract-md: |- 
     Counterfactual explanations play a pivotal role in explainable artificial intelligence (XAI) by offering intuitive, human-understandable alternatives that elucidate machine learning model decisions. Despite their significance, existing methods for generating counterfactuals often require constant access to the predictive model, involve computationally intensive optimization for each instance, and lack the flexibility to adapt to new user-defined constraints without retraining. In this paper, we propose DiCoFlex, a novel model-agnostic, conditional generative framework that produces multiple diverse counterfactuals in a single forward pass. Leveraging conditional normalizing flows trained solely on labeled data, DiCoFlex addresses key limitations by enabling real-time user-driven customization of constraints such as sparsity and actionability at inference time. Extensive experiments on standard benchmark datasets show that DiCoFlex outperforms existing methods in terms of validity, diversity, proximity, and constraint adherence, making it a practical and scalable solution for counterfactual generation in sensitive decision-making domains.
   author-bio: >- 
@@ -208,7 +208,7 @@
 
 - author-name: Sergio Hernan Garrido Mejia
   title: "Hierarchical Bayes and Invariance in Causality"
-  author-title: "Max Planck Institute for Intelligent Systems"
+  author-affiliation: "Max Planck Institute for Intelligent Systems"
   abstract-md: |- 
     One of the fundamental pillars of causal inference is the invariance of causal mechanisms: the conditional distribution of an effect given its causes remains invariant across heterogeneous environments. While framework-defining methods like Invariant Causal Prediction (ICP; Peters et al., 2016) leverage this via frequentist hypothesis testing, they often struggle to seamlessly share statistical strength across high dimensional environments.
 
@@ -225,7 +225,7 @@
 
 - author-name: Kirsten Fischer
   title: "From Feature Learning to Neural Collapse: A data-dependent kernel view"
-  author-title: "Helmholtz Munich"
+  author-affiliation: "Helmholtz Munich"
   abstract-md: |- 
     Neural collapse is a phenomenon observed during the final phase of training, where the representations in the last layer of a neural network converge into a highly structured geometry. Most previous theoretical approaches to understanding this phenomenon, like the unconstrained feature models, are data-independent. We first show that this geometry can be fully characterized through the network's kernels, extending a known kernel formulation of one of its signatures to the remaining ones, yielding identities that hold in general. To make this description data-aware, we then specialize to feature learning kernels, which describe trained networks at finite width and depend explicitly on the training data. For deep linear networks with exchangeable data , we derive an exact scaling law for how neural collapse depends on depth and on the data's signal-to-noise ratio; for nonlinear networks we obtain an analogous scaling law from a finite-width expansion. Together, these results give a data-aware theory of neural collapse and how it depends on network hyperparameters.
   author-bio: >- 
@@ -240,7 +240,7 @@
 
 - author-name: Mikołaj Słupiński
   title: "RED-HDP-HMM: Observation-Dependent Durations for Bayesian Nonparametric Sequential Models"
-  author-title: "University of Wrocław / RTB House"
+  author-affiliation: "University of Wrocław / RTB House"
   abstract-md: |- 
     The Hierarchical Dirichlet Process Hidden Markov Model (HDP-HMM) is a Bayesian nonparametric extension of the classical Hidden Markov Model, well-suited for learning from (spatio-)temporal data. To relax the restrictive geometric assumption on state durations, the HDP Hidden Semi-Markov Model was introduced. However, both models assume stationary state durations, which limits their expressive power. In this work, we extend the HDP-HMM framework by incorporating recurrent explicit duration modeling, resulting in a more general and flexible model: the Recurrent Explicit Duration HDP-HMM (RED-HDP-HMM). We propose a Gibbs sampling method for efficient inference in this model. Empirical results on both synthetic and real-world segmentation tasks demonstrate that RED-HDP-HMM consistently outperforms the disentangled sticky HDP-HMM and the standard sticky HDP-HMM.
   author-bio: >- 
@@ -255,7 +255,7 @@
 
 - author-name: Diogo Soares
   title: "Scalable and Interpretable Representation Alignment with Ordinal Similarity"
-  author-title: "Helmholtz Munich / TUM"
+  author-affiliation: "Helmholtz Munich / TUM"
   abstract-md: |- 
     Evaluating representation similarity is fundamental to representation learning. However, existing metrics suffer from significant limitations: they lack interpretability due to shifting baselines, lack robustness to outliers, and are computationally intractable for large datasets, forcing reliance on heuristic approximations. To address this, we develop an ordinal-similarity framework, instantiated by the Triplet (TSI) and Quadruplet (QSI) Similarity Indices, which measure alignment by quantifying the consistency of ordinal relationships. We theoretically demonstrate this formulation is inherently interpretable, robust to outliers, and computationally efficient. Finally, we establish a formal equivalence between TSI and local neighborhood alignment, measured by Mutual Nearest Neighbors. Empirically, we validate these properties and show that ordinal similarity offers a scalable approach to measuring alignment, enabling practitioners to better understand and design representations.
   author-bio: >- 
@@ -270,7 +270,7 @@
 
 - author-name: Dawid Rymarczyk
   title: "Surgical unlearning: precise concepts removal from AI models"
-  author-title: "Jagiellonian University / Ardigen"
+  author-affiliation: "Jagiellonian University / Ardigen"
   abstract-md: |- 
     As generative and foundation models grow more capable, so does the risk that they retain harmful, private, copyrighted, or simply unwanted knowledge. Retraining a model from scratch to remove such content is prohibitively expensive, which has made machine unlearning an increasingly important direction in AI safety. Machine unlearning is a task of erasing specific knowledge from an already-trained model. Yet most existing unlearning methods are blunt instruments: they degrade unrelated capabilities, require large "retain" datasets to preserve performance, or touch far more of the model's parameters than necessary.
 
@@ -289,7 +289,7 @@
 
 - author-name: Franziska Boenisch
   title: "Concept Removal for Frontier Image Generative Models"
-  author-title: "CISPA"
+  author-affiliation: "CISPA"
   abstract-md: |- 
     Image generative models are trained on massive, largely uncurated internet-scale datasets that contain undesirable visual concepts. Efficiently removing such concepts from the model generations without degrading the quality of output images remains challenging. We introduce a novel concept removal method for frontier diffusion and image autoregressive models, such as, SD3.5, Flux, and Infinity. Our intervention replaces the internal bottleneck layer present in all these modern models with a transcoder that is trained to replicate the original layer while structuring it into distinct activation features. This in‑place substitution creates an integrated filter through which concept‑specific signals can be selectively disabled while preserving the rest of the model’s behavior. Since the intervention modifies the model backbone rather than attaching an external component, it remains persistent under white‑box access. Empirically, the approach achieves state‑of‑the‑art concept removal performance across modern diffusion and autoregressive models, maintains visual generation quality, provides robustness against adversarial prompts, and supports sequential removal of diverse concepts. This positions our method as a practical approach for concept removal in frontier image generative models.
   author-bio: >- 
@@ -304,7 +304,7 @@
 
 - author-name: Mikołaj Zasada
   title: "SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs"
-  author-title: "AGH University of Krakow"
+  author-affiliation: "AGH University of Krakow"
   abstract-md: |- 
     Sparse Mixture-of-Experts (MoE) architectures enable scaling LLM parameters under a fixed inference budget by activating only a small subset of experts via top-$k$ routing. While this preserves causality and suits autoregressive language models, the discrete top-$k$ operator is not differentiable, forcing a fixed number of active experts per input and resulting in inefficient use of computation. We propose SoftMoE, which replaces discrete routing with a truncated soft top-$k$ LapSum relaxation, allowing gradient-based optimization of expert routing. We further parameterize the mean number of active experts per layer and impose a global budget constraint, enabling the model to learn how to allocate expert capacity across layers. SoftMoE remains fully compatible with autoregressive modeling and achieves performance comparable to or better than sparse MoE on language modeling and downstream tasks, while activating significantly fewer experts. Notably, the learned allocation is highly non-uniform, with later layers activating more experts. The source code is publicly available$^\dagger$.
   author-bio: >- 
@@ -319,7 +319,7 @@
 
 - author-name: Julianna Piskorz
   title: "Masks Can Be Distracting: On Context Comprehension in Diffusion Language Models"
-  author-title: "University of Cambridge"
+  author-affiliation: "University of Cambridge"
   abstract-md: |- 
     Masked Diffusion Language Models (MDLMs) have recently emerged as a promising alternative to Autoregressive Language Models (ARLMs), leveraging a denoising objective that, in principle, should enable more uniform context utilisation. In this work, we examine the context comprehension abilities of MDLMs and uncover two key limitations. First, despite their more global training objective and bidirectional attention mechanism, similarly to ARLMS, MDLMs exhibit a strong locality bias: performance is highly sensitive to the position of relevant information within the input, favouring local over distant context. Second, we show that appending a large number of mask tokens--required for generation--can significantly degrade context comprehension. Through systematic ablations, we find that these masks act as distractors, reducing the model's ability to process relevant information. To address this, we introduce a mask-agnostic loss function that encourages predictions to remain invariant to the number of appended masks. Fine-tuning with this objective substantially mitigates the distracting effect of masks, improving robustness of MDLMs. Overall, our findings reveal critical limitations of the current MDLM training paradigm and provide actionable insights for building diffusion-based language models with stronger context comprehension.
   author-bio: >- 
@@ -334,7 +334,7 @@
 
 - author-name: Patryk Marszałek
   title: "ZEUS: Zero-shot Embeddings for Unsupervised Separation of Tabular Data"
-  author-title: "Jagiellonian University in Kraków / GMUM"
+  author-affiliation: "Jagiellonian University in Kraków / GMUM"
   abstract-md: |- 
     Clustering tabular data remains a significant open challenge in data analysis and machine learning. Unlike for image data, similarity between tabular records often varies across datasets, making the definition of clusters highly dataset-dependent. Furthermore, the absence of supervised signals complicates hyperparameter tuning in deep learning clustering methods, frequently resulting in unstable performance. To address these issues and reduce the need for per-dataset tuning, we adopt an emerging approach in deep learning: zero-shot learning. We propose ZEUS, a self-contained model capable of clustering new datasets without any additional training or fine-tuning. It operates by decomposing complex datasets into meaningful components that can then be clustered effectively. Thanks to pre-training on synthetic datasets generated from a latent-variable prior, it generalizes across various datasets without requiring user intervention. To the best of our knowledge, ZEUS is the first zero-shot method capable of generating embeddings for tabular data in a fully unsupervised manner. Experimental results demonstrate that it performs on par with or better than traditional clustering algorithms and recent deep learning-based methods, while being significantly faster and more user-friendly.
   author-bio: >- 
@@ -349,7 +349,7 @@
 
 - author-name: Jonas Kneifl
   title: "FPS: Frames, Physics, and Steering – Probing and Controlling Physical Observables in Video Diffusion Models"
-  author-title: "IDEAS Research Institute"
+  author-affiliation: "IDEAS Research Institute"
   abstract-md: |- 
     Video-generation models produce strikingly realistic sequences and are increasingly proposed as *world models* for domains like automotive and robotics, where users need consistent long rollouts and generalization to unseen configurations. That promise rests on physics: a model that has internalized physical laws should be able to roll out coherently and support meaningful downstream tasks. Yet we still lack a general understanding of whether video models actually learn physics---and how to extract it if they do.
 
@@ -382,7 +382,7 @@
 
 - author-name: Łukasz Janisiów
   title: "PhAME: Phenotype-Aware Molecular Editing via Latent Diffusion"
-  author-title: "Jagiellonian University / GMUM"
+  author-affiliation: "Jagiellonian University / GMUM"
   abstract-md: |- 
     Small-molecule drug discovery requires simultaneous optimization of numerous properties of candidate molecules. These properties can be investigated through the analysis of high-dimensional biological signatures, such as cell morphology and transcriptomic perturbations, which provide a rich perspective on the underlying biological mechanisms. However, existing generative methods, which use those signatures for optimization, fail to meet two key requirements: providing precise guidance toward desired phenotypic signatures while maintaining structural proximity to a known hit. We introduce PhAME (Phenotype-aware Molecular Editing), a latent diffusion framework that overcomes this challenge by recasting molecular optimization as editing in the latent space of a pretrained graph-based VAE. Our central contribution is a compositional classifier-free guidance scheme with two independent scales, one for the phenotype-conditioning and one for similarity to the seed structure, allowing practitioners to control the tradeoff between these two objectives. Empirical evaluations across diverse benchmarks, including docking score optimization and multimodal phenotypic generation, demonstrate that PhAME achieves state-of-the-art results while maintaining high chemical validity and novelty.
   author-bio: >- 
@@ -397,7 +397,7 @@
 
 - author-name: Bartłomiej Sobieski
   title: "Auditing Sybil: Explaining Deep Lung Cancer Risk Prediction Through Generative Interventional Attributions"
-  author-title: "University of Warsaw / Centre for Credible AI"
+  author-affiliation: "University of Warsaw / Centre for Credible AI"
   abstract-md: |- 
     Lung cancer remains the leading cause of cancer mortality, driving the development of automated screening tools to alleviate radiologist workload. Standing at the frontier of this effort is Sybil, a deep learning model capable of predicting future risk solely from computed tomography (CT) with high precision. However, despite extensive clinical validation, current assessments rely purely on observational metrics. This correlation-based approach overlooks the model's actual reasoning mechanism, necessitating a shift to causal verification to ensure robust decision-making before clinical deployment. We propose S(H)NAP, a model-agnostic auditing framework that constructs generative interventional attributions validated by expert radiologists. By leveraging realistic 3D diffusion bridge modeling to systematically modify anatomical features, our approach isolates object-specific causal contributions to the risk score. Providing the first interventional audit of Sybil, we demonstrate that while the model often exhibits behavior akin to an expert radiologist, differentiating malignant pulmonary nodules from benign ones, it suffers from critical failure modes, including dangerous sensitivity to clinically unjustified artifacts and a distinct radial bias.
 

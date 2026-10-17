@@ -1,7 +1,7 @@
 # TEMPLATE
 # - author-name:
 #   title:
-#   author-title:
+#   author-affiliation:
 #   abstract-md: |-
 #   author-bio: >-
 #   date:
@@ -13,7 +13,7 @@
 
 - author-name: Kamil Deja
   title: "When Prompting Is Not Enough: Precise Control Needs Precise Understanding"
-  author-title: "Warsaw University of Technology / IDEAS Research Institute"
+  author-affiliation: "Warsaw University of Technology / IDEAS Research Institute"
   abstract-md: |-
     Generative models such as diffusion models can create images, music, and video from text prompts. But prompts provide only coarse control. Small changes in wording can produce unpredictable changes in the output, while intermediate states of a concept are often difficult to express. In other domains, such as protein structure design, models are not conditioned on text at all, leaving no prompt to adjust.
 
@@ -31,7 +31,7 @@
 
 - author-name: Hubert Baniecki
   title: "Explainable Machine Intelligence"
-  author-title: "University of Warsaw / Centre for Credible AI"
+  author-affiliation: "University of Warsaw / Centre for Credible AI"
   abstract-md: |-
     I will briefly talk about explainable machine intelligence, the main topic of my research over the last six years. What began as a question about how humans interactively analyze models led me to investigate what an explanation actually measures, and ultimately to develop algorithms that make explanations more faithful to models and more robust to changes in data.
   author-bio: >-
@@ -45,7 +45,7 @@
 
 - author-name: Michał Nauman
   title: "Scaling value-based reinforcement learning"
-  author-title: "University of Warsaw / Nomagic"
+  author-affiliation: "University of Warsaw / Nomagic"
   author-bio: >-
     Michał Nauman is an artificial intelligence researcher specializing in reinforcement learning. He completed his PhD at the University of Warsaw under the supervision of Marek Cygan, and was a visiting scholar at the University of California, Berkeley, working with Pieter Abbeel. His work has been published and recognized at leading AI conferences, including ICML, NeurIPS, and ICLR. His research focuses on scaling reinforcement learning for continuous control, with a particular interest in how learned policies generalize and transfer to new tasks.
   date: Friday / 9 October

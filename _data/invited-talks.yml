@@ -1,7 +1,7 @@
 # TEMPLATE
 # - author-name:
 #   title:
-#   author-title:
+#   author-affiliation:
 #   abstract-md: |-
 #   author-bio: >-
 #   date:
@@ -12,7 +12,7 @@
 
 - author-name: Razvan Pascanu
   title: "Is the reliance on scale unavoidable?"
-  author-title: "Mila / Google DeepMind"
+  author-affiliation: "Mila / Google DeepMind"
   abstract-md: |-
     In this talk I will investigate the importance of scale in building modern ML systems. The main hypothesis put forward is that the heavy reliance on scale is likely unsustainable; therefore, a natural question is whether alternatives exist. To this end I explore the role of gradient interference in representation building, and argue for its dual role in learning: it slows down learning and implicitly prevents small models from converging to good solutions, while also serving as the main mechanism for discovering structure in data. I will frame continual learning as an attempt to resolve some of these contradictions, exposing some of the basic phenomena that make sequential learning hard, in particular catastrophic forgetting, feature identification and co-observation. The talk itself is not aiming at providing a working solution or an answer, but rather exposing the difficulties of removing the reliance on scale, the open problems and our current understanding of them. The hope is that this will outline a possible frontier for future development in the field.
   author-bio: |-
@@ -27,7 +27,7 @@
 
 - author-name: Piotr Sankowski
   title: "Global AI Governance from the Inside of UN AI Panel"
-  author-title: "IDEAS Research Institute / University of Warsaw"
+  author-affiliation: "IDEAS Research Institute / University of Warsaw"
   abstract-md: |-
     Artificial Intelligence is evolving at an unprecedented pace, shifting from narrow applications to frontier models with truly transformative potential. While this rapid acceleration brings immense opportunities for scientific and economic progress, it also introduces critical challenges - ranging from the extreme concentration of computational power and market dominance, to the risks of unaligned systems and societal disruption.
 
@@ -46,7 +46,7 @@
 
 - author-name: Pierre Stock
   title: "Deep Dive Mistral. Scalable and agentic AI: co-developing scaffolds & models hand-in-hand"
-  author-title: "Mistral"
+  author-affiliation: "Mistral"
   abstract-md: |-
     As we have scaled parameters, data, and compute to trillions, the model alone is still not enough to build capable agents. This talk walks through the full training pipeline (pre-training, supervised fine-tuning, and reinforcement learning), explaining how models learn tool use, adapt to new domains, and develop "thinking traces" that enable reasoning, error recovery, transparency, and control. Then, the focus turns to the harness: tools, memory, orchestration, guardrails, and context management built around a stateless model, with "skills" as versioned, human- and agent-editable external memory that lets agents learn without retraining. These ideas are illustrated with a running example of an agent diagnosing crop stress and planning irrigation. The conclusion puts forth an outlook on increasing agent autonomy and the evolving role of humans in the loop.
   author-bio: |-
@@ -59,7 +59,7 @@
 
 - author-name: Adam Paszke
   title: "Ten Years of ML Systems: PyTorch, JAX, Pallas, and What's Next"
-  author-title: "Google DeepMind"
+  author-affiliation: "Google DeepMind"
   abstract-md: |-
     Over the last decade, machine learning systems have experienced multiple paradigm shifts. Rapidly evolving model architectures and hardware have constantly changed what we optimize for, from enhancing developer productivity towards scale-up and mechanical sympathy. In this talk I'll share my lessons from building these systems and the practical design decisions behind each step, highlight where we are today, and finally discuss how another shift in our priorities and abstractions has already begun.
   author-bio: |-
@@ -74,7 +74,7 @@
 
 - author-name: Markus Wulfmeier
   title: "Mastery-first Physical AI - Demos, Deployment, Open Questions"
-  author-title: "Nomagic"
+  author-affiliation: "Nomagic"
   abstract-md: |-
     Physical AI can perform increasingly diverse and complex tasks, yet reliable operation remains an open challenge. Drawing on work spanning deploying AI for Google Maps, Robot Soccer, Gravitational Wave Detection, Gemini Robotics, and industrial manipulation at Nomagic, I examine how simulation, large-scale physical data, and deployment contribute to this goal. Deployment provides three essential foundations: training experience generated through useful work, evaluation grounded in operational outcomes, and modular control systems that manage failures while learned models improve. Together, these foundations enable deployment to bootstrap both initial models and their development process. This argues for a mastery-first research agenda and connects practical deployment with fundamental questions surrounding imitation and reinforcement learning, targeted data collection, learned simulation, and efficient knowledge transfer.
   author-bio: |-
@@ -89,7 +89,7 @@
 
 - author-name: Lenka Zdeborová
   title: "Machine Learning Theory in the Age of Attention"
-  author-title: "EPFL"
+  author-affiliation: "EPFL"
   abstract-md: |-
     Modern machine learning systems rely on architectures and mechanisms that go beyond the classical models at the heart of much of learning theory. In this talk, I will discuss how solvable high-dimensional models can provide a framework for studying these systems while retaining enough structure to expose their underlying mechanisms. I will focus in particular on attention-based architectures. By analyzing simplified models of attention, we can derive their learning dynamics and identify phase transitions, scaling laws, and mechanisms of representation and specialization. I will argue that such models offer a complementary route to understanding modern machine learning: not by reproducing the complexity of current systems, but by constructing tractable settings in which their essential phenomena can be made explicit.
   author-bio: |-
@@ -104,7 +104,7 @@
 
 - author-name: Paweł Budzianowski
   title: "Supervising Physical AI"
-  author-title: "Lute"
+  author-affiliation: "Lute"
   abstract-md: |-
     Physical intelligence is rapidly improving robotics capabilities. Vision-language-action models and world models benefit from pre-training on general video corpora, enabling greater generalization capabilities. However, further improvements in performance still require human intervention, even with policies reaching a 99.99% success rate. We will discuss how temporal prediction and reward models enable automatic supervision and how general VLMs will eventually take over the handling of end-to-end deployments.
   author-bio: |-
@@ -117,7 +117,7 @@
 
 - author-name: Emanuele Rodolà
   title: "Navigating Model Spaces with Less Tax"
-  author-title: "Sapienza University of Rome / Paradigma"
+  author-affiliation: "Sapienza University of Rome / Paradigma"
   abstract-md: |-
     Modern AI research often pays a high tax for early commitments: once we train, fine-tune, quantize, or deploy a model, changing course becomes expensive. This talk argues for treating model spaces as objects to be navigated, rather than searched blindly. I will discuss three instruments for reducing this tax: inspection, to read trained networks as dynamical systems; inversion, to ask what hidden states still remember; and patching, to reuse expensive robustness improvements as transferable directions. The common theme is extracting more signal from each trained model, turning checkpoints into maps, witnesses, and directions for future decisions.
   author-bio: |-
@@ -132,7 +132,7 @@
 
 - author-name: Valentina Boeva
   title: "Transformer-based foundation models for molecular cancer research"
-  author-title: "ETH Zurich"
+  author-affiliation: "ETH Zurich"
   abstract-md: |-
     Over the past few years, the transformer architecture has moved from natural language processing into molecular biology, where large models pretrained on millions of transcriptomes, genomes, and protein sequences are now proposed as general-purpose substrates for downstream biomedical tasks. This talk is an introduction to transcriptomics models and what they can plausibly do for cancer research today. I will begin with the general approach of modeling single cells by training foundation models on large corpora of single-cell RNA-seq data. The second part turns to cancer-specific modeling. Using CancerFoundation, a model trained exclusively on malignant cells, I will illustrate the case for focused rather than maximally large models, and show applications to zero-shot batch integration and drug response prediction for unseen cell lines and compounds. The third part will address interpretability. I will present recent work applying sparse autoencoders to the hidden representations of single-cell foundation models, which reveals disentangled biological and technical features that can be intervened upon, offering a route from black-box embeddings to mechanistic understanding and to the removal of unwanted technical signal. Finally, I will look ahead to architectural directions likely to matter for biology, in particular looped and fixed-point transformers that allocate test-time compute adaptively to the difficulty of a problem.
   author-bio: |-
@@ -147,7 +147,7 @@
 
 - author-name: Peter Richtárik
   title: "The Broximal Point Method and Its Impact on Optimization Theory and Machine Learning"
-  author-title: "KAUST"
+  author-affiliation: "KAUST"
   abstract-md: |-
     The Broximal Point Method (BPM) of Gruntkowska, Li, Rane, and Richtárik, related to the ball-oracle work of Carmon, Sidford, et al., replaces the quadratic penalty of the classical proximal point method with a ball constraint. In the nonsmooth convex regime it converges linearly and in finitely many steps, without dependence on any condition number. I will focus on the basic results described in Gruntkowska et al., then briefly cover four extensions: a non-Euclidean theory that makes BPM a blueprint for geometry-aware methods; Broximal Alignment, a condition under which BPM finds a global minimizer with no smoothness or Lipschitz assumption; Local LMO, which applies a linear minimization oracle on the constraint set intersected with a local ball and recovers gradient-descent rates without projections; and distributed Brox (new results; not yet online).
 
@@ -188,7 +188,7 @@
 
 - author-name: Tomáš Pluskal
   title: "Decoding the chemical universe of plants"
-  author-title: "IOCB Prague"
+  author-affiliation: "IOCB Prague"
   abstract-md: |-
     Plants are an incredibly rich source of pharmaceutically relevant specialized metabolites (small molecules). However, deciphering the biochemistry that occurs in non-model plant species is a highly challenging task. My lab is developing generalized computational workflows for connecting biosynthetic gene sequences (obtained using RNA sequencing) to their downstream metabolites (detected using mass spectrometry). To this end, we have developed EnzymeExplorer, a targeted machine learning pipeline for predicting the enzymatic functions of terpene synthases directly from their amino acid sequences (Samusevich et al, bioRxiv 2025) and DreaMS, a self-supervised foundation machine learning model for tandem mass spectrometry, which outperforms state-of-the-art methods in a range of different prediction tasks (Bushuiev et al., Nature Biotechnology 2025). We are further building on these foundations towards the final goal: a full computational characterization of the chemodiversity and biosynthetic potential of each plant species using easy-to-obtain experimental datasets.
   author-bio: |-
@@ -203,7 +203,7 @@
 
 - author-name: João F. Henriques
   title: "Blurring the lines between synthetic and real data for 3D vision"
-  author-title: "University of Oxford"
+  author-affiliation: "University of Oxford"
   abstract-md: |-
     Machine learning thrives whenever data is plentiful, but 3D vision remains a stubborn exception. The reason is that cameras capture only flat images, so recovering and labelling the 3D scene behind them is slow and expensive - especially when people are moving. Simulators offer a tempting way out, as they provide perfect 3D labels for free; yet models trained on simulated data often struggle in the real world.
 
@@ -220,7 +220,7 @@
 
 - author-name: Johannes von Oswald
   title: "Retrieval-Centric Deep Learning: Replacing Weight Matrices with Vector Databases"
-  author-title: "Google / Paradigms of Intelligence Team"
+  author-affiliation: "Google / Paradigms of Intelligence Team"
   abstract-md: |-
     The deep learning models powering our current AI revolution are built on parameter matrices that form linear layers. These essential components dictate a learning system's capacity, as well as its computational and memory requirements during training and inference.
 
@@ -242,7 +242,7 @@
 
 - author-name: Stanisław Jastrzębski
   title: "The first near-autonomous discovery in organic chemistry made by OpenAI and Molecule.one"
-  author-title: "Molecule.one"
+  author-affiliation: "Molecule.one"
   abstract-md: |-
     In the first part of the talk, I will discuss the recent collaboration between Molecule.one and OpenAI that led to a near-autonomous discovery in organic chemistry. Over three months, our system planned, carried out, and analyzed more than 10,000 Chan–Lam coupling reactions with minimal human oversight. Among its findings, it identified TEMPO as a particularly effective additive (oxidant)—a result that surprised human experts. Through the lens of this project, we will explore what the increasing automation of the scientific process means for us — as AI scientists and engineers.
   author-bio: |-

@@ -9,7 +9,7 @@ CFC_BASE_CONFIG = {
     "fields": {
         "author-name": lambda row: row["Name and surname"].strip(),
         "title": lambda row: '"' + row["Title of your talk or poster"].strip() + '"',
-        "author-title": lambda row: '"' + row["Affiliation"].strip() + '"',
+        "author-affiliation": lambda row: '"' + row["Affiliation"].strip() + '"',
         "abstract": lambda row: ">- \n    "
         + row["Abstract"].strip().replace("\n", "\n    "),
         "author-bio": lambda row: ">- \n    "

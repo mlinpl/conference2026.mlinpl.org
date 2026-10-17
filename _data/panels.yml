@@ -10,19 +10,19 @@
   panelists:
     - name: Robert Bogucki
       image: images/optimized/panels-600x600/RobertBogucki.webp
-      title: Google
+      affiliation: Google
     - name: Artur Dubrawski
       image: images/optimized/panels-600x600/ArturDubrawski.webp
-      title: Carnegie Mellon University
+      affiliation: Carnegie Mellon University
     - name: Aleksandra Pędraszewska
       image: images/optimized/panels-600x600/AleksandraPedraszewska.webp
-      title: vastpoint / Member of Future Council of Polish Prime Minister
+      affiliation: vastpoint / Member of Future Council of Polish Prime Minister
     - name: Magdalena Rempuszewska
       image: images/optimized/panels-600x600/MagdalenaRempuszewska.webp
-      title: ORLEN (Director, Office of Digital Transformation and AI)
+      affiliation: ORLEN (Director, Office of Digital Transformation and AI)
     - name: Tomasz Trzciński
       image: images/optimized/panels-600x600/TomaszTrzcinski.webp
-      title: IDEAS Research Institute / Warsaw University of Technology / ELLIS Unit Warsaw
+      affiliation: IDEAS Research Institute / Warsaw University of Technology / ELLIS Unit Warsaw
     - name: Grażyna Żebrowska
       image: images/optimized/panels-600x600/GrazynaZebrowska.webp
-      title: "Moderator, IDEAS Research Institute"
+      affiliation: "Moderator, IDEAS Research Institute"

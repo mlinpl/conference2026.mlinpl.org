@@ -38,7 +38,7 @@ Expects following parameters: panel, include-details
                     {{ person.name }}
                 </span></br>
                 <span class="speaker-title">
-                    {{ person.title }}
+                    {{ person.affiliation }}
                 </span>
             </div>
         </div>
@@ -56,7 +56,7 @@ Expects following parameters: panel, include-details
             </div>
         </div>
         <h3 style="margin-bottom: 0.2em">{{ person.name }}</h3>
-        <p style="font-size: 14px; margin-bottom: 0.5em"><span>{{ person.title }}</span></p>
+        <p style="font-size: 14px; margin-bottom: 0.5em"><span>{{ person.affiliation }}</span></p>
         </div>
 
         {% if person.bio-intro and person.bio-more %}

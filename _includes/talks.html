@@ -45,7 +45,7 @@ Expects following parameters:
                 <p style="font-size: 12px;">{{ talk.author-image-note }}</p>
                 {% endif %}
                 <h3 style="margin-bottom: 0.2em">{{ talk.author-name }}</h3>
-                <p style="font-size: 14px; margin-bottom: 35px;">{{ talk.author-title }}</p>
+                <p style="font-size: 14px; margin-bottom: 35px;">{{ talk.author-affiliation }}</p>
                 {% endif %}
                 
                 {% if talk.authors %}
@@ -56,7 +56,7 @@ Expects following parameters:
                         </div>
                     </div>
                     <h3 style="margin-bottom: 0.2em">{{ author.name }}</h3>
-                    <p style="font-size: 14px; margin-bottom: 35px;">{{ author.title }}</p>
+                    <p style="font-size: 14px; margin-bottom: 35px;">{{ author.affiliation }}</p>
                     {% endfor %}
                 {% endif %}
 

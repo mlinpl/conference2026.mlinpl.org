@@ -6,7 +6,7 @@
 #   desc-md: >-
 #   authors:
 #     - name:
-#       title:
+#       affiliation:
 #       image:
 #   author-bio-md: >-
 #
@@ -31,22 +31,22 @@
 
   authors:
     - name: Ewa Szczurek
-      title: Helmholtz Munich / University of Warsaw
+      affiliation: Helmholtz Munich / University of Warsaw
       image: images/optimized/tutorials-600x600/Ewa_Szczurek.webp
     - name: Diogo Soares
-      title: Institute of AI for Health, Helmholtz Munich
+      affiliation: Institute of AI for Health, Helmholtz Munich
       image: images/optimized/tutorials-600x600/Diogo_Soares.webp
     - name: Adam Bielecki
-      title: Faculty of Mathematics, Informatics and Mechanics, University of Warsaw
+      affiliation: Faculty of Mathematics, Informatics and Mechanics, University of Warsaw
       image: images/optimized/tutorials-600x600/Adam_Bielecki.webp
     - name: Serra Korkmaz
-      title: Institute of AI for Health, Helmholtz Munich
+      affiliation: Institute of AI for Health, Helmholtz Munich
       image: images/optimized/tutorials-600x600/Serra_Korkmaz.webp
     - name: Adam Izdebski
-      title: Institute of AI for Health, Helmholtz Munich
+      affiliation: Institute of AI for Health, Helmholtz Munich
       image: images/optimized/tutorials-600x600/Adam_Izdebski.webp
     - name: Pankhil Gawade
-      title: Institute of AI for Health, Helmholtz Munich
+      affiliation: Institute of AI for Health, Helmholtz Munich
       image: images/optimized/tutorials-600x600/Pankhil_Gawade.webp
   author-bio-md: |-
     Ewa Szczurek is an associate professor at the Faculty of Mathematics, Informatics and Mechanics at the University of Warsaw, Poland, and director of the Institute of AI for Health at Helmholtz Munich, Germany. She leads joint labs at Helmholtz Munich and at the University of Warsaw. She was visiting associate professor at Northwestern University in the United States (2023) and a visiting fellow at the Center for Interdisciplinary Research, Bielefeld, Germany (2016). She holds Master degrees in computer science from the University of Warsaw, Poland (2006) and Uppsala University, Sweden (2005). She obtained her doctoral degree from the Max Planck Institute for Molecular Genetics in Berlin (2011), followed by a postdoctoral fellowship in Switzerland at ETH Zurich. She received the distinction, scientific and didactic awards from the Rector of the University of Warsaw, as well as ETH Zurich and IMPRS fellowships, the scientific excellence award from the Perspektywy Foundation, and is Forbes Woman to Watch 2026. She acts as area chair for NeurIPS, ICLR and ICML conferences, and as associate editor for Genome Biology. Her research focuses on probabilistic graphical models, deep generative models, and representation learning, and their applications in computational medicine. Her specific applications include oncology and the AI-driven design of antimicrobial peptides, work for which she was awarded the ERC Consolidator grant.
@@ -79,16 +79,16 @@
 
   authors:
     - name: Grzegorz Wilczyński
-      title: IDEAS Research Institute
+      affiliation: IDEAS Research Institute
       image: images/optimized/tutorials-600x600/Grzegorz_Wilczynski.webp
     - name: Mikołaj Zieliński
-      title: Poznań University of Technology
+      affiliation: Poznań University of Technology
       image: images/optimized/tutorials-600x600/Mikolaj_Zielinski.webp
     - name: Weronika Smolak-Dyżewska
-      title: Jagiellonian University / IDEAS Research Institute
+      affiliation: Jagiellonian University / IDEAS Research Institute
       image: images/optimized/tutorials-600x600/Weronika_Smolak-Dyzewska.webp
     - name: Przemysław Spurek
-      title: Jagiellonian University
+      affiliation: Jagiellonian University
       image: images/optimized/tutorials-600x600/Przemyslaw_Spurek.webp
   author-bio-md: |-
     Grzegorz Wilczyński is a PhD student at Jagiellonian University and a researcher at IDEAS Research Institute. His work focuses on 3D Gaussian Splatting, neural rendering, and the development of more expressive and flexible 3D scene representations. He is particularly interested in bringing Gaussian-based scenes to life through animation, dynamic manipulation, and the integration of generative models into the 3D reconstruction pipeline. His research explores how explicit scene representations can be extended beyond static rendering toward editable, generative, and interactive 3D environments. Through projects such as IRIS, QuantumGS, and MeshSplats, he investigates new ways of combining Gaussian Splatting with different representations, quantum-inspired encoding, and mesh-based rendering. He enjoys translating research ideas into practical systems and making advanced 3D technologies easier to understand, experiment with, and apply.
@@ -126,22 +126,22 @@
 
   authors:
     - name: Franziska Boenisch
-      title: Technical University of Munich
+      affiliation: Technical University of Munich
       image: images/optimized/tutorials-600x600/Franziska_Boenisch.webp
     - name: Aditya Kumar
-      title: CISPA
+      affiliation: CISPA
       image: images/optimized/tutorials-600x600/Aditya_Kumar.webp
     - name: Lorenzo Rossi
-      title: CISPA
+      affiliation: CISPA
       image: images/optimized/tutorials-600x600/Lorenzo_Rossi.webp
     - name: Antoni Kowalczuk
-      title: CISPA
+      affiliation: CISPA
       image: images/optimized/tutorials-600x600/Antoni_Kowalczuk.webp
     - name: Bartłomiej Marek
-      title: CISPA
+      affiliation: CISPA
       image: images/optimized/tutorials-600x600/Bartlomiej_Marek.webp
     - name: Maitri Shah
-      title: CISPA
+      affiliation: CISPA
       image: images/optimized/tutorials-600x600/Maitri_Shah.webp
   author-bio-md: |-
     Franziska is a full professor and co-leads the SprintML lab. Her research focuses on private and trustworthy machine learning. During her Ph.D. at Freie Universität Berlin and Fraunhofer AISEC, she pioneered the notion of individualized privacy in ML. Before joining CISPA, she was a Postdoctoral Fellow at the University of Toronto and the Vector Institute. Franziska is the recipient of an ERC Starting Grant (2025) for research on privacy in foundation models, and her work has been recognised with the Fraunhofer ICT Dissertation Award (2023), GI Junior Fellowship (2024), and Werner-von-Siemens Fellowship (2025).
@@ -184,19 +184,19 @@
 
   authors:
     - name: Adam Dziedzic
-      title: CISPA
+      affiliation: CISPA
       image: images/optimized/tutorials-600x600/Adam_Dziedzic.webp
     - name: Bihe Zhao
-      title: CISPA
+      affiliation: CISPA
       image: images/optimized/tutorials-600x600/Bihe_Zhao.webp
     - name: Louis Kerner
-      title: CISPA
+      affiliation: CISPA
       image: images/optimized/tutorials-600x600/Louis_Kerner.webp
     - name: Michel Meintz
-      title: CISPA
+      affiliation: CISPA
       image: images/optimized/tutorials-600x600/Michel_Meintz.webp
     - name: Maitri Shah
-      title: CISPA
+      affiliation: CISPA
       image: images/optimized/tutorials-600x600/Maitri_Shah.webp
   author-bio-md: |-
     Adam Dziedzic is a faculty member at CISPA Helmholtz Center for Information Security, where he co-leads the SprintML group. His research is focused on secure and trustworthy Machine Learning. Adam was a Postdoctoral Fellow at the Vector Institute and the University of Toronto, and a member of the CleverHans Lab, advised by Prof. Nicolas Papernot. He earned his PhD at the University of Chicago, where he was advised by Prof. Sanjay Krishnan and worked on input and model compression for adaptive and robust neural networks. Adam obtained his Bachelor's and Master's degrees from the Warsaw University of Technology in Poland. He was also studying at DTU (Technical University of Denmark) and carried out research at EPFL, Switzerland. Adam also worked at CERN (Geneva, Switzerland), Barclays Investment Bank (London, UK), Microsoft Research (Redmond, USA), and Google (Madison, USA). Adam is a founding member or co-organizer of the European Championship on AI.
@@ -229,10 +229,10 @@
 
   authors:
     - name: Patryk Rygiel
-      title: University of Twente / Amsterdam UMC
+      affiliation: University of Twente / Amsterdam UMC
       image: images/optimized/tutorials-600x600/Patryk_Rygiel.webp
     - name: Julian Suk
-      title: Technical University of Munich
+      affiliation: Technical University of Munich
       image: images/optimized/tutorials-600x600/Julian_Suk.webp
   author-bio-md: |-
     Patryk is a PhD candidate in the EU Horizon VASCUL-AID project at the University of Twente supervised by Jelmer Wolterink, and a guest researcher at the Amsterdam University Medical Center. He is a former visiting PhD at the University of Manchester under the supervision of Alejandro Frangi. Before starting his PhD, he was a visiting student at NVIDIA and an AI research scientist at the med-tech startup Hemolens Diagnostics with two international medical device patents to his name. His current research focuses on AI for Science and Health, encompassing the development of neural surrogates for complex physics simulations (i.e. hemodynamics) and geometric deep learning methods for risk assessment of cardiovascular diseases.
@@ -249,10 +249,10 @@
 
   authors:
     - name: Patrik Bartak
-      title: JetBrains Research
+      affiliation: JetBrains Research
       image: images/optimized/tutorials-600x600/Patrik_Bartak.webp
     - name: Vseslav Kasatskii
-      title: JetBrains
+      affiliation: JetBrains
       image: images/optimized/tutorials-600x600/Vseslav_Kasatskii.webp
   author-bio-md: |-
     Patrik Bartak is a researcher at JetBrains Research, working on model evaluation and finetuning. He has used IdeGYM and other tools for reinforcement learning, and set up environments and scaffolds for evaluation of agentic models.
@@ -281,10 +281,10 @@
 
   authors:
     - name: Jan Karaś
-      title: 'CAIAK: Conference, AI and Kayaking'
+      affiliation: 'CAIAK: Conference, AI and Kayaking'
       image: images/optimized/tutorials-600x600/Jan_Karas.webp
     - name: Kacper Gutowski
-      title: 'CAIAK: Conference, AI & Kayaking'
+      affiliation: 'CAIAK: Conference, AI & Kayaking'
       image: images/optimized/tutorials-600x600/Kacper_Gutowski.webp
   author-bio-md: |-
     Jan Karaś, ex-Pearson, ex-Microsoft. AI/ML student from Technical University Darmstadt (Hessen, Germany). Founder of the student conference “CAIAK: Conference, AI and Kayaking” and Czarna Magia AI Society. Privately a Rust, APM and biking enthusiast.
@@ -316,19 +316,19 @@
 
   authors:
     - name: Wojciech Kusa
-      title: NASK National Research Institute
+      affiliation: NASK National Research Institute
       image: images/optimized/tutorials-600x600/Wojciech_Kusa.webp
     - name: Katarzyna Lorenc
-      title: NASK National Research Institute
+      affiliation: NASK National Research Institute
       image: images/optimized/tutorials-600x600/Katarzyna_Lorenc.webp
     - name: Grzegorz Statkiewicz
-      title: NASK National Research Institute
+      affiliation: NASK National Research Institute
       image: images/optimized/tutorials-600x600/Grzegorz_Statkiewicz.webp
     - name: Marcin Bagnowski
-      title: NASK National Research Institute
+      affiliation: NASK National Research Institute
       image: images/optimized/tutorials-600x600/Marcin_Bagnowski.webp
     - name: Dominika Grajewska
-      title: NASK National Research Institute
+      affiliation: NASK National Research Institute
       image: images/optimized/tutorials-600x600/Dominika_Grajewska.webp
   author-bio-md: |-
     Wojciech is an Assistant Professor at NASK National Research Institute, where he leads the NLP Department. His research focuses on building safe and trustworthy language technologies, with current emphasis on leading the development of PLLuM, an open Polish large language model. Wojciech holds PhD from TU Wien on NLP and Information Retrieval.
@@ -351,10 +351,10 @@
 
   authors:
     - name: Maciej Draguła
-      title: Tenstorrent
+      affiliation: Tenstorrent
       image: images/optimized/tutorials-600x600/Maciej_Dragula.webp
     - name: Nathan Maurice
-      title: Tenstorrent
+      affiliation: Tenstorrent
       image: images/empty.png
   author-bio-md: |-
     Maciej Draguła is a Senior Engineer at Tenstorrent, where he develops tt-train, a framework for training large language models on Tenstorrent’s cutting-edge AI hardware, with a focus on optimising operations to reduce training time. Previously, he worked on computer vision applications for avionics at Daedalean, and his experience includes internships at CERN, Google, and Goldman Sachs. He holds a Bachelor’s degree in Computer Science from the University of Wrocław.
@@ -383,10 +383,10 @@
 
   authors:
     - name: Leszek Grzanka
-      title: ACK Cyfronet AGH
+      affiliation: ACK Cyfronet AGH
       image: images/optimized/tutorials-600x600/Leszek_Grzanka.webp
     - name: Kamil Milewski
-      title: CERN
+      affiliation: CERN
       image: images/optimized/tutorials-600x600/Kamil_Milewski.webp
   author-bio-md: |-
     Leszek Grzanka is an expert at Cyfronet AGH and Gaia AI Factory, focusing on training researchers in AI and HPC. His 20+ years of experience in particle transport simulations include work with CERN and IFJ PAN. His work covers proton therapy, detector development, and space electronics radiation testing. He has utilized HPC resources for data analysis in the CMS experiment and applied research. His software projects include a web-based tool for managing particle transport simulations on HPC clusters. He has taught data analysis, Python, and logic at the university level and currently supervises MSc students at AGH and CERN.
