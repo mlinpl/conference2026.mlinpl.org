@@ -33,7 +33,7 @@ stateDiagram-v2
     After: • after-conference: true
     After: • arrow: #about
     After: • about section moves to the top
-    After: • thank-you message (photos link if photos: true)
+    After: • thank-you message (photos link once /photos is published)
     AfterMovie: • aftermovie: true
     AfterMovie: • arrow: #aftermovie
     AfterMovie: • aftermovie section under the header
@@ -55,6 +55,5 @@ stateDiagram-v2
 | `invited-speakers` | `null` hides, `"first"` shows with "more coming", `"all"` shows final |
 | `cfc` | `null` hides, `"open"` and `"closed"` change the calls section; `open` also enables the Call for Tutorials nav link. After the conference the section switches to its summary on its own |
 | `call-for-sponsors` | shows the sponsors call section and nav item |
-| `photos` | selects the header message with the photos link; the Photos nav link needs the `/photos` page published |
 | `next-year-site` | "next year" links point to the next edition's site instead of the local `/next-year` page |
 | `banner-text` | shows the banner under the header |

@@ -21,9 +21,11 @@
                     
                     {% if site.data.state.after-conference == true %}
                     <h3 id="event-countdown" class="event-countdown">
+                        {% comment %} Mention the photos once the /photos page is published (moved out of pages/drafts/) {% endcomment %}
+                        {% assign photos_page = site.pages | where: "url", "/photos" | first %}
                         {% if site.data.state.aftermovie %}
                             {% assign message = site.data.header.countdown-overwrite.post-event-message.with-aftermovie %}
-                        {% elsif site.data.state.photos %}
+                        {% elsif photos_page %}
                             {% assign message = site.data.header.countdown-overwrite.post-event-message.with-photos %}
                         {% else %}
                             {% assign message = site.data.header.countdown-overwrite.post-event-message.default %}

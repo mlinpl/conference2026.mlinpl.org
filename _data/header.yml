@@ -10,7 +10,7 @@ countdown-overwrite:
   # Shown once countdown-date has passed, until state.after-conference is true
   during-event-message: 'Welcome to the conference!'
   # Shown when state.after-conference is true
-  # These are automatically selected based on what content is available (see state.photos and state.aftermovie)
+  # These are automatically selected based on what content is available (the /photos page being published, and state.aftermovie)
   post-event-message:
     default: 'Thank you for participating<br>and we hope to see you %next-year-link%next year!%/next-year-link%'
     with-photos: 'Thank you for participating!</br>Take a look at <a href="%baseurl%/photos">the photos <i class="fa-solid fa-camera-retro"></i></a><br>and we hope to see you %next-year-link%next year!%/next-year-link%'
