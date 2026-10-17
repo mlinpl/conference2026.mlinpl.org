@@ -1,6 +1,8 @@
 - author-name: Tomasz Danel
   title: "Teaching Humans and Machines How to Design Drugs"
-  author-affiliation: "Jagiellonian University | GMUM"
+  author-affiliation:
+    - Jagiellonian University
+    - GMUM
   abstract-md: |- 
     Drug design becomes a game the moment you write down a score. Choose an objective that stands in for "this molecule would make a good drug", give it to a player, and see what comes back. That is a deliberate simplification. A real campaign balances drug potency, selectivity, safety, and synthesizability at once, and the objective that actually matters is hard to put in closed form without months of wet-lab work. But when we do compress it into a single number and hand the same number to people and to generative models, the two sets of failure modes look alike. Both learn to satisfy the score rather than the intent behind it, drifting toward the regions of chemical space where the objective is generous, and the chemistry is not. A measure that becomes a target stops being a good measure. Economists call this Goodhart's law, and it makes surprisingly little difference whether the optimizer is a person or a network. Both players also come away with something more interesting than a score. Each builds an internal representation of a molecule, a working theory of how its structure relates to what it does, and that is the part worth opening up.
 

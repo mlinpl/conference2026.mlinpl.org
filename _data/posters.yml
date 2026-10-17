@@ -299,7 +299,9 @@
 
 - author-name: Filip Pawlicki
   title: "NanoVSR: Towards Real-Time Video Super-Resolution on Edge Devices"
-  author-affiliation: "NASK National Research Institute | Gradient Science Club"
+  author-affiliation:
+    - NASK National Research Institute
+    - Gradient Science Club
   abstract-md: |- 
     Recent Video Super-Resolution (VSR) methods rely heavily on transformers and explicit optical flow, creating computational overhead and custom operations that hinder deployment on hardware accelerators like TensorRT. To address this, we introduce NanoVSR, a scalable, fully convolutional architecture designed for resource-constrained edge devices. Using structural reparameterization, NanoVSR collapses into standard convolutions during inference, ensuring seamless hardware compatibility and negligible runtime overhead. Furthermore, despite lacking explicit motion compensation, it maintains competitive restoration quality by implicitly learning spatio-temporal alignments through progressive training. Evaluated on the REDS4 benchmark, NanoVSR demonstrates an exceptional balance between accuracy and computational efficiency, significantly improving the trade-off for compact architectures. Our NanoVSR-644k baseline yields 28.64 dB PSNR while delivering 27.2 FPS on the NVIDIA Jetson Orin NX 16GB (25W), offering massive speed gains over heavier models. The scaled NanoVSR-1.7M variant reaches 29.15 dB with a throughput of 19.58 FPS, providing superior, edge-optimized upscaling. Code is available at https://github.com/filippawlicki/nanovsr.
   author-bio: >- 
@@ -482,7 +484,9 @@
 
 - author-name: Piotr Wyrwiński
   title: "Structure over Pixels: Learning Variable-Length Visual Programs"
-  author-affiliation: "Poznan University of Technology | PCSS"
+  author-affiliation:
+    - Poznan University of Technology
+    - PCSS
   abstract-md: |- 
     Discrete visual tokenizers (DVTs) map images to ordered sequences of codes that can serve as structural scene descriptions. Most methods fix sequence length before seeing the image, assigning the same code budget to simple and complex scenes. Adaptive alternatives often rely on post-hoc search or select among several predefined rates. Many DVTs are also trained through pixel reconstruction, which steers their vocabularies toward texture and low-level appearance and leaves less capacity for semantic and spatial structure.
 
