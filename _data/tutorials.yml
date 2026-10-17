@@ -31,7 +31,7 @@
 
   authors:
     - name: Ewa Szczurek
-      title: Helmholtz Munich, University of Warsaw
+      title: Helmholtz Munich / University of Warsaw
       image: images/optimized/tutorials-600x600/Ewa_Szczurek.webp
     - name: Diogo Soares
       title: Institute of AI for Health, Helmholtz Munich
@@ -85,7 +85,7 @@
       title: Poznań University of Technology
       image: images/optimized/tutorials-600x600/Mikolaj_Zielinski.webp
     - name: Weronika Smolak-Dyżewska
-      title: Jagiellonian University, IDEAS Research Institute
+      title: Jagiellonian University / IDEAS Research Institute
       image: images/optimized/tutorials-600x600/Weronika_Smolak-Dyzewska.webp
     - name: Przemysław Spurek
       title: Jagiellonian University
@@ -229,7 +229,7 @@
 
   authors:
     - name: Patryk Rygiel
-      title: University of Twente, Amsterdam UMC
+      title: University of Twente / Amsterdam UMC
       image: images/optimized/tutorials-600x600/Patryk_Rygiel.webp
     - name: Julian Suk
       title: Technical University of Munich
