@@ -6,7 +6,7 @@
 invited-speakers: "all" # options: null, "first", "all"
 call-for-sponsors: false # shows the Call for Sponsors section. options: true, false
 cfc: "closed" # options: null, "open", "closed"; the calls section switches to its after-conference text once after-conference is true
-tickets: true # whether tickets section is visible. options: true, false
+tickets: true # shows the tickets section and nav link while at least one ticket type in tickets.yml is visible. options: true, false
 agenda: "full" # options: null, "draft", "full"
 after-conference: true # options: true, false
 next-year-site: false # when true, "next year" links point to the next edition's site instead of the local /next-year page. options: true, false

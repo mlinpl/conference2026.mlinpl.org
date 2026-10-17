@@ -24,7 +24,7 @@
 
         {% include conference/about.html %}
 
-        {% if site.data.state.tickets == true and top_section != "tickets" %}
+        {% if site.data.state.tickets == true and any_ticket_visible and top_section != "tickets" %}
         {% include conference/tickets.html %}
         {% endif %}
 
