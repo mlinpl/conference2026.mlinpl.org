@@ -23,10 +23,10 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
-                {% comment %} Pick the nav ordering variant for the current conference phase {% endcomment %}
-                {% assign nav_variant = "tickets-first" %}
-                {% if site.data.state.after-conference == true or site.data.state.tickets == false %}
-                    {% assign nav_variant = "default" %}
+                {% comment %} Pick the nav ordering variant: tickets lead the nav only while they lead the page (top_section is set by state.html) {% endcomment %}
+                {% assign nav_variant = "default" %}
+                {% if top_section == "tickets" %}
+                    {% assign nav_variant = "tickets-first" %}
                 {% endif %}
                 {% assign nav_order = site.data.navigation.order[nav_variant] %}
                 {% for key in nav_order %}
