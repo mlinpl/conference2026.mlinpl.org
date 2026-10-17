@@ -1023,6 +1023,16 @@ body {
     outline: none;
 }
 
+/* Role line below the panel moderator's affiliation */
+.moderator-badge {
+    display: block;
+    color: {{ site.color.main }};
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
 /* Read more */
 .read-more-state {
     display: none;

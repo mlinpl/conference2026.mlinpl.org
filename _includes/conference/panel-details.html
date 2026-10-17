@@ -1,5 +1,5 @@
 {% comment %}
-Expects following parameters: panel, include-details
+Expects following parameters: panel (panelists may set moderator: true), include-details
 {% endcomment %}
 
 
@@ -40,6 +40,7 @@ Expects following parameters: panel, include-details
                 <span class="speaker-title">
                     {{ person.affiliation }}
                 </span>
+                {% if person.moderator %}<span class="moderator-badge">Moderator</span>{% endif %}
             </div>
         </div>
     </div>
@@ -57,6 +58,7 @@ Expects following parameters: panel, include-details
         </div>
         <h3 style="margin-bottom: 0.2em">{{ person.name }}</h3>
         <p style="font-size: 14px; margin-bottom: 0.5em"><span>{{ person.affiliation }}</span></p>
+        {% if person.moderator %}<p class="moderator-badge">Moderator</p>{% endif %}
         </div>
 
         {% if person.bio-intro and person.bio-more %}
