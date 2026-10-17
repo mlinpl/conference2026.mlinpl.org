@@ -49,18 +49,22 @@ This section has 3 main states, parametrised with include.state:
                         We were very excited to invite all to submit proposals for contributed talks and posters for {{ site.inline-logo }}!
                     </p>
                     <p>
-                        This year we accepted <strong>{{ site.data.stats.cfc.talks_count }} talks and {{ site.data.stats.cfc.posters_count }} posters</strong> that were presented during the main conference, and also <strong>{{ site.data.stats.cfc.tutorials_count }} tutorials</strong> that were held on the last day of the event.
+                        This year we accepted <strong>{{ site.data.stats.cfc.talks_count }} talks</strong> and <strong>{{ site.data.stats.cfc.posters_count }} posters</strong> that were presented during the main conference, and also <strong>{{ site.data.stats.cfc.tutorials_count }} tutorials</strong> that were held on the last day of the event.
                         A list of talks, posters, and tutorials
                         {% if include.pdfs %}
                         (with slides and posters in pdf format) 
                         {% endif %}
                         can be found in <a href="{{ "/program" | relative_url }}">the full program of the conference</a>. 
                     </p>
+                    {% comment %} Link the awards only once their subpage is published {% endcomment %}
+                    {% assign cfc_awards_page = site.pages | where: "url", "/cfc-awards" | first %}
+                    {% if cfc_awards_page %}
                     <div class="d-flex justify-content-center" style="text-align: center;">
                         <p>
                             <a href="{{ "/cfc-awards" | relative_url }}">Among all presenters, the winners of the <strong>Best Contributed Talk and Poster Award</strong> were selected by the conference participants!</a>
                         </p>
                     </div>
+                    {% endif %}
                     <p>
                         Detailed descriptions of this year submission process are available both for the <a href="{{ "/call-for-contributions" | relative_url }}"><strong>Call for Contributions</strong></a> and&nbsp;the&nbsp;<a href="{{ "/call-for-tutorials" | relative_url }}"><strong>Call&nbsp;for&nbsp;Tutorials</strong></a>.
                     </p>
