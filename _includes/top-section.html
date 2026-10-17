@@ -1,0 +1,24 @@
+{% comment %}
+    Resolve which section opens the main page for the current conference phase.
+    Sets top_section: the section moved above the normal order (about, tickets, agenda) and targeted by the header arrow.
+    "about" means nothing is moved.
+{% endcomment %}
+{% assign any_ticket_visible = false %}
+{% for ticket in site.data.tickets %}
+    {% if ticket[1].visible == true %}
+        {% assign any_ticket_visible = true %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
+{% if site.data.state.aftermovie %}
+    {% assign top_section = "aftermovie" %}
+{% elsif site.data.state.after-conference == true %}
+    {% assign top_section = "about" %}
+{% elsif site.data.state.agenda == "full" %}
+    {% assign top_section = "agenda" %}
+{% elsif site.data.state.tickets == true and any_ticket_visible %}
+    {% assign top_section = "tickets" %}
+{% else %}
+    {% assign top_section = "about" %}
+{% endif %}

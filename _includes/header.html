@@ -58,29 +58,8 @@
                     </h3>
                     {% endif %}
 
-                    {% comment %} Is any ticket type shown in the tickets section? {% endcomment %}
-                    {% assign any_ticket_visible = false %}
-                    {% for ticket in site.data.tickets %}
-                        {% if ticket[1].visible == true %}
-                            {% assign any_ticket_visible = true %}
-                            {% break %}
-                        {% endif %}
-                    {% endfor %}
-
-                    {% comment %} Select arrow destination based on conference phase {% endcomment %}
-                    {% if site.data.state.aftermovie %}
-                        {% assign arrow_url = site.data.header.arrow-destinations.after-event %}
-                    {% elsif site.data.state.after-conference == true %}
-                        {% assign arrow_url = site.data.header.arrow-destinations.default %}
-                    {% elsif site.data.state.agenda == "full" %}
-                        {% assign arrow_url = site.data.header.arrow-destinations.agenda-full %}
-                    {% elsif site.data.state.tickets == true and any_ticket_visible %}
-                        {% assign arrow_url = site.data.header.arrow-destinations.during-tickets %}
-                    {% else %}
-                        {% assign arrow_url = site.data.header.arrow-destinations.default %}
-                    {% endif %}
-
-                    <a href="{{ arrow_url }}" class="btn btn-circle page-scroll">
+                    {% comment %} top_section is set by top-section.html {% endcomment %}
+                    <a href="#{{ top_section }}" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
                 </div>

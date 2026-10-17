@@ -3,6 +3,7 @@
     {% include head.html %}
 
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        {% include top-section.html %}
         {% include nav.html %}
         {% include header.html %}
 
@@ -14,41 +15,21 @@
         {% include conference/aftermovie.html %}
         {% endif %}
 
-        {% comment %} Resolve agenda display flags once, so the section can be placed by phase {% endcomment %}
-        {% assign agenda_draft = false %}
-        {% if site.data.state.agenda == "draft" %}
-        {% assign agenda_draft = true %}
-        {% endif %}
-        {% assign agenda_full = false %}
-        {% if site.data.state.agenda == "full" %}
-        {% assign agenda_full = true %}
-        {% endif %}
-
-        {% assign after_conference = false %}
-        {% if site.data.state.after-conference == true %}
-        {% assign after_conference = true %}
-        {% endif %}
-
-        {% comment %} After the conference: about first, then tickets and the full agenda {% endcomment %}
-        {% if after_conference %}
-        {% include conference/about.html %}
-        {% endif %}
-
-        {% comment %} Once the full agenda is out, surface it above tickets {% endcomment %}
-        {% if agenda_full and after_conference == false %}
-        {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
-        {% endif %}
-
-        {% if site.data.state.tickets == true %}
+        {% comment %} Normal order is about, tickets, agenda; the phase's top section is moved above it {% endcomment %}
+        {% if top_section == "agenda" %}
+        {% include agenda-slider.html agenda-data=site.data.agenda %}
+        {% elsif top_section == "tickets" %}
         {% include conference/tickets.html %}
         {% endif %}
 
-        {% if after_conference and agenda_full %}
-        {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
+        {% include conference/about.html %}
+
+        {% if site.data.state.tickets == true and top_section != "tickets" %}
+        {% include conference/tickets.html %}
         {% endif %}
 
-        {% if after_conference == false %}
-        {% include conference/about.html %}
+        {% if site.data.state.agenda and top_section != "agenda" %}
+        {% include agenda-slider.html agenda-data=site.data.agenda %}
         {% endif %}
 
         {% if site.data.state.invited-speakers %}
@@ -65,11 +46,6 @@
 
         {% if site.data.sponsor-speakers.size > 0 %}
         {% include conference/sponsor-speakers-slider.html %}
-        {% endif %}
-
-        {% comment %} A draft agenda stays in its usual position, below the speakers {% endcomment %}
-        {% if site.data.state.agenda and agenda_full == false %}
-        {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
         {% endif %}
 
         {% comment %} Show the badge game section only once its subpage is published {% endcomment %}
