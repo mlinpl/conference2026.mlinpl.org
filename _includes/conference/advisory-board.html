@@ -32,7 +32,7 @@
                             </div>
                         </div>
                         <h4 class="person-name">{{ member.name }}</h4>
-                        <p class="person-title">{{ member.affiliation }}</p>
+                        <p class="person-title">{{ member.affiliation | join: " / " }}</p>
                      
                     </div>
                     <div class="col-sm-8 text-justify">

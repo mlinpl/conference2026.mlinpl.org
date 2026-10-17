@@ -26,7 +26,7 @@ Expects following parameters:
                             {% include social-links.html person=speaker %}
                         </div>
                         <h2 class="emph-i">{{ speaker.name }}</h2>
-                        <h3>{{ speaker.affiliation }}</h3>
+                        <h3>{{ speaker.affiliation | join: " / " }}</h3>
                         {% if speaker.bio-intro and speaker.bio-more %}
                             <input type="checkbox" class="read-more-state" id="{{ speaker.name | replace: ' ','-' }}-bio" />
                             <p class="read-more-wrap">{{ speaker.bio-intro }} <span class="read-more-target">{{ speaker.bio-more }}</span>
@@ -58,7 +58,7 @@ Expects following parameters:
                                 {{ speaker.name }}
                             </span></br>
                             <span class="speaker-title">
-                                {{ speaker.affiliation }}
+                                {{ speaker.affiliation | join: " / " }}
                             </span>
                         </div>
                     </div>
