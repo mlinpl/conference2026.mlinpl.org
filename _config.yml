@@ -129,6 +129,7 @@ exclude:
   - scripts/
   - README.md
   - CONTRIBUTING.md
+  - dev_docs/
 
 include:
   - pages/
