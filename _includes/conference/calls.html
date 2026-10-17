@@ -3,8 +3,7 @@
 This section has 3 main states:
     1. Open calls (state.cfc is "open")
     2. Closed calls before the conference (state.cfc is "closed")
-    3. After the conference (state.after-conference is true), with additional parameters:
-        - pdfs: boolean
+    3. After the conference (state.after-conference is true), mentioning slides and posters once they are added to the program data
 {% endcomment %}
 {% assign calls_state = site.data.state.cfc %}
 {% if site.data.state.after-conference == true %}
@@ -55,8 +54,15 @@ This section has 3 main states:
                     <p>
                         This year we accepted <strong>{{ site.data.contributed-talks.size }} talks</strong> and <strong>{{ site.data.posters.size }} posters</strong> that were presented during the main conference, and also <strong>{{ site.data.tutorials.size }} tutorials</strong> that were held on the last day of the event.
                         A list of talks, posters, and tutorials
-                        {% if include.pdfs %}
-                        (with slides and posters in pdf format) 
+                        {% comment %} Mention only the materials that were actually added (slides can also be .pptx, so no format is named) {% endcomment %}
+                        {% assign talks_with_slides = site.data.contributed-talks | concat: site.data.tutorials | where_exp: "talk", "talk.slides" %}
+                        {% assign posters_with_file = site.data.posters | where_exp: "poster", "poster.poster" %}
+                        {% if talks_with_slides.size > 0 and posters_with_file.size > 0 %}
+                        (with slides and posters)
+                        {% elsif talks_with_slides.size > 0 %}
+                        (with slides)
+                        {% elsif posters_with_file.size > 0 %}
+                        (with posters)
                         {% endif %}
                         can be found in <a href="{{ "/program" | relative_url }}">the full program of the conference</a>. 
                     </p>
