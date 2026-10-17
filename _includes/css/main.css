@@ -968,16 +968,20 @@ body {
     font-size: 20px;
 }
 
-.person-photo-with-social .person-social-120 a i,
-.person-photo-with-social .person-social-140 a i, 
-.person-photo-with-social .person-social-160 a i {
-    position: absolute;
+/* Round social icon, shared by organizers, advisory board and speakers */
+.person-social-120 a i, .person-social-140 a i, .person-social-160 a i, .speaker-social a i {
     background: {{ site.color.main }};
     border-radius: 50%;
     padding: 8px;
     color: white !important;
     width: 35px;
     height: 35px;
+}
+
+.person-photo-with-social .person-social-120 a i,
+.person-photo-with-social .person-social-140 a i, 
+.person-photo-with-social .person-social-160 a i {
+    position: absolute;
 }
 
 .person-photo-with-social .person-social-160 a i {
@@ -1005,6 +1009,19 @@ body {
     right: -5px;
 }
 
+/* Social links in the speaker details panel, floated to the top right corner next to the name */
+.speaker-social {
+    margin-left: 16px;
+    font-size: 20px;
+}
+.speaker-social a i {
+    display: inline-block;
+    vertical-align: top; /* the Scholar image and the font icons have different baselines */
+}
+/* No focus ring on mouse click, keep it for keyboard navigation */
+.speaker-social a:focus:not(:focus-visible) {
+    outline: none;
+}
 
 /* Read more */
 .read-more-state {

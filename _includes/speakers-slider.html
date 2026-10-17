@@ -2,7 +2,7 @@
 Expects following parameters:
     section-id
     section-title
-    speakers-data (with name, affiliation, image, bio)
+    speakers-data (with name, affiliation, image, bio, optional google-scholar / linkedin / x)
     more-is-coming
 {% endcomment %}
 
@@ -22,6 +22,9 @@ Expects following parameters:
                         <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }} photo" class="person-photo width-100 width-max-350px">
                     </div>
                     <div class="speaker-details-text col-md-8">
+                        <div class="speaker-social pull-right">
+                            {% include social-links.html person=speaker %}
+                        </div>
                         <h2 class="emph-i">{{ speaker.name }}</h2>
                         <h3>{{ speaker.affiliation }}</h3>
                         {% if speaker.bio-intro and speaker.bio-more %}
