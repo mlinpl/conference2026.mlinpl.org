@@ -1,0 +1,21 @@
+{% comment %}
+Social media links of a person, as icon links (styling comes from the wrapping element).
+Expects following parameters: person (with optional google-scholar, linkedin, x)
+{% endcomment %}
+{% if include.person.google-scholar and include.person.google-scholar != "" %}
+<a href="{{ include.person.google-scholar }}" target="_blank" aria-label="{{ include.person.name }} on Google Scholar">
+    <i>
+        <img src="{{ "images/google-scholar-icon-white.svg" | relative_url }}" alt="" style="width: 100%; vertical-align: top;">
+    </i>
+</a>
+{% endif %}
+{% if include.person.linkedin and include.person.linkedin != "" %}
+<a href="{{ include.person.linkedin }}" target="_blank" aria-label="{{ include.person.name }} on LinkedIn">
+    <i class="fa-brands fa-linkedin-in"></i>
+</a>
+{% endif %}
+{% if include.person.x and include.person.x != "" %}
+<a href="{{ include.person.x }}" target="_blank" aria-label="{{ include.person.name }} on X">
+    <i class="fa-brands fa-x-twitter"></i>
+</a>
+{% endif %}

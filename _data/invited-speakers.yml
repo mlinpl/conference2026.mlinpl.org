@@ -29,6 +29,7 @@
     Emanuele Rodolà is a Full Professor of Computer Science at Sapienza University of Rome, where he leads the GLADIA AI group. His work in this field has been supported by an ERC grant, a FIS grant, and a Google Research Award. In the past, he was a postdoctoral researcher at USI Lugano (2016–2017), an Alexander von Humboldt Fellow at TU Munich (2013–2016), and a JSPS Research Fellow at the University of Tokyo (2013), in addition to visiting periods at Tel Aviv University, Technion, École Polytechnique, and Stanford. He is a fellow of ELLIS and a fellow of the Young Academy of Europe. 
   bio-more: >-
     Professor Rodolà has received numerous awards for his research and plays an active role in the academic community, serving on program committees and as Area Chair for major conferences in AI and ML. His current research focuses primarily on neural model fusion, representation learning, language models, ML for audio, and multimodal learning, with around 190 publications in these areas. His work has been featured in media outlets including Fortune, Wired, Italian national broadcast and newspapers.
+  google-scholar: https://scholar.google.com/citations?user=-EH4wBYAAAAJ
 
 - name: Piotr Sankowski
   affiliation: IDEAS Research Institute / University of Warsaw / ELLIS Unit Warsaw
@@ -37,6 +38,7 @@
     Piotr Sankowski is a director of IDEAS Research Institute and a professor at the Institute of Computer Science at the University of Warsaw, where he received his habilitation in 2009 and his doctorate in computer science in 2005. His research interests include algorithmics, with a particular focus on algorithmic graph analysis and data analysis algorithms. 
   bio-more: >-
     In 2009, Piotr Sankowski received his doctorate in physics in the field of solid state theory at the Polish Academy of Sciences. He was the first Pole to receive four grants from the European Research Council (ERC): ERC Starting Independent Researcher Grant (2010), ERC Proof of Concept Grant (2015, 2023), ERC Consolidator Grant (2017). He is a co-founder of the Highlights of Algorithms conference. From 2021 to 2024, he was president of IDEAS NCBR, where he led the working group “Intelligent Algorithms and Data Structures.” He is co-founder and CSO of the spin-off MIM Solutions. He is a member of ELLIS Unit Warsaw with ELLIS Fellow status. Member of the Future Council and the UN Independent International Panel on AI.
+  google-scholar: https://scholar.google.com/citations?user=-5LVg-0AAAAJ
 
 - name: Adam Paszke
   affiliation: Google DeepMind
@@ -45,6 +47,7 @@
     Adam Paszke is a co-creator of PyTorch, an open-source framework widely used across the machine learning community, and an alumnus of the University of Warsaw. Throughout his career, he has focused on designing software abstractions and languages for ML modeling on heterogeneous accelerators, at scales large and small. 
   bio-more: >-
     Today, Adam is a research scientist at Google DeepMind, where his work centers on Pallas and JAX with the goal of making GPU and TPU performance engineering productive. This work is entirely open-source, continuing his long-standing dedication to open systems and infrastructure.
+  google-scholar: https://scholar.google.com/citations?user=LkVtZkQAAAAJ
 
 - name: Valentina Boeva
   affiliation: ETH Zurich
@@ -53,6 +56,7 @@
     Dr. Valentina Boeva is a Tenure Track Assistant Professor at the Department of Computer Science, ETH Zurich, where she leads the Computational Cancer Genomics Group. Her research focuses on developing computational methods for multi-omics data integration to understand the epigenetic and transcriptional plasticity of cancer cells. 
   bio-more: >-
     Before joining ETH Zurich in 2019, Prof. Boeva led the Computational Epigenetics of Cancer laboratory at Inserm's Cochin Institute in Paris. She holds a Ph.D. in Bioengineering and Bioinformatics from Lomonosov Moscow State University. Throughout her career, Prof. Boeva has made contributions to the field of computational cancer genomics by developing methods for the analysis of DNA sequencing data, bulk and single-cell transcriptomics and epigenomics data, and, recently, spatial transcriptomics and proteomics.
+  google-scholar: https://scholar.google.com/citations?user=f196u4IAAAAJ
 
 - name: Lenka Zdeborová
   affiliation: EPFL
@@ -61,6 +65,7 @@
     Lenka Zdeborová is a Professor of Physics and Computer Science at École Polytechnique Fédérale de Lausanne, where she leads the Statistical Physics of Computation Laboratory. She received a PhD in physics from the University of Paris-Sud and Charles University in Prague in 2008. She spent two years in the Los Alamos National Laboratory as the Director's Postdoctoral Fellow. 
   bio-more: >-
     Between 2010 and 2020, she was a researcher at CNRS, working in the Institute of Theoretical Physics in CEA Saclay, France. In 2014, she was awarded the CNRS bronze medal, in 2016 Philippe Meyer prize in theoretical physics and an ERC Starting Grant, in 2018 the Irène Joliot-Curie prize, in 2021 the Gibbs lectureship of AMS and the Neuron Fund award, in 2025 she received an ERC Advanced Grant. Lenka's expertise is in the application of concepts from statistical physics, such as advanced mean field methods, the replica method, and related message-passing algorithms, to problems in machine learning, signal processing, inference, and optimization. Currently, she focuses on statistical physics of learning, developing solvable models and theoretical principles that explain how modern AI systems generalize, memorize, and scale. She enjoys erasing the boundaries between theoretical physics, mathematics and computer science.
+  google-scholar: https://scholar.google.com/citations?user=gkCjy_UAAAAJ
 
 - name: Johannes von Oswald
   affiliation: Google / Paradigms of Intelligence Team
@@ -72,6 +77,7 @@
 
   bio-more: >-
     Currently, he investigates how state-of-the-art neural network models, in particular transformer-based large language models, can move beyond pattern matching to learn and implement algorithmic-like solutions. This led him to work on mesa-optimization: the emergence of optimization algorithms within neural networks! In recent work, he showed that gradient descent-based algorithms can be implemented within the activations of transformers by simple autoregressive outer-optimization. This allows transformers to learn and generalize at test time to novel data provided in-context. This led to the development of a novel recurrent neural network architecture, the MesaNet, which was layer on tested on language modeling at scale.
+  google-scholar: https://scholar.google.com/citations?user=jdnL-PgAAAAJ
 
 - name: João F. Henriques
   affiliation: University of Oxford
@@ -90,6 +96,7 @@
     Tomáš Pluskal is a group leader at IOCB Prague, where he heads the Biochemistry of Plant Specialized Metabolites research group (www.pluskal-lab.org). Building on his Ph.D. training from the Okinawa Institute of Science and Technology and a postdoctoral fellowship conducted at the Whitehead Institute for Biomedical Research, he develops new computational and biochemical approaches to discover, characterize, and synthesize bioactive plant molecules. 
   bio-more: >-
     He co-authored the widely used metabolomics software platform mzmine and recently introduced the AI-driven DreaMS model for identifying unknown compounds from mass spectrometry data. Tomáš is a recipient of the Neuron Award for Promising Scientists and an ERC Consolidator Grant, is a member of the EMBO Young Investigator Programme, and serves as a board member of the international Metabolomics Society.
+  google-scholar: https://scholar.google.com/citations?user=qfYftX0AAAAJ
 
 - name: Peter Richtárik
   affiliation: KAUST
@@ -98,12 +105,14 @@
     Peter Richtárik is a professor of Computer Science at the King Abdullah University of Science and Technology (KAUST), Saudi Arabia, where he leads the Optimization and Machine Learning Lab. His research interests lie at the intersection of mathematics, computer science, machine learning, optimization, numerical linear algebra, and high-performance computing. Through his work on randomized and distributed optimization algorithms, he has contributed to the foundations of machine learning, optimization and randomized numerical linear algebra. He is one of the original developers of Federated Learning.
   bio-more: >-
     Prof Richtárik’s works attracted international awards, including the Charles Broyden Prize, SIAM SIGEST Best Paper Award, Distinguished Speaker Award at the 2019 International Conference on Continuous Optimization, the IMA Leslie Fox Prize (three times), and a Best Paper Award at the NeurIPS 2020 Workshop on Scalability, Privacy, and Security in Federated Learning. Several of his works are among the most read papers published by the SIAM Journal on Optimization and the SIAM Journal on Matrix Analysis and Applications. Prof Richtárik serves as an Area Chair for leading machine learning conferences, including NeurIPS, ICML and ICLR, and is an Action Editor of JMLR, and Associate Editor of Numerische Mathematik and Optimization Methods and Software. In the past, he served as an Action Editor of TMLR and an Area Editor of JOTA.
+  google-scholar: https://scholar.google.com/citations?user=pGh242UAAAAJ
 
 - name: Pierre Stock
   affiliation: Mistral
   image: images/optimized/invited-speakers-600x600/PierreStock.webp
   bio: >-
     Pierre Stock is VP Science, driving Mistral's model releases, roadmap strategy and execution. Pierre holds a Master's degree in Mathematics Vision Learning from Paris Saclay and began his career at Facebook AI Research (FAIR) in 2017. At FAIR, he completed his PhD exploring efficiency and redundancy in LLMs, in collaboration with ENS de Lyon until 2021. He then continued his career at Meta before joining Mistral as the first employee.
+  google-scholar: https://scholar.google.com/citations?user=3e2-59cAAAAJ
 
 - name: Stanisław Jastrzębski
   affiliation: Molecule.one
@@ -112,6 +121,7 @@
     Stan is a scientist-founder and Co-Founder, CTO and Chief Scientist at Molecule.one. He is building Maria, a platform for autonomous scientific discovery in organic chemistry, recently used in a collaboration with OpenAI on near-autonomous chemical discovery. He completed his postdoctoral research at New York University and earned a PhD at Jagiellonian University.
   bio-more: >-
     He has co-authored highly cited work on the foundations of deep learning with collaborators at Mila, including Yoshua Bengio, and at Google Research. He serves as an Action Editor for TMLR and regularly as an Area Chair for leading ML conferences, including ICLR 2026. He is also a Venture Partner at Expeditions Fund.
+  google-scholar: https://scholar.google.com/citations?user=wbJxGQ8AAAAJ
 
 - name: Markus Wulfmeier
   affiliation: Nomagic
@@ -120,9 +130,11 @@
     Markus Wulfmeier is the Chief Scientist of Nomagic and a leading researcher in robotics, reinforcement learning, and physical AI. Previously a Staff Research Scientist at Google DeepMind, where he helped bridge advances in machine learning with real-world deployment.
   bio-more: >-
     He received his Ph.D. from the University of Oxford, where he later conducted postdoctoral research and held visiting roles at UC Berkeley, MIT, and ETH Zurich. Dr. Wulfmeier has authored more than 50 publications, holds patents in machine learning and robotics, and his award-winning research has been featured in Wired, BBC, and 60 Minutes.
+  google-scholar: https://scholar.google.com/citations?user=YCO3WQsAAAAJ
 
 - name: Paweł Budzianowski
   affiliation: Lute
   image: images/optimized/invited-speakers-600x600/PawelBudzianowski.webp
   bio: >-
     Paweł Budzianowski is the co-founder and CEO of Lute, which builds the next frontier of physical intelligence. He previously co-founded K-Scale Labs, which produced affordable open-source humanoid robots to democratize embodied AI, and led the ML team at PolyAI. He holds a PhD from Cambridge, where he worked on long-term conversational agents, and created and co-lectured the joint NLP course for the ML master's programs at Warsaw University and Jagiellonian University.
+  google-scholar: https://scholar.google.com/citations?user=sCia-GQAAAAJ
