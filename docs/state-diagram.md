@@ -6,7 +6,7 @@ Note: Mermaid renders on GitHub and in VS Code (with the Markdown Preview extens
 
 ## Conference phases
 
-The usual order in which the flags are switched on during the conference cycle. Each state keeps the flags set before it. The logic lives in `_includes/top-section.html`, `_includes/nav.html`, `_includes/header.html` and `_layouts/conference.html`.
+The usual order in which the flags are switched on during the conference cycle. Each state keeps the flags set before it. The logic lives in `_includes/state.html`, `_includes/nav.html`, `_includes/header.html` and `_layouts/conference.html`.
 
 ```mermaid
 stateDiagram-v2
