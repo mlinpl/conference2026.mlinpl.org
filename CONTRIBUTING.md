@@ -63,6 +63,12 @@ Suggested branch prefixes:
 **When adding images use optimized versions.**
 Add the original files first under `_images/<group>/` (e.g. `_images/sponsors/`), run `bash scripts/optimize_images.sh` (or `npm run images:optimize`), and refer to optimized versions from `images/optimized/` in the website content. `_images/` is not published; SVGs are copied to `images/optimized/` as they are.
 
+**Adding conference photos.**
+1. Put the originals of each photographer in their own folder `_images/photos/photographer-<n>/` (git-ignored), directly or in subfolders.
+2. Map each folder to the photographer's name (and optional link) and list the conference days in `_data/photos-config.yml`. Folder names end up in the published image paths, so keep them neutral.
+3. Run `uv run scripts/build_photos.py` (or `npm run photos:build`). It assigns photos to days by their EXIF capture date, writes web-sized photos and thumbnails (rotated, keeping the EXIF metadata) to `images/photos/`, and generates `_data/photos.yml`. It works incrementally: re-run it after each new batch, and only new photos are processed. Removing originals later (or not having them at all, e.g. in a fresh clone) keeps their photos in the gallery. Deleted outputs are regenerated from the originals. To remove a photo, delete its original and its files in `images/photos/`. To start over, delete `images/photos/` and `_data/photos.yml`.
+4. Commit `images/photos/` and the two data files.
+
 ## Data conventions
 
 - **Affiliations** (`author-title` and similar): separate multiple institutions with ` / ` (space-slash-space), e.g. `University of Warsaw / ML in PL`.

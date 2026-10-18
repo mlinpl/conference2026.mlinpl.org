@@ -1,0 +1,18 @@
+# Configuration of the photo gallery, used by scripts/build_photos.py to generate _data/photos.yml
+# (see "Adding conference photos" in CONTRIBUTING.md).
+
+# Photos are assigned to days by their EXIF capture date
+days:
+  - date: 2026-10-08
+    label: Day 1 - Thursday / 8 October
+  - date: 2026-10-09
+    label: Day 2 - Friday / 9 October
+  - date: 2026-10-10
+    label: Day 3 - Saturday / 10 October
+
+# Keys are the folder names under _images/photos/ (also used in the published image paths,
+# so they are kept neutral); the order here is the order on the page
+photographers:
+  photographer-1:
+    name: Alicja Sadowska
+    # url: https://...  # optional, links the name
