@@ -54,7 +54,7 @@ As mentioned above, according to the GDPR, we inform you that:
         2. the legal basis for data processing in this case is the legitimate interest of the Controller - and more precisely - conducting correspondence with the Data Subject in connection with the current operations carried out by the Controller.
     </div>
 3. **SECTION III – DATA PROCESSING PERIOD**
-    1. Your personal data will be stored for a period necessary to perform purposes indicated in point 2.3 above or until you withdraw your consent to the processing of data, if a consent is the legal basis for processing.
+    1. Your personal data will be stored for a period necessary to perform purposes indicated in the points A - E of Section II above or until you withdraw your consent to the processing of data, if a consent is the legal basis for processing.
     2. If personal data is collected for the purpose of performing an order or concluding a contract, the personal data is stored from the moment of data collecting until the contract termination or contract performance after the moment of its termination.  In the case of personal data collection in order to fulfill obligations resulting from the law, the data shall be kept for the period of fulfilling obligations and tasks resulting from individual law provisions. In case of personal data processing for the purposes of the legitimate Controller’s interests, the data shall be kept until a  reasoned objection is raised to the processing for such purposes.
 
 
