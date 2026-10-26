@@ -6,7 +6,7 @@ permalink: /terms-of-participation
 
 **Hereinunder: Terms of Participation**
 
-## 1. DEFINITIONS
+## § 1. DEFINITIONS
 1. Whenever the terms defined hereunder are used in Terms of Participation, they should be understood as follows:
     1. **ML in PL Conference** – a conference carried out by the Organizer from 8 to 11 of October 2026, on 8 to 10 at Copernicus Science Centre at Wybrzeże Kościuszkowskie 20 street, 00-390 and on 11 at another venue, of Organizer choosing.
     2. **Organizer** – ML in PL Association, Plac Bankowy 2, Warszawa 02-505 KRS: 0000754960, REGON: 381658081, NIP: 1182183164. 
@@ -21,7 +21,7 @@ permalink: /terms-of-participation
     11. **Participant** – a natural person who received the decision on qualification for the Conference, made payments for participation in the Conference and received confirmation of participation in a Conference as a Participant.
     12. **Lecture** – a specific lecture being part of the Conference.
 
-## 2. CONDITIONS FOR PARTICIPATION IN THE CONFERENCE. REGISTRATION FOR LECTURES 
+## § 2. CONDITIONS FOR PARTICIPATION IN THE CONFERENCE. REGISTRATION FOR LECTURES 
 
 **[GENERAL CONDITIONS OF REGISTRATION FOR THE CONFERENCE]**
 1. The conditions for participation in the ML in PL Conference are:
@@ -54,13 +54,13 @@ instructions as to the method of making the payment necessary to qualify the Can
 11. If the maximum number of Participants is reached, the Organiser will inform about the completion of the Standard Period registration in particular by placing an announcement on the website [https://conference.mlinpl.org/](http://conference.mlinpl.org/) and by closing the possibility of submission of the Registration Form.
 12. Due to the limited number of Lecture participants, the Organizer does not guarantee the possibility of taking part in a specific Lecture. The possibility of taking part in a given Lecture will depend on the order of arrival for a given Lecture (first come-first served).
 
-## 3. PAYMENTS
+## § 3. PAYMENTS
 1. The amount of fee for Candidates registering to the Conference and Tutorials is going to be presented on the website at the [https://conference.mlinpl.org/](http://conference.mlinpl.org/) address.
 2. The amount of fee will differ depending on: the date of submitting the Registration Form (the fee might depend on the period, such as Early Bird Period), whether the Candidate is a student or not and whether they are willing to participate in a Conference or the Tutorials.
 3. For the avoidance of doubts, ‘student’ shall be understood as a person who possesses (a) for students from Poland - a valid student ID card, issued as specified by the Minister of National Education (MEN-I/1 or MEN-I/2 or MEN-I/50/2, MEN-I/50a/2 or MEN-I/50b/2) or the Minister of Culture and National Heritage (ART/100 or ART/102); and  (b) for foreign students - a valid ISIC (International Student Identity Card) for a given calendar year.
 4. The Candidate shall pay the fee due to the Organizer to the bank account indicated in the e-mail sent by the Organizer or by other electronic means indicated by the Organizer (e.g. PayU or PayPal).
 
-## 4. THE SCOPE OF ORGANIZER'S SERVICES
+## § 4. THE SCOPE OF ORGANIZER'S SERVICES
 1. The fee for participation in the Conference includes:
     1. the right to attend lectures in accordance with the Terms of Participation; 
     2. a hot meal served on each day of the Conference;
@@ -70,23 +70,23 @@ instructions as to the method of making the payment necessary to qualify the Can
     2. the provision of snacks and hot drinks during coffee breaks taking place during the day of Tutorials.
 3. The programme of the Conference and Tutorials will be available on the website at www.conference.mlinpl.org.
 
-## 5. CONSENT TO THE USE OF PARTICIPANT'S IMAGE
+## § 5. CONSENT TO THE USE OF PARTICIPANT'S IMAGE
 1. During the Conference, the Organizer may conduct photo sessions and film the Conference for the purposes of broadcasting in the mass media (television, radio, Internet, press) or for the purposes of documentation, promotion, advertising of the Organizer and other persons indicated by the Organizer. 
 2. Through the participation in the Conference the Participant consents to recording, use and/or dissemination by the Organizer and its affiliates of the image/voice/statement of each Participant in all promotional and marketing materials without time and territorial limitations.
 3. The aforementioned consent shall mean that photographs, films or recordings taken during the Conference may be placed on the website of the Conference or another website managed by the Organizer and used in promotional materials, also distributed for this purpose by means of a vision or sound. 
 
-## 6. THE CONDITIONS FOR PARTICIPATION OF SPEAKERS
+## § 6. THE CONDITIONS FOR PARTICIPATION OF SPEAKERS
 1. The conditions of qualification of speakers for the Conference are regulated in separate regulations entitled [Call for Contributions - Terms and Conditions]({{ "/cfc-terms-and-conditions" | relative_url }}).
 
-## 7. PRIVACY POLICY
+## § 7. PRIVACY POLICY
 1. The rules of personal data processing within the scope of these Terms of Participation and using the services of the Organizer are regulated in a separate document entitled Privacy Policy.
 
-## 8. RIGHT TO COMPLAIN. WITHDRAWAL OF THE AGREEMENT
+## § 8. RIGHT TO COMPLAIN. WITHDRAWAL OF THE AGREEMENT
 1. The participant has the right to complain about the services provided by the Organizer. The complaint should be submitted by e-mail to the e-mail address <contact@conference.mlinpl.org>, or in writing to the address indicated in point 1.1.
 2. The complaint application should contain the Participant’s data (name, surname, contact phone number, return address) and description of the service being complained about. The complaint will be considered within 14 days from the date of its receipt and the information will be sent to the address given in the complaint application.
 3. In accordance with Article 38 point 12 of the Act of 30 May 2014 on Consumer Rights, the Participant who is a consumer has no right to withdraw from the contract concluded on the basis of these Terms of Participation.
 
-## 9. FINAL PROVISIONS
+## § 9. FINAL PROVISIONS
 1. The Organizer is not responsible for the Participants' and Tutorials Participants belongings that may be lost, damaged or stolen during the Conference and Tutorials.
 2. The agreement with the Candidate is concluded at the moment of becoming the Participant or Tutorials Participant and lasts until the end of the last event of the ML in PL Conference.
 3. Any disputes that may arise from participation in the ML in PL Conference will be resolved by the court competent for the seat of the Organizer.
