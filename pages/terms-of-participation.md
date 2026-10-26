@@ -82,7 +82,7 @@ instructions as to the method of making the payment necessary to qualify the Can
 1. The rules of personal data processing within the scope of these Terms of Participation and using the services of the Organizer are regulated in a separate document entitled Privacy Policy.
 
 ## § 8. RIGHT TO COMPLAIN. WITHDRAWAL OF THE AGREEMENT
-1. The participant has the right to complain about the services provided by the Organizer. The complaint should be submitted by e-mail to the e-mail address <contact@conference.mlinpl.org>, or in writing to the address indicated in point 1.1.
+1. The participant has the right to complain about the services provided by the Organizer. The complaint should be submitted by e-mail to the e-mail address <contact@conference.mlinpl.org>, or in writing to the address indicated in point 1.2.
 2. The complaint application should contain the Participant’s data (name, surname, contact phone number, return address) and description of the service being complained about. The complaint will be considered within 14 days from the date of its receipt and the information will be sent to the address given in the complaint application.
 3. In accordance with Article 38 point 12 of the Act of 30 May 2014 on Consumer Rights, the Participant who is a consumer has no right to withdraw from the contract concluded on the basis of these Terms of Participation.
 
