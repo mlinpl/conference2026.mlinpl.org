@@ -27,7 +27,7 @@ As mentioned above, according to the GDPR, we inform you that:
    <div class="letters-ol" markdown="1"> 
    Therefore, we declare that your personal data will be processed:
 
-   1. as to the process of **recrutation for the Conference**:
+   1. as to the process of **qualification for the Conference**:
       1. Your personal data is collected through the Registration Form for the following purposes:
          1. **conducting the qualification process** for the Candidates based on the criteria set forth in the Terms of Participation and the Registration Form;
             - the legal basis for the processing of your personal data in this case is the necessity of processing in order to perform the contract (art. 6 point 1 b) of GDPR).
