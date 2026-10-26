@@ -75,7 +75,7 @@ As mentioned above, according to the GDPR, we inform you that:
    2. Your data will not be processed in an automated way, including the form of profiling.
 
 6. **SECTION VI - OUR LEGITIMATE INTERESTS**
-   1. **Keep the services and Conference safe and secure.** We use your information as it is necessary to pursue our legitimate interests, or those of our attendees, our volunteers or our partners in ensuring the Conference is a safe and secure event, such as enforcing our Terms and Conditions.
+   1. **Keep the services and Conference safe and secure.** We use your information as it is necessary to pursue our legitimate interests, or those of our attendees, our volunteers or our partners in ensuring the Conference is a safe and secure event, such as enforcing our Terms of Participation.
    2. **Provide, develop and improve our Association.** We process your information as necessary to pursue our legitimate interests in improving the Conference and our other services, as well as in informing and promoting our work.
    3. **Market the services.** We process your information in accordance with our legitimate interests of marketing the Conference and the services to you and other Participants.
 
