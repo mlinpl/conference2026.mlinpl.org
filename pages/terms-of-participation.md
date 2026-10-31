@@ -9,19 +9,19 @@ permalink: /terms-of-participation
 ## § 1. DEFINITIONS
 1. Whenever the terms defined hereunder are used in Terms of Participation, they should be understood as follows:
     1. **ML in PL Conference** – a conference carried out by the Organizer from 8 to 11 of October 2026, on 8 to 10 at Copernicus Science Centre at Wybrzeże Kościuszkowskie 20 street, 00-390 and on 11 at another venue, of Organizer choosing.
-    2. **Organizer** – ML in PL Association, Plac Bankowy 2, Warszawa 02-505 KRS: 0000754960, REGON: 381658081, NIP: 1182183164. 
-    3. **Conference** - a series of Lectures conducted by experts in the field of ML in PL Conference topics, described at www.conference.mlinpl.org, which takes place from 8 to 10 of October 2026.
-    4. **Tutorials** - a series of workshops conducted by experts in the field of ML in PL Conference topics, described at www.conference.mlinpl.org, which takes place on 11 of October 2026, at a venue that will be indicated by the Organizer on www.conference.mlinpl.org.
+    2. **Organizer** – ML in PL Association, Plac Bankowy 2, Warszawa 02-505 KRS: 0000754960, REGON: 381658081, NIP: 1182183164.
+    3. **Conference** – a series of Lectures conducted by experts in the field of ML in PL Conference topics, described at www.conference.mlinpl.org, which takes place from 8 to 10 of October 2026.
+    4. **Tutorials** – a series of workshops conducted by experts in the field of ML in PL Conference topics, described at www.conference.mlinpl.org, which takes place on 11 of October 2026, at a venue that will be indicated by the Organizer on www.conference.mlinpl.org.
     5. **Registration Form** – Internet registration form available on the Conference website which is submitted by the Candidate in order to qualify for the Conference.
-    6. **Conference Pass** - a ticket sent as a pdf file to the e-mail addresses of the Participants, confirming the right to participate in the Conference.
-    7. **Committee** – a group of organizers of the Conference and the Tutorials indicated on the Conference website at www.conference.mlinpl.org and other members of the personnel of the Organizer. 
+    6. **Conference Pass** – a ticket sent as a pdf file to the e-mail addresses of the Participants, confirming the right to participate in the Conference.
+    7. **Committee** – a group of organizers of the Conference and the Tutorials indicated on the Conference website at www.conference.mlinpl.org and other members of the personnel of the Organizer.
     8. **Early Bird Period** – the period from 4 May until 31 July during which the Candidates can register for the Conference through the Early Bird Registration Form for a lower Conference Pass price.
     9. **Standard Period** – the period from 24 August, during which the Candidates can register for the Conference through the Registration Form; during the Standard Period the Organizer can introduce Late Ticket Period, during which the price of a Conference Pass price will be increased.
-    10. **Candidate** – a natural person who submitted the Registration Form in order to qualify to the Conference .
+    10. **Candidate** – a natural person who submitted the Registration Form in order to qualify to the Conference.
     11. **Participant** – a natural person who received the decision on qualification for the Conference, made payments for participation in the Conference and received confirmation of participation in a Conference as a Participant.
     12. **Lecture** – a specific lecture being part of the Conference.
 
-## § 2. CONDITIONS FOR PARTICIPATION IN THE CONFERENCE. REGISTRATION FOR LECTURES 
+## § 2. CONDITIONS FOR PARTICIPATION IN THE CONFERENCE. REGISTRATION FOR LECTURES
 
 **[GENERAL CONDITIONS OF REGISTRATION FOR THE CONFERENCE]**
 1. The conditions for participation in the ML in PL Conference are:
@@ -29,8 +29,8 @@ permalink: /terms-of-participation
     2. making a payment to the Organizer as specified below, unless regulated otherwise;
     3. acceptance of the provisions of these Terms of Participation by the Candidate (the fact of making a payment for participation in the Conference or Tutorials will mean acceptance of the provisions of these Terms of Participation).
 2. Persons who are 16 years of age or older but under 18 years of age on the day of the Conference:
-    1. may be allowed to participate in the Conference after their prior verification by the Organizer (only with the consent of a legal guardian). Please contact us in advance by e-mail: <contact@conference.mlinpl.org>; 
-    2. solely under the supervision of adults in accordance with the consent of a guardian. The Organizer reserves the right to postpone the above term. 
+    1. may be allowed to participate in the Conference after their prior verification by the Organizer (only with the consent of a legal guardian). Please contact us in advance by e-mail: <contact@conference.mlinpl.org>;
+    2. solely under the supervision of adults in accordance with the consent of a guardian. The Organizer reserves the right to postpone the above term.
     3. may stay and participate in the area where the Conference is held only on the basis of a consent signed by a legal guardian, available at the link. The Organizer has the right to verify the age of the Participant and the authenticity of the aforementioned consent;
     4. are not allowed to attend the evening party organized as part of the Conference.
 3. In order to enter the Conference or Tutorials, the Participant or Tutorials Participant is obliged to present the Conference Pass or Tutorials Pass to the member of Organizer’s personnel together with the Participant’s ID, confirming their identity.
@@ -62,7 +62,7 @@ instructions as to the method of making the payment necessary to qualify the Can
 
 ## § 4. THE SCOPE OF ORGANIZER'S SERVICES
 1. The fee for participation in the Conference includes:
-    1. the right to attend lectures in accordance with the Terms of Participation; 
+    1. the right to attend lectures in accordance with the Terms of Participation;
     2. a hot meal served on each day of the Conference;
     3. the provision of snacks and hot drinks during coffee breaks taking place on each day of the Conference.
 2. The fee for participation in the Tutorials includes:
@@ -71,9 +71,9 @@ instructions as to the method of making the payment necessary to qualify the Can
 3. The programme of the Conference and Tutorials will be available on the website at www.conference.mlinpl.org.
 
 ## § 5. CONSENT TO THE USE OF PARTICIPANT'S IMAGE
-1. During the Conference, the Organizer may conduct photo sessions and film the Conference for the purposes of broadcasting in the mass media (television, radio, Internet, press) or for the purposes of documentation, promotion, advertising of the Organizer and other persons indicated by the Organizer. 
+1. During the Conference, the Organizer may conduct photo sessions and film the Conference for the purposes of broadcasting in the mass media (television, radio, Internet, press) or for the purposes of documentation, promotion, advertising of the Organizer and other persons indicated by the Organizer.
 2. Through the participation in the Conference the Participant consents to recording, use and/or dissemination by the Organizer and its affiliates of the image/voice/statement of each Participant in all promotional and marketing materials without time and territorial limitations.
-3. The aforementioned consent shall mean that photographs, films or recordings taken during the Conference may be placed on the website of the Conference or another website managed by the Organizer and used in promotional materials, also distributed for this purpose by means of a vision or sound. 
+3. The aforementioned consent shall mean that photographs, films or recordings taken during the Conference may be placed on the website of the Conference or another website managed by the Organizer and used in promotional materials, also distributed for this purpose by means of a vision or sound.
 
 ## § 6. THE CONDITIONS FOR PARTICIPATION OF SPEAKERS
 1. The conditions of qualification of speakers for the Conference are regulated in separate regulations entitled [Call for Contributions - Terms and Conditions]({{ "/cfc-terms-and-conditions" | relative_url }}).
@@ -91,5 +91,3 @@ instructions as to the method of making the payment necessary to qualify the Can
 2. The agreement with the Candidate is concluded at the moment of becoming the Participant or Tutorials Participant and lasts until the end of the last event of the ML in PL Conference.
 3. Any disputes that may arise from participation in the ML in PL Conference will be resolved by the court competent for the seat of the Organizer.
 4. These Terms of Participation shall enter into force on 4 May 2026.
-
-
