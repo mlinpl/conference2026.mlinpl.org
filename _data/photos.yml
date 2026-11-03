@@ -624,7 +624,7 @@
   label: Tutorials - Sunday / 11 October
   photographers:
   - id: photographer-3
-    name: Antoni
+    name: Antoni Mączeński 
     photos:
     - {file: IMG_5427.webp, taken: '2026-10-11 12:26:30', width: 2400, height: 1600, thumb_width: 480, thumb_height: 320}
     - {file: IMG_5430.webp, taken: '2026-10-11 12:26:44', width: 2400, height: 1600, thumb_width: 480, thumb_height: 320}
