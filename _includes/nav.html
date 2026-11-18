@@ -18,10 +18,6 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-main-collapse" id="navbar-main-collapse">
             <ul class="nav navbar-nav ms-auto" id="main-nav">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li class="nav-item d-none">
-                    <a class="nav-link" href="#page-top"></a>
-                </li>
                 {% comment %} Pick the nav ordering variant: tickets lead the nav only while they lead the page (top_section is set by state.html) {% endcomment %}
                 {% assign nav_variant = "default" %}
                 {% if top_section == "tickets" %}
