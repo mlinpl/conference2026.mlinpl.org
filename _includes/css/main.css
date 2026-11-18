@@ -674,6 +674,10 @@ ol > li > ol > li > ol > li:before {
 }
 
 .btn-default {
+    /* Bootstrap 5's pressed-state rule (.btn:first-child:active) outranks the :hover rule below and reads these variables, which are otherwise undefined */
+    --bs-btn-active-color: {{ site.color.background }};
+    --bs-btn-active-bg: {{ site.color.main }};
+    --bs-btn-active-border-color: {{ site.color.main }};
     border: 1px solid {{ site.color.main }};
     color: {{ site.color.main }};
     background-color: transparent;
@@ -689,6 +693,14 @@ ol > li > ol > li > ol > li:before {
 }
 
 .btn-nonactive {
+    /* Pressed state, see .btn-default */
+    --bs-btn-active-color: {{ site.color.background }};
+    --bs-btn-active-bg: #666;
+    --bs-btn-active-border-color: #666;
+    /* Bootstrap 5's .btn.disabled outranks this rule and reads these variables, which are otherwise undefined */
+    --bs-btn-disabled-color: #666;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #666;
     border: 1px solid #666;
     color: #666;
     background-color: transparent;

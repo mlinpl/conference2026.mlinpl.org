@@ -73,7 +73,7 @@ Along with your predictions, include a short description of the function you dis
     {% if site.data.badge-game.status == "open" %}
     <a href="{{ site.data.badge-game.form-url }}" class="btn btn-default btn-lg" target="_blank"><i class="fa-solid fa-list"></i> Submit your predictions</a>
     {% else %}
-    <a class="btn btn-default btn-lg btn-nonactive" disabled><i class="fa-solid fa-list"></i> Submit your predictions</a>
+    <a class="btn btn-default btn-lg btn-nonactive disabled" aria-disabled="true"><i class="fa-solid fa-list"></i> Submit your predictions</a>
     <p style="margin-top: 10px;">Submissions are closed.</p>
     {% endif %}
 </div>
