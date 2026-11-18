@@ -483,7 +483,8 @@ ol > li > ol > li > ol > li:before {
     }
 }
 
-@media(min-width:767px) {
+/* 768px, not the 767px used elsewhere: it must match the point where .navbar-expand-md expands the menu */
+@media(min-width:768px) {
     .navbar-main-collapse {
         background: none !important;
     }
