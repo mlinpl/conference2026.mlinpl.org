@@ -14,7 +14,8 @@ window.addEventListener('scroll', function () {
     }
 });
 
-// Smooth page scrolling for in-page anchor links
+// Scroll to in-page anchors without adding the #hash to the URL.
+// No explicit behavior: the default ('auto') follows Bootstrap's `:root { scroll-behavior: smooth }`, which is off for users who prefer reduced motion.
 document.querySelectorAll('a.page-scroll').forEach(function (link) {
     link.addEventListener('click', function (event) {
         var href = this.getAttribute('href');
@@ -22,7 +23,7 @@ document.querySelectorAll('a.page-scroll').forEach(function (link) {
         var target = document.querySelector(href);
         if (!target) return;
         event.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth' });
+        target.scrollIntoView();
     });
 });
 
