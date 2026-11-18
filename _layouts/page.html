@@ -2,7 +2,7 @@
 <html lang="en">
 {% include head.html %}
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#main-nav">
     {% include nav.html %}
     {% include page-header.html %}
     
@@ -11,7 +11,7 @@
     {% else %}
     <section class="container content-section">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 {{ content }}
             </div>
         </div>

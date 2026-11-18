@@ -14,13 +14,13 @@ Tutorial proposals from research institutions are strongly preferred. Tutorials 
 The proposal deadline is 31 July 2026. To submit a proposal, please visit the submission form:
 
 <ul class="list-inline banner-social-buttons">
-    <li>
+    <li class="list-inline-item">
         <a href="https://mlinpl2026tutorials.paperform.co/" class="btn btn-default btn-lg" target="_blank"><i class="fa-solid fa-list"></i> Submit your tutorial proposal</a>
     </li>
-    <li>
+    <li class="list-inline-item">
         <a href="{{ "./tutorials-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of Call for Tutorials</a>
     </li>
-    <li>
+    <li class="list-inline-item">
         <a href="{{ "./privacy-policy" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Privacy policy</a>
     </li>
 </ul>

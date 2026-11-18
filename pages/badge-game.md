@@ -9,16 +9,16 @@ Welcome to our conference badge game!
 This year each participant's badge contains **one of three symbols**, which are based on their first and last names, and roles:
 
 <div class="row" style="margin-bottom: 30px;">
-    <div class="col-xs-4">
-        <img class="img-responsive center-block photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/decoder.webp" | relative_url }}" alt="decoder symbol">
+    <div class="col-4">
+        <img class="img-fluid d-block mx-auto photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/decoder.webp" | relative_url }}" alt="decoder symbol">
         <p class="text-center"><strong>decoder</strong></p>
     </div>
-    <div class="col-xs-4">
-        <img class="img-responsive center-block photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/autoencoder.webp" | relative_url }}" alt="autoencoder symbol">
+    <div class="col-4">
+        <img class="img-fluid d-block mx-auto photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/autoencoder.webp" | relative_url }}" alt="autoencoder symbol">
         <p class="text-center"><strong>autoencoder</strong></p>
     </div>
-    <div class="col-xs-4">
-        <img class="img-responsive center-block photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/encoder.webp" | relative_url }}" alt="encoder symbol">
+    <div class="col-4">
+        <img class="img-fluid d-block mx-auto photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/encoder.webp" | relative_url }}" alt="encoder symbol">
         <p class="text-center"><strong>encoder</strong></p>
     </div>
 </div>
@@ -42,14 +42,14 @@ You can **network with other participants** to collect their names and associate
 The assigned labels are printed on the back of the badges, so you can ask other participants to show them.
 
 <div class="row" style="margin-bottom: 30px;">
-    <div class="col-xs-4">
-        <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-decoder.webp" | relative_url }}" alt="decoder badge">
+    <div class="col-4">
+        <img class="img-fluid d-block mx-auto photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-decoder.webp" | relative_url }}" alt="decoder badge">
     </div>
-    <div class="col-xs-4">
-        <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-autoencoder.webp" | relative_url }}" alt="autoencoder badge">
+    <div class="col-4">
+        <img class="img-fluid d-block mx-auto photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-autoencoder.webp" | relative_url }}" alt="autoencoder badge">
     </div>
-    <div class="col-xs-4">
-        <img class="img-responsive center-block photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-encoder.webp" | relative_url }}" alt="encoder badge">
+    <div class="col-4">
+        <img class="img-fluid d-block mx-auto photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-encoder.webp" | relative_url }}" alt="encoder badge">
     </div>
 </div>
 
@@ -60,7 +60,7 @@ But remember, the faster you solve the puzzle, the higher are your chances of wi
 
 {% if site.data.badge-game.hints.size > 0 %}
 {% for hint in site.data.badge-game.hints %}
-- **Hint {{ forloop.index }}:** {{ hint.text | default: hint }}{% if hint.image %}<img class="img-responsive" style="margin: 10px 0 20px; border: 0;" src="{{ hint.image | prepend: './images/optimized/badge-game-800x800/' | relative_url }}" alt="Hint {{ forloop.index }}">{% endif %}
+- **Hint {{ forloop.index }}:** {{ hint.text | default: hint }}{% if hint.image %}<img class="img-fluid d-block" style="margin: 10px 0 20px; border: 0;" src="{{ hint.image | prepend: './images/optimized/badge-game-800x800/' | relative_url }}" alt="Hint {{ forloop.index }}">{% endif %}
 {%- endfor %}
 {% endif %}
 
