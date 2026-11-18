@@ -911,6 +911,11 @@ body {
     text-align: left;
 }
 
+/* Removed in Bootstrap 5 */
+.text-justify {
+    text-align: justify;
+}
+
 .mt-5 {
     margin-top: 1.875rem !important; /* 30px; sized for the default 16px root */
 }
