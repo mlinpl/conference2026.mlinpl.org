@@ -33,6 +33,25 @@
     }
 }
 
+/* Bootstrap 3 container widths. Bootstrap 5 caps it at 540px from 576px (Bootstrap 3 stayed full width until 768px) and uses 720/960/1140/1320px at the larger breakpoints. */
+@media (min-width: 576px) {
+    .container {
+        max-width: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1170px;
