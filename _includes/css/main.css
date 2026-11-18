@@ -664,13 +664,26 @@ ol > li > ol > li > ol > li:before {
 }
 
 .btn {
+    /* Bootstrap 3 button metrics; Bootstrap 5's are 16px text with 1.5 line height */
+    --bs-btn-font-size: 14px;
+    --bs-btn-line-height: 1.42857143;
+    --bs-btn-padding-y: 6px;
+    --bs-btn-padding-x: 12px;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out; 
+    transition: all .3s ease-in-out;
     vertical-align: bottom;
+}
+
+/* Bootstrap 3 large button metrics; Bootstrap 5's are 20px text with 8px vertical padding */
+.btn-lg {
+    --bs-btn-font-size: 18px;
+    --bs-btn-line-height: 1.3333333;
+    --bs-btn-padding-y: 10px;
+    --bs-btn-padding-x: 16px;
 }
 
 .btn-default {
