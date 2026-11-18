@@ -446,9 +446,15 @@ ol > li > ol > li > ol > li:before {
     display: block;
 }
 
-/* Fix for bootstrap limited navbar height */
-.fixed-top .navbar-collapse {
-    max-height: 700px;
+/* Let the expanded mobile menu scroll when it is taller than the screen (Bootstrap 3 did this, Bootstrap 5 doesn't).
+   Mobile only: on desktop a scroll container would clip the absolutely positioned dropdowns.
+   90px is the navbar's own height (50px toggler row + 2 * 20px padding) when it's at the top of the page. */
+@media (max-width: 767.98px) {
+    .fixed-top .navbar-collapse {
+        max-height: calc(100vh - 90px);
+        max-height: calc(100dvh - 90px);
+        overflow-y: auto;
+    }
 }
 
 /* For hover support on mobile */
