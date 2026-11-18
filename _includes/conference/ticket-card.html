@@ -10,7 +10,7 @@ Expects following parameters:
         {% if include.is-active and include.ticket-url %}
             <a href="{{ include.ticket-url }}" class="btn btn-default btn-lg" style="width: 100%;"><i class="{{ include.ticket-data.icon }}"></i><strong> {{ include.ticket-data.name }}</strong></a>
         {% else %}
-            <a class="btn btn-default btn-nonactive btn-lg" style="width: 100%;" disabled><i class="{{ include.ticket-data.icon }}"></i> {{ include.ticket-data.name }}</a>
+            <a class="btn btn-default btn-nonactive btn-lg disabled" style="width: 100%;" aria-disabled="true"><i class="{{ include.ticket-data.icon }}"></i> {{ include.ticket-data.name }}</a>
         {% endif %}
         <p>
             {{ include.ticket-data.description }}

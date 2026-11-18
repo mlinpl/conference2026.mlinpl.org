@@ -8,13 +8,13 @@ permalink: /call-for-contributions
 We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ site.inline-logo }}** and **Student Research Workshop**. The talks and posters will be held at the Main Conference on 8 - 10 October 2026. Student Research Workshop will take place on 8 October 2026, at the start of the conference. We invite you to send your submissions to Call for Contributions (CfC) from 4 May to 31 July 2026 through OpenReview. Please note that OpenReview requires an account application, **which may take up to 2 weeks to be approved**.
 
 <ul class="list-inline banner-social-buttons">
-    <li>
+    <li class="list-inline-item">
         <a href="https://openreview.net/group?id=MLinPL.org/2026/Conference" class="btn btn-default btn-lg " target="_blank"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
     </li>
-    <li>
+    <li class="list-inline-item">
         <a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of CfC</a>
     </li>
-    <li>
+    <li class="list-inline-item">
         <a href="{{ "./privacy-policy" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Privacy policy</a>
     </li>
 </ul>
@@ -68,13 +68,13 @@ The best contributed talks and posters from the Main Conference will be awarded.
 <!-- ## / Submit your talk/poster proposal
 
 <ul class="list-inline banner-social-buttons">
-    <li>
+    <li class="list-inline-item">
         <a href="https://mlinpl2026cfc.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
     </li>
-    <li>
+    <li class="list-inline-item">
         <a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of CfC</a>
     </li>
-    <li>
+    <li class="list-inline-item">
         <a href="{{ "./privacy-policy" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Privacy policy</a>
     </li>
 </ul>
