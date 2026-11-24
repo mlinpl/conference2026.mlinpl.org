@@ -16,8 +16,11 @@ hints:
 
 # Winners in order (Markdown allowed). Leave empty to hide the Winners section.
 winners:
-#  - "Jane Doe"
-#  - "John Smith"
+  - "Hanna Nowicka"
+  - "Mateusz Praski"
+  - "Jakub Adamczyk"
+  - "Piotr Kacprzak"
+  - "Michał Szymocha"
 
 # Explanation of the secret mapping function (Markdown allowed, multiple paragraphs OK).
 # Leave empty to hide the Solution section.
