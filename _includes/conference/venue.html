@@ -31,7 +31,7 @@
     {% assign tutorials_venue = site.data.venue.venues[site.data.venue.tutorials] %}
     {% if tutorials_venue %}
     <div class="row" style="margin-top: 55px;">
-        <div class="col-lg-8 col-lg-push-4">
+        <div class="col-lg-8 order-lg-2">
             <p>
                 The tutorials are held at the <a href="{{ tutorials_venue.url }}" target="_blank"><strong>{{ tutorials_venue.name }}</strong></a>.
             </p>
@@ -39,11 +39,11 @@
                 <i class="fa-solid fa-location-dot"></i> <a href="{{ tutorials_venue.map-url }}" target="_blank">{{ tutorials_venue.address }}</a>
             </h4>
         </div>
-        <div class="col-lg-4 col-lg-pull-8">
+        <div class="col-lg-4 order-lg-1">
             <figure>
                 <img class="width-100 photo" src="{{ tutorials_venue.image | relative_url }}" alt="{{ tutorials_venue.image-alt }}">
                 {% if tutorials_venue.image-credit %}
-                <figcaption class="text-center small" style="margin-top: 0.5rem;">{{ tutorials_venue.image-credit }}</figcaption>
+                <figcaption class="text-center small" style="margin-top: 0.3125rem;">{{ tutorials_venue.image-credit }}</figcaption>
                 {% endif %}
             </figure>
         </div>

@@ -17,7 +17,7 @@
         {% if odd == 1 %}
         <div class="row">
             {% endif %}
-            <div class="col-lg-6">
+            <div class="col-lg-6{% if odd == 1 and forloop.last %} offset-lg-3{% endif %}">
                 <div class="row person person-with-bio">
                     <div class="col-sm-4 text-center">
                         <div class="person-photo-with-social" style="width: 160px;">

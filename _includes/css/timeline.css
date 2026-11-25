@@ -5,6 +5,7 @@
 
 /* Timeline styles */
 .timeline .timeline-date {
+    position: relative; /* anchors the dot; Bootstrap 3 columns had this, Bootstrap 5 ones don't */
     text-align: right;
     border-right: 1px solid {{ site.color.main }};
     margin-right: -1px;

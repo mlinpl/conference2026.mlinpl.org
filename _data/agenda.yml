@@ -1,7 +1,7 @@
 # This file contains the agenda of the conference, including all sessions and talks.
 #
 # Instructions for filling the entries:
-# - offset with: col-lg-offset-4
+# - offset with: offset-lg-4
 # - calendars: false hides the "add to calendar" button and leaves the entry out of agenda.ics
 # - location: overrides the day's location for an entry held elsewhere (e.g. the party); subevents inherit it
 #
@@ -112,7 +112,7 @@
     - events:
       - title: 'Sponsor Talk 3: <strong>Driving Supply Chain Sustainability: Minimizing Product Waste through Probabilistic Modeling and Scalable Simulation</strong>'
         subtitle: by Adam Dendek (Bayer)
-        element-class: col-lg-4 col-lg-offset-4
+        element-class: col-lg-4 offset-lg-4
         time: 16:00 - 16:30
         room: Hall A
         url: /program#sponsor-talk-3

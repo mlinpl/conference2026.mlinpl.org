@@ -1,28 +1,23 @@
  <!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-custom navbar-expand-md fixed-top" role="navigation">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <i class="fa fa-bars"></i>
-            </button>
-            {% if page.url == "/" %}
-            <a class="navbar-brand page-scroll" href="{{ "#page-top" }}">
-                {{ site.inline-logo }}
-            </a>
-            {% else %}
-            <a class="navbar-brand page-scroll" href="{{ "#page-top" | relative_url }}">
-                {{ site.inline-logo }}
-            </a>
-            {% endif %}
-        </div>
+        {% if page.url == "/" %}
+        <a class="navbar-brand page-scroll" href="{{ "#page-top" }}">
+            {{ site.inline-logo }}
+        </a>
+        {% else %}
+        <a class="navbar-brand page-scroll" href="{{ "#page-top" | relative_url }}">
+            {{ site.inline-logo }}
+        </a>
+        {% endif %}
+
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-main-collapse" aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
+        <div class="collapse navbar-collapse navbar-main-collapse" id="navbar-main-collapse">
+            <ul class="nav navbar-nav ms-auto" id="main-nav">
                 {% comment %} Pick the nav ordering variant: tickets lead the nav only while they lead the page (top_section is set by state.html) {% endcomment %}
                 {% assign nav_variant = "default" %}
                 {% if top_section == "tickets" %}

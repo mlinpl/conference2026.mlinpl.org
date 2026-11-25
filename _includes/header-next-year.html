@@ -4,7 +4,7 @@
     <div class="intro-body">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-8 offset-md-2">
                     {% assign next_year = site.data.next-year.subpage %}
                     {% comment %} Show the logo only once its file exists, else fall back to the text heading {% endcomment %}
                     {% assign next_year_image = site.static_files | where: "path", next_year.image | first %}

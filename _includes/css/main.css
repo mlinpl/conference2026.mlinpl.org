@@ -3,23 +3,58 @@
  * Main CSS file
  */
 
-/* Force larger margins for all Bootstrap elements */
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-    padding-right: 15px;
-    padding-left: 15px;
- }
- 
-/* This is not very good, but we need to keep it for now */
-@media(min-width:767px) {
-    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
+/* Wider column gutters, matching the legacy Bootstrap 3 spacing.
+   Bootstrap 5 drives gutters from --bs-gutter-x (split as padding on each
+   column, with the negative row margin derived automatically), so this also
+   covers what used to be the manual nested-row margin fix. */
+.row {
+    --bs-gutter-x: 30px;
+}
 
-    /* Fix for nested rows */
-    .row .row{
-        margin-right: -30px;
-        margin-left: -30px;
+@media (min-width: 767px) {
+    .row {
+        --bs-gutter-x: 60px;
+    }
+}
+
+/* Restore the wider side margins the Bootstrap 3 layout had. Bootstrap 5 uses
+   a narrower container gutter and a larger max-width, which pushed content
+   closer to the screen edges; this brings back the old breathing room for
+   every .container (sections, nav, header, footer). */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 767px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* Bootstrap 3 container widths. Bootstrap 5 caps it at 540px from 576px (Bootstrap 3 stayed full width until 768px) and uses 720/960/1140/1320px at the larger breakpoints. */
+@media (min-width: 576px) {
+    .container {
+        max-width: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
     }
 }
 
@@ -170,6 +205,8 @@
 body {
     width: 100%;
     height: 100%;
+    font-size: 14px; /* Bootstrap 3 base size; Bootstrap 5 defaults to 16px */
+    line-height: 1.42857143;
     font-family: 'Roboto', sans-serif;
     color: {{ site.color.default-text }};
     background-color: {{ site.color.background }};
@@ -188,6 +225,14 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
     line-height: 1.5;
 }
+
+/* Bootstrap 3 heading sizes; Bootstrap 5's are larger (and fluid for h1-h4) */
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
 
 p, ul, ol, table {
     margin: 0 0 25px;
@@ -227,14 +272,22 @@ p, ul, ol, table {
 
 a {
     color: {{ site.color.main }};
+    text-decoration: none; /* Bootstrap 5 underlines links by default, Bootstrap 3 only on hover */
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
 
+/* As in Bootstrap 3, buttons and nav links don't get the hover underline */
+.btn:hover, .btn:focus,
+.nav-link:hover, .nav-link:focus,
+.navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none;
+}
+
 a:hover,
 a:focus {
-    /* text-decoration: none; */
+    text-decoration: underline;
     color: {{ site.color.main }};
 }
 
@@ -301,20 +354,25 @@ ol > li > ol > li > ol > li:before {
     outline: 0;
 }
 
-.navbar-custom .navbar-brand, .navbar-custom .navbar-toggle {
+.navbar-custom .navbar-brand, .navbar-custom .navbar-toggler {
     font-size: 18px;
     color: {{ site.color.default-text }};
 }
 
-.navbar-custom .navbar-toggle {
+.navbar-custom .navbar-toggler {
     margin-top: 0;
     margin-bottom: 0;
     padding: 15px 15px;
     line-height: 20px;
+    border: 0;
 }
 
-.navbar-custom .navbar-brand, .navbar-custom .navbar-toggle:focus,
-.navbar-custom .navbar-brand, .navbar-custom .navbar-toggle:active {
+.navbar-custom .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-custom .navbar-brand, .navbar-custom .navbar-toggler:focus,
+.navbar-custom .navbar-brand, .navbar-custom .navbar-toggler:active {
     outline: 0;
 }
 
@@ -324,7 +382,8 @@ ol > li > ol > li > ol > li:before {
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active > a {
+.navbar-custom .nav li.active > a,
+.navbar-custom .nav .nav-link.active {
     outline: none;
     background-color: {{ site.color.main }};
     color: {{ site.color.background }};
@@ -334,6 +393,17 @@ ol > li > ol > li > ol > li:before {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+}
+
+/* Bootstrap 3 nav link padding. The .navbar-nav prefix is needed to outrank
+   Bootstrap 5's .navbar-expand-md .navbar-nav .nav-link horizontal padding. */
+.navbar-custom .navbar-nav .nav-link {
+    padding: 10px 15px;
+}
+
+/* Anchor the absolutely positioned dropdowns to their item, as in Bootstrap 3 */
+.navbar-custom .nav > li {
+    position: relative;
 }
 
 .navbar {
@@ -372,7 +442,12 @@ ol > li > ol > li > ol > li:before {
     margin-left: 8px;
 }
 
-.nav-dropdown-content > li > a {
+/* Bootstrap 5's .nav is a wrapping flex row; keep dropdown items stacked */
+.nav-dropdown-content {
+    display: block;
+}
+
+.navbar-custom .navbar-nav .nav-dropdown-content > li > a {
     text-align: left;
     padding-left: 30px;
     display: block;
@@ -382,7 +457,7 @@ ol > li > ol > li > ol > li:before {
     display: none;
 }
 
-.nav-dropdown-content > .nav-dropdown > .nav-dropdown-content > li > a {
+.navbar-custom .navbar-nav .nav-dropdown-content > .nav-dropdown > .nav-dropdown-content > li > a {
     padding-left: 60px;
 }
 
@@ -390,9 +465,15 @@ ol > li > ol > li > ol > li:before {
     display: block;
 }
 
-/* Fix for bootstrap limited navbar height */
-.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-    max-height: 700px;
+/* Let the expanded mobile menu scroll when it is taller than the screen (Bootstrap 3 did this, Bootstrap 5 doesn't).
+   Mobile only: on desktop a scroll container would clip the absolutely positioned dropdowns.
+   90px is the navbar's own height (50px toggler row + 2 * 20px padding) when it's at the top of the page. */
+@media (max-width: 767.98px) {
+    .fixed-top .navbar-collapse {
+        max-height: calc(100vh - 90px);
+        max-height: calc(100dvh - 90px);
+        overflow-y: auto;
+    }
 }
 
 /* For hover support on mobile */
@@ -402,7 +483,8 @@ ol > li > ol > li > ol > li:before {
     }
 }
 
-@media(min-width:767px) {
+/* 768px, not the 767px used elsewhere: it must match the point where .navbar-expand-md expands the menu */
+@media(min-width:768px) {
     .navbar-main-collapse {
         background: none !important;
     }
@@ -419,11 +501,16 @@ ol > li > ol > li > ol > li:before {
         display: none;
     }
 
-    .nav-dropdown-content > li > a {
+    .navbar-custom .navbar-nav > li > .nav-link {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar-custom .navbar-nav .nav-dropdown-content > li > a {
         padding: 10px 15px;
     }
 
-    .nav-dropdown-content > .nav-dropdown > .nav-dropdown-content > li > a {
+    .navbar-custom .navbar-nav .nav-dropdown-content > .nav-dropdown > .nav-dropdown-content > li > a {
         padding: 10px 30px;
     }
 }
@@ -597,16 +684,33 @@ ol > li > ol > li > ol > li:before {
 }
 
 .btn {
+    /* Bootstrap 3 button metrics; Bootstrap 5's are 16px text with 1.5 line height */
+    --bs-btn-font-size: 14px;
+    --bs-btn-line-height: 1.42857143;
+    --bs-btn-padding-y: 6px;
+    --bs-btn-padding-x: 12px;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out; 
+    transition: all .3s ease-in-out;
     vertical-align: bottom;
 }
 
+/* Bootstrap 3 large button metrics; Bootstrap 5's are 20px text with 8px vertical padding */
+.btn-lg {
+    --bs-btn-font-size: 18px;
+    --bs-btn-line-height: 1.3333333;
+    --bs-btn-padding-y: 10px;
+    --bs-btn-padding-x: 16px;
+}
+
 .btn-default {
+    /* Bootstrap 5's pressed-state rule (.btn:first-child:active) outranks the :hover rule below and reads these variables, which are otherwise undefined */
+    --bs-btn-active-color: {{ site.color.background }};
+    --bs-btn-active-bg: {{ site.color.main }};
+    --bs-btn-active-border-color: {{ site.color.main }};
     border: 1px solid {{ site.color.main }};
     color: {{ site.color.main }};
     background-color: transparent;
@@ -622,6 +726,14 @@ ol > li > ol > li > ol > li:before {
 }
 
 .btn-nonactive {
+    /* Pressed state, see .btn-default */
+    --bs-btn-active-color: {{ site.color.background }};
+    --bs-btn-active-bg: #666;
+    --bs-btn-active-border-color: #666;
+    /* Bootstrap 5's .btn.disabled outranks this rule and reads these variables, which are otherwise undefined */
+    --bs-btn-disabled-color: #666;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #666;
     border: 1px solid #666;
     color: #666;
     background-color: transparent;
@@ -725,7 +837,6 @@ body {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 100%;
     max-width: 400px;
     margin: auto;
 }
@@ -851,12 +962,17 @@ body {
     text-align: left;
 }
 
+/* Removed in Bootstrap 5 */
+.text-justify {
+    text-align: justify;
+}
+
 .mt-5 {
-    margin-top: 3rem !important;
+    margin-top: 1.875rem !important; /* 30px; sized for the default 16px root */
 }
 
 .mt-2 {
-    margin-top: 0.5rem !important;
+    margin-top: 0.3125rem !important; /* 5px; sized for the default 16px root */
 }
 
 .people-grid {

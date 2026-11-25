@@ -3,33 +3,44 @@
  * This script handles some events related with the navigation bar
  */
 
-// jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
-    if ($(".navbar").offset().top > 18) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
+// Collapse the navbar background on scroll
+window.addEventListener('scroll', function () {
+    var navbar = document.querySelector('.navbar');
+    if (!navbar) return;
+    if (window.scrollY > 18) {
+        navbar.classList.add('top-nav-collapse');
     } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        navbar.classList.remove('top-nav-collapse');
     }
 });
 
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1000, 'easeInOutExpo');
+// Scroll to in-page anchors without adding the #hash to the URL.
+// No explicit behavior: the default ('auto') follows Bootstrap's `:root { scroll-behavior: smooth }`, which is off for users who prefer reduced motion.
+document.querySelectorAll('a.page-scroll').forEach(function (link) {
+    link.addEventListener('click', function (event) {
+        var href = this.getAttribute('href');
+        if (!href || href.charAt(0) !== '#') return;
+        var target = document.querySelector(href);
+        if (!target) return;
         event.preventDefault();
+        target.scrollIntoView();
     });
 });
 
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    if($(this).attr('href')) $('.navbar-toggle:visible').click();
+// Close the responsive menu when a nav link is clicked
+document.querySelectorAll('.navbar-collapse a').forEach(function (link) {
+    link.addEventListener('click', function () {
+        if (!this.getAttribute('href')) return;
+        var collapseEl = document.querySelector('.navbar-collapse.show');
+        if (collapseEl && window.bootstrap) {
+            bootstrap.Collapse.getOrCreateInstance(collapseEl).hide();
+        }
+    });
 });
 
-// Remove the focused state after click,
-// otherwise bootstrap will still highlight the link
-$("a").mouseup(function(){
-    if($(this).attr('href')) $(this).blur();
+// Remove the focused state after click, otherwise the link stays highlighted
+document.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('mouseup', function () {
+        if (this.getAttribute('href')) this.blur();
+    });
 });
